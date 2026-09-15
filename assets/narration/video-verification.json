@@ -1,0 +1,57 @@
+{
+  "frames": 1970,
+  "duration": 82.08333333333333,
+  "sections": [
+    {
+      "section": 1,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9921
+    },
+    {
+      "section": 2,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 3,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9947
+    },
+    {
+      "section": 4,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9999
+    },
+    {
+      "section": 5,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9955
+    },
+    {
+      "section": 6,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9946
+    },
+    {
+      "section": 7,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9951
+    },
+    {
+      "section": 8,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9947
+    },
+    {
+      "section": 9,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9999
+    },
+    {
+      "section": 10,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9999
+    }
+  ],
+  "question_pauses": "All fall in silence after narration."
+}

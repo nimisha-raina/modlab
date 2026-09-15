@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.blend binary
+*.png binary
+*.mp4 binary
+*.mp3 binary
+*.wav binary
+# Preserve upstream library bytes and keep them distinct in code statistics.
+student-lesson/vendor/** -text linguist-vendored

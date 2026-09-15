@@ -1,0 +1,24 @@
+# Generated working files
+output/*
+!output/.gitkeep
+student-lesson/dist/h5p/
+student-lesson/dist/vendor/
+student-lesson/dist/captions.js
+# Dependencies, model weights and local credentials
+node_modules/
+.venv*/
+.cache/
+.env
+.env.*
+!.env.example
+.openai/
+.sites-runtime/
+# Editor and platform files
+__pycache__/
+*.py[cod]
+*.blend1
+*.blend2
+*.log
+.DS_Store
+.idea/
+.vscode/

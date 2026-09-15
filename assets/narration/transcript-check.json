@@ -1,0 +1,74 @@
+[
+  {
+    "clip": 0,
+    "expected": "Can electricity make a magnet? Let's explore a circuit with a battery, copper wire, and a switch.",
+    "recognised": "Can electricity make a magnet? Let's explore a circuit with a battery, copper wire and a switch.",
+    "similarity": 1.0,
+    "duration": 6.4203125
+  },
+  {
+    "clip": 1,
+    "expected": "Now, let's zoom into the copper wire. The blue dots represent electrons that are already inside it.",
+    "recognised": "Now, let's zoom into the copper wire the blue dots represent electrons that are already inside it.",
+    "similarity": 1.0,
+    "duration": 6.8034375
+  },
+  {
+    "clip": 2,
+    "expected": "With the switch open, electrons move randomly. Copper ions vibrate in place. There is no overall flow.",
+    "recognised": "With the switch open, electrons move randomly, copper ions vibrate in place, there is no overall flow.",
+    "similarity": 1.0,
+    "duration": 7.430375
+  },
+  {
+    "clip": 3,
+    "expected": "Close the switch. The battery makes electrons drift. This electric current also creates a magnetic field around the wire.",
+    "recognised": "Close the switch, the battery makes electrons drift. This electric current also creates a magnetic field around the wire.",
+    "similarity": 1.0,
+    "duration": 7.651
+  },
+  {
+    "clip": 4,
+    "expected": "In the external circuit, electrons drift from the negative terminal towards the positive terminal. Here, they enter left and leave right.",
+    "recognised": "In the external circuit, electrons drift from a negative terminal towards the positive terminal, here they enter left and leave right.",
+    "similarity": 0.952,
+    "duration": 7.8948125
+  },
+  {
+    "clip": 5,
+    "expected": "Let's reveal the magnetic field. These three green circles are drawing guides. Their arrows show the field's direction around the wire.",
+    "recognised": "Let's reveal the magnetic field. These three green circles are drawing guides. Their arrows show the field's direction around the wire.",
+    "similarity": 1.0,
+    "duration": 8.4520625
+  },
+  {
+    "clip": 6,
+    "expected": "As we zoom out, the current keeps flowing. The magnetic field is still present. Its guide circles remain visible.",
+    "recognised": "As we zoom out, the current keeps flowing, the magnetic field is still present, its guide circles remained visible.",
+    "similarity": 0.947,
+    "duration": 7.651
+  },
+  {
+    "clip": 7,
+    "expected": "The whole circuit is connected. The tiny moving dots help us follow electron flow through the copper wire.",
+    "recognised": "The whole circuit is connected, the tiny moving dots help us follow electron flow through the copper wire.",
+    "similarity": 1.0,
+    "duration": 7.04725
+  },
+  {
+    "clip": 8,
+    "expected": "Remember, electron flow goes from negative to positive. Conventional current is defined in the opposite direction, from positive to negative.",
+    "recognised": "Remember, electron flow goes from negative to positive, conventional current is defined in the opposite direction from positive to negative.",
+    "similarity": 1.0,
+    "duration": 8.4520625,
+    "sha256": "3441b56046ba9e4d703936c152cd51506443a5692e56bed69b8ffe8a1a53c24e"
+  },
+  {
+    "clip": 9,
+    "expected": "Open the switch. The current stops, and its magnetic field disappears. Now predict: what would happen if we increased the current?",
+    "recognised": "Open the switch. The current stops and its magnetic field disappears. Now predict what would happen if we increase the current.",
+    "similarity": 0.952,
+    "duration": 7.952875,
+    "sha256": "68467254df14ee450ac3ab34a79517c3d4c447a7464a6444fecdcf0e95aba81d"
+  }
+]

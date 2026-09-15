@@ -1,0 +1,6 @@
+# Separate environment: the original Parler model requires Transformers 4.46.1.
+torch==2.6.0
+torchaudio==2.6.0
+parler-tts @ git+https://github.com/huggingface/parler-tts.git@d108732cd57788ec86bc857d99a6cabd66663d68
+soundfile==0.13.1
+imageio-ffmpeg==0.6.0

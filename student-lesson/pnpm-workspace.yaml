@@ -1,0 +1,4 @@
+# Use the prebuilt runtime; the upstream preinstall only enforces Yarn.
+# https://pnpm.io/settings/build#allowbuilds
+allowBuilds:
+  h5p-standalone: false

@@ -1,0 +1,17 @@
+{
+  "model": "ai4bharat/indic-parler-tts",
+  "speaker": "Thoma",
+  "description": "Thoma speaks with a clear male Indian English voice, at a slightly slow pace, in a calm and friendly teaching tone. The recording has very clear audio with no background noise.",
+  "segments": [
+    {"start":0,"end":3,"text":"Can electricity make a magnet? Let's explore a circuit with a battery, copper wire, and a switch."},
+    {"start":3,"end":6,"text":"Now, let's zoom into the copper wire. The blue dots represent electrons that are already inside it."},
+    {"start":6,"end":9,"text":"With the switch open, electrons move randomly. Copper ions vibrate in place. There is no overall flow."},
+    {"start":9,"end":15,"text":"Close the switch. The battery makes electrons drift. This electric current also creates a magnetic field around the wire."},
+    {"start":15,"end":21,"text":"In the external circuit, electrons drift from the negative terminal towards the positive terminal. Here, they enter left and leave right."},
+    {"start":21,"end":27,"text":"Let's reveal the magnetic field. These three green circles are drawing guides. Their arrows show the field's direction around the wire."},
+    {"start":27,"end":33,"text":"As we zoom out, the current keeps flowing. The magnetic field is still present. Its guide circles remain visible."},
+    {"start":33,"end":38,"text":"The whole circuit is connected. The tiny moving dots help us follow electron flow through the copper wire."},
+    {"start":38,"end":44,"text":"Remember, electron flow goes from negative to positive. Conventional current is defined in the opposite direction, from positive to negative."},
+    {"start":44,"end":48,"text":"Open the switch. The current stops, and its magnetic field disappears. Now predict: what would happen if we increased the current?"}
+  ]
+}

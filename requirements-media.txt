@@ -1,0 +1,4 @@
+# Optional tools for narration and web-video preparation; bpy comes from Blender.
+imageio-ffmpeg==0.6.0
+faster-whisper==1.2.1
+huggingface-hub==1.31.0
