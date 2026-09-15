@@ -1,0 +1,85 @@
+/* Visual styling for the official H5P player. Its interaction and scoring code
+   remains unchanged. All selectors apply inside the H5P content iframe. */
+:root,.h5p-theme{
+  --h5p-theme-main-cta-base:#6fe6c6;
+  --h5p-theme-main-cta-dark:#9af0d9;
+  --h5p-theme-contrast-cta-white:#6fe6c6;
+  --h5p-theme-text-primary:#f3f7fa;
+  --h5p-theme-text-secondary:#d0e2ea;
+  --h5p-theme-ui-base:#102736;
+  --h5p-theme-ui-background:#0b202e;
+  --h5p-theme-alternative-base:#193543;
+  --h5p-theme-alternative-dark:#234958;
+  --h5p-theme-alternative-darker:#396071;
+  --h5p-theme-font-size-m:1rem;
+  --h5p-theme-font-size-l:1.1rem;
+  --h5p-theme-font-size-xl:1.15rem;
+  --h5p-theme-font-size-xxl:1.4rem;
+  --h5p-theme-spacing-xxs:.3rem;
+  --h5p-theme-spacing-xs:.45rem;
+  --h5p-theme-spacing-s:.7rem;
+  --h5p-theme-spacing-m:1rem;
+}
+html.h5p-iframe,html.h5p-iframe>body{background:#071722;font-family:"Avenir Next",Avenir,"Segoe UI",sans-serif;font-size:16px}
+.h5p-content{background:#071722;border:0;font-family:inherit}
+.h5p-interactive-video .h5p-dialog-wrapper{background:rgba(2,10,17,.14);transition:background-color 180ms ease}
+/* Explicit bounds replace H5P's desktop/mobile inline height estimates. */
+.h5p-interactive-video .h5p-dialog[data-lib="H5P.MultiChoice"]{
+  display:flex;flex-direction:column;box-sizing:border-box;
+  width:clamp(300px,38%,360px)!important;min-width:0!important;
+  max-width:calc(100% - 20px)!important;
+  height:min(330px,calc(100% - 20px))!important;min-height:0!important;
+  max-height:calc(100% - 20px)!important;
+  left:auto!important;right:10px!important;top:50%!important;bottom:auto!important;
+  margin:0!important;background:rgba(16,39,54,.97);color:#f3f7fa;
+  border:1px solid #456373;border-top:2px solid #6fe6c6;border-radius:10px;
+  box-shadow:0 8px 24px #0005;transform:translateY(-50%);opacity:1;
+  transition:opacity 180ms ease,transform 180ms ease;
+}
+.h5p-interactive-video .h5p-dialog-wrapper.h5p-hidden .h5p-dialog[data-lib="H5P.MultiChoice"]{opacity:0;transform:translateY(calc(-50% + 6px))}
+.h5p-interactive-video .h5p-dialog-titlebar{position:relative;flex:0 0 auto;width:100%;padding:7px 12px;font-size:14px;line-height:18px;color:#aac3cf;border-bottom:1px solid #294656;background:transparent}
+.h5p-interactive-video .h5p-dialog-title{font-size:14px;font-weight:600;color:#c6dce5!important}
+.h5p-interactive-video:has(.h5p-dialog-wrapper[style*="display: block"]):not(:has(.h5p-dialog-wrapper.h5p-hidden)) .h5p-interaction{visibility:hidden}
+.h5p-interactive-video .h5p-dialog[data-lib="H5P.MultiChoice"]>.h5p-dialog-inner{
+  flex:1 1 auto;min-height:0;max-height:none!important;height:auto!important;
+  width:100%!important;margin:0!important;padding:0;overflow:auto;
+  scrollbar-width:thin;scrollbar-color:#557181 #102736;overscroll-behavior:contain;scroll-behavior:smooth;
+}
+.h5p-interactive-video .h5p-dialog-interaction.h5p-multichoice{font-size:16px;padding:0;background:transparent;color:#f3f7fa}
+.h5p-interactive-video .h5p-question{color:#f3f7fa}
+.h5p-interactive-video .h5p-question-main-content{padding:0}
+.h5p-interactive-video .h5p-question-content{margin:0 12px 10px}
+.h5p-interactive-video .h5p-question-introduction{margin:10px 12px;font-size:1rem;line-height:1.3;font-weight:600}
+.h5p-interactive-video .h5p-question-introduction p{margin:0;font-size:1rem;line-height:1.3}
+.h5p-interactive-video .lesson-question-context{font-size:.875rem!important;color:#aac3cf;font-weight:400}
+.h5p-interactive-video .h5p-answers{margin:0;padding:0;display:grid;gap:5px}
+.h5p-interactive-video .h5p-answer{margin:0;border-radius:6px}
+.h5p-interactive-video .h5p-alternative-container{padding:8px 10px;line-height:1.3;min-height:40px;font-size:1rem;font-weight:400;box-sizing:border-box}
+.h5p-interactive-video .h5p-alternative-container p{margin:0;line-height:1.3}
+.h5p-interactive-video .h5p-question-evaluation-container,
+.h5p-interactive-video .h5p-question-evaluation-container.evaluation-mode{padding:0;gap:0;margin-top:6px;background:#102736}
+.h5p-interactive-video .h5p-question-feedback,
+.h5p-interactive-video .h5p-question-feedback.h5p-question-visible{font-size:.875rem;line-height:1.4;font-weight:400;color:#f3f7fa;margin:4px 12px 10px}
+.h5p-interactive-video .h5p-question-feedback-content{font-size:.875rem;color:#f3f7fa;margin:0;padding:0}
+.h5p-interactive-video .h5p-question-feedback-content-text{font-size:.875rem;line-height:1.4;font-weight:400}
+.h5p-interactive-video .h5p-question-feedback-container{padding:0}
+.h5p-interactive-video .h5p-question-scorebar{display:none!important}
+/* These are the original native buttons, moved here with their handlers intact. */
+.h5p-interactive-video .lesson-question-actions{flex:0 0 auto;padding:8px 12px;background:#102736;border-top:1px solid #456373;z-index:2}
+.h5p-interactive-video .lesson-question-actions .h5p-question-buttons{display:flex!important;flex-wrap:wrap;justify-content:flex-end;gap:8px;margin:0!important;padding:0!important;position:static!important;height:auto!important;max-height:none!important;overflow:visible;opacity:1}
+.h5p-interactive-video .lesson-question-actions button{margin:0;min-height:40px;min-width:120px;width:auto!important;font-size:14px!important;line-height:20px;border-radius:6px;padding:8px 14px;background:#6fe6c6;color:#06241c;font-weight:650;white-space:nowrap}
+.h5p-interactive-video .lesson-question-actions button::before{display:none!important}
+.h5p-interactive-video .lesson-question-actions .h5p-theme-label{display:inline!important;font-size:14px!important;line-height:20px}
+.h5p-interactive-video .lesson-question-actions button:hover{background:#9af0d9;color:#06241c}
+.h5p-interactive-video .h5p-dialog-close:focus-visible,.h5p-interactive-video .h5p-answer:focus-visible,.h5p-interactive-video .lesson-question-actions button:focus-visible{outline:2px solid #eaa269;outline-offset:2px}
+.h5p-interactive-video .h5p-endcard{background:#102736;color:#f3f7fa}
+.h5p-actions{background:#071722;border-top-color:#294656}.h5p-actions .h5p-link{color:#aac3cf}
+@media(max-width:600px){
+  .h5p-interactive-video .h5p-dialog[data-lib="H5P.MultiChoice"]{width:320px!important;right:8px!important;max-width:calc(100% - 16px)!important;height:calc(100% - 16px)!important;max-height:calc(100% - 16px)!important}
+  .h5p-interactive-video .h5p-dialog-titlebar{padding:4px 10px}
+  .h5p-interactive-video .lesson-question-actions{padding:6px 10px}
+}
+@media(prefers-reduced-motion:reduce){
+  .h5p-interactive-video .h5p-dialog-inner{scroll-behavior:auto!important}
+  .h5p-interactive-video .h5p-dialog-wrapper,.h5p-interactive-video .h5p-dialog,.h5p-interactive-video .h5p-interaction-button{transition:none!important;animation:none!important}
+}
