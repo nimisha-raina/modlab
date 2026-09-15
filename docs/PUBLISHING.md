@@ -52,6 +52,10 @@ After publishing, wait for GitHub Pages to deploy and check the final address:
 
 ## Student link and QR code
 
+The current public lesson is [available here](https://nimisha-raina.github.io/modlab/).
+Its QR files are included under `student-lesson/dist/share/` and published at
+`share/lesson-qr.png` and `share/lesson-qr.svg` beneath the lesson address.
+
 Once the final address is live and verified, generate a QR code for that address:
 
 ```sh

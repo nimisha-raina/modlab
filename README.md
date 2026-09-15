@@ -9,6 +9,13 @@ English captions and **three native H5P questions inside the video**. Video and
 voice pause together. A compact question panel keeps Check, Try again and
 Continue accessible while the scene remains visible behind it.
 
+## Public student lesson
+
+[Open the lesson](https://nimisha-raina.github.io/modlab/). Share this link or the
+[printable QR image](student-lesson/dist/share/lesson-qr.png)
+([SVG version](student-lesson/dist/share/lesson-qr.svg)). Students can watch and
+answer questions in their browser without an account or Blender.
+
 ## Try the interactive lesson locally
 
 Install Python 3, Node.js and pnpm, then run:
