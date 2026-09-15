@@ -60,6 +60,10 @@ regenerated when the media changes.
 
 ## Deployment and ownership
 
+For GitHub Pages, see [PUBLISHING.md](PUBLISHING.md). The `gh-pages` branch holds
+the deployed website; `main` retains the editable source. Publish updates with
+`python3 scripts/publish_github_pages.py` after committing source changes.
+
 Build `student-lesson/` and publish its entire `dist/` directory to a static HTTPS
 host with correct content types and MP4 byte-range support. No server secrets are
 needed. The repository includes no deployment account configuration.

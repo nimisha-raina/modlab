@@ -70,6 +70,7 @@ generated lesson scene. Other scenes are retained.
 - [Handoff guide](docs/HANDOFF.md): deliverables, editing map and known limits.
 - [Development guide](docs/DEVELOPMENT.md): setup, rendering, narration and checks.
 - [Website guide](student-lesson/README.md): H5P content, layout and static hosting.
+- [GitHub Pages guide](docs/PUBLISHING.md): activate the public site and publish updates.
 - [Storyboard](docs/STORYBOARD.md): teaching sequence and source timing.
 - [Science notes](docs/SCIENCE.md): physical interpretation and simplifications.
 - [Reference frames](docs/RELATIVITY.md): an optional special-relativity extension.

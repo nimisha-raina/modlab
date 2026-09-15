@@ -69,6 +69,10 @@ Do not hand-edit the generated `content.json` or vendor libraries.
 
 ## Publishing
 
+GitHub Pages serves the built lesson from the `gh-pages` branch. Follow
+[the publishing guide](../docs/PUBLISHING.md) for the owner's one-time setting
+and the update command, `python3 scripts/publish_github_pages.py`.
+
 Publish the complete built `dist/` directory to a static HTTPS host with correct
 content types and MP4 byte-range support. Relative asset URLs support deployment
 below a repository subpath as well as at a domain root. The repository includes
