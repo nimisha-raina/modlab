@@ -6,6 +6,7 @@ It is not a molecular dynamics or electric-field simulation.
 
 import math
 from .config import LESSON, ELECTRON_HALF_LENGTH, ELECTRON_DRIFT_SPEED
+from .camera_path import smoothstep
 
 
 def current_on(seconds):
@@ -25,12 +26,16 @@ Motion is baked every frame so wrapping never draws a streak across the wire.
     phase = seed * 2.399963
     half = ELECTRON_HALF_LENGTH
     start_x = -half + ((seed-LESSON.seed) % LESSON.electrons)/LESSON.electrons*(2*half)
-    jitter_x = 0.09*math.sin(seconds*8.1+phase) + 0.035*math.sin(seconds*17.3-phase)
+    # Reduce the drawn transverse jitter during drift for legibility. This is
+    # a display convention; actual thermal motion does not diminish on closure.
+    display = 1-.4*min(smoothstep((seconds-LESSON.switch_on)/.4),
+                      1-smoothstep((seconds-LESSON.switch_off)/.4))
+    jitter_x = display*(0.09*math.sin(seconds*8.1+phase) + 0.035*math.sin(seconds*17.3-phase))
     x = ((start_x + ELECTRON_DRIFT_SPEED*drift_time(seconds) + jitter_x + half) % (2*half)) - half
     # Front lanes keep the sparse teaching markers clear of the compact ions.
     # Transverse jitter remains visible both before and during net drift.
-    y = -0.71 + 0.08*math.sin(seconds*10.7+phase)
-    z = (0.48 if seed % 2 else -0.32) + 0.10*math.sin(seconds*12.3-phase)
+    y = -0.71 + display*0.08*math.sin(seconds*10.7+phase)
+    z = (0.48 if seed % 2 else -0.32) + display*0.10*math.sin(seconds*12.3-phase)
     # Surface direction markers stay visible on the opaque wire at each end.
     edge = max(0.0, min(1.0, (abs(x)-4.3)/1.0))
     y -= 0.55*edge*edge*(3-2*edge)

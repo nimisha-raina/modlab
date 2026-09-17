@@ -1,0 +1,127 @@
+{
+  "model": "ai4bharat/indic-parler-tts",
+  "speaker": "Thoma",
+  "description": "Thoma speaks with a clear male Indian English voice, at a calm natural pace, in a friendly school tutor's teaching tone. Every word is clearly pronounced. The recording has very clear audio with no background noise.",
+  "duration": 76,
+  "fps": 12,
+  "segments": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Can electricity make magnetism?",
+      "audio": "output/parts/01_compass_current/audio/narration_00.wav",
+      "speech_seconds": 2.21,
+      "target_start": 0,
+      "target_end": 3
+    },
+    {
+      "start": 3,
+      "end": 11,
+      "text": "Our laboratory circuit has a battery, switch, copper wire, resistor, and a series ammeter.",
+      "audio": "output/parts/01_compass_current/audio/narration_01.wav",
+      "speech_seconds": 5.788,
+      "target_start": 3,
+      "target_end": 11
+    },
+    {
+      "start": 11,
+      "end": 14,
+      "text": "Electrons move randomly.",
+      "audio": "output/parts/01_compass_current/audio/narration_02.wav",
+      "speech_seconds": 1.655,
+      "target_start": 11,
+      "target_end": 14
+    },
+    {
+      "start": 14,
+      "end": 22,
+      "text": "Close the switch. Electrons drift right. Moving electric charges create a magnetic field.",
+      "audio": "output/parts/01_compass_current/audio/narration_03.wav",
+      "speech_seconds": 5.866,
+      "target_start": 14,
+      "target_end": 22
+    },
+    {
+      "start": 22,
+      "end": 32,
+      "text": "Electrons drift from negative to positive. The green circles remain because current is still flowing.",
+      "audio": "output/parts/01_compass_current/audio/narration_04.wav",
+      "speech_seconds": 6.219,
+      "target_start": 22,
+      "target_end": 32
+    },
+    {
+      "start": 32,
+      "end": 38,
+      "text": "The field surrounds the whole circuit. Green circles are drawing guides.",
+      "audio": "output/parts/01_compass_current/audio/narration_05.wav",
+      "speech_seconds": 3.697,
+      "target_start": 32,
+      "target_end": 38
+    },
+    {
+      "start": 38,
+      "end": 42,
+      "text": "Conventional current flows the opposite way.",
+      "audio": "output/parts/01_compass_current/audio/narration_06.wav",
+      "speech_seconds": 2.588,
+      "target_start": 38,
+      "target_end": 42
+    },
+    {
+      "start": 42,
+      "end": 47,
+      "text": "The compass needle turns, detecting the wire's magnetic field.",
+      "audio": "output/parts/01_compass_current/audio/narration_07.wav",
+      "speech_seconds": 3.441,
+      "target_start": 42,
+      "target_end": 47
+    },
+    {
+      "start": 47,
+      "end": 51,
+      "text": "Half an ampere: twenty-five degrees of deflection.",
+      "audio": "output/parts/01_compass_current/audio/narration_08.wav",
+      "speech_seconds": 3.224,
+      "target_start": 47,
+      "target_end": 51
+    },
+    {
+      "start": 51,
+      "end": 55.8,
+      "text": "Same wire, same distance: double current doubles field strength.",
+      "audio": "output/parts/01_compass_current/audio/narration_09.wav",
+      "speech_seconds": 3.814,
+      "target_start": 51,
+      "target_end": 55.8
+    },
+    {
+      "start": 57,
+      "end": 63,
+      "text": "One ampere: stronger field, more circles, forty-three degrees of deflection.",
+      "audio": "output/parts/01_compass_current/audio/narration_10.wav",
+      "speech_seconds": 5.102,
+      "target_start": 57,
+      "target_end": 63
+    },
+    {
+      "start": 63,
+      "end": 66,
+      "text": "Less current, weaker magnetic field.",
+      "audio": "output/parts/01_compass_current/audio/narration_11.wav",
+      "speech_seconds": 2.554,
+      "target_start": 63,
+      "target_end": 66
+    },
+    {
+      "start": 66,
+      "end": 76,
+      "text": "Remember: current creates a magnetic field. More current makes it stronger. When net electron flow stops, the wire's field disappears.",
+      "audio": "output/parts/01_compass_current/audio/narration_12.wav",
+      "speech_seconds": 8.995,
+      "target_start": 66,
+      "target_end": 76
+    }
+  ],
+  "frames": 912
+}

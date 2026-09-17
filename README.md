@@ -4,14 +4,16 @@ A Class 8 science lesson built with Python and Blender's `bpy` API. A copper
 circuit in a school laboratory leads into an enlarged view of vibrating copper
 ions and mobile electrons, then returns to the magnetic field around the wire.
 
-The completed lesson includes **82 seconds of male Indian-English narration**,
-English captions and **three native H5P questions inside the video**. Video and
+The first-case lesson includes **86 seconds of male Indian-English narration**,
+English captions and **two native H5P questions inside the video**. Video and
 voice pause together. A compact question panel keeps Check, Try again and
 Continue accessible while the scene remains visible behind it.
 
 ## Public student lesson
 
-[Open the lesson](https://nimisha-raina.github.io/modlab/). Share this link or the
+[Open the interactive lesson](https://nimisha-raina.github.io/modlab/).
+The published first case includes the apparatus highlights, compass/current
+comparison and spoken summary. Share the public link or the
 [printable QR image](student-lesson/dist/share/lesson-qr.png)
 ([SVG version](student-lesson/dist/share/lesson-qr.svg)). Students can watch and
 answer questions in their browser without an account or Blender.
@@ -57,6 +59,27 @@ The build saves `output/electromagnetism_intro.blend`, with 1,970 frames at 24 f
 Python is the source of truth: rebuilding replaces manual edits inside the
 generated lesson scene. Other scenes are retained.
 
+The independent [compass and current section](docs/PART_01.md) has its own
+Blender builder, scene checks and short silent preview renderer. It is a visual
+section for the extended lesson. The connected first case now includes narration
+and two H5P quiz pauses; the standalone Blender sections remain visual drafts.
+
+Build the connected visual draft with the opening, series ammeter and compass:
+
+```sh
+blender --background --python-exit-code 1 --python scripts/build_compass_sequence.py
+```
+
+This saves `output/parts/01_compass_current/opening_and_compass.blend`.
+
+The separate [six-turn coil and reversal case](docs/PART_02.md) starts at frame 1:
+
+```sh
+blender --background --python-exit-code 1 --python scripts/build_coil_demo.py
+```
+
+This saves `output/parts/02_coil_reversal/coil_reversal.blend`.
+
 ## Project map
 
 | Path | Purpose |
@@ -73,6 +96,13 @@ generated lesson scene. Other scenes are retained.
 | `output/` | Ignored working scenes, audio, renders and H5P exports |
 
 ## Continue development
+
+The Python source currently builds a revised Blender draft with fewer overlay
+panels, particles visible only in the magnified cutaway, and field guides around
+all four circuit sides. The local student website now uses the approved connected
+first case with narration and two quizzes. Original scene and narration assets
+remain as reference material; the public website requires a separate publishing
+step. See [the handoff](docs/HANDOFF.md) for current outputs and export status.
 
 - [Handoff guide](docs/HANDOFF.md): deliverables, editing map and known limits.
 - [Development guide](docs/DEVELOPMENT.md): setup, rendering, narration and checks.

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "electrons",
+    "after_section": 5,
+    "question": "Switch closed: which way do electrons drift?",
+    "answers": ["Negative → positive", "Positive → negative", "They stop moving"],
+    "correct": 0,
+    "success": "Great! Electrons already in the wire drift from − to +. Their random motion continues.",
+    "hint": "Think of the negative terminal as the side supplying electrons to the wire. Try again."
+  },
+  {
+    "id": "field",
+    "after_section": 6,
+    "question": "Current is flowing. What surrounds the wire?",
+    "answers": ["A new copper layer", "A magnetic field", "Nothing changes"],
+    "correct": 1,
+    "success": "Exactly! Current produces a magnetic field. The green circles help us see its direction.",
+    "hint": "Moving electric charge produces magnetism. Which option describes it?"
+  },
+  {
+    "id": "strength",
+    "after_section": 10,
+    "question": "More current: how does the magnetic field change?",
+    "context": "Same wire. Same distance from it.",
+    "answers": ["It becomes stronger", "It becomes weaker", "It stays the same"],
+    "correct": 0,
+    "success": "Great answer! More current gives a stronger magnetic field at the same distance from the wire.",
+    "hint": "More current means more charge flowing each second. Think about the magnetic effect."
+  }
+]

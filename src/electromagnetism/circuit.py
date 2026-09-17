@@ -3,8 +3,8 @@
 import math
 import bpy
 from . import geometry as g
-from .config import LESSON, WIRE_Z, SAMPLE_Z, ELECTRON_PATH, MICRO_SCALE, ELECTRON_RADIUS
-from .motion import drift_time, key_location, sample_path, visible_windows
+from .config import LESSON, WIRE_Z, SAMPLE_Z, MICRO_SCALE
+from .motion import visible_windows
 from .materials import cutaway_cover
 
 Z = WIRE_Z
@@ -26,8 +26,8 @@ def build(scene, mats, camera):
     for i, points in enumerate(paths):
         g.line(f"Copper conductor {i+1}", points, 0.115, mats["copper"], group)
     cover_material = cutaway_cover(mats["copper"], LESSON)
-    g.cylinder("Sample cover | fades open", (-5.15*MICRO_SCALE, 2.2, SAMPLE_Z),
-               (5.15*MICRO_SCALE, 2.2, SAMPLE_Z), 0.115, cover_material, group)
+    g.line("Sample cover | fades open", [(-5.15*MICRO_SCALE, 2.2, SAMPLE_Z),
+               (5.15*MICRO_SCALE, 2.2, SAMPLE_Z)], 0.115, cover_material, group)
     for x, y in [(-5, -2.2), (-5, 2.2), (5, 2.2), (5, -2.2)]:
         g.sphere("Rounded copper bend", (x, y, SAMPLE_Z if y > 0 else Z), 0.115, mats["copper"], group)
     for x in (-4.6, 4.6):
@@ -51,7 +51,7 @@ def build(scene, mats, camera):
     label("(-)", (-2.3, -2.9, 1.1), 0.38, mats, group, camera, "cyan")
     label("(+)", (1.1, -2.9, 1.1), 0.38, mats, group, camera, "gold")
     label("Copper wire", (-0.8, 2.8, 1.95), 0.33, mats, group, camera, "copper_light")
-    label("Current limiter", (5.3, -0.8, 0.1), 0.2, mats, group, camera, "muted")
+    label("Resistor", (6.1, -0.4, 0.2), 0.2, mats, group, camera, "muted")
 
     g.box("Switch base", (2.9, -2.2, 0.26), (2.55, 1, 0.3), mats["wood"], group)
     for x in (1.85,3.95):
@@ -79,17 +79,7 @@ def build(scene, mats, camera):
     # World labels are useful in overview; hide them during magnification.
     for obj in group.objects:
         if obj.type == "FONT":
-            visible_windows(obj, [(1, LESSON.frame(2)),
+            visible_windows(obj, [(1, LESSON.frame(LESSON.zoom_start)),
                                   (LESSON.frame(LESSON.zoom_out_end-1), LESSON.last_frame)])
 
-    # Surface dots are explanatory markers for electron drift, not a literal
-    # model of electrons moving only along the outside of the wire.
-    moving = g.collection("02 | Electron direction markers", scene)
-    for index in range(28):
-        obj = g.sphere(f"Electron direction marker {index+1:02}", (0, 0, 0), ELECTRON_RADIUS, mats["ink_cyan"], moving)
-        visible_windows(obj, [(LESSON.frame(LESSON.zoom_out_end-1), LESSON.frame(LESSON.switch_off)-1)])
-        for frame in range(LESSON.frame(LESSON.switch_on), LESSON.frame(LESSON.switch_off)+1):
-            seconds = (frame-1)/LESSON.fps
-            position = sample_path(ELECTRON_PATH, index/28 + drift_time(seconds)/19)
-            key_location(obj, frame, (position[0], position[1], position[2]+0.13))
     return pivot

@@ -1,0 +1,7 @@
+{"type": "WordBoundary", "offset": 1000000, "duration": 3000000, "text": "Half"}
+{"type": "WordBoundary", "offset": 4375000, "duration": 2375000, "text": "an"}
+{"type": "WordBoundary", "offset": 7375000, "duration": 5500000, "text": "ampere"}
+{"type": "WordBoundary", "offset": 14875000, "duration": 6375000, "text": "twenty-five"}
+{"type": "WordBoundary", "offset": 21250000, "duration": 5375000, "text": "degrees"}
+{"type": "WordBoundary", "offset": 27375000, "duration": 2375000, "text": "of"}
+{"type": "WordBoundary", "offset": 29750000, "duration": 6500000, "text": "deflection"}

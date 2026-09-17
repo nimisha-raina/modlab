@@ -15,7 +15,9 @@ def point_at(obj, target):
 def camera(name, location, target, group):
     data = bpy.data.cameras.new(name)
     data.lens = 45
-    data.clip_start = 0.005
+    # The microscopic camera stays well outside this distance. A larger near
+    # plane preserves depth precision for instrument faces in the lab overview.
+    data.clip_start = 0.05
     data.clip_end = 250
     obj = bpy.data.objects.new(name, data)
     group.objects.link(obj)

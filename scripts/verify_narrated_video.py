@@ -5,6 +5,7 @@ audio with each prepared WAV; timeline metadata alone cannot detect a silent
 export, missing section, or shifted soundtrack.
 """
 import json
+import argparse
 from pathlib import Path
 import subprocess
 
@@ -26,8 +27,13 @@ def decode_audio(path):
 
 
 def main():
-    timing = json.loads((ROOT / "output/audio/narration-timing.json").read_text())
-    video_path = ROOT / "output/video/electromagnetism.mp4"
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--timing", type=Path, default=ROOT / "output/audio/narration-timing.json")
+    parser.add_argument("--video", type=Path, default=ROOT / "output/video/electromagnetism.mp4")
+    parser.add_argument("--questions", type=Path, default=ROOT / "student-lesson/content/questions.json")
+    args = parser.parse_args()
+    timing = json.loads(args.timing.read_text(encoding="utf-8"))
+    video_path = args.video
     with av.open(video_path) as video:
         stream = video.streams.video[0]
         assert stream.frames == timing["frames"], "Rendered frame count differs from the speech timeline."
@@ -39,7 +45,7 @@ def main():
     for index, segment in enumerate(timing["segments"]):
         reference = decode_audio(ROOT / segment["audio"])
         # Blender rounds sound-strip placement to the nearest whole frame.
-        expected = round((segment["target_start"] + .2) * timing["fps"]) / timing["fps"]
+        expected = segment.get("speech_start", round((segment["target_start"] + .2) * timing["fps"]) / timing["fps"])
         start = max(0, round((expected - .15) * SAMPLE_RATE))
         end = min(len(mixed), round((expected + .15) * SAMPLE_RATE) + len(reference))
         # Decimation keeps the correlation small while retaining 0.5 ms timing.
@@ -54,14 +60,14 @@ def main():
         assert error < 1 / timing["fps"] + .01, f"Section {index+1} is shifted by {error:.3f}s."
         results.append({"section": index + 1, "alignment_error_seconds": round(error, 4),
                         "audio_correlation": round(score, 4)})
-    questions = json.loads((ROOT / "student-lesson/content/questions.json").read_text())
+    questions = json.loads(args.questions.read_text(encoding="utf-8"))
     for question in questions:
         pause = timing["segments"][question["after_section"]-1]["target_end"] - .3
         around_pause = mixed[round((pause-.05)*SAMPLE_RATE):round((pause+.05)*SAMPLE_RATE)]
         assert float(np.sqrt(np.mean(around_pause**2))) < .003, "A question interrupts audible speech."
     report = {"frames": timing["frames"], "duration": timing["duration"],
               "sections": results, "question_pauses": "All fall in silence after narration."}
-    (ROOT / "output/audio/video-verification.json").write_text(json.dumps(report, indent=2) + "\n")
+    args.timing.with_name("video-verification.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
     print("PASS: the exported video contains every narration section at the correct time.")
 

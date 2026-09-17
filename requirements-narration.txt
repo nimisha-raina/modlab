@@ -1,0 +1,2 @@
+# Authoring only; students play the embedded soundtrack without this client.
+edge-tts==7.2.8

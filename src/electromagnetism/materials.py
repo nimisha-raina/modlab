@@ -86,7 +86,7 @@ def cutaway_cover(base, lesson):
     links.new(transparent.outputs[0], blend.inputs[2])
     links.new(blend.outputs[0], out.inputs["Surface"])
     for seconds, value in [(0, 0), (lesson.microscope_in-1.2, 0), (lesson.microscope_in, 1),
-                           (lesson.microscope_out+2, 1), (lesson.zoom_out_end-1, 0), (lesson.duration, 0)]:
+                           (lesson.microscope_out, 1), (lesson.microscope_out+1, 0), (lesson.duration, 0)]:
         blend.inputs[0].default_value = value
         blend.inputs[0].keyframe_insert("default_value", frame=lesson.frame(seconds))
     return mat

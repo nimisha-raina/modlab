@@ -1,0 +1,114 @@
+[
+  {
+    "clip": 0,
+    "expected": "Can electricity make magnetism?",
+    "recognised": "Can electricity make magnetism?",
+    "similarity": 1.0,
+    "duration": 3.096,
+    "sha256": "010fdb65786d06fd1209e15f87c8b232366d991a95c8487ec630b3ceb41da40c"
+  },
+  {
+    "clip": 1,
+    "expected": "Our laboratory circuit has a battery, switch, copper wire, resistor, and a series ammeter.",
+    "recognised": "Our laboratory circuit has a battery, switch, copper wire, resistor and a series emitter.",
+    "similarity": 0.929,
+    "duration": 7.512,
+    "sha256": "2042943a9946a5c6d8ee502948d0f0c037de738e83b183dc6acfbd0b8c2cf2b6"
+  },
+  {
+    "clip": 2,
+    "expected": "Now let us look inside the copper wire and see what happens at the atomic level.",
+    "recognised": "Now let us look inside the copper wire and see what happens at the atomic level.",
+    "similarity": 1.0,
+    "duration": 6.576,
+    "sha256": "d4ae77fca5fd7b1d470f147755b6ba6d38930065a77565ff273b95e2bb8ca7e9"
+  },
+  {
+    "clip": 3,
+    "expected": "Copper ions vibrate in place, while electrons move randomly.",
+    "recognised": "Copper ions vibrate in place while electrons move randomly.",
+    "similarity": 1.0,
+    "duration": 5.688,
+    "sha256": "20217e94817557289e8a85bda3c0ac8f34419158a5582a76cb0ffe3e0e4e2a9f"
+  },
+  {
+    "clip": 4,
+    "expected": "Close the switch. Electrons drift right, creating a magnetic field.",
+    "recognised": "Close the switch, electrons drift right, creating a magnetic field.",
+    "similarity": 1.0,
+    "duration": 6.336,
+    "sha256": "4a54be99c68cd9dcaf3b2804ace983521b95733303c7eb0c6f8b5755737c18b8"
+  },
+  {
+    "clip": 5,
+    "expected": "Electrons drift from negative to positive. The green circles remain because current is still flowing.",
+    "recognised": "Electrons drift from negative to positive. The green circles remain because current is still flowing.",
+    "similarity": 1.0,
+    "duration": 8.088,
+    "sha256": "a877bfba600f131c137cfbd3d7ca41b620c2af016596264ad067c4e581fe3fb6"
+  },
+  {
+    "clip": 6,
+    "expected": "Circles represent the field around our circuit.",
+    "recognised": "Circles represent the field around our circuit.",
+    "similarity": 1.0,
+    "duration": 4.104,
+    "sha256": "f5658aa694802871ec0be798082869ed911d96fe8f8919f10f5ccbc6b4ddf320"
+  },
+  {
+    "clip": 7,
+    "expected": "Conventional current flows the opposite way.",
+    "recognised": "Conventional current flows the opposite way.",
+    "similarity": 1.0,
+    "duration": 3.408,
+    "sha256": "9bbcdd8ba65ac4adcf8a5f196a645f4ed5aa9a32216bcf81a5ff959fb59743c9"
+  },
+  {
+    "clip": 8,
+    "expected": "The compass needle turns, detecting the wire's magnetic field.",
+    "recognised": "The compass needle turns, detecting the wire's magnetic field.",
+    "similarity": 1.0,
+    "duration": 5.112,
+    "sha256": "a39e901f376aa36635b4689088d4a08db0cf95499b7f7b098005c69a584dc18e"
+  },
+  {
+    "clip": 9,
+    "expected": "Half an ampere: twenty-five degrees of deflection.",
+    "recognised": "Half and ampere 25 degrees of deflection.",
+    "similarity": 0.714,
+    "duration": 4.536,
+    "sha256": "9d3e1b9eb14e160404e3b4cca4c3f182119fc1d3fe9468bc6323eeab0c6194c9"
+  },
+  {
+    "clip": 10,
+    "expected": "Same distance: double current doubles field strength.",
+    "recognised": "Same distance, double current doubles field strength.",
+    "similarity": 1.0,
+    "duration": 4.536,
+    "sha256": "8b7cfe4b6cd5682c832642eb441d0b2dc67c1c7b712207d3179ad00cabd01bd6"
+  },
+  {
+    "clip": 11,
+    "expected": "One ampere: stronger field, forty-three degrees of deflection.",
+    "recognised": "1 ampere stronger field 43 degrees of deflection.",
+    "similarity": 0.8,
+    "duration": 5.496,
+    "sha256": "a75afdf7e466557b643431373fcdf7b17eb0ca31acab10eba5cf4baf4244eb69"
+  },
+  {
+    "clip": 12,
+    "expected": "Less current, weaker magnetic field.",
+    "recognised": "less current, weaker magnetic field.",
+    "similarity": 1.0,
+    "duration": 3.456,
+    "sha256": "08179653c32c9547b3e6afff88aa29d0d4f738efffdc7ae933215cb87c8e3298"
+  },
+  {
+    "clip": 13,
+    "expected": "To summarize what we have learned: current creates a magnetic field. More current makes it stronger. Without net electron flow, the wire's field disappears.",
+    "recognised": "To summarize what we have learned, current creates a magnetic field. More current makes it stronger. Without net electron flow, the wire's field disappears.",
+    "similarity": 1.0,
+    "duration": 12.84,
+    "sha256": "fc377e6fa284cb6285387326bcb5961b79aaa83bfdc88729534b5582d8cbb223"
+  }
+]

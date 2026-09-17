@@ -10,7 +10,7 @@ const read = filename => JSON.parse(fs.readFileSync(filename, 'utf8'));
 const manifest = read(path.join(packageDir, 'h5p.json'));
 const params = read(path.join(packageDir, 'content/content.json'));
 const questions = read(path.join(root, 'content/questions.json'));
-const duration = params.interactiveVideo.assets.endscreens[0].time;
+const duration = read(path.join(root, 'content/narration-timing.json')).duration;
 
 function nativeH5P() {
   const errors = [];
@@ -67,6 +67,7 @@ test('genuine H5P library closure and content assets are complete', () => {
   assert.ok(fs.existsSync(path.join(packageDir, 'content', video.startScreenOptions.poster.path)));
   assert.equal(params.override.autoplay, false);
   assert.equal(params.override.hasNoAutoPause, false);
+  assert.deepEqual(params.interactiveVideo.assets.endscreens, [], 'The final laboratory summary stays visible');
   const narrationPath = path.join(root, 'content/narration-timing.json');
   if (fs.existsSync(narrationPath)) {
     const timing = read(narrationPath);
@@ -74,11 +75,13 @@ test('genuine H5P library closure and content assets are complete', () => {
     assert.equal(duration, timing.duration);
     params.interactiveVideo.assets.interactions.forEach((interaction, index) => {
       const section = timing.segments[questions[index].after_section - 1];
-      const speechEnd = Math.round((section.target_start + .2) * timing.fps) / timing.fps + section.speech_seconds;
+      const speechStart = section.speech_start ?? Math.round((section.target_start + .2) * timing.fps) / timing.fps;
+      const speechEnd = speechStart + section.speech_seconds;
       assert.ok(interaction.duration.from > speechEnd + .1, 'Questions follow the complete explanation');
     });
   }
-  assert.equal(params.interactiveVideo.assets.interactions.length, 3);
+  assert.equal(questions.length, 2, 'The first case contains two quiz pauses');
+  assert.equal(params.interactiveVideo.assets.interactions.length, questions.length);
   for (const interaction of params.interactiveVideo.assets.interactions) {
     assert.equal(interaction.action.library, 'H5P.MultiChoice 1.16');
     assert.equal(interaction.pause, true);
@@ -95,7 +98,7 @@ test('upstream H5P questions score wrong answers, retry, and score correct answe
       library: 'H5P.InteractiveVideo 1.28', params,
     })), 1);
     parent.video = { getCurrentTime: () => 8.5, getDuration: () => duration };
-    assert.equal(parent.interactions.length, 3);
+    assert.equal(parent.interactions.length, questions.length);
     const wrapper = w.document.createElement('div');
     wrapper.className = 'h5p-dialog';
     wrapper.dataset.lib = 'H5P.MultiChoice';

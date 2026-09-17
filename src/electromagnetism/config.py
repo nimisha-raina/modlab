@@ -16,13 +16,15 @@ SCENE_NAME = "01 - Electricity makes magnetism"
 class Lesson:
     fps: int = 24
     duration: int = 48
-    zoom_start: float = 0.5
-    microscope_in: float = 5.0
-    switch_move: float = 8.25
-    switch_on: float = 9.0
-    field_reveal: float = 21.0
-    microscope_out: float = 27.0
-    zoom_out_end: float = 37.0
+    zoom_start: float = 3.0
+    microscope_in: float = 11.0
+    switch_move: float = 13.25
+    switch_on: float = 14.0
+    field_reveal: float = 14.0
+    field_view_start: float = 14.0
+    field_view_end: float = 18.0
+    microscope_out: float = 22.0
+    zoom_out_end: float = 32.0
     wide_view: float = 42.0
     switch_off: float = 44.0
     electrons: int = 18
@@ -69,7 +71,7 @@ MICRO_SCALE = 0.115 / 1.12
 # Camera magnification alone changes their apparent size.
 ELECTRON_RADIUS = 0.10 * MICRO_SCALE
 ELECTRON_HALF_LENGTH = 7.8
-ELECTRON_DRIFT_SPEED = 1.15
+ELECTRON_DRIFT_SPEED = 2.6
 # Ordered from the negative terminal, along the external conductor, to positive.
 ELECTRON_PATH = [(-2.0, -2.2, WIRE_Z), (-5, -2.2, WIRE_Z), (-5, 2.2, SAMPLE_Z),
                  (5, 2.2, SAMPLE_Z), (5, 0.5, WIRE_Z), (5, -2.2, WIRE_Z),

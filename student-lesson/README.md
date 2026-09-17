@@ -7,7 +7,7 @@ without requiring a school account or a separate learning management system.
 
 ## How the questions work
 
-After teaching sections 5, 6, and 10, H5P pauses the video and automatically opens its
+After narration sections 5 and 12, at 30.7 and 68.7 seconds, H5P pauses the video and automatically opens its
 native question dialog. A correct answer unlocks **Continue video**. The scene
 stays behind the dialog. The local theme gives the box a compact size and a
 180 ms fade and movement transition; reduced-motion preferences disable it.
@@ -19,10 +19,14 @@ answer checking and button handlers.
 The page does not collect names, submit results, or persist scores. Progress lives
 in the open page and resets on reload. The lesson provides the realistic
 laboratory video with English captions and male Indian-English narration.
-All ten voice sections are embedded in the approximately 82-second video.
+All fourteen voice sections are embedded in the 86-second first-case video.
+Timed yellow pointers identify each apparatus component as it is named.
+The camera approaches copper during the spoken atomic-level introduction.
 Questions follow complete sentences, so pausing, seeking and resuming keep
 the animation and narration synchronized.
 The current-strength question holds wire and distance fixed.
+The lesson finishes on the laboratory summary board, with replay available below
+the video. No automatic score/submission screen covers the ending.
 
 ## Files to edit
 
@@ -62,9 +66,14 @@ From the parent Blender project, run `python3 scripts/serve_lesson.py`, then ope
 Ctrl+C. The deployed player serves all its files from the same site; it does not
 rely on a third-party video host or a runtime CDN.
 
-After completing and rendering the narrated Blender video, run `scripts/sync_student_lesson.py` from
-the parent project using its media environment, then rebuild this site. This
-copies the video, matching narration timing, captions and a fresh poster.
+For the current first case, run `scripts/prepare_first_case_narration.py` from
+the parent project using its media environment, then rebuild this site. It
+mixes measured speech into the approved movie without changing video or speech
+speed and copies matching timing, captions and a fresh poster. Its source is
+`docs/first-case-narration.json`; cached clips live under
+`output/parts/01_compass_current/audio_tutor/`. Included authoring recordings are
+under `assets/tutor-narration/`. The older `sync_student_lesson.py`
+belongs to the original reference render workflow.
 Do not hand-edit the generated `content.json` or vendor libraries.
 
 ## Publishing
@@ -76,7 +85,7 @@ and the update command, `python3 scripts/publish_github_pages.py`.
 Publish the complete built `dist/` directory to a static HTTPS host with correct
 content types and MP4 byte-range support. Relative asset URLs support deployment
 below a repository subpath as well as at a domain root. The repository includes
-no account-specific hosting configuration. Check playback and all three questions
+no account-specific hosting configuration. Check playback and both questions
 at the final address before distributing the link or QR code.
 
 The root `docs/HANDOFF.md` describes QR generation and maintainer responsibilities.

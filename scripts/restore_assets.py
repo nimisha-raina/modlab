@@ -13,8 +13,16 @@ def restore(overwrite=False):
         for source in sorted((ROOT / "assets" / folder).iterdir()):
             if source.is_file():
                 pairs.append((source, ROOT / "output" / target / source.name))
+    current = ROOT / "assets/first-case-narration"
+    if current.exists():
+        pairs.extend((source, ROOT / "output/parts/01_compass_current/audio" / source.name)
+                     for source in sorted(current.iterdir()) if source.is_file())
+    tutor = ROOT / "assets/tutor-narration"
+    if tutor.exists():
+        pairs.extend((source, ROOT / "output/parts/01_compass_current/audio_tutor" / source.name)
+                     for source in sorted(tutor.iterdir()) if source.is_file())
     pairs.append((ROOT / "student-lesson/dist/assets/electromagnetism.mp4",
-                  ROOT / "output/video/electromagnetism.mp4"))
+                  ROOT / "output/parts/01_compass_current/opening_and_compass_narrated_720p.mp4"))
     copied = 0
     for source, target in pairs:
         if target.exists() and not overwrite:

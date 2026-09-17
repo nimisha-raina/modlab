@@ -1,0 +1,106 @@
+[
+  {
+    "clip": 0,
+    "expected": "Can electricity make magnetism?",
+    "recognised": "Can electricity make magnetism?",
+    "similarity": 1.0,
+    "duration": 2.414875,
+    "sha256": "42194ed4c35dd873867933c352068b3a0dce1c268a898247bd3a8e0a6b5c7fe9"
+  },
+  {
+    "clip": 1,
+    "expected": "Our laboratory circuit has a battery, switch, copper wire, resistor, and a series ammeter.",
+    "recognised": "Our laboratory circuit has a battery switch, copper wire, resistor and a series and meter.",
+    "similarity": 0.897,
+    "duration": 5.99075,
+    "sha256": "a88256f9e030e0f2ec9cecfff559154ae1250a1a3f52aa8126dfb280965ef199"
+  },
+  {
+    "clip": 2,
+    "expected": "Electrons move randomly.",
+    "recognised": "electrons move randomly.",
+    "similarity": 1.0,
+    "duration": 2.124625,
+    "sha256": "83d6087811b8100434067a0c86c1e69fea6b2c1483b97bbae75693f12f4db35d"
+  },
+  {
+    "clip": 3,
+    "expected": "Close the switch. Electrons drift right. Moving electric charges create a magnetic field.",
+    "recognised": "Close the switch, electrons drift right, moving electric charges create a magnetic field.",
+    "similarity": 1.0,
+    "duration": 5.99075,
+    "sha256": "bc2f614a091711378fd296e5652813625a6b779b0aace16431665f7a3a7ad467"
+  },
+  {
+    "clip": 4,
+    "expected": "Electrons drift from negative to positive. The green circles remain because current is still flowing.",
+    "recognised": "Electrons drift from negative to positive, the green circles remain because current is still flowing.",
+    "similarity": 1.0,
+    "duration": 6.3390625,
+    "sha256": "5c5bd76b7b19f8726efe5668be58ee6c40be2cbe6e9bb831ed570c1264c784c2"
+  },
+  {
+    "clip": 5,
+    "expected": "The field surrounds the whole circuit. Green circles are drawing guides.",
+    "recognised": "The field surrounds the whole circuit, green circles are drawing guides.",
+    "similarity": 1.0,
+    "duration": 3.98225,
+    "sha256": "32bb78e5fcc9e31f190dca28127a2bd269d54a0615e6c1454cc0031f933ddbcb"
+  },
+  {
+    "clip": 6,
+    "expected": "Conventional current flows the opposite way.",
+    "recognised": "Conventional current flows the opposite way.",
+    "similarity": 1.0,
+    "duration": 2.786375,
+    "sha256": "0a9d99ec3e323ac4b605fdb0261b61ac6869d93e645bb6295c188a88945cfe15"
+  },
+  {
+    "clip": 7,
+    "expected": "The compass needle turns, detecting the wire's magnetic field.",
+    "recognised": "The compass needle turns detecting the wires magnetic field.",
+    "similarity": 0.842,
+    "duration": 3.9009375,
+    "sha256": "fda9bf5a2179077992d4f2529cda9d110a8c62b238434309d206e85bf2de3b20"
+  },
+  {
+    "clip": 8,
+    "expected": "Half an ampere: twenty-five degrees of deflection.",
+    "recognised": "Half an ampere, 25 degrees of deflection.",
+    "similarity": 0.857,
+    "duration": 3.8545,
+    "sha256": "935e71f1beca2237f28a2cc7842944fd32c00fbaf4ca034c87e97b6d1726d3f9"
+  },
+  {
+    "clip": 9,
+    "expected": "Same wire, same distance: double current doubles field strength.",
+    "recognised": "Same distance, double current doubles field strength.",
+    "similarity": 0.875,
+    "duration": 3.9938125,
+    "sha256": "84ec359b4ed372894a2f131cb9e25a76ebd585af1bcd0e8f2b0bdfdc0d35b5b9"
+  },
+  {
+    "clip": 10,
+    "expected": "One ampere: stronger field, more circles, forty-three degrees of deflection.",
+    "recognised": "1 ampere, stronger field, more circles, 43 degrees of deflection.",
+    "similarity": 0.842,
+    "duration": 5.2593125,
+    "sha256": "2404f3ea180c626d6d85ad01b055e7059317bea16343507c76ee6e93507f5c1b"
+  },
+  {
+    "clip": 11,
+    "expected": "Less current, weaker magnetic field.",
+    "recognised": "Less current, weaker magnetic field.",
+    "similarity": 1.0,
+    "duration": 2.8676875,
+    "sha256": "677ce412a83c8f7ff4695a9598f767d60456924007a7e541fbff836c4eb60b24"
+  },
+  {
+    "clip": 12,
+    "expected": "Remember: current creates a magnetic field. More current makes it stronger. When net electron flow stops, the wire's field disappears.",
+    "recognised": "Remember, current creates a magnetic field, more current makes it stronger. When net electron flow stops, the wires field disappears.",
+    "similarity": 0.927,
+    "duration": 9.276375,
+    "sha256": "2d2fa2c1b612a8bad4f05852d27aab5e798ae0edc1ec71945a831afc9752dd96"
+  }
+]

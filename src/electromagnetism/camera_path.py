@@ -5,6 +5,8 @@ from .config import LESSON, MICRO_ORIGIN, MICRO_SCALE
 
 OVERVIEW = ((3, -20, 16), (0, 0, 0.5))
 WIDE = ((12, -24, 15), (0, 1.7, 1))
+BOARD = ((0, -8, 6.5), (0, 11.08, 4.15))
+OPENING_WIDE = ((4, -29, 20), (0, 3.7, 1.8))
 
 
 def smoothstep(value):
@@ -47,8 +49,8 @@ def interpolate_pose(a, b, fraction, focus="normal"):
 
 def camera_pose(seconds):
     stops = [(0, OVERVIEW), (LESSON.zoom_start, OVERVIEW),
-             (LESSON.microscope_in, MICRO_VIEW), (LESSON.field_reveal-1, MICRO_VIEW),
-             (LESSON.field_reveal+3, FIELD_VIEW), (LESSON.microscope_out, FIELD_VIEW),
+             (LESSON.microscope_in, MICRO_VIEW), (LESSON.field_view_start, MICRO_VIEW),
+             (LESSON.field_view_end, FIELD_VIEW), (LESSON.microscope_out, FIELD_VIEW),
              (LESSON.zoom_out_end, OVERVIEW), (LESSON.wide_view, WIDE),
              (LESSON.duration, WIDE)]
     for (ta, a), (tb, b) in zip(stops, stops[1:]):
@@ -70,3 +72,14 @@ def field_guide_scale(seconds):
     """
     u = smoothstep((seconds-LESSON.microscope_out)/(LESSON.zoom_out_end-LESSON.microscope_out))
     return MICRO_SCALE+(0.5-MICRO_SCALE)*u
+
+
+def opening_pose(seconds):
+    """Show board and full circuit together, then approach the copper model."""
+    if seconds >= LESSON.microscope_in:
+        return camera_pose(seconds)
+    stops = [(0, OPENING_WIDE), (LESSON.zoom_start, OPENING_WIDE), (LESSON.microscope_in, MICRO_VIEW)]
+    for (ta, a), (tb, b) in zip(stops, stops[1:]):
+        if seconds <= tb:
+            return interpolate_pose(a, b, (seconds-ta)/(tb-ta),
+                                    "sample_early" if ta == LESSON.zoom_start else "normal")

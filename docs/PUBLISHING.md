@@ -30,10 +30,12 @@ Install the pinned website dependencies once using
 source and media changes, then run this from the repository root:
 
 ```sh
-python3 scripts/publish_github_pages.py
+python scripts/publish_github_pages.py
 ```
 
-The script requires `pnpm`, Git and working GitHub credentials. It builds and
+The script requires Python 3, Node.js, Git, installed website dependencies and
+working GitHub credentials. Run it with the project's Python environment.
+It builds and
 tests H5P, copies the website into a temporary checkout, preserves deployment
 history and pushes a new `gh-pages` commit with a neutral project identity.
 It does not force-push. If another publication happens concurrently, update
@@ -47,7 +49,7 @@ render and synchronization workflow in [DEVELOPMENT.md](DEVELOPMENT.md).
 After publishing, wait for GitHub Pages to deploy and check the final address:
 
 - The video and audio play, pause, seek and resume together.
-- All three questions support incorrect answers, retry and Continue.
+- Both questions support incorrect answers, retry and Continue.
 - The question footer remains visible on a small phone screen.
 
 ## Student link and QR code

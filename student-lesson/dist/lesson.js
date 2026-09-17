@@ -23,8 +23,9 @@
       document.querySelector('#caption-detail').textContent = window.LESSON_CAPTIONS[index][3];
     }
     const answered = player.interactions.filter(item => item.hasFullScore()).length;
-    progress.textContent = answered ? `${answered} of 3 explored` : '3 questions inside the video';
-    restart.hidden = answered < 3;
+    const total = metadata?.questions ?? player.interactions.length;
+    progress.textContent = answered ? `${answered} of ${total} explored` : `${total} questions inside the video`;
+    restart.hidden = answered < total;
   }
 
   function nativePlayer() {

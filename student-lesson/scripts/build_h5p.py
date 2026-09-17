@@ -40,7 +40,7 @@ def defaults(fields):
     return values
 
 
-def question_interaction(question, index, time):
+def question_interaction(question, index, time, total):
     params = defaults(read(LIBRARIES / "H5P.MultiChoice-1.16" / "semantics.json"))
     params["question"] = f'<p>{html.escape(question["question"])}</p>'
     if question.get("context"):
@@ -57,7 +57,7 @@ def question_interaction(question, index, time):
     params["behaviour"].update({"type": "single", "randomAnswers": False,
         "enableSolutionsButton": False, "enableRetry": True, "showScorePoints": False})
     params["UI"].update({"checkAnswerButton": "Check answer", "tryAgainButton": "Try again"})
-    title = f"Question {index + 1} of 3"
+    title = f"Question {index + 1} of {total}"
     return {
         "duration": {"from": time, "to": time},
         "pause": True,
@@ -96,7 +96,7 @@ def main():
     }
     duration = timing["duration"]
     times = [round(timing["segments"][q["after_section"]-1]["target_end"]-.3,3) for q in questions]
-    assert len(questions) == 3
+    assert 1 <= len(questions) <= 10
     assert all(0 <= q["correct"] < len(q["answers"]) for q in questions)
     assert all(0 < time < duration for time in times)
     (DIST / "captions.js").write_text("window.LESSON_CAPTIONS = " + json.dumps(
@@ -109,8 +109,8 @@ def main():
             "title": "Electricity makes magnetism", "hideStartTitle": True,
             "shortStartDescription": "", "poster": {"path": "images/poster.jpg", "mime": "image/jpeg",
                 "width": 1280, "height": 720, "copyright": {"license": "U"}}}},
-        "assets": {"interactions": [question_interaction(q, i, times[i]) for i, q in enumerate(questions)],
-            "bookmarks": [], "endscreens": [{"time": duration, "label": "Your discoveries"}]},
+        "assets": {"interactions": [question_interaction(q, i, times[i], len(questions)) for i, q in enumerate(questions)],
+            "bookmarks": [], "endscreens": []},
         "summary": {"task": {"library": "H5P.Summary 1.10", "params": {"summaries": []}}, "displayAt": 0},
     }
     params["override"].update({"autoplay": False, "loop": False, "hasNoAutoPause": False,
@@ -135,7 +135,7 @@ def main():
         for path in sorted(PACKAGE.rglob("*")):
             if path.is_file():
                 archive.write(path, path.relative_to(PACKAGE))
-    print(f"Built H5P Interactive Video: 3 questions; {len(dependencies)} official runtime libraries.")
+    print(f"Built H5P Interactive Video: {len(questions)} questions; {len(dependencies)} official runtime libraries.")
 
 
 if __name__ == "__main__":

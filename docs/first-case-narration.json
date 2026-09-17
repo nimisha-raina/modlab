@@ -1,0 +1,97 @@
+{
+  "model": "Microsoft Edge neural speech",
+  "speaker": "en-IN-PrabhatNeural",
+  "description": "Prabhat: male Indian-English tutor, natural speaking rate.",
+  "duration": 86,
+  "fps": 12,
+  "segments": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Can electricity make magnetism?",
+      "clip": 0
+    },
+    {
+      "start": 3,
+      "end": 10,
+      "text": "Our laboratory circuit has a battery, switch, copper wire, resistor, and a series ammeter.",
+      "clip": 1
+    },
+    {
+      "clip": 13,
+      "start": 10,
+      "end": 18,
+      "text": "Now let us look inside the copper wire and see what happens at the atomic level."
+    },
+    {
+      "clip": 14,
+      "start": 18,
+      "end": 23,
+      "text": "Copper ions vibrate in place, while electrons move randomly."
+    },
+    {
+      "start": 23,
+      "end": 31,
+      "text": "Close the switch. Electrons drift right, creating a magnetic field.",
+      "clip": 3
+    },
+    {
+      "start": 31,
+      "end": 41,
+      "text": "Electrons drift from negative to positive. The green circles remain because current is still flowing.",
+      "clip": 4
+    },
+    {
+      "start": 41,
+      "end": 45.2,
+      "text": "Circles represent the field around our circuit.",
+      "clip": 5
+    },
+    {
+      "start": 45.2,
+      "end": 48,
+      "text": "Conventional current flows the opposite way.",
+      "clip": 6
+    },
+    {
+      "start": 48,
+      "end": 53,
+      "text": "The compass needle turns, detecting the wire's magnetic field.",
+      "clip": 7
+    },
+    {
+      "start": 53,
+      "end": 57,
+      "text": "Half an ampere: twenty-five degrees of deflection.",
+      "clip": 8
+    },
+    {
+      "start": 57,
+      "end": 61.8,
+      "text": "Same distance: double current doubles field strength.",
+      "clip": 9
+    },
+    {
+      "start": 63,
+      "end": 69,
+      "text": "One ampere: stronger field, forty-three degrees of deflection.",
+      "clip": 10
+    },
+    {
+      "start": 69,
+      "end": 72,
+      "text": "Less current, weaker magnetic field.",
+      "clip": 11
+    },
+    {
+      "start": 72,
+      "end": 86,
+      "text": "To summarize what we have learned: current creates a magnetic field. More current makes it stronger. Without net electron flow, the wire's field disappears.",
+      "clip": 12
+    }
+  ],
+  "video_source": "output/parts/01_compass_current/opening_and_compass_tutor_review_720p.mp4",
+  "audio_directory": "output/parts/01_compass_current/audio_tutor",
+  "audio_assets": "assets/tutor-narration",
+  "lead_seconds": 0.1
+}

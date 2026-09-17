@@ -1,6 +1,6 @@
 """Build, test and publish the student website to the gh-pages branch.
 
-Run from a clean source checkout with GitHub write access and pnpm installed.
+Run from a clean source checkout with GitHub write access and Node.js installed.
 The repository owner must enable GitHub Pages once; see docs/PUBLISHING.md.
 """
 
@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import shutil
 import subprocess
+import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,8 +27,10 @@ def publish(remote):
         raise SystemExit("Commit or set aside source changes before publishing.")
     source_revision = run("git", "rev-parse", "HEAD", capture=True)
     remote_url = run("git", "remote", "get-url", remote, capture=True)
-    run("pnpm", "build", cwd=SITE)
-    run("pnpm", "test", cwd=SITE)
+    # Use the active Python and Node directly; Windows may map python3 to a
+    # store shortcut and cannot execute pnpm.cmd through subprocess uniformly.
+    run(sys.executable, "scripts/build_h5p.py", cwd=SITE)
+    run("node", "--test", "tests/h5p.test.cjs", cwd=SITE)
     dist = SITE / "dist"
     for name in ["index.html", "captions.js", "vendor/h5p-player/main.bundle.js",
                  "h5p/electromagnetism/content/content.json",
