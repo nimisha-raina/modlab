@@ -1,0 +1,16 @@
+{
+  "file": "compass_current_segment_008.0-018.0_draft_6fps.mp4",
+  "sha256": "12eb90d554c972757b72c9afda28d754dacdeb3973a2e3e03c5c8d56bdf7c7c7",
+  "frames": 60,
+  "fps": 6,
+  "duration_seconds": 10.0,
+  "size": [
+    640,
+    360
+  ],
+  "audio_streams": 0,
+  "source_interval_seconds": [
+    8.0,
+    18.0
+  ]
+}

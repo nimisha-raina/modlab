@@ -5,10 +5,14 @@ import bpy
 from . import geometry as g
 
 
-def build(scene, mats, center, north_angle=0):
+def build(scene, mats, center, north_angle=0, on_stand=False):
     group = g.collection("Compass | Fixed measurement position", scene)
     x, y, z = center
-    g.cylinder("Compass nonmagnetic base", (x, y, .02), (x, y, z-.06), .84, mats["rubber"], group)
+    if on_stand:
+        g.cylinder("Compass stand foot", (x, y, .02), (x, y, .10), .58, mats["rubber"], group)
+        g.cylinder("Compass nonmagnetic stand", (x, y, .10), (x, y, z-.08), .12, mats["gold"], group)
+    else:
+        g.cylinder("Compass nonmagnetic base", (x, y, .02), (x, y, z-.06), .84, mats["rubber"], group)
     g.cylinder("Compass brass rim", (x, y, z-.08), (x, y, z), .82, mats["gold"], group)
     g.cylinder("Compass dial", (x, y, z-.01), (x, y, z+.006), .76, mats["ink_navy"], group)
     for tick in range(72):

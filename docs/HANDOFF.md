@@ -1,5 +1,14 @@
 # Maintainer handoff
 
+## Resume checkpoint and preservation
+
+Read [RESUME.md](RESUME.md) for the approved checkpoint and restoration steps.
+[CONTINUE.md](CONTINUE.md) supplies a continuation prompt.
+The public media archive is documented in [archive/README.md](../archive/README.md).
+Private local snapshots under `backups/` preserve original scenes, all working
+output and render caches. Public scene copies are packed and portable; original
+frozen masters remain unchanged locally.
+
 ## Current student lesson
 
 The approved first case is now narrated and integrated with genuine H5P:
@@ -26,8 +35,9 @@ The approved first case is now narrated and integrated with genuine H5P:
   Importable package: `output/share/electromagnetism.h5p`. Local preview:
   `python scripts/serve_lesson.py`, then `http://127.0.0.1:8765/`.
 
-The local website and GitHub Pages deployment use the same 86-second first case
-at `https://nimisha-raina.github.io/modlab/`. Future updates require the publishing
+The local website uses the 86-second first case. GitHub Pages still serves the
+earlier reference at `https://nimisha-raina.github.io/modlab/`; publishing the
+revised first case requires authenticated repository write access. Updates require the publishing
 step in [PUBLISHING.md](PUBLISHING.md); pushing source alone does not deploy the
 website. The publisher uses the active Python environment and Node.js directly
 so it also runs on Windows. The saved Blender draft
@@ -112,8 +122,7 @@ See [PART_01.md](PART_01.md) for the timeline, source map, build commands and
 review outputs. Build with `scripts/build_current_demo.py` and validate with
 `scripts/verify_current_demo.py`. This section reuses the laboratory and circuit
 modules. Its connected first-case movie now has narration and H5P integration. The separate
-coil/reversal case is described below. Iron core, clips and applications remain
-planned subsequent sections.
+coil/reversal case is described below. Iron core, clips and applications are included in the extended Case 2 visual sequence.
 
 `scripts/build_compass_sequence.py` creates a connected silent visual assembly
 in `output/parts/01_compass_current/opening_and_compass.blend`. The opening retains
@@ -140,13 +149,43 @@ centre-zero −1 to +1 A scale, red needle and compact on-face numerical reading
 The model uses geometry rather than a copied reference photograph. The pointer
 follows zero, 0.50 A, 1.00 A and −0.50 A in the corresponding cases.
 
-Part 2 starts at frame 1 in its own 28-second scene. It winds six turns in the
-same top-wire area, combines field guides into closed solenoid loops, shows N/S
-poles and a compass at 0.50 A, then opens the switch, turns the cell and closes
-the switch again. The poles, field arrows and needle change; fixed meter leads
-give a −0.50 A reading. See [PART_02.md](PART_02.md) for commands and modelling
-limits. Build with `scripts/build_coil_demo.py` and validate with
-`scripts/verify_coil_demo.py`. It is a silent Blender draft.
+Case 1 is frozen: `scripts/freeze_case_one.py` preserves its movie, editable tutor
+scene and narration script under `output/parts/frozen_case_01/`, with SHA-256
+checksums in `manifest.json`. The script refuses to overwrite a different frozen
+snapshot. Case 2 builders do not regenerate Case 1 or change its website media.
+
+Part 2 is now a separate 136-second silent visual review, starting with the switch
+OFF and a straight copper span. The camera approaches before a five-second
+winding transition (9–14 seconds); the winding occupies roughly half the screen.
+Smaller compasses have live deflection readings. Clearly larger gold/blue arrows
+show field reversal, and wider apparatus views retain the battery.
+
+The extended sequence changes ten turns to twenty at the same axial length,
+with both smaller diameter and smaller gaps, then inserts a soft-iron nail,
+explains magnetic-region alignment on the board, attracts and releases six clips,
+and ends with the requested summary followed by highlighted application pictures.
+Every apparatus change takes place with the switch OFF. Current magnitude remains
+0.50 A during the coil/core comparisons, assuming the regulated supply.
+The core-strength gain, field-guide density and clip trajectories are illustrative.
+The microphone picture is labelled moving coil + permanent magnet; it is an
+application of electromagnetism, not the same lifting-electromagnet mechanism.
+
+Build with `scripts/build_coil_demo.py`, validate with `scripts/verify_coil_demo.py`,
+and render efficiently with `scripts/render_coil_review.py`, followed by its
+`--encode` mode in the media environment. See [PART_02.md](PART_02.md) for the
+complete timeline, output files, physics assumptions and cache invalidation.
+Case 2 narration/H5P are not part of this silent visual review. Case 1 media,
+narration and website are unchanged.
+The latest revision labels magnetic field inside and outside the coil, distributes
+stronger-field guides evenly, moves the compasses outward using their actual
+measurement positions, and views nail insertion from the right. The region model
+has a fixed nail outline plus electron-flow and internal-field arrows. Clip release
+lasts 1.2 seconds; final board framing reduces the upper wall margin. All three
+application pictures and component highlights remain visible together for the
+whole 11-second applications stage (125–136 seconds). The duration follows the
+sequence rather than an imposed finish deadline. All 22 Python tests, saved-scene
+checks and full media decoding pass (816 frames, 136 seconds, 640×360 at 6 fps,
+silent). The editable source retains 24 fps. See PART_02.md for validation.
 
 Visible microscopic drift is faster (2.6 display units per second) and the
 drawn random displacement is reduced while current flows. This is a readability

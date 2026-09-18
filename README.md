@@ -11,9 +11,10 @@ Continue accessible while the scene remains visible behind it.
 
 ## Public student lesson
 
-[Open the interactive lesson](https://nimisha-raina.github.io/modlab/).
-The published first case includes the apparatus highlights, compass/current
-comparison and spoken summary. Share the public link or the
+[Open the published reference lesson](https://nimisha-raina.github.io/modlab/).
+The frozen 86-second first case with apparatus highlights, compass/current
+comparison and spoken summary is available locally; its publication needs GitHub
+write access. Share the public link or the
 [printable QR image](student-lesson/dist/share/lesson-qr.png)
 ([SVG version](student-lesson/dist/share/lesson-qr.svg)). Students can watch and
 answer questions in their browser without an account or Blender.
@@ -72,13 +73,20 @@ blender --background --python-exit-code 1 --python scripts/build_compass_sequenc
 
 This saves `output/parts/01_compass_current/opening_and_compass.blend`.
 
-The separate [six-turn coil and reversal case](docs/PART_02.md) starts at frame 1:
+The separate [coils and electromagnets case](docs/PART_02.md) starts at frame 1.
+Its 136-second visual sequence includes winding, current reversal, more turns,
+an iron core, attracted/released clips, a summary and illustrated applications:
 
 ```sh
 blender --background --python-exit-code 1 --python scripts/build_coil_demo.py
 ```
 
 This saves `output/parts/02_coil_reversal/coil_reversal.blend`.
+
+For the approved checkpoint, archived media and restoration steps, read
+[RESUME.md](docs/RESUME.md). [CONTINUE.md](docs/CONTINUE.md) contains a prompt for
+the next development session. [The saved archive](archive/README.md) includes
+movies, portable editable scenes, narration, H5P and historical revisions.
 
 ## Project map
 

@@ -1,0 +1,168 @@
+{
+  "model": "Microsoft Edge neural speech",
+  "speaker": "en-IN-PrabhatNeural",
+  "description": "Prabhat: male Indian-English tutor, natural speaking rate.",
+  "duration": 86,
+  "fps": 12,
+  "segments": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Can electricity make magnetism?",
+      "clip": 0,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_00.wav",
+      "speech_seconds": 2.138,
+      "target_start": 0,
+      "target_end": 3,
+      "speech_start": 0.08333333333333333
+    },
+    {
+      "start": 3,
+      "end": 10,
+      "text": "Our laboratory circuit has a battery, switch, copper wire, resistor, and a series ammeter.",
+      "clip": 1,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_01.wav",
+      "speech_seconds": 6.589,
+      "target_start": 3,
+      "target_end": 10,
+      "speech_start": 3.0833333333333335
+    },
+    {
+      "clip": 13,
+      "start": 10,
+      "end": 18,
+      "text": "Now let us look inside the copper wire and see what happens at the atomic level.",
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_13.wav",
+      "speech_seconds": 5.616,
+      "target_start": 10,
+      "target_end": 18,
+      "speech_start": 10.083333333333334
+    },
+    {
+      "clip": 14,
+      "start": 18,
+      "end": 23,
+      "text": "Copper ions vibrate in place, while electrons move randomly.",
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_14.wav",
+      "speech_seconds": 4.741,
+      "target_start": 18,
+      "target_end": 23,
+      "speech_start": 18.083333333333332
+    },
+    {
+      "start": 23,
+      "end": 31,
+      "text": "Close the switch. Electrons drift right, creating a magnetic field.",
+      "clip": 3,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_03.wav",
+      "speech_seconds": 5.348,
+      "target_start": 23,
+      "target_end": 31,
+      "speech_start": 23.083333333333332
+    },
+    {
+      "start": 31,
+      "end": 41,
+      "text": "Electrons drift from negative to positive. The green circles remain because current is still flowing.",
+      "clip": 4,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_04.wav",
+      "speech_seconds": 7.135,
+      "target_start": 31,
+      "target_end": 41,
+      "speech_start": 31.083333333333332
+    },
+    {
+      "start": 41,
+      "end": 45.2,
+      "text": "Circles represent the field around our circuit.",
+      "clip": 5,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_05.wav",
+      "speech_seconds": 3.076,
+      "target_start": 41,
+      "target_end": 45.2,
+      "speech_start": 41.083333333333336
+    },
+    {
+      "start": 45.2,
+      "end": 48,
+      "text": "Conventional current flows the opposite way.",
+      "clip": 6,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_06.wav",
+      "speech_seconds": 2.443,
+      "target_start": 45.2,
+      "target_end": 48,
+      "speech_start": 45.333333333333336
+    },
+    {
+      "start": 48,
+      "end": 53,
+      "text": "The compass needle turns, detecting the wire's magnetic field.",
+      "clip": 7,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_07.wav",
+      "speech_seconds": 4.138,
+      "target_start": 48,
+      "target_end": 53,
+      "speech_start": 48.083333333333336
+    },
+    {
+      "start": 53,
+      "end": 57,
+      "text": "Half an ampere: twenty-five degrees of deflection.",
+      "clip": 8,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_08.wav",
+      "speech_seconds": 3.569,
+      "target_start": 53,
+      "target_end": 57,
+      "speech_start": 53.083333333333336
+    },
+    {
+      "start": 57,
+      "end": 61.8,
+      "text": "Same distance: double current doubles field strength.",
+      "clip": 9,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_09.wav",
+      "speech_seconds": 3.612,
+      "target_start": 57,
+      "target_end": 61.8,
+      "speech_start": 57.083333333333336
+    },
+    {
+      "start": 63,
+      "end": 69,
+      "text": "One ampere: stronger field, forty-three degrees of deflection.",
+      "clip": 10,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_10.wav",
+      "speech_seconds": 4.575,
+      "target_start": 63,
+      "target_end": 69,
+      "speech_start": 63.083333333333336
+    },
+    {
+      "start": 69,
+      "end": 72,
+      "text": "Less current, weaker magnetic field.",
+      "clip": 11,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_11.wav",
+      "speech_seconds": 2.471,
+      "target_start": 69,
+      "target_end": 72,
+      "speech_start": 69.08333333333333
+    },
+    {
+      "start": 72,
+      "end": 86,
+      "text": "To summarize what we have learned: current creates a magnetic field. More current makes it stronger. Without net electron flow, the wire's field disappears.",
+      "clip": 12,
+      "audio": "output/parts/01_compass_current/audio_tutor/narration_12.wav",
+      "speech_seconds": 11.89,
+      "target_start": 72,
+      "target_end": 86,
+      "speech_start": 72.08333333333333
+    }
+  ],
+  "video_source": "output/parts/01_compass_current/opening_and_compass_tutor_review_720p.mp4",
+  "audio_directory": "output/parts/01_compass_current/audio_tutor",
+  "audio_assets": "assets/tutor-narration",
+  "lead_seconds": 0.1,
+  "frames": 1032
+}

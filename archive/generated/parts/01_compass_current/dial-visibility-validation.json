@@ -1,0 +1,7 @@
+{
+  "checked_visible_frames": 483,
+  "minimum_white_fraction": 0.9529411764705882,
+  "lowest_frame": 617,
+  "large_dark_patch_failures": [],
+  "note": "Projected interior grid samples allow printed markings and the pointer; checks large dark patches, not every pixel."
+}

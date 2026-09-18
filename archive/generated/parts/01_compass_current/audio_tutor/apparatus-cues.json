@@ -1,0 +1,27 @@
+[
+  {
+    "component": "battery",
+    "start": 4.723,
+    "end": 5.548
+  },
+  {
+    "component": "switch",
+    "start": 5.548,
+    "end": 6.348
+  },
+  {
+    "component": "copper wire",
+    "start": 6.348,
+    "end": 7.261
+  },
+  {
+    "component": "resistor",
+    "start": 7.261,
+    "end": 8.386
+  },
+  {
+    "component": "series ammeter",
+    "start": 8.386,
+    "end": 9.871995464852606
+  }
+]

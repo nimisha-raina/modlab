@@ -43,7 +43,7 @@ and checks silence around each quiz pause. Optional word checking uses
 It downloads a small speech-recognition model on first use. Recognition can
 miss repeated words or transcribe spoken numbers as digits; it does not establish
 accent quality. Listen to the finished movie before publishing. GitHub Pages
-currently serves this revision; future updates need the separate publishing
+still serves the earlier reference; publishing this revision needs the separate publishing
 step described in [PUBLISHING.md](PUBLISHING.md).
 
 Recordings, normalized WAV files, provenance and verification reports are
@@ -310,8 +310,10 @@ heading as the final return begins at global second 66. Rebuild the
 connected scene after these geometry changes; `--reuse-opening` intentionally
 retains the loaded opening and cannot apply changes to it.
 
-[PART_02.md](PART_02.md) documents the separate frame-one coil/reversal case,
-its builder, saved-scene verification and renderer. `render_current_demo.py`
+[PART_02.md](PART_02.md) documents the separate 136-second, frame-one coil,
+reversal, iron-core, clip and application sequence. The efficient
+`render_coil_review.py` renderer reuses identical stationary scene states;
+its `--encode` mode uses the media environment. The existing `render_current_demo.py`
 accepts `--coil` and `--draft-fps 4`, `6` or `12`; low-rate review movies are
 explicitly named drafts and retain the source duration. Full quality stays
 at 24 fps. Previous movie caches remain unchanged until rendered again.

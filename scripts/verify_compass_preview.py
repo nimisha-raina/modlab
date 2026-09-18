@@ -23,8 +23,9 @@ selection.add_argument("--combined", action="store_true")
 selection.add_argument("--opening-only", action="store_true")
 selection.add_argument("--coil", action="store_true")
 parser.add_argument("--draft-fps", type=int, choices=(4, 6, 12), default=12)
+parser.add_argument("--width",type=int,choices=(640,1280),help="Width used by the efficient visual-review renderer")
 parser.add_argument("--full-quality", action="store_true")
-parser.add_argument("--review-720p", action="store_true", help="Check the complete 12-fps 720p visual review")
+parser.add_argument("--review-720p", action="store_true", help="Check a complete 12-fps 720p visual review")
 parser.add_argument("--range", type=float, nargs=2, metavar=("START", "END"),
                     help="Check a separately rendered source-time interval")
 args = parser.parse_args()
@@ -35,8 +36,8 @@ if args.coil:
 basename = "coil_reversal" if args.coil else "opening_and_compass" if args.combined else "opening" if args.opening_only else "compass_current"
 suffix = "_720p.mp4" if args.full_quality else "_preview.mp4" if args.draft_fps == 12 else f"_draft_{args.draft_fps}fps.mp4"
 if args.review_720p:
-    if not args.combined or args.full_quality or args.draft_fps != 12 or args.range:
-        parser.error("720p review requires --combined, 12 fps and the full interval")
+    if not (args.combined or args.coil) or args.full_quality or args.draft_fps != 12 or args.range:
+        parser.error("720p review requires --combined or --coil, 12 fps and the full interval")
     suffix = "_review_720p.mp4"
 duration = LESSON.wide_view if args.opening_only else DURATION + (LESSON.wide_view if args.combined else 0)
 fps = FPS if args.full_quality else args.draft_fps
@@ -49,7 +50,8 @@ if args.range:
     basename += f"_segment_{start:05.1f}-{end:05.1f}"
     duration = end-start
 path = folder / (basename + suffix)
-size = (1280, 720) if args.full_quality or args.review_720p else (640, 360)
+width = 1280 if args.full_quality or args.review_720p else args.width or 640
+size = (width,round(width*9/16))
 with av.open(str(path)) as media:
     assert len(media.streams.video) == 1
     assert not media.streams.audio, "This visual draft must be silent"

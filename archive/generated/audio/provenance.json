@@ -1,0 +1,46 @@
+{
+  "model": "ai4bharat/indic-parler-tts",
+  "license": "Apache-2.0",
+  "speaker": "Thoma",
+  "model_card": "https://huggingface.co/ai4bharat/indic-parler-tts",
+  "clips": {
+    "narration_00.mp3": {
+      "method": "official public demo"
+    },
+    "narration_01.mp3": {
+      "method": "official public demo"
+    },
+    "narration_02.mp3": {
+      "method": "official public demo"
+    },
+    "narration_03.mp3": {
+      "method": "official public demo"
+    },
+    "narration_04.mp3": {
+      "method": "official public demo"
+    },
+    "narration_05.mp3": {
+      "method": "official public demo"
+    },
+    "narration_06.mp3": {
+      "method": "official public demo"
+    },
+    "narration_07.mp3": {
+      "method": "official public demo"
+    },
+    "narration_08.mp3": {
+      "method": "local inference",
+      "model_revision": "7b527af5ee8ed1f9a28d80b19703ed9bb8ba10ca",
+      "device": "mps",
+      "seed": 50,
+      "seconds": 8.452063492063493
+    },
+    "narration_09.mp3": {
+      "method": "local inference",
+      "model_revision": "7b527af5ee8ed1f9a28d80b19703ed9bb8ba10ca",
+      "device": "mps",
+      "seed": 51,
+      "seconds": 7.952834467120182
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "duration": 86,
+  "opening_seconds": 48,
+  "zoom_seconds": 8,
+  "electron_flow_seconds": 8,
+  "final_summary_visible": true,
+  "final_board_camera_stationary": true,
+  "pointer_components": 5,
+  "switch_closure_seconds": 23,
+  "camera_stops": "passed"
+}

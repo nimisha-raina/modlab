@@ -1,0 +1,49 @@
+1
+00:00:00,000 --> 00:00:06,958
+Let's look inside the copper wire.
+Battery, wire and switch: our circuit is ready.
+
+2
+00:00:06,958 --> 00:00:14,458
+We are magnifying a tiny part of the wire.
+Blue dots represent electrons already in the copper.
+
+3
+00:00:14,458 --> 00:00:22,542
+The switch is open: there is no overall flow.
+Copper ions vibrate; mobile electrons move randomly.
+
+4
+00:00:22,542 --> 00:00:30,875
+Switch closed: electrons begin to drift.
+The battery provides an electrical push through the wire.
+
+5
+00:00:30,875 --> 00:00:39,458
+Follow the electrons: in from the left, out to the right.
+From the negative terminal (-) towards the positive (+).
+
+6
+00:00:39,458 --> 00:00:48,542
+Current is flowing. Now let's reveal its magnetic field.
+Three green circles show the field around this wire.
+
+7
+00:00:48,542 --> 00:00:56,833
+Let's slowly return to the whole circuit.
+The current and its magnetic field continue.
+
+8
+00:00:56,833 --> 00:01:04,333
+The wire is part of one complete circuit.
+The field guides are enlarged to keep them visible.
+
+9
+00:01:04,333 --> 00:01:13,417
+Electron flow and conventional current are opposite.
+Electrons: - to +. Conventional current: + to -.
+
+10
+00:01:13,417 --> 00:01:22,083
+Open the switch: the current and its field stop.
+Next: what could make the magnetic field stronger?

@@ -1,4 +1,4 @@
-"""Build a separate, frame-one six-turn coil and current-reversal case."""
+"""Build the separate, frame-one coil and electromagnet lesson."""
 
 from pathlib import Path
 import sys

@@ -1,0 +1,16 @@
+{
+  "file": "coil_reversal_segment_017.0-023.0_draft_6fps.mp4",
+  "sha256": "5c254c9d148590feb4ea4203c0187d5903a37efb4233ef1ef3cbb5377e464560",
+  "frames": 36,
+  "fps": 6,
+  "duration_seconds": 6.0,
+  "size": [
+    640,
+    360
+  ],
+  "audio_streams": 0,
+  "source_interval_seconds": [
+    17.0,
+    23.0
+  ]
+}

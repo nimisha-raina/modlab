@@ -1,0 +1,15 @@
+{
+  "scene": "02 - Compass and current",
+  "fps": 24,
+  "duration": 34,
+  "audio": "Silent visual review",
+  "reference_amperes": 0.5,
+  "double_amperes": 1.0,
+  "placement_end_seconds": 5.0,
+  "join_source_seconds": 42.0,
+  "compass_degrees": {
+    "0": 0.0,
+    "1": 25.0,
+    "2": 43.003
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "duration": 86,
+  "frames": 1032,
+  "regular_video_timestamps": true,
+  "waveform_boundaries_zero": true,
+  "no_pcm_clipping": true,
+  "sections": [
+    {
+      "section": 1,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 22326
+    },
+    {
+      "section": 2,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 22141
+    },
+    {
+      "section": 3,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 22449
+    },
+    {
+      "section": 4,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 24729
+    },
+    {
+      "section": 5,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 25335
+    },
+    {
+      "section": 6,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 25284
+    },
+    {
+      "section": 7,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 20448
+    },
+    {
+      "section": 8,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 23416
+    },
+    {
+      "section": 9,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 21044
+    },
+    {
+      "section": 10,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 23741
+    },
+    {
+      "section": 11,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 22599
+    },
+    {
+      "section": 12,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 23792
+    },
+    {
+      "section": 13,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 22845
+    },
+    {
+      "section": 14,
+      "start_sample": 0,
+      "end_sample": 0,
+      "peak_sample": 24170
+    }
+  ]
+}

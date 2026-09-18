@@ -19,6 +19,8 @@ from electromagnetism.current_chapter import DESTINATION
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--stills", type=float, nargs="+")
 parser.add_argument("--full-quality", action="store_true")
+parser.add_argument("--review-720p", action="store_true",
+                    help="Render a 1280x720 visual review at 12 fps with preview samples")
 selection = parser.add_mutually_exclusive_group()
 selection.add_argument("--combined", action="store_true", help="Render the opening-and-compass assembly")
 selection.add_argument("--opening-only", action="store_true", help="Render just the opening from the connected project")
@@ -29,6 +31,8 @@ parser.add_argument("--movie", action="store_true", help="Also render the movie 
 parser.add_argument("--range", type=float, nargs=2, metavar=("START", "END"),
                     help="Render only this source-time interval to a separate segment movie")
 args = parser.parse_args(sys.argv[sys.argv.index("--")+1:] if "--" in sys.argv else [])
+if args.review_720p and (args.full_quality or args.draft_fps != 12):
+    parser.error("720p review uses 12 fps and preview samples")
 if args.coil:
     from electromagnetism import coil_demo
     from electromagnetism.coil_chapter import DESTINATION
@@ -42,7 +46,7 @@ else:
 scene = bpy.data.scenes[scene_name]
 bpy.context.window.scene = scene
 scene.render.engine = "BLENDER_EEVEE"
-scene.render.resolution_x, scene.render.resolution_y = (1280, 720) if args.full_quality else (640, 360)
+scene.render.resolution_x, scene.render.resolution_y = (1280, 720) if args.full_quality or args.review_720p else (640, 360)
 scene.render.resolution_percentage = 100
 scene.render.use_sequencer = args.combined
 if hasattr(scene, "eevee") and hasattr(scene.eevee, "taa_render_samples"):
@@ -87,7 +91,7 @@ if args.stills is None or args.movie:
     scene.render.ffmpeg.ffmpeg_preset = "GOOD"
     scene.frame_step = 1 if args.full_quality else demo.FPS//args.draft_fps
     scene.render.fps = demo.FPS//scene.frame_step
-    suffix = "_720p.mp4" if args.full_quality else "_preview.mp4" if args.draft_fps == 12 else f"_draft_{args.draft_fps}fps.mp4"
+    suffix = "_720p.mp4" if args.full_quality else "_review_720p.mp4" if args.review_720p else "_preview.mp4" if args.draft_fps == 12 else f"_draft_{args.draft_fps}fps.mp4"
     if args.range:
         scene.frame_start = round(range_start*demo.FPS)+1
         scene.frame_end = round(range_end*demo.FPS)

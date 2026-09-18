@@ -1,0 +1,65 @@
+{
+  "speaker": "en-IN-PrabhatNeural",
+  "service": "Microsoft Edge speech service",
+  "client": "edge-tts 7.2.8",
+  "client_license": "LGPL-3.0",
+  "client_source": "https://github.com/rany2/edge-tts",
+  "clips": {
+    "narration_00.mp3": {
+      "script_sha256": "c7f2ce22330c66c95625cafa9f6bf37782bd7d05177d3b5e7ea32e45bd7b3b6b",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_01.mp3": {
+      "script_sha256": "22dc88c5cc6084ba099bac8e9dba72578d3366838204411370bc7fbc3b456073",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_13.mp3": {
+      "script_sha256": "5c3a33be5eaa1c0f7d0701011d25003947a51ac0005a7092520bf1f3ea0f2fd0",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_14.mp3": {
+      "script_sha256": "f13b52a4c588d3550f4a31908c11ed6f8cbc6d398f303468517d77caf9188a82",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_03.mp3": {
+      "script_sha256": "142be46c49a5a7bd1f6bb66bea43fea6d99c2a986dc84f624ff0b9049e45bfb2",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_04.mp3": {
+      "script_sha256": "d3203739b76f80bda6470dec5b9e847bb8bb6a0dacb1566e8973dff62040cb0f",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_05.mp3": {
+      "script_sha256": "622cda9c344ed4e34213e0740ef38eb5cbf80aa8a319e5bd6c4f4fbb785d914f",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_06.mp3": {
+      "script_sha256": "0544b711890c90d31ab5f31ae367695f476c388844965ab16070cea50d6e8e97",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_07.mp3": {
+      "script_sha256": "d9e7bf8b758c98fdd1411e08ce1c3f54eb7b2e9b58c4081a67b219b712a5a2b4",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_08.mp3": {
+      "script_sha256": "6203c1f8043f65796e2b97de5f93ccb2612b6b6972a7248ec59b244d60c923f3",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_09.mp3": {
+      "script_sha256": "64b39331d97b77e4352ba460140226816664bb3a8bdf47b398ed138a4492278e",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_10.mp3": {
+      "script_sha256": "364126f09d0b894eaf170f077ffa0f4d66127ffdc40a31485abff205bf0ec6cb",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_11.mp3": {
+      "script_sha256": "8e819235ae5111f6bcdc7db27f2356d638d799e4b76c14b2c20be130f2dbdbb8",
+      "voice": "en-IN-PrabhatNeural"
+    },
+    "narration_12.mp3": {
+      "script_sha256": "71ad4d79c725d677ded95b14b7a26cf2a8793a065bbf30ea56ef788b20b7aa24",
+      "voice": "en-IN-PrabhatNeural"
+    }
+  }
+}

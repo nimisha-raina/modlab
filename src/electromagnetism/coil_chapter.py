@@ -1,15 +1,74 @@
-"""Build Part 2: a six-turn air-core coil and supply-polarity reversal."""
+"""Build Part 2: coils, polarity, iron core, clips and practical applications."""
 
 import math
 import bpy
 from mathutils import Vector
-from . import geometry as g, stage, circuit, chalkboard, compass, ammeter
+from . import geometry as g, stage, circuit, chalkboard, compass, ammeter, fields
+from .field_layout import with_ammeter
 from . import coil_demo as demo, current_demo, morph_geometry as morph
+from .coil_upper_guides import build as build_upper_guides
+from .coil_field_transition import build as build_field_transition, fading_material
+from . import coil_board, coil_experiments, coil_camera, coil_annotations
+from .coil_strength_guides import build as build_strength_guides
+from .coil_keyframes import frames, CURRENT
 from .build import clean_previous_lesson
 from .config import OUTPUT, SAMPLE_Z
 from .materials import make_materials
 
 DESTINATION = OUTPUT / "parts" / "02_coil_reversal"
+
+
+def update_markers(scene):
+    scene.timeline_markers.clear()
+    for seconds,title in ((0,"Laboratory | Switch OFF"),(9,"Wind ten turns | Five seconds"),
+                          (15,"Switch ON"),(18.5,"Local fields combine"),(21,"Place smaller compasses"),
+                          (28,"Board | Reverse current"),(35,"Turn disconnected cell"),
+                          (39,"Poles and blue arrows reversed"),(44,"Board | More turns"),
+                          (51,"Switch OFF | Wind twenty turns"),(59,"Switch ON | Same 0.50 A"),
+                          (66,"Board | Iron core"),(73,"Switch OFF | Insert nail"),
+                          (79,"Switch ON | Stronger electromagnet"),(83,"Magnetic-region explanation"),
+                          (94,"Board | Paper clips"),(101,"Switch OFF | Bring clips"),
+                          (105,"Switch ON | Attract clips"),(112,"Switch OFF | Release clips"),
+                          (114,"Summary board"),(125,"Applications | All three magnetic components")):
+        scene.timeline_markers.new(title,frame=round(seconds*demo.FPS)+1)
+
+
+def build_winding(material, group):
+    """One winding pose per source frame, with a round fixed-radius sweep."""
+    steps = round((demo.COIL_END-demo.COIL_START)*demo.FPS)
+    poses = {"Basis": demo.wire_points(0)}
+    for i in range(1, steps+1):
+        fraction = demo.coil_fraction(demo.COIL_START+i/demo.FPS)
+        poses["Ten turns" if i == steps else f"Winding {i:03d}"] = demo.wire_points(fraction)
+    dense_steps = round((demo.DENSE_END-demo.DENSE_START)*demo.FPS)
+    for i in range(1,dense_steps+1):
+        fraction = demo.dense_fraction(demo.DENSE_START+i/demo.FPS)
+        poses["Twenty turns" if i == dense_steps else f"More turns {i:03d}"] = demo.dense_wire_points(fraction)
+    wire = morph.curve_tube("Copper wire | Straight to ten then twenty turns", poses, demo.WIRE_RADIUS, material, group)
+    wire.data.shape_keys.use_relative = False
+    for key in wire.data.shape_keys.key_blocks:
+        key.interpolation = "KEY_LINEAR"
+    wire["turns"] = demo.TURNS
+    wire["insulation"] = "enamel; spaced turns"
+    wire["maximum_turns"] = demo.DENSE_TURNS
+    wire["axial_length"] = demo.LENGTH
+    return wire
+
+
+def animate_winding(wire, seconds, frame):
+    keys = wire.data.shape_keys
+    steps = len(keys.key_blocks)-1
+    first = round((demo.COIL_END-demo.COIL_START)*demo.FPS)
+    progress = max(0., min(first, (seconds-demo.COIL_START)*demo.FPS))
+    progress += max(0.,min(steps-first,(seconds-demo.DENSE_START)*demo.FPS))
+    index = min(steps-1, int(progress))
+    a, b = keys.key_blocks[index].frame, keys.key_blocks[index+1].frame
+    keys.eval_time = a+(b-a)*(progress-index)
+    keys.keyframe_insert("eval_time", frame=frame)
+    wire["turns"] = demo.TURNS+(demo.DENSE_TURNS-demo.TURNS)*demo.dense_fraction(seconds)
+    wire["coil_radius"] = demo.RADIUS+(demo.DENSE_RADIUS-demo.RADIUS)*demo.dense_fraction(seconds)
+    wire.keyframe_insert('["turns"]',frame=frame)
+    wire.keyframe_insert('["coil_radius"]',frame=frame)
 
 
 def build():
@@ -34,7 +93,7 @@ def build():
     reading = ammeter.build(scene, mats)
     ammeter.animate(reading, demo.FPS, demo.DURATION, demo.current_at)
     # Replace every part of the former straight top span, including its cover.
-    group = g.collection("Coil | Six turns in the microscope wire area", scene)
+    group = g.collection("Coil | Ten turns in the microscope wire area", scene)
     for obj in list(scene.objects):
         if obj.name.startswith("Sample cover") or obj.name.split(".")[0] == "Copper conductor 2" or obj.get("series_path") == 3:
             bpy.data.objects.remove(obj, do_unlink=True)
@@ -44,55 +103,107 @@ def build():
     enamel = mats["copper"].copy()
     enamel.name = "EM / enamel-insulated copper winding"
     enamel.node_tree.nodes.get("Principled BSDF").inputs["Coat Weight"].default_value = .7
-    wire = morph.tube("Copper wire | Straight to six-turn coil", {"Basis": demo.wire_points(0),
-                      "Six turns": demo.wire_points(1)}, .085, enamel, group)
-    wire["turns"] = demo.TURNS
-    wire["insulation"] = "enamel; spaced turns"
+    wire = build_winding(enamel, group)
 
-    chalkboard.build(scene, mats, [
-        {"start": 0, "end": 17, "case": "CASE 2  /  MAKING A SIX-TURN COIL",
-         "heading": "A coil has north and south poles",
-         "observation": "The fields of its turns combine. Current: 0.50 A."},
-        {"start": 17, "end": demo.DURATION, "case": "CASE 2  /  REVERSING THE CURRENT",
-         "heading": "Reverse current. Swap the poles.",
-         "observation": "Same coil. Same current magnitude. Needle turns."},
-    ])
-    needle = compass.build(scene, mats, demo.COMPASS_CENTER, demo.NORTH_ANGLE)
+    coil_board.build(scene,mats)
+    compasses = []
+    for side, center in zip(("left", "right"), demo.COMPASS_CENTERS):
+        needle = compass.build(scene, mats, center, demo.NORTH_ANGLE, on_stand=True)
+        needle["coil_compass_side"] = side
+        compass_group = needle.users_collection[0]
+        placement = bpy.data.objects.new("Coil compass placement | " + side, None)
+        compass_group.objects.link(placement)
+        placement.location = center
+        placement.scale = (demo.COMPASS_SCALE,demo.COMPASS_SCALE,1)
+        for obj in list(compass_group.objects):
+            if obj != placement and obj.parent is None:
+                obj.parent = placement
+                obj.location -= Vector(center)
+            if obj != placement:
+                chalkboard.show_between(obj, demo.COMPASS_START, demo.DURATION,
+                                        demo.FPS, demo.DURATION)
+
+        template = g.face_camera(g.text("Coil compass deflection", "0°", (center[0],center[1]-1.65,.13),
+                                       .22,mats["ink_gold"],compass_group,align="CENTER"),camera)
+        compass.animate_deflection_readings((None,template),demo.FPS,demo.DURATION,
+            lambda t,c=center: None if t < demo.COMPASS_START else abs(demo.needle_angle_at(t,c)-demo.NORTH_ANGLE))
+        reading_root = bpy.data.objects.new("Compass reading placement | "+side,None)
+        compass_group.objects.link(reading_root)
+        for obj in compass_group.objects:
+            if "display_degrees" in obj:
+                obj.parent = reading_root
+        compasses.append((needle,placement,center,reading_root))
     field_group = g.collection("Coil | Combining magnetic fields", scene)
     traces = demo.solenoid_lines()
+    dense_traces = demo.solenoid_lines(demo.DENSE_TURNS,demo.DENSE_RADIUS,8)
+    core_traces = demo.solenoid_lines(demo.DENSE_TURNS,demo.DENSE_RADIUS,12)
     guides = []
     paths = []
-    # Six local wire guides become six resultant loops, three on each side.
-    for i in range(6):
-        x = -demo.LENGTH/2+demo.LENGTH*(i+.5)/6
-        straight, local, final = [], [], []
-        plane = 0 if i < 3 else math.pi
+    # Prepare local contributions and closed resultant drawings for a crossfade.
+    for i in range(demo.TURNS):
+        x = -demo.LENGTH/2+demo.LENGTH*(i+.5)/demo.TURNS
+        straight, local, final, dense_final, core_final = [], [], [], [], []
+        plane = 0 if i < demo.TURNS//2 else math.pi
         for j in range(192):
             a = j*2*math.pi/192
             straight.append((x, demo.CENTER[1]+.42*math.cos(a), SAMPLE_Z+.42*math.sin(a)))
             # At each turn's midpoint the wire tangent is nearly vertical.
             local.append((x+.28*math.cos(a), demo.CENTER[1]-demo.RADIUS+.28*math.sin(a), SAMPLE_Z))
-            px, radial, _ = traces[i % 3][j]
+            px, radial, _ = traces[i % len(traces)][j]
             final.append((px, demo.CENTER[1]+radial*math.cos(plane), SAMPLE_Z+radial*math.sin(plane)))
+            px,radial,_ = dense_traces[(0,2,4,6,7)[i % 5]][j]
+            dense_final.append((px,demo.CENTER[1]+radial*math.cos(plane),SAMPLE_Z+radial*math.sin(plane)))
+            px,radial,_ = core_traces[(0,3,6,9,11)[i % 5]][j]
+            core_final.append((px,demo.CENTER[1]+radial*math.cos(plane+demo.CORE_GUIDE_ANGLE),
+                               SAMPLE_Z+radial*math.sin(plane+demo.CORE_GUIDE_ANGLE)))
         obj = morph.tube(f"Coil field guide {i+1}", {"Basis": straight, "Around wound wire": local,
-                         "Combined solenoid field": final}, .013, mats["ink_mint"], field_group, cyclic=True)
+                         "Combined solenoid field": final,"Dense coil field": dense_final,"Iron core field":core_final}, .013, mats["ink_mint"], field_group, cyclic=True)
         obj["field_guide"] = True
         guides.append(obj)
-        paths.append((straight, local, final))
+        paths.append((straight, local, final,dense_final,core_final))
+
+    build_upper_guides(scene, mats["ink_mint"], guides)
+    build_strength_guides(scene,mats,field_group,dense_traces,core_traces)
+
+    # The other circuit branches still carry current. Their local circular
+    # guides and direction chevrons reverse with the coil's resultant arrows.
+    branch_guides = []
+    for name, center, direction in with_ammeter():
+        if name.startswith("Far"):
+            continue
+        site = bpy.data.objects.new("Coil case field site | " + name, None)
+        field_group.objects.link(site)
+        site.location = center
+        site.rotation_mode = "QUATERNION"
+        rotation = Vector((1, 0, 0)).rotation_difference(Vector(direction).normalized())
+        _, objects = fields.guide(field_group, mats, "Branch field | " + name, .55, .012)
+        for obj in objects:
+            obj.parent = site
+        branch_guides.append((site, rotation, objects))
+
+    current_arrows = []
+    for sign in (1, -1):
+        a, b = Vector((1.05, -2.2, 1.08)), Vector((1.75, -2.2, 1.08))
+        objects = g.arrow("Conventional current direction | " + str(sign),
+                          a if sign == 1 else b, b if sign == 1 else a,
+                          .025, mats["ink_gold"], group)
+        current_arrows.append((sign, objects))
 
     # Separate arrow objects reverse direction while the field geometry stays.
     direction_objects = []
-    for i, (_, _, points) in enumerate(paths):
+    for i in (0,4,5,9):
+        points,dense_points,core_points = paths[i][2:]
         for sign in (1, -1):
             arrows = []
-            for index in (8, 105):
-                p = Vector(points[index])
-                # Traces follow +X internally; this winding's forward current
-                # produces -X internally, so baseline points against the trace.
-                tangent = (Vector(points[(index+1) % 192])-Vector(points[(index-1) % 192])).normalized()*-sign
-                arrows.extend(g.arrow(f"Coil field arrow | {i+1} | {sign}", p-tangent*.19, p+tangent*.05,
-                                      .021, mats["ink_mint"], field_group))
-            direction_objects.append((sign, arrows))
+            root = bpy.data.objects.new(f"Moving field arrow | {i+1} | {sign}",None)
+            field_group.objects.link(root)
+            root.rotation_mode = "QUATERNION"
+            arrows = g.arrow("Moving field direction",(-.22,0,0),(.22,0,0),.045,
+                             mats["ink_gold" if sign == 1 else "ink_cyan"],field_group)
+            for obj in arrows:
+                obj.parent = root
+            direction_objects.append((sign,arrows,root,points,dense_points,core_points))
+    coil_annotations.build(scene,mats,camera,field_group)
     poles = []
     for sign in (1, -1):
         for side, x in [("left", -2.05), ("right", 2.05)]:
@@ -125,55 +236,85 @@ def build():
             group.objects.link(swapped)
             terminal_labels.extend([(1, obj), (-1, swapped)])
 
-    for frame in range(1, scene.frame_end+1):
+    for frame in frames((4,59),(66,86),(89,107),(111,117),
+                        (0,0),(125,125)):
         seconds = (frame-1)/demo.FPS
         wound, combined = demo.coil_fraction(seconds), demo.field_fraction(seconds)
         current = demo.current_at(seconds)
-        camera.location, target = demo.camera_pose(seconds)
-        stage.point_at(camera, target)
-        camera.keyframe_insert("location", frame=frame)
-        camera.keyframe_insert("rotation_euler", frame=frame)
-        morph.key_pose(wire, "Six turns", wound, frame)
-        needle.rotation_euler.z = demo.compass_angle(wound, current)
-        needle.keyframe_insert("rotation_euler", frame=frame)
-        needle["current_multiplier"] = current
-        needle.keyframe_insert('["current_multiplier"]', frame=frame)
-        turn = demo.smoothstep((seconds-22.5)/2)
+        reading_board = (28 <= seconds <34 or 44 <= seconds <50 or 66 <= seconds <72
+                         or 80 <= seconds <92 or 94 <= seconds <100 or seconds >=114)
+        animate_winding(wire, seconds, frame)
+        for needle, placement, center, reading_root in compasses:
+            placed = demo.smoothstep((seconds-demo.COMPASS_START)/(demo.COMPASS_END-demo.COMPASS_START))
+            placement.location = demo.compass_center_at(seconds,center)
+            placement.location.z += (1-placed)*1.6
+            reading_root.location.x = placement.location.x-center[0]
+            reading_root.keyframe_insert("location",frame=frame)
+            placement.keyframe_insert("location", frame=frame)
+            angle = demo.needle_angle_at(seconds,center)
+            # Arrive pointing to Earth's north, then settle toward the local
+            # resultant field. Interpolate the shortest arc to avoid a spin.
+            needle.rotation_euler.z = angle
+            needle.keyframe_insert("rotation_euler", frame=frame)
+            needle["current_multiplier"] = current
+            needle.keyframe_insert('["current_multiplier"]', frame=frame)
+        turn = demo.smoothstep((seconds-demo.CELL_TURN_START)/(demo.CELL_TURN_END-demo.CELL_TURN_START))
         cell.rotation_euler.z = math.pi*turn
         cell.location.z = .7+.8*math.sin(math.pi*turn)
         cell.keyframe_insert("rotation_euler", frame=frame)
         cell.keyframe_insert("location", frame=frame)
         switch.rotation_euler.y = math.radians(-43)*(1-abs(current))
         switch.keyframe_insert("rotation_euler", frame=frame)
-        for obj in guides:
-            morph.key_pose(obj, "Around wound wire", wound*(1-combined), frame)
-            morph.key_pose(obj, "Combined solenoid field", combined, frame)
-            obj.hide_render = obj.hide_viewport = abs(current) < .001
-            obj.keyframe_insert("hide_render", frame=frame)
-            obj.keyframe_insert("hide_viewport", frame=frame)
-        for sign, objects in direction_objects:
+        for site, rotation, objects in branch_guides:
+            site.rotation_quaternion = rotation
+            # Reflect one in-plane axis: rotating a circle half a turn would
+            # move the chevrons without reversing their circulation direction.
+            site.scale = (1, 1, -1 if current < 0 else 1)
+            site.keyframe_insert("scale", frame=frame)
             for obj in objects:
-                obj.hide_render = obj.hide_viewport = combined < .999 or current*sign <= .001
+                obj.hide_render = obj.hide_viewport = abs(current) < .001
+                obj.keyframe_insert("hide_render", frame=frame)
+                obj.keyframe_insert("hide_viewport", frame=frame)
+        for sign, objects in current_arrows:
+            for obj in objects:
+                obj.hide_render = obj.hide_viewport = current*sign <= .001
+                obj.keyframe_insert("hide_render", frame=frame)
+                obj.keyframe_insert("hide_viewport", frame=frame)
+        for sign, objects,root,points,dense_points,core_points in direction_objects:
+            dense = demo.dense_fraction(seconds)
+            coordinate = (8-sign*demo.flow_phase(seconds,sign)*192) % 192
+            index = int(coordinate)
+            u = coordinate-index
+            def point(j):
+                return Vector(points[j%192]).lerp(Vector(dense_points[j%192]),dense).lerp(Vector(core_points[j%192]),demo.core_fraction(seconds))
+            root.location = point(index).lerp(point(index+1),u)
+            tangent = (point(index+1)-point(index-1)).normalized()*-sign
+            root.rotation_quaternion = Vector((1,0,0)).rotation_difference(tangent)
+            root.keyframe_insert("location",frame=frame)
+            root.keyframe_insert("rotation_quaternion",frame=frame)
+            for obj in objects:
+                obj.hide_render = obj.hide_viewport = combined < .999 or current*sign <= .001 or reading_board
                 obj.keyframe_insert("hide_render", frame=frame)
                 obj.keyframe_insert("hide_viewport", frame=frame)
         for sign, obj in poles:
-            reading_board = 17 <= seconds < 20
-            obj.hide_render = obj.hide_viewport = combined < .999 or current*sign <= .001 or reading_board
+            reading_board = (28 <= seconds <34 or 44 <= seconds <50 or 66 <= seconds <72
+                             or 80 <= seconds <92 or 94 <= seconds <100 or seconds >=114)
+            obj.hide_render = obj.hide_viewport = seconds < demo.POLE_START or combined < .999 or current*sign <= .001 or reading_board
             obj.keyframe_insert("hide_render", frame=frame)
             obj.keyframe_insert("hide_viewport", frame=frame)
         for sign, obj in terminal_labels:
             obj.hide_render = obj.hide_viewport = current*sign <= .001
             obj.keyframe_insert("hide_render", frame=frame)
             obj.keyframe_insert("hide_viewport", frame=frame)
-    for seconds, title in [(0, "Read board | Making a coil"), (5, "Wind six turns"),
-                           (11, "Combine fields"), (15, "North and south | 0.50 A"),
-                           (17, "Read board | Reversing current"), (22, "Reverse supply polarity"),
-                           (25, "Poles exchanged | -0.50 A")]:
-        scene.timeline_markers.new(title, frame=round(seconds*demo.FPS)+1)
+    coil_camera.animate(scene)
+    build_field_transition(scene, guides)
+    print("COIL_GEOMETRY_AND_FIELDS_READY",flush=True)
+    coil_experiments.build(scene,mats,camera)
+    update_markers(scene)
     scene["audio_status"] = "Silent visual review; final narration pending sequence approval."
-    scene["physics"] = "Six-turn air-core helix; compass uses complete circuit plus fixed Earth field."
+    scene["physics"] = "10 then 20 turns; complete circuit plus one common Earth field; illustrative effective core gain."
     scene["field_guides"] = "Axisymmetric finite-ring approximation; closed resultant loops; drawing density is illustrative."
-    scene["wire_reconfiguration"] = "Diagram of winding a longer wire segment, not a simulation of material stretch."
+    scene["wire_reconfiguration"] = "Straight-wire opening; winding area shown in a tight crop with surrounding supply wire outside view; configuration diagram, not material stretch."
     scene["reference_amperes"] = .5
     scene.frame_set(1)
     scene.render.engine = "BLENDER_EEVEE"

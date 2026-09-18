@@ -20,7 +20,9 @@ def build(scene, mats, cases):
             bpy.data.objects.remove(obj, do_unlink=True)
     group = g.collection("Chalkboard | Demonstration headings", scene)
     for index, case in enumerate(cases, 1):
-        if "points" in case:
+        if "rows" in case:
+            rows = case["rows"]
+        elif "points" in case:
             rows = [(case["case"], 5.8, .35), (case["heading"], 5.0, .62)]
             rows += [(body, 4.05-.8*i, .42) for i, body in enumerate(case["points"])]
         else:

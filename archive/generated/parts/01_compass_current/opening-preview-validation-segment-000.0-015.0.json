@@ -1,0 +1,16 @@
+{
+  "file": "opening_segment_000.0-015.0_preview.mp4",
+  "sha256": "3fb3be89dc15cec3e53ae21fc03fcd8dcb00a31c8666fc2e3de7d5d9f419b779",
+  "frames": 180,
+  "fps": 12,
+  "duration_seconds": 15.0,
+  "size": [
+    640,
+    360
+  ],
+  "audio_streams": 0,
+  "source_interval_seconds": [
+    0.0,
+    15.0
+  ]
+}

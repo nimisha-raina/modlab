@@ -92,16 +92,24 @@ comparison uses the same field calculation as the physical needle.
 
 ## Sources used for fact checking
 
-The separate [coil and reversal case](PART_02.md) uses six spaced, enamel-coated
+The separate [coil and reversal case](PART_02.md) uses ten spaced, enamel-coated
 turns in the earlier close-up area. A finite-ring approximation supplies closed
 resultant field guides, with S→N arrows inside and N→S outside. The actual
-helical circuit supplies the compass calculation. Opening the switch removes
+helical circuit supplies both compass calculations, with one common Earth field.
+The red north-seeking tips point away from the coil's N end and toward its S end;
+they need not point in opposite directions in the laboratory view. Opening the switch removes
 the coil contribution and leaves the needle following Earth's field. Turning
 the disconnected cell and closing the switch reverses current, coil field and
 poles. Fixed meter leads give −0.50 A after reversal, with unchanged magnitude.
 A centre-zero analogue scale allows the pointer to show this signed reversal.
-The wire/guide morph is a teaching diagram of reconfiguration and superposition;
-it does not represent stretching copper or moving material field strands.
+The camera shows only the winding area during a straight-wire-to-coil teaching
+transition, with the surrounding supply wire outside view. The diagram's drawn
+span does not conserve material length; real winding requires a longer wire.
+The circuit is open during this rearrangement, then closes to reveal local upper
+and lower contributions and their resultant pattern. Current does not elongate
+the wire. The field is similar to a bar magnet's, with poles while current flows;
+the air-core coil does not become a permanent bar magnet. The guide transition
+illustrates addition of fields, not physical strands moving and joining.
 
 - [OpenStax, Model of Conduction in Metals](https://openstax.org/books/university-physics-volume-2/pages/9-2-model-of-conduction-in-metals):
   conduction electrons, random motion, drift, positive ion lattice and the
@@ -127,3 +135,26 @@ passages are copied into the animation.
 The lesson stays in the laboratory frame. A deliberately labelled change to an
 electron-following reference frame is a different, valid lesson; see
 [RELATIVITY.md](RELATIVITY.md) for assumptions and the proposed teaching sequence.
+
+## Extended coil and iron-core comparison
+
+Case 2 also changes 10 turns to 20 at fixed axial length, with smaller diameter
+and smaller gaps. The regulated supply keeps current magnitude fixed; changing
+both geometry parameters does not isolate turn count as a controlled experiment.
+Compass needles use the complete circuit and one shared Earth field. Iron-core
+strength is an illustrative gain on the coil contribution, not a permeability or
+hysteresis simulation. The magnetic-region board model shows directions aligning,
+not atoms physically moving. Regions sit inside a nail outline. In the reversed
+winding, electrons move right to left and the internal field points right;
+magnetic north tips align with that internal field. Winding sense is essential
+when relating electron flow to the axial field. Compass positions move outward
+for insertion, and readings use those actual positions with the same Earth field.
+Low-remanence soft iron is assumed for clip release.
+See [PART_02.md](PART_02.md) for detailed limits and timing.
+
+The dynamic microphone uses a moving coil in a permanent magnet's field to induce
+a signal ([Shure explanation](https://service.shure.com/articles/en_US/Knowledge/difference-between-a-dynamic-and-condenser-microphone)).
+It belongs under uses of electromagnetism rather than uses of powered iron-core
+electromagnets. MRI employs strong magnetic fields
+([NIBIB](https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri));
+its illustrated cutaway is conceptual, not a manufacturer's construction drawing.

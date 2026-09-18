@@ -1,6 +1,7 @@
 # Generated working files
 output/*
 !output/.gitkeep
+backups/
 student-lesson/dist/h5p/
 student-lesson/dist/vendor/
 student-lesson/dist/captions.js

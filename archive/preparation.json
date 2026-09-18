@@ -1,0 +1,1414 @@
+{
+  "files": [
+    {
+      "path": "audio/narration-timing.json",
+      "original_sha256": "859eb21b9c930dea65138687618a27be528acb9ff06147605280c77c24950211"
+    },
+    {
+      "path": "audio/narration_00.mp3",
+      "original_sha256": "f401b50dfe9e955e7e6282487f54c1339eae17e18850ffc463c16bcf289d4c89"
+    },
+    {
+      "path": "audio/narration_00.wav",
+      "original_sha256": "f36e91f2ea91ffbf248ee3e00897cb0179a10d1a9164602219b57ac3658f5505"
+    },
+    {
+      "path": "audio/narration_01.mp3",
+      "original_sha256": "de5c8275482af77cdd11150da717e5adfe9c4af66a89f110a337145455545294"
+    },
+    {
+      "path": "audio/narration_01.wav",
+      "original_sha256": "da724f6d29117417432fc9644b960e4ccfc090042a316100e8537a191dfa6635"
+    },
+    {
+      "path": "audio/narration_02.mp3",
+      "original_sha256": "a77b495b8690d00bec33aa0c607fec1ff350a145b3d24c3923d9d1a014ea4bea"
+    },
+    {
+      "path": "audio/narration_02.wav",
+      "original_sha256": "1e7330498338f9b04a45564b3b6fef27368e44605c7700d3959f0aff77efbf0d"
+    },
+    {
+      "path": "audio/narration_03.mp3",
+      "original_sha256": "936802e349e18c0daaaed24ff69a0c5325d0058164aadc74e4efb74a7945e06e"
+    },
+    {
+      "path": "audio/narration_03.wav",
+      "original_sha256": "61496c84901f0812cfa42a1ad09a9a2d815bdffe97a71baf31b8137909fbbbd3"
+    },
+    {
+      "path": "audio/narration_04.mp3",
+      "original_sha256": "d538d651375aaf6cb40d96f6b9cae62275ff1f928e112cc7de7aa250cb40a4b4"
+    },
+    {
+      "path": "audio/narration_04.wav",
+      "original_sha256": "dd66f5d32c826cafcd0303769c3668421bb7a1f45da78aedcddd86e4a67a15b0"
+    },
+    {
+      "path": "audio/narration_05.mp3",
+      "original_sha256": "2269c98581f575dc796483f66b573c8f227c99ccb9c3ea8034fdc501a272a4d8"
+    },
+    {
+      "path": "audio/narration_05.wav",
+      "original_sha256": "9a7abade56a18af2dc90b72a4d3a5cf8aa46c6a3c835de80c94c20d761134892"
+    },
+    {
+      "path": "audio/narration_06.mp3",
+      "original_sha256": "058db12c8dd1762656fdf79c79a6bdcaacd6b05b3b8f9398857d31ac6ca4c10d"
+    },
+    {
+      "path": "audio/narration_06.wav",
+      "original_sha256": "10d3eb08001b0913da9afe29df39d8776cc1157208d83877812f92428ed1f48c"
+    },
+    {
+      "path": "audio/narration_07.mp3",
+      "original_sha256": "225abcc37195d8adb1f3f238fc5dca35f919220cd8154349b48e9c788024da80"
+    },
+    {
+      "path": "audio/narration_07.wav",
+      "original_sha256": "6ddc8e1e165d08294e08a633bfb2ad2ef354107c3f813401527b07378290c47f"
+    },
+    {
+      "path": "audio/narration_08.mp3",
+      "original_sha256": "3441b56046ba9e4d703936c152cd51506443a5692e56bed69b8ffe8a1a53c24e"
+    },
+    {
+      "path": "audio/narration_08.wav",
+      "original_sha256": "ebdcaaaebd52f528ab0f7a516054756da4d2abbe6a621f2173f9fb42661c6117"
+    },
+    {
+      "path": "audio/narration_09.mp3",
+      "original_sha256": "68467254df14ee450ac3ab34a79517c3d4c447a7464a6444fecdcf0e95aba81d"
+    },
+    {
+      "path": "audio/narration_09.wav",
+      "original_sha256": "cdc384a1da29c47385a09482441449b25f896bc318c9fec43a66d3c39c1b78f9"
+    },
+    {
+      "path": "audio/provenance.json",
+      "original_sha256": "1bed3eb94235f35d19b66a9498b0c9bb9d2011b3df255ead3b312e1362299e75"
+    },
+    {
+      "path": "audio/transcript-check.json",
+      "original_sha256": "11f0e58ba5694f917b244671b6c20044d8f6af986e8031b0091de854b8c12e78"
+    },
+    {
+      "path": "audio/video-verification.json",
+      "original_sha256": "bdab3bd10434b7a1391e6ca32ecc427682551442712858c87953d038abf20355"
+    },
+    {
+      "path": "build-info.json",
+      "original_sha256": "cf79bcd5726ef074499936b79e0d74681f3560350b7d5e9bc53c85836914eb05"
+    },
+    {
+      "path": "electromagnetism_intro.blend",
+      "original_sha256": "6cf7c73310746c910c14adbb17a91beb33627d82ce1b399e3447da8e3af3fbcc"
+    },
+    {
+      "path": "indian_voice_test.mp3",
+      "original_sha256": "f244c4d9e5717b43e197381a2fd93d575ea0bc979690acdc09ecb91b8e65533c"
+    },
+    {
+      "path": "lesson.srt",
+      "original_sha256": "b3e07c67231a393916a0f284a2c57ceb05654d6b35e8adedb50468c3d6abc24b"
+    },
+    {
+      "path": "parts/01_compass_current/ammeter_and_compass_detail.png",
+      "original_sha256": "12c58ed57d6238b28f52b8fef0febcda1db6a5fe15166514de6f42df1b9e1fd9"
+    },
+    {
+      "path": "parts/01_compass_current/analogue_encoded_current_000.0s.png",
+      "original_sha256": "bcfbcfb7c17571f3ac55d31e6445c79626fd478226783530404ed3093afdd23c"
+    },
+    {
+      "path": "parts/01_compass_current/analogue_encoded_current_009.5s.png",
+      "original_sha256": "f50d5541cae9a6142caa948a428e810511ffbba232fe9d19ed16ed3c959d24db"
+    },
+    {
+      "path": "parts/01_compass_current/analogue_encoded_opening_000.0s.png",
+      "original_sha256": "fa66753092df3c2701b87b69bf487ec8c5152a2e3a337c5434c9008afaa2bcf2"
+    },
+    {
+      "path": "parts/01_compass_current/analogue_encoded_opening_008.5s.png",
+      "original_sha256": "3bcd6c4b7b3655de1e7959da59f79c07bd56c1befb1006124ce09f00a92c89a8"
+    },
+    {
+      "path": "parts/01_compass_current/analogue_encoded_opening_009.5s.png",
+      "original_sha256": "7fd94877d7abdd3d1b03709777823ec5ba028035e6455044a5bf57c0c749e170"
+    },
+    {
+      "path": "parts/01_compass_current/analogue_encoded_opening_010.0s.png",
+      "original_sha256": "b173ace6e1050815f23b6f4552d1cc63385de842fe73da69d7f7d6a8982d6531"
+    },
+    {
+      "path": "parts/01_compass_current/analogue_encoded_opening_010.5s.png",
+      "original_sha256": "661db799413147215144037dadcee3bce8d8fd48e9d61119fb96358c724d6296"
+    },
+    {
+      "path": "parts/01_compass_current/analogue_encoded_opening_014.5s.png",
+      "original_sha256": "ef3a073b0d39c671a68c596827c59b4498b95df7f7890c4b8ee243ffd75a02f4"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration-timing.json",
+      "original_sha256": "04bf8e78b73f196e557cda4e70b58ff5d6c6c7d9f5bf94b1646fd460883d4b64"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration.wav",
+      "original_sha256": "faf98f42d7ea7dc7bc52ca616991690cd4cd29d2ca6168ac5525d1b5e42b19b4"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_00.mp3",
+      "original_sha256": "42194ed4c35dd873867933c352068b3a0dce1c268a898247bd3a8e0a6b5c7fe9"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_00.wav",
+      "original_sha256": "96249469644a44cd4a424301e99a8e4963bc7f49c1c4c4be5c8cd4268b880b74"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_01.mp3",
+      "original_sha256": "a88256f9e030e0f2ec9cecfff559154ae1250a1a3f52aa8126dfb280965ef199"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_01.wav",
+      "original_sha256": "b9bfb95617009fddf921edec125c9cef9b1559e5f9d2e210f8e99f3dc5801507"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_02.mp3",
+      "original_sha256": "83d6087811b8100434067a0c86c1e69fea6b2c1483b97bbae75693f12f4db35d"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_02.wav",
+      "original_sha256": "8e1d5a7440021bb1228cb18ff95f60d64d7eda695341a1efa816cdd6ae652a09"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_03.mp3",
+      "original_sha256": "bc2f614a091711378fd296e5652813625a6b779b0aace16431665f7a3a7ad467"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_03.wav",
+      "original_sha256": "62968f59eac16100a08fb403f468632a742329ea371991297c1dcb8cf4b95af8"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_04.mp3",
+      "original_sha256": "5c5bd76b7b19f8726efe5668be58ee6c40be2cbe6e9bb831ed570c1264c784c2"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_04.wav",
+      "original_sha256": "ce6294a0e2a1656357680bbaca139b11c6afc280385980fc1d1040000a321e13"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_05.mp3",
+      "original_sha256": "32bb78e5fcc9e31f190dca28127a2bd269d54a0615e6c1454cc0031f933ddbcb"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_05.wav",
+      "original_sha256": "599631276042da89780947206b155a6c7617aa989b700f8938a43566b22477d8"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_06.mp3",
+      "original_sha256": "0a9d99ec3e323ac4b605fdb0261b61ac6869d93e645bb6295c188a88945cfe15"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_06.wav",
+      "original_sha256": "5a37d7d4c0469ee869122f11016d1aa451e7e9c120099e5d46391b7e177e2476"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_07.mp3",
+      "original_sha256": "fda9bf5a2179077992d4f2529cda9d110a8c62b238434309d206e85bf2de3b20"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_07.wav",
+      "original_sha256": "328ccb09bfbd31a0ec169da8cb55697662a20b7c31a6cad5bed2bddcae12d1eb"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_08.mp3",
+      "original_sha256": "935e71f1beca2237f28a2cc7842944fd32c00fbaf4ca034c87e97b6d1726d3f9"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_08.wav",
+      "original_sha256": "e288b2e49f958cf8626372cdf11dcfa415e731d9b2f6fa92491f48cc13926904"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_09.mp3",
+      "original_sha256": "84ec359b4ed372894a2f131cb9e25a76ebd585af1bcd0e8f2b0bdfdc0d35b5b9"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_09.wav",
+      "original_sha256": "5eaefcd1b64e83ee675db334765a5708fc53e8e486dddce982b56534c7f79fcc"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_10.mp3",
+      "original_sha256": "2404f3ea180c626d6d85ad01b055e7059317bea16343507c76ee6e93507f5c1b"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_10.wav",
+      "original_sha256": "750e5633ef7a0d1040043ad6204a1cbeb749f1a83671e8d577d1d69f7212cff2"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_11.mp3",
+      "original_sha256": "677ce412a83c8f7ff4695a9598f767d60456924007a7e541fbff836c4eb60b24"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_11.wav",
+      "original_sha256": "1a48a594a4bc556b1e5515bdab5c716f6074bd9ef44a1e068a4d86c11d9db9c9"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_12.mp3",
+      "original_sha256": "2d2fa2c1b612a8bad4f05852d27aab5e798ae0edc1ec71945a831afc9752dd96"
+    },
+    {
+      "path": "parts/01_compass_current/audio/narration_12.wav",
+      "original_sha256": "57e74ae7ca2790caaeda58a2a3facfec8e98dcb4d90d4de4fba0795a89a39165"
+    },
+    {
+      "path": "parts/01_compass_current/audio/provenance.json",
+      "original_sha256": "606feaf55ea3d4da21b1278b7edd17873e3aa6fd9cfa47e5d608da2428919c6f"
+    },
+    {
+      "path": "parts/01_compass_current/audio/transcript-check.json",
+      "original_sha256": "b81ef15b139f7a35104345188c1217d8aa6dd02b79f2ad40d85c347811549176"
+    },
+    {
+      "path": "parts/01_compass_current/audio/video-verification.json",
+      "original_sha256": "db2f93e73b1ac05cb3ed1519bdb00caadad8b9d34b4c391e91d51b106730e3e8"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/apparatus-cues.json",
+      "original_sha256": "1800ad278a445a834a74b5c730d32421e9f507daa7dd9ede99a692ca225f9379"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/audio-edge-verification.json",
+      "original_sha256": "89243e39e835c38c7ecee2e30e6e529035ae0f289762ed2fcad41c59daa31153"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration-timing.json",
+      "original_sha256": "0c2e78aac547acb847df4c76423c6e5077c66e20b06e326bda48c91cae494088"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration.wav",
+      "original_sha256": "c000e677243e1beec5edabd4af1ee79351741059283623bdc018facc60077149"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_00.mp3",
+      "original_sha256": "010fdb65786d06fd1209e15f87c8b232366d991a95c8487ec630b3ceb41da40c"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_00.wav",
+      "original_sha256": "48707b35ff8fa081e0fee9c42a1be31f41956c500daa010beb69605e7bf503e7"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_00.words.jsonl",
+      "original_sha256": "b03a31cd3d3b1b223306500839766502e120697d957f95978f7c7faaeabbe924"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_01.mp3",
+      "original_sha256": "2042943a9946a5c6d8ee502948d0f0c037de738e83b183dc6acfbd0b8c2cf2b6"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_01.wav",
+      "original_sha256": "6f392c5782880d6c781de4ada607a9f99c62f79351d9689d47f6d00bac215d80"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_01.words.jsonl",
+      "original_sha256": "10146cc2bf3d6ca8b30b3d7c40d59094f77ed66c0947eee2e6dbe4a67bf72472"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_03.mp3",
+      "original_sha256": "4a54be99c68cd9dcaf3b2804ace983521b95733303c7eb0c6f8b5755737c18b8"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_03.wav",
+      "original_sha256": "3a4cddc5dcf3b0c8fd78d8d706d50d5a07f032b1069408c5ff330e01fcc3bf4b"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_03.words.jsonl",
+      "original_sha256": "a3c007d6ea68fac4d2bc0ba9c72d8a295319b012686e09c10a2805ff9d5b649f"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_04.mp3",
+      "original_sha256": "a877bfba600f131c137cfbd3d7ca41b620c2af016596264ad067c4e581fe3fb6"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_04.wav",
+      "original_sha256": "99eee6445e3be13bacaf14cc1f771fca59a57f7685a4fb882ba81778d06da1ee"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_04.words.jsonl",
+      "original_sha256": "94098371534d4f06456ec96eda54a04bf3b13073661e9738448b2c97489f43a1"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_05.mp3",
+      "original_sha256": "f5658aa694802871ec0be798082869ed911d96fe8f8919f10f5ccbc6b4ddf320"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_05.wav",
+      "original_sha256": "5924089c05531a7ece0c6f9ab3362cef4193218003a0c1b188767703872cf480"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_05.words.jsonl",
+      "original_sha256": "deb38d2dc0d32c822acf45b6e2b17e6315d4047d3aeffd7d48fc9ed8ddca7efa"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_06.mp3",
+      "original_sha256": "9bbcdd8ba65ac4adcf8a5f196a645f4ed5aa9a32216bcf81a5ff959fb59743c9"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_06.wav",
+      "original_sha256": "0f69994fc4c9f69f359340177d8cc4af15a09c2f727f16cff9f9195a18bcfbf6"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_06.words.jsonl",
+      "original_sha256": "ef51354940b9ab374ccab0b3f719415ba9b773f24bd9180c702af5e489bcb5e0"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_07.mp3",
+      "original_sha256": "a39e901f376aa36635b4689088d4a08db0cf95499b7f7b098005c69a584dc18e"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_07.wav",
+      "original_sha256": "3c66b5d884d99e42637002513771d12c579c70d76f13112b8cb4d1f5eac1fa00"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_07.words.jsonl",
+      "original_sha256": "5453010510691dca566b7441b4a28ef2800d3c63447ccb78b6b76c3d07c36cd9"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_08.mp3",
+      "original_sha256": "9d3e1b9eb14e160404e3b4cca4c3f182119fc1d3fe9468bc6323eeab0c6194c9"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_08.wav",
+      "original_sha256": "25cf39002a413afa38f52d26ef9fb25dcceeb86d3a02b8d5917db1039915ec01"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_08.words.jsonl",
+      "original_sha256": "c189733d38702add0a65d346169c681d4ac2b55cbb0ec9e085b4d207829f1f23"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_09.mp3",
+      "original_sha256": "8b7cfe4b6cd5682c832642eb441d0b2dc67c1c7b712207d3179ad00cabd01bd6"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_09.wav",
+      "original_sha256": "887b911170471725f1e0e157fdac09dd21095b286f47fb959c4de96ac6748654"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_09.words.jsonl",
+      "original_sha256": "1d32893aa05978b743223162fa217a5b851434af314ceb4f46e439ad1262a836"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_10.mp3",
+      "original_sha256": "a75afdf7e466557b643431373fcdf7b17eb0ca31acab10eba5cf4baf4244eb69"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_10.wav",
+      "original_sha256": "520b534e01f762a470990d6a16b273a6eef7ddbf4e6a4c60c9e9775023f2ee2c"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_10.words.jsonl",
+      "original_sha256": "5aef0357a0520a36388f5a32b3a00c6e54204b216185c1b392181ed34a7c1092"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_11.mp3",
+      "original_sha256": "08179653c32c9547b3e6afff88aa29d0d4f738efffdc7ae933215cb87c8e3298"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_11.wav",
+      "original_sha256": "8d1949e394f30e4a1d9d611aac8f18d67d2fef0739a6effe3ca3371d7d593c38"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_11.words.jsonl",
+      "original_sha256": "4aca3fee38b6c45f3ef4f40c25a2898f07935080c932c1a69f8514b13bbc3774"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_12.mp3",
+      "original_sha256": "fc377e6fa284cb6285387326bcb5961b79aaa83bfdc88729534b5582d8cbb223"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_12.wav",
+      "original_sha256": "cf9988930ae6fb588e4aef2b258e297a304a4f8aea6e8230b0764179454e3ec7"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_12.words.jsonl",
+      "original_sha256": "3609a71ab818fe8cbf120e1f0a9bc8816c577d5afe0e7556580c45f41a8f1007"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_13.mp3",
+      "original_sha256": "d4ae77fca5fd7b1d470f147755b6ba6d38930065a77565ff273b95e2bb8ca7e9"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_13.wav",
+      "original_sha256": "3d40e731b8890e66e0921670634d9a94fc33b495adecad239e18303775fafd86"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_13.words.jsonl",
+      "original_sha256": "9c257ec5914a919207f24f6beb43bdbdc7cc898ee3e1f0894d6d3c075b864d88"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_14.mp3",
+      "original_sha256": "20217e94817557289e8a85bda3c0ac8f34419158a5582a76cb0ffe3e0e4e2a9f"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_14.wav",
+      "original_sha256": "46c499d7dd88ce2318efb889a0f885d31a80d5243dd106439014160f4d184bce"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/narration_14.words.jsonl",
+      "original_sha256": "fde1f37d4beb6653dad126afdd70b774e43cabb91228913a52e0b88c2fcbf498"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/provenance.json",
+      "original_sha256": "7982d64fdc7fd80ff67e2793a877bd9bad59e40c607eb11d1f962689f18fa7d1"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/transcript-check.json",
+      "original_sha256": "859fb0a9a18884a6e49738af37a9b3fa8f67ac6d7600ee707cc86bf52ad94063"
+    },
+    {
+      "path": "parts/01_compass_current/audio_tutor/video-verification.json",
+      "original_sha256": "25d4ee389d9b604c7ca8f77a04eb9b2cc1359d33fba64c776e1635ead0d2ec82"
+    },
+    {
+      "path": "parts/01_compass_current/build-info.json",
+      "original_sha256": "dd7337f86de92e3bff43becc4436563e3f4c66f0f94282bfe573d3a73e47e214"
+    },
+    {
+      "path": "parts/01_compass_current/circuit_rear_connected_ammeter.png",
+      "original_sha256": "5f0eae696be2571342987c778f525545bab37ca3b18dd2741f208a0615345d7f"
+    },
+    {
+      "path": "parts/01_compass_current/compass_current.blend",
+      "original_sha256": "795e97a87b895fe4b45d9f851f28fd18052d7af2908a05fb10020992fe6444d1"
+    },
+    {
+      "path": "parts/01_compass_current/compass_current_preview.mp4",
+      "original_sha256": "0e9242005154d0ee877b5d0cacb48a5591c19fa75cd8a0360426cfde828ae921"
+    },
+    {
+      "path": "parts/01_compass_current/compass_current_segment_008.0-018.0_draft_6fps.mp4",
+      "original_sha256": "12eb90d554c972757b72c9afda28d754dacdeb3973a2e3e03c5c8d56bdf7c7c7"
+    },
+    {
+      "path": "parts/01_compass_current/compass_join_720p.png",
+      "original_sha256": "00ce9977560a826aa7fd8ef1e1581d6e6c9c2368d9ae3475fb41c32ba57084ed"
+    },
+    {
+      "path": "parts/01_compass_current/complete-review-render.json",
+      "original_sha256": "1016ab4a2693085a596467639813de7bb1b6c3907f6e684b52af065d6590c79e"
+    },
+    {
+      "path": "parts/01_compass_current/connected-preview-validation-4fps.json",
+      "original_sha256": "b73687c4060e01508506ea0ad986a98ddb8b36ac0d63173a934c61c3bc55fe19"
+    },
+    {
+      "path": "parts/01_compass_current/connected-preview-validation-review-720p.json",
+      "original_sha256": "df3594923543aa8ca799ccfe8cf451363720c3bc2cfed96bbf7074ae645abd03"
+    },
+    {
+      "path": "parts/01_compass_current/connected-preview-validation.json",
+      "original_sha256": "acbaf3144a3c3d1cbbce42076d10d96d6bbf014148cd45b3c358fa881fbdd75e"
+    },
+    {
+      "path": "parts/01_compass_current/connected_review_000.0s.png",
+      "original_sha256": "d5e0133588a2c82bade38ddcdb412aa89cba810d42bb37d0f2843f32a061d8b6"
+    },
+    {
+      "path": "parts/01_compass_current/connected_review_012.0s.png",
+      "original_sha256": "d8da53ad7b73b539277fd2990314452625f46d4fce5f0994500b3bb20528bc7a"
+    },
+    {
+      "path": "parts/01_compass_current/connected_review_031.0s.png",
+      "original_sha256": "3460075379d4c231d23a8bb9805cef00e37195f16e277957718b9caab15d817e"
+    },
+    {
+      "path": "parts/01_compass_current/connected_review_042.0s.png",
+      "original_sha256": "7ca54c439d2d9398e609feaf6c4bbc66fec30cf6402e54e4d1a3326109bac8a5"
+    },
+    {
+      "path": "parts/01_compass_current/connected_review_050.0s.png",
+      "original_sha256": "68b26132a697054308e0dab38a94f9a3fb33447d09d75969853e223430cdd971"
+    },
+    {
+      "path": "parts/01_compass_current/connected_review_060.0s.png",
+      "original_sha256": "25f0365338792d7b6ac19802f3987b230d9ea61ce955b6b304acb2c76c83fedc"
+    },
+    {
+      "path": "parts/01_compass_current/connected_video_check_42.0s.png",
+      "original_sha256": "7384b84bfd23159a7adb6c5f509de17824fafa516d5482a841fa0657bdcc0d21"
+    },
+    {
+      "path": "parts/01_compass_current/connected_video_check_46.0s.png",
+      "original_sha256": "a1c8f58f385c1763cb42392086ee8efc2587fb4703d2bc5059c5e84a4be34126"
+    },
+    {
+      "path": "parts/01_compass_current/connected_video_check_50.0s.png",
+      "original_sha256": "3ee3aa2b38c30c6cf4c2bd31e49bde73ca90a529c3d0cf7fbd9e9a530c735b85"
+    },
+    {
+      "path": "parts/01_compass_current/connected_video_check_60.0s.png",
+      "original_sha256": "2659219e6b4aeb3f302bff77a402a9d9b8e2256ab4de4cee81031619f63bea44"
+    },
+    {
+      "path": "parts/01_compass_current/dial-projection.json",
+      "original_sha256": "f9b8a03403237ef8e8e79e51210395f7307b5b9c9e53a3c0c8548e393754012b"
+    },
+    {
+      "path": "parts/01_compass_current/dial-visibility-validation.json",
+      "original_sha256": "a2d7e1f63e37ae928db2480d4ecf5b471bd669ac0609fcfa67f1f672ea65d8cd"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_000.0s.png",
+      "original_sha256": "14311f50bd335c1335ee855a2297c476a3831ce38cc512921edca6376ee33ba8"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_005.2s.png",
+      "original_sha256": "4f3b0238601b5e27a04725ec5100480dd69c8c7139dc75e369d542dfb8e741bb"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_009.5s.png",
+      "original_sha256": "0fb4d42851d5ada2f81848e189315da9165177da11ba2bc6757a8e176d24663e"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_015.0s.png",
+      "original_sha256": "ae1b3e81166fa9d4747257b695d2ac1888070c3e4811d8ff9ee2cc4d0f4301e1"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_028.5s.png",
+      "original_sha256": "7f48741b460681aef58e398f5c4d97067d9b5452a327b5316f0bed9ae4e609fb"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_037.0s.png",
+      "original_sha256": "c960107e9c4e1f1b53445e23016d895184856b0a20dabe4c1ea3613a42e95589"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_042.0s.png",
+      "original_sha256": "43cf479eb599654188a05c5be862f1f4701ff376d00453af6cca58aff582cfb3"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_050.0s.png",
+      "original_sha256": "a5d8a8bf5f8d88d7b8157cf7471e4eaddfc651ccff2a8afe459d99e689bfe005"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_060.0s.png",
+      "original_sha256": "f6fc03d43e3cac5692ac3e76ad79ce4c6da46d5660c500349d4949aa23e0cc30"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_068.0s.png",
+      "original_sha256": "ffe46ed8f41e22dc7b26aea2da5066265139b501035f00649bd3541da9637f92"
+    },
+    {
+      "path": "parts/01_compass_current/encoded_review_075.5s.png",
+      "original_sha256": "1cc4a5adfa90fcc04966256c4973f2392840832f4dffef106a7fee2048cb9994"
+    },
+    {
+      "path": "parts/01_compass_current/final_encoded_00.00s.png",
+      "original_sha256": "a01cfa26957a3cc3bab98e6d70b5ebf7ef0de5fc184a1979f6ced0a215f48a7b"
+    },
+    {
+      "path": "parts/01_compass_current/final_encoded_04.75s.png",
+      "original_sha256": "664dc5af5595d4241bf5af6a4b37f8d68a96fd4b0c98a903fd94498fa8558c37"
+    },
+    {
+      "path": "parts/01_compass_current/final_encoded_05.25s.png",
+      "original_sha256": "dabaaca5bb156342b5447067743411b927a6bda21dad9640b460d353a0b174ca"
+    },
+    {
+      "path": "parts/01_compass_current/final_encoded_12.00s.png",
+      "original_sha256": "6c194e988c9b9cfd05336ff0f4fbbde27435d875e2fe702ad1a06f1887a9fa9c"
+    },
+    {
+      "path": "parts/01_compass_current/final_encoded_31.00s.png",
+      "original_sha256": "db58c692cd4aef6dad546799abca18cfead33ca827c103b5693dc11ed3f3ff22"
+    },
+    {
+      "path": "parts/01_compass_current/final_encoded_37.00s.png",
+      "original_sha256": "faaf3ac13409f20ed7f66b75c54b5197b01b4f54cf5c4d5eb4117ddfe9651ba3"
+    },
+    {
+      "path": "parts/01_compass_current/final_encoded_50.00s.png",
+      "original_sha256": "11ef763121596b0424d8577e626f5204bbbbed9831f229e1e1f99e2cec4236a6"
+    },
+    {
+      "path": "parts/01_compass_current/final_encoded_60.00s.png",
+      "original_sha256": "8551ea1258e67b6db6afe152bec8de07f8d4fea11131bb2801fe88b157ae5595"
+    },
+    {
+      "path": "parts/01_compass_current/final_encoded_65.75s.png",
+      "original_sha256": "324f3a2dfe4d7a1638b198f07c8e8e0f8fe87b81d4b7410ef9494b817ddd8013"
+    },
+    {
+      "path": "parts/01_compass_current/highlight_battery.png",
+      "original_sha256": "734047a5120319f7a61fc853f70289f6014da09bd9d7e6a8ae73f034b6fb3089"
+    },
+    {
+      "path": "parts/01_compass_current/highlight_copper_wire.png",
+      "original_sha256": "a09d6b11d06d65d7f1b25e795bdd8d9214ce7b8cde138f534c8a611c83c7ddd8"
+    },
+    {
+      "path": "parts/01_compass_current/highlight_resistor.png",
+      "original_sha256": "7068ac180f8467e977b871834e24caa7623ff9dcf1d94a8a3b1e610a747e8ce3"
+    },
+    {
+      "path": "parts/01_compass_current/highlight_series_ammeter.png",
+      "original_sha256": "8b92092719a4cf483a20af268410be5c872fd1dc4d0ab8494ee7b65facb480e3"
+    },
+    {
+      "path": "parts/01_compass_current/highlight_switch.png",
+      "original_sha256": "cea30b1069d1a97c42bd80c808b3473fd9652d2fdc4f8cb8aed4612a6820daca"
+    },
+    {
+      "path": "parts/01_compass_current/narration-video-stream-check.json",
+      "original_sha256": "993e359ac493d60d88c8cfb6527f959ff8628178a2b6f0248da5360c273ebb44"
+    },
+    {
+      "path": "parts/01_compass_current/opening-preview-validation-segment-000.0-015.0.json",
+      "original_sha256": "575c51ba5c290a389eaa1262162a12b6774625791b8187dc52f763765b771e8c"
+    },
+    {
+      "path": "parts/01_compass_current/opening-preview-validation.json",
+      "original_sha256": "208775f73d1993b1164fddb1e88af6593600052ed2da1c6c3f61705c57f887d7"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass.blend",
+      "original_sha256": "b13de17c313a330638c2d6525f1c2d62f7f3e22ea7222843e17be54d8af2f730"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_draft_4fps.mp4",
+      "original_sha256": "cafc72564d06800e2fac563cfb4fd1f1b604af444da6e45eb019f68cb687bc70"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_narrated_720p.mp4",
+      "original_sha256": "cf9ac5f4a57678eada724182df952b438929ad5ffe38a2cc0a587e377206f0b8"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_preview.mp4",
+      "original_sha256": "b971948a560b17cde19b5865f2cb3c8ab71ccf56dc8942ddcc989f9a6a84b98a"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_previous_narrated_76s.mp4",
+      "original_sha256": "1653b336615876ad102865a0e1b2b94cb165cd351e9bd5fba6b9d18a6b4d11de"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_previous_review_720p.mp4",
+      "original_sha256": "f356795b8289aa6426a4dc50e5c89c88dcb50ba51d90e12dc6398860f71b95d2"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_review_720p.mp4",
+      "original_sha256": "519ae80bc6fa6b7a74d0a78b60d3373921b02570b628bd202637adcba24a7cab"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_tutor.blend",
+      "original_sha256": "f177ebd25f4bd62ff1ee84da2ef3894e1af788de11180d003096695fc0a8b4fb"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_tutor_review_720p.mp4",
+      "original_sha256": "10f836473092a631c97793471c860cc773424383854b06e6001c4f180ff35d23"
+    },
+    {
+      "path": "parts/01_compass_current/opening_board_circuit_720p.png",
+      "original_sha256": "eb16e7263db52304b749d11079491ab24f44eb602b9c24b75f6db82660b9a2e0"
+    },
+    {
+      "path": "parts/01_compass_current/opening_preview.mp4",
+      "original_sha256": "a9a6192d189ec30101938ab4aa302fa639ca0a4c95b182bfa9cee1ad3367d060"
+    },
+    {
+      "path": "parts/01_compass_current/opening_review_000.0s.png",
+      "original_sha256": "94ffa48421bc092f45afa4c216ddb1cbe64abc99de139db19fcc8a5d9bdb13d4"
+    },
+    {
+      "path": "parts/01_compass_current/opening_review_005.2s.png",
+      "original_sha256": "e0644a364fa5a95ff468106d3524303c35ce20645641a45a3c45bcffaf468054"
+    },
+    {
+      "path": "parts/01_compass_current/opening_review_012.0s.png",
+      "original_sha256": "275a4053d55d63e521988e8fe9069ae3c06fb16fb0de1cc41b086f0eace42356"
+    },
+    {
+      "path": "parts/01_compass_current/opening_review_029.0s.png",
+      "original_sha256": "765504cfaf0a8aa983ea015d72acb36db9005a96d9cc64f3d89937e09812b9f5"
+    },
+    {
+      "path": "parts/01_compass_current/opening_review_037.0s.png",
+      "original_sha256": "e0268bfd59a74acc97c32d25a6f29f75f15dbac442ac036ff61a20813eb5d816"
+    },
+    {
+      "path": "parts/01_compass_current/opening_segment_000.0-015.0_preview.mp4",
+      "original_sha256": "3fb3be89dc15cec3e53ae21fc03fcd8dcb00a31c8666fc2e3de7d5d9f419b779"
+    },
+    {
+      "path": "parts/01_compass_current/opening_video_check_04.8s.png",
+      "original_sha256": "940194d36aaf4a44af9472bd3b1f6f8fa030e15d2f9dbf5bd5e9d3d21b65c4e0"
+    },
+    {
+      "path": "parts/01_compass_current/opening_video_check_12.0s.png",
+      "original_sha256": "e5764c1a6d49d9a126778165b6deb7c83a29953d479bbac8dcae48d3735f2db2"
+    },
+    {
+      "path": "parts/01_compass_current/opening_video_check_29.2s.png",
+      "original_sha256": "3c8ce3628a861c0ea79c9b9c448ad306863fa15de293868e84d6c5e6be99c587"
+    },
+    {
+      "path": "parts/01_compass_current/opening_video_check_41.9s.png",
+      "original_sha256": "299a12ceff04a1b84e0a69f1a74c3bf3fa3bf75bf304d3677add8866e9a30c7d"
+    },
+    {
+      "path": "parts/01_compass_current/persistent_circles_720p.png",
+      "original_sha256": "e93d47be8486ba9e5b151b55b4839f46bc915db540536dc37738174c77900f84"
+    },
+    {
+      "path": "parts/01_compass_current/preview-validation-6fps-segment-008.0-018.0.json",
+      "original_sha256": "abe4977ae480357bb611b0080dbd826b4853bda3f4836c331ae1e4f71005c508"
+    },
+    {
+      "path": "parts/01_compass_current/preview-validation.json",
+      "original_sha256": "228dcffc59a7d6291eac435768e352209e053f4ede39907e69bdcddae9ac8d54"
+    },
+    {
+      "path": "parts/01_compass_current/reading_050A_720p.png",
+      "original_sha256": "bf5f20eb7843389c60ae13ecdf9463584ccb630678505d73f728999ac45f5008"
+    },
+    {
+      "path": "parts/01_compass_current/reading_100A_720p.png",
+      "original_sha256": "57779503ae4f9a928d22df27681af2399f49a770b4f932f5e03a1b0d5c827ab0"
+    },
+    {
+      "path": "parts/01_compass_current/review_000.0s.png",
+      "original_sha256": "df97d5e1f723c6ae8995b7aa248f046648721cc7f95e0f565dd56ba6cd64792d"
+    },
+    {
+      "path": "parts/01_compass_current/review_002.0s.png",
+      "original_sha256": "0d02c8b8dea3b15b4b3b28f55e37027e263c08aa2c4f95ecf1139e84b975a5b5"
+    },
+    {
+      "path": "parts/01_compass_current/review_003.0s.png",
+      "original_sha256": "1d13363c53a8d1967f0a98d9917d00fbd1cdfa14cc4c75c793228c8162cbf51a"
+    },
+    {
+      "path": "parts/01_compass_current/review_004.0s.png",
+      "original_sha256": "c9e18df997ca1e5803214d076eadc0d1aea700269cc1b250012b3d412b68e994"
+    },
+    {
+      "path": "parts/01_compass_current/review_008.0s.png",
+      "original_sha256": "56d54d5c93cbacc97a1c7af8b95d62474d740ee645096c84541b2a31f623f017"
+    },
+    {
+      "path": "parts/01_compass_current/review_011.0s.png",
+      "original_sha256": "89608eb0b6a7e78702bd15d70db221793e1d9cba37d04a93dc24494403766d61"
+    },
+    {
+      "path": "parts/01_compass_current/review_018.0s.png",
+      "original_sha256": "d0d52b20729652bcb031797beede6812b0652ce132553d5a80a87e551a22303f"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_000.0s.png",
+      "original_sha256": "0b20a31ea79270f38df6c45274c403e916e2cf85c592ae412b19faa9af2e991b"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_003.0s.png",
+      "original_sha256": "e843a2ba1f9975a486113ff958d43509e389491f8c6e05d5ed63ef06a471e6e0"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_007.0s.png",
+      "original_sha256": "b419d77f0339ce2db96ff29ee1562dfd2ef346e568dbf7d1d761699f2c5c31fb"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_011.5s.png",
+      "original_sha256": "bcfdf044505519585f3cedd9757b17b4ba860218c006faa5b80b1218f7904f3c"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_014.5s.png",
+      "original_sha256": "004e669cad00422ec71ff1275ff2d282085c58d1a0980aa375713794bd567663"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_021.5s.png",
+      "original_sha256": "c09be822a548310809fda53ca1227f8e62588c5ca2243e5efa51dc3616f6a1e0"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_022.5s.png",
+      "original_sha256": "c222f441ab4d6261b26835b60804ef9fc106db59cd900095ff5ee4a21127d0f1"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_032.0s.png",
+      "original_sha256": "28a867ade68f32e0f15d3d9cc99121f07a4acfab0c4ea35631ec6b961b4d6074"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_037.0s.png",
+      "original_sha256": "e13be05830528d31781efb5a332c595a8f0936d3246a01c684d468b53290c520"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_042.0s.png",
+      "original_sha256": "5fb25887f4b3b8d68621c03c2c4cc33ef7faede4c5527000b7b91dd4465993b4"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_044.0s.png",
+      "original_sha256": "1e6f395505ec670839ede5ec09e61bc1564500c28c92196dd092abe99e45e721"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_050.0s.png",
+      "original_sha256": "2d5408f805cd3f3b4dd2748280f4f0d9d385241aebd437b3880d4269c55dc6d6"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_060.0s.png",
+      "original_sha256": "ee2693a8ac42aa7c697043e5366368110b3f3f79a96eb3886c335756ca39f564"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_066.5s.png",
+      "original_sha256": "2cd334891d5ecaec7c0864fa40fbd7810b9765dacbe0b369f4fa238306ad8ba4"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_067.0s.png",
+      "original_sha256": "19753cef96c6927afddb57d07f734ac14807b4cb29181a2f96366596ec04e007"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_068.0s.png",
+      "original_sha256": "1df5906f568c51594786d63bd135572e2d1ac3c4abe45ae9589beadb67409f8f"
+    },
+    {
+      "path": "parts/01_compass_current/revised_encoded_075.5s.png",
+      "original_sha256": "535a16bb17402523515ab56a8dcec3c2e5e0b65b04e774c31e26acf35375acea"
+    },
+    {
+      "path": "parts/01_compass_current/slow_approach_720p.png",
+      "original_sha256": "d86affe93c6bf6356d05c459cac2b561368027b88510776d81ed0301998e128e"
+    },
+    {
+      "path": "parts/01_compass_current/summary_board_720p.png",
+      "original_sha256": "11dcaf98f0f0b2610794e86391713661feaf7767117a8c40b92f728acfcc6238"
+    },
+    {
+      "path": "parts/01_compass_current/summary_return_720p.png",
+      "original_sha256": "2a24422e1359b68f35a77f58f5469363b94cb54ee3bec135ee285539ec5a5b4c"
+    },
+    {
+      "path": "parts/01_compass_current/tutor-render.json",
+      "original_sha256": "15d9acde86e1b949173601996103815915e39fc2721ffae1a490b1eeb67751b1"
+    },
+    {
+      "path": "parts/01_compass_current/tutor-scene-verification.json",
+      "original_sha256": "307b9e8076633d1a30ef3db51dd3bae0e532daaff5497efd71c451914ff65715"
+    },
+    {
+      "path": "parts/01_compass_current/video_check_00.0s.png",
+      "original_sha256": "8f98e21f0ae9650e4f5b0aebfd51115203ed9c05a835c1f1dbea17bfd7ac85d3"
+    },
+    {
+      "path": "parts/01_compass_current/video_check_04.5s.png",
+      "original_sha256": "2987be9d41ff6a52b999a4e9d810c2153c87bfbe2dcc792e55823e9e50664957"
+    },
+    {
+      "path": "parts/01_compass_current/video_check_08.0s.png",
+      "original_sha256": "e2c029d632f1861ef8c987a7878e89a564161dfc04dd558191057d17779fbd7d"
+    },
+    {
+      "path": "parts/01_compass_current/video_check_11.0s.png",
+      "original_sha256": "7ebf97ffe9765a24cabcccdb8e36cc78e936322d80e3854b2e216ea50f646279"
+    },
+    {
+      "path": "parts/01_compass_current/video_check_14.8s.png",
+      "original_sha256": "16c05709fa482a4873884ea2ee4874d732574444c97dcd277cd10c42b40f1fe3"
+    },
+    {
+      "path": "parts/01_compass_current/video_check_18.0s.png",
+      "original_sha256": "55d44f57dd9ffd15cc219bede21c0dedfd72d633fc6210b2fa0ab675b566a28e"
+    },
+    {
+      "path": "parts/01_compass_current/video_check_23.0s.png",
+      "original_sha256": "22f3c1e791fd5f8a0ef7688bdb563caf5c2e86389fddde6a2480372c9fa1be49"
+    },
+    {
+      "path": "parts/01_compass_current/wide_ammeter_720p.png",
+      "original_sha256": "4d43fb7bfd121cd7f96b0152b636bfd4d51fa97d5b58cdf2a9294ca381baaa1b"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal.blend",
+      "original_sha256": "6caa8c9ddceccf13423e180564ed7c8bff29bc3ae2e47665831e04416758fb73"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_board_fix_6fps.mp4",
+      "original_sha256": "67c296a0ec952cec5e2e6d26167eedcc7704b51499a89e1bb9df03d52301c7dd"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_cropped_winding.blend",
+      "original_sha256": "da684e3ef562524ddbc58a50b035f569cf5f77ff3cc544651cb7febedd40786c"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_cropped_winding_6fps.mp4",
+      "original_sha256": "e7e542779dca34f1bbab2496f9c7233b0733ef6ff2ce549fef63360eecc8d8b7"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_extended_experiments.blend",
+      "original_sha256": "85a33545f43124192fcd785c3ccad78fd6991d1184b0ead79ced8e1d680955e3"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_extended_experiments.mp4",
+      "original_sha256": "f0af04dc86bcf663705f36ee7de8857edf06d7e22744bfa3d2d69bad38ec71e4"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_field_spacing_revision.blend",
+      "original_sha256": "805e79b8cc2762e25d0be863982448a2973e68dce1600144dec60594fc4b1551"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_upper_guides.blend",
+      "original_sha256": "76017009fe98cf25ed4d474bb8b5f8529cd55dd3d34789679f425ac1911a327b"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_upper_guides_draft_6fps.mp4",
+      "original_sha256": "83bcc30ef6db1cafe0b8f1cbc03bd650f58d7d767ebdd34fa0252d77275811ba"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_draft_6fps.mp4",
+      "original_sha256": "fc4357a5ea3e7bd17819d4d7d6ffb0db5f64643a48bfc92289f8459051f89ca1"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_draft_6fps_before_field_spacing_revision.mp4",
+      "original_sha256": "dd15bf97f9bcd6146161ad7ac09698b96a2060c8acd0d26e3a72a48068395108"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_field_revision_6fps.mp4",
+      "original_sha256": "fc4357a5ea3e7bd17819d4d7d6ffb0db5f64643a48bfc92289f8459051f89ca1"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_fixed_length_before_field_fade_6fps.mp4",
+      "original_sha256": "40e29b2daec92f7b0f8d140297e15336b294a9f09e1d4f77fff7cb9ed269b378"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_segment_000.0-023.0_draft_6fps.mp4",
+      "original_sha256": "156e3c858abf23ae4617795cade9952574fd062c35afd78f5d4b74a6279cb0ec"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_segment_017.0-020.0_draft_6fps.mp4",
+      "original_sha256": "7851baae4caced4f65fd4e890c88027820117abf23d38f48eef39ae8fadc2c41"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_segment_017.0-023.0_draft_6fps.mp4",
+      "original_sha256": "5c254c9d148590feb4ea4203c0187d5903a37efb4233ef1ef3cbb5377e464560"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_segment_040.5-048.0_draft_6fps.mp4",
+      "original_sha256": "d48e4e1243edc13e348434502d3a4d38cb4d68b50c2cf0afe86826385132b62b"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_00s.png",
+      "original_sha256": "dc1cd39ec24afb51ad9660ac0f408fad607f0c9fee6d60a8d9e0555e6a21a8a3"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_014s.png",
+      "original_sha256": "adaa45d0e50488860e78ddaccb4a815e78983f2d399e9a8474d91501575369f5"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_019s.png",
+      "original_sha256": "80cfec360c71f449d4b44890cf3823308bf80e7bd08a47f3a2a742c20d336e3a"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_026s.png",
+      "original_sha256": "807f10d2f250c767c5f26e5888c5b94b95ed54e019932fe85798a35527502a22"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_042s.png",
+      "original_sha256": "1a01db93b88673851e455534d930bb0f99c55ddd0f49695f8332e82c4b5ea642"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_061s.png",
+      "original_sha256": "39cf8be75408aa19eee187af36443fac210f7e0d16b59468e14c389dc6d1516a"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_075s.png",
+      "original_sha256": "dd2f0be367a945b4dfafa812b33cae7d3403b0e0d0072e24fa47be69fa2cab21"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_07s.png",
+      "original_sha256": "548d10ebc4e7f77740eb0c57253659c55f9b88f729f3adf32c210175272220ba"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_086s.png",
+      "original_sha256": "2f1f169c6ce737d0be1eab8fbeba02ec96c0148683d63841c01bac269aa98ee6"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_108s.png",
+      "original_sha256": "f7140b4af4f7c558a5d3b77108e732161ac885a575deed954525ef23d6cb557e"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_113s.png",
+      "original_sha256": "d4abca2683a1d570273a48c681bcc081379bd57c4728ddb91f067f8661f5a1b4"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_120s.png",
+      "original_sha256": "02fce79294e241e70441d2396fcab912e24fa39a68e2e6886cea7bb663a30458"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_12s.png",
+      "original_sha256": "d87eb818777b3c3f24fee30348eb2516dd83f6ef7488a862b1d40f22611954d6"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_146s.png",
+      "original_sha256": "8f3c995ebabcb3c7c3ac8ff56aab361acab3ffabe619fea852601f594bd8efb1"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_17s.png",
+      "original_sha256": "e6e5e3bbddab37d8fbbe7d3c6b9bdc65b9122a916b60370a479558e1a8a8ae9d"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_19s.png",
+      "original_sha256": "dd234e92fe5f6978672057c3106ada8e82b9d0f6beed37ba50691078f553a6d3"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_20s.png",
+      "original_sha256": "ea52a39fffd78bb26c3320dbec1021d9f3fe0ca676e8b91fa0a34a74e0cab99c"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_21s.png",
+      "original_sha256": "99512af42ce3ed83e19781a4d9653bfe85e55c1eb486331335c6ae806bff9448"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_23s.png",
+      "original_sha256": "90d0e2bce9ac2a9b9879a073e0840209d61a9c8503bf462648195150a0f227c3"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_29s.png",
+      "original_sha256": "36f6a7750c3f3fdf5db848332d6f426622c7bf5f7184508a8dbc35402c6c1498"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_39s.png",
+      "original_sha256": "b6b2819d8bfeac30759802c181c91525cc354686e65a1401674151843ac1ece9"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_45s.png",
+      "original_sha256": "d7aa402dc38c725098be222c949c49f217b4f533adc54a1816bd2fac857f42bd"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_review_000.0s.png",
+      "original_sha256": "dbbb9b379417ad52689e1757c36519d56cdeae543bdd5e69a66a4c0a5fbbe81f"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_review_008.0s.png",
+      "original_sha256": "8326052449c96e155fe5e91a27b61fd40b14a477d086f021d13676d67777cf9e"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_review_016.0s.png",
+      "original_sha256": "b6b0f1417f07b7d6a65950b72c1fefec70cb615a0c6ddf7ceca9df28be7131cb"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_review_018.0s.png",
+      "original_sha256": "0b61640070135390d1ec72c1bcaffe32cde927ec3813d9b4c5ab0bc44285cf0a"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_review_023.5s.png",
+      "original_sha256": "10399eeb36f75d93e14867aec9cc4af8b81d09f4a78876405105e5e70d45f40a"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_review_026.0s.png",
+      "original_sha256": "3c4708351b685e8c2ed2b2ead7f09f910a60611a86309431b95f52f772b24193"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_014.0s.png",
+      "original_sha256": "edbaaa7acb74bee76231536af21b678ddaa825f8d7979e6f92088cded50d88e4"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_019.0s.png",
+      "original_sha256": "624215e9a307e4f0168844fbfb19ee16df9ae17df4f79fa1c8d4ed36ad8a9fdf"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_026.0s.png",
+      "original_sha256": "ab1b7a143687c39fdfa1127ab1b3d94e2e0a26b9f4883ec5ff5086f0e38810e8"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_042.0s.png",
+      "original_sha256": "e4f4393c1156e75538550b8e131581a06df3db862cad1aa7d6f95400e7373411"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_061.0s.png",
+      "original_sha256": "b771528c92cee729a7cd702cf7320e2d29b8c9d46c7bf13eb5af5e009e6121ef"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_075.0s.png",
+      "original_sha256": "d76bf6daeb95a1aa8d89c9350158d9277f0865cff7e3c429876dcc81a6230119"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_081.0s.png",
+      "original_sha256": "d95290ad69ac3201478950e29207f3007839f083ea727deee1940d2eff9935c6"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_086.0s.png",
+      "original_sha256": "ec414a6e31f634c692a553a508db8c87c8253e17d37184256252044ab9807b3c"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_093.0s.png",
+      "original_sha256": "a03bcf29f9341d78584243620123ffe37870f0064b8473a20e7ad9c120313187"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_108.0s.png",
+      "original_sha256": "313bef5747e27701292eddf82e70681bcf81449f5290f28ea795bbdd929340ea"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_112.5s.png",
+      "original_sha256": "2470cfbdee6a695bed20c5693c0e022015723c5a0e8d66e415bc81ce3153d876"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_113.5s.png",
+      "original_sha256": "e09799d43eee549b9a539b5d70e53ada08f25a4f11c241975fd9744961e3f24e"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_120.0s.png",
+      "original_sha256": "ce6be897f8a0cf11346b8481fb37f03d75ad28b4f8e044280b94b33a992af717"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_125.0s.png",
+      "original_sha256": "5dafd51d50cfdfc353739807fd1c0747d05414d40701aacee7df46d27a4cd606"
+    },
+    {
+      "path": "parts/02_coil_reversal/encoded_revised_135.8s.png",
+      "original_sha256": "38fa3ad8ff5214b56123516097a3105ab0eb272d0818093afd248b9d8b51dc5a"
+    },
+    {
+      "path": "parts/02_coil_reversal/extended-render.json",
+      "original_sha256": "c000a474fac09db7400fbac34b8997cebd922ef4bec0b9a882977644d10c4ebf"
+    },
+    {
+      "path": "parts/02_coil_reversal/extended-render_before_field_spacing_revision.json",
+      "original_sha256": "b4b9ba0c86cc1e3503ba86e98f7f7db68f808a85f685d176a5b5b2433928ace6"
+    },
+    {
+      "path": "parts/02_coil_reversal/final_encoded_18.00s.png",
+      "original_sha256": "f911a34e0e66200465ec7b63596d364bade8e72cd47a1c00b633f759a495f8cf"
+    },
+    {
+      "path": "parts/02_coil_reversal/final_encoded_26.00s.png",
+      "original_sha256": "c0734cec19efc6acc3b3f212011286f5ef9198af6afdaf65bcd45f89c1e2c8d6"
+    },
+    {
+      "path": "parts/02_coil_reversal/preview-validation-6fps-segment-000.0-023.0.json",
+      "original_sha256": "ce84a34268441a5f7176d3427d6b3aff5f92ef0493b4979f28a838d41f020237"
+    },
+    {
+      "path": "parts/02_coil_reversal/preview-validation-6fps-segment-017.0-023.0.json",
+      "original_sha256": "43c913293eddaaafd699183c6ab248dda3d74eca98aecf54e2a6a91dda1e9529"
+    },
+    {
+      "path": "parts/02_coil_reversal/preview-validation-6fps.json",
+      "original_sha256": "c440f0edf9432131af9dc6469826391b2a8bab695cd2d5c10005bb95c8394179"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_000.0s.png",
+      "original_sha256": "9ca722b2060163be80a4762673ccfad1ab7acc6fc4a34c764561c9277b57ef2a"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_007.0s.png",
+      "original_sha256": "b31e522da98eaae4c13a8bd9f78bccdd9b3982b44bf65f3998ec1b5691248dc3"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_008.0s.png",
+      "original_sha256": "a45019e718404a1913f3934a242469913e21de3b06758598676279b4ebd68003"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_012.0s.png",
+      "original_sha256": "cbce7c9e0fcc44ea92e7a82f340fb8fbd5400852cc8a170392492011d733d252"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_014.0s.png",
+      "original_sha256": "0a0021aa7f2d3bfb85560014ca90dd257fc9e28495371b3503903519d2c4a8fa"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_016.0s.png",
+      "original_sha256": "e7b289138a9751278aac14cbee74ff5d5563475638788bb9142007b00f5ca619"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_017.0s.png",
+      "original_sha256": "4f7574d895708e4935f65e573271344e4868d8951d4805c31e5f63227fc7423c"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_018.0s.png",
+      "original_sha256": "d37e35f1a83f0648129092f5b7b983439a1ac328fff9e84b8447eba2509c9460"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_019.0s.png",
+      "original_sha256": "0c7341998a91281e19af6021b6729747a6044ecfb79132713936092c229a7267"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_020.0s.png",
+      "original_sha256": "dc73636bd556ff45cc7bedd112dbc9071fdff507f4f398d47983522ee379fba6"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_021.0s.png",
+      "original_sha256": "940fd6e55d9e4feb1defa8d1018b259ccfe498bc5ffd82c298b955f828ea4ef4"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_023.5s.png",
+      "original_sha256": "c82d1111ccbcf12139fbb05ffc2cdbaf9c527e5f0fd0200329cc25ff15763474"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_026.0s.png",
+      "original_sha256": "af1dbe43471035d8a90da11052ed2d801a4a5c5f059122a8cf5e7ee4ac7c079c"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_029.0s.png",
+      "original_sha256": "5df29de6527a52933438f47ea9d194a9259f9e97bd4d6d9b735fd0c030fa8b26"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_039.0s.png",
+      "original_sha256": "cdba73153659617b84164d0b887560d9c64441fc5159642a42765f408afd6556"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_042.0s.png",
+      "original_sha256": "deca0c14d846a21573842426005fcb4b9526f99487054a7acdecd24ea8cc5ffb"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_045.0s.png",
+      "original_sha256": "221453103af01c1c65850f5ab93d864298656a37b1c60fa08df2ce4b9800c977"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_061.0s.png",
+      "original_sha256": "07f72406726fed3f99d86484f54449809345c2219d8ebab01577f1b24561129d"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_075.0s.png",
+      "original_sha256": "0255d062c25aa0b0bbe579901136a3e4c1ee1139a86f33adccca234b5202fdfd"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_086.0s.png",
+      "original_sha256": "b58a31c06aa3425f119febbab821deebf181371db3b0aa0ec6173838fcdb9ac5"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_093.0s.png",
+      "original_sha256": "42413ea30d71c50a037b9ad97fad44db2e5a2a55da470b4bb8152fbbd64172f2"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_108.0s.png",
+      "original_sha256": "516b289ad4a750dedc4e56dd48a76ea95ea349fb4c7c3c257975940d3bc4964b"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_113.0s.png",
+      "original_sha256": "5689d848fbdd4b16ba6fd1fe28058f55bdf38884ce12526014766ebda68cbbb3"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_113.2s.png",
+      "original_sha256": "5303541bc417191cc80e3513c2e4f0b0537b0b884b5276bbec692f837a46db15"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_120.0s.png",
+      "original_sha256": "1ac29c1acb88fac97d27c3aef6477906d9e8ab81bf27a8f0f649ce30858063d9"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_125.0s.png",
+      "original_sha256": "8d19ba74f92637418e3a9de4538ccecdec095e69d895798fd8dbce2c030ef885"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_128.0s.png",
+      "original_sha256": "3cf8a1ec8c9c7f26bde99616253922d4e982027c76b7ec56af15c8b3be758447"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_135.8s.png",
+      "original_sha256": "1cdbe038d7230d8a77b036d6d97f31721112d354aa5830dc6ed6a03e1b7a9048"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_137.0s.png",
+      "original_sha256": "ab16122dfe0d69ad4e8306b908436592698d604015177ac77716843de88d0094"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_146.0s.png",
+      "original_sha256": "1718d41798ba28f2d1c6a3118b4e9493ffa61514b1b3d5b319be3ed0f9d36aaa"
+    },
+    {
+      "path": "parts/frozen_case_01/manifest.json",
+      "original_sha256": "8ff91da3849d7e9939e306cd8b76f0c838bc0b285d8a42b976be92464a33a76f"
+    },
+    {
+      "path": "parts/frozen_case_01/narration.json",
+      "original_sha256": "00d1fc6a449b7b6abd9a1cf22447b51e2e2ee90d4088497fa160533d44396545"
+    },
+    {
+      "path": "parts/frozen_case_01/opening_and_compass_narrated_720p.mp4",
+      "original_sha256": "cf9ac5f4a57678eada724182df952b438929ad5ffe38a2cc0a587e377206f0b8"
+    },
+    {
+      "path": "parts/frozen_case_01/opening_and_compass_tutor.blend",
+      "original_sha256": "f177ebd25f4bd62ff1ee84da2ef3894e1af788de11180d003096695fc0a8b4fb"
+    },
+    {
+      "path": "questions.json",
+      "original_sha256": "d0304566dead93dd78a4b3644e6972b008f5c9f15e37420cd2eafd8feddc2f54"
+    },
+    {
+      "path": "share/electromagnetism.h5p",
+      "original_sha256": "53cfa78e0f397ae1db6faad5e626d3adad9c84f0cd912ddcd17b30293aba8192"
+    },
+    {
+      "path": "video/eevee_probe_0001.png",
+      "original_sha256": "2a0f7dd4d60db188155d068eca404fd9716f3da9d76dc9bd7797a84773e9d96c"
+    },
+    {
+      "path": "video/eevee_probe_0276.png",
+      "original_sha256": "64b48354f4dba58fbff42c8f0998b6e8b77f0cfcfecd06a33fb54f36aa05cc5c"
+    },
+    {
+      "path": "video/eevee_probe_0300.png",
+      "original_sha256": "b20c24b9b75f5bcca54e71e38579d04dca1ddb33880b8f9799c3c853c9b8b317"
+    },
+    {
+      "path": "video/eevee_probe_0642.png",
+      "original_sha256": "97bd61ea9646d7a58955401596576004a20b496f13c5f7ecdf4fa24c68403da1"
+    },
+    {
+      "path": "video/eevee_probe_1437.png",
+      "original_sha256": "310836b1f29061d40f9c31397a7046a3cd70e542cd4e6d4aa92b6c1b3128c750"
+    },
+    {
+      "path": "video/eevee_probe_1650.png",
+      "original_sha256": "a4f0eeec956b00d69ab789fb41aa677c15a0f7baf31d911fbdfd2a1d5342d054"
+    },
+    {
+      "path": "video/eevee_probe_1654.png",
+      "original_sha256": "a9cabdbcac0ec7b7d2098ba8ad422c0fb8f9f89e47f3e9d79aa938177bca3f61"
+    },
+    {
+      "path": "video/electromagnetism.mp4",
+      "original_sha256": "7163aa9f95843ecb08c2bc190f421b6ff273ce53422e799a9de6b55b94526d5d"
+    },
+    {
+      "path": "web-captions.json",
+      "original_sha256": "d7c902383a9d1872c621df102798a3a9b4c859d5763087aab705480e878b8b9f"
+    }
+  ],
+  "blender_jobs": [
+    {
+      "path": "electromagnetism_intro.blend",
+      "original_sha256": "6cf7c73310746c910c14adbb17a91beb33627d82ce1b399e3447da8e3af3fbcc"
+    },
+    {
+      "path": "parts/01_compass_current/compass_current.blend",
+      "original_sha256": "795e97a87b895fe4b45d9f851f28fd18052d7af2908a05fb10020992fe6444d1"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass.blend",
+      "original_sha256": "b13de17c313a330638c2d6525f1c2d62f7f3e22ea7222843e17be54d8af2f730"
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_tutor.blend",
+      "original_sha256": "f177ebd25f4bd62ff1ee84da2ef3894e1af788de11180d003096695fc0a8b4fb"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal.blend",
+      "original_sha256": "6caa8c9ddceccf13423e180564ed7c8bff29bc3ae2e47665831e04416758fb73"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_cropped_winding.blend",
+      "original_sha256": "da684e3ef562524ddbc58a50b035f569cf5f77ff3cc544651cb7febedd40786c"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_extended_experiments.blend",
+      "original_sha256": "85a33545f43124192fcd785c3ccad78fd6991d1184b0ead79ced8e1d680955e3"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_field_spacing_revision.blend",
+      "original_sha256": "805e79b8cc2762e25d0be863982448a2973e68dce1600144dec60594fc4b1551"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_upper_guides.blend",
+      "original_sha256": "76017009fe98cf25ed4d474bb8b5f8529cd55dd3d34789679f425ac1911a327b"
+    },
+    {
+      "path": "parts/frozen_case_01/opening_and_compass_tutor.blend",
+      "original_sha256": "f177ebd25f4bd62ff1ee84da2ef3894e1af788de11180d003096695fc0a8b4fb"
+    }
+  ]
+}

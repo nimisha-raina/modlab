@@ -1,0 +1,9 @@
+{"type": "WordBoundary", "offset": 1000000, "duration": 875000, "text": "The"}
+{"type": "WordBoundary", "offset": 1875000, "duration": 5750000, "text": "compass"}
+{"type": "WordBoundary", "offset": 7625000, "duration": 4500000, "text": "needle"}
+{"type": "WordBoundary", "offset": 12125000, "duration": 4500000, "text": "turns"}
+{"type": "WordBoundary", "offset": 18875000, "duration": 5500000, "text": "detecting"}
+{"type": "WordBoundary", "offset": 24375000, "duration": 1375000, "text": "the"}
+{"type": "WordBoundary", "offset": 25750000, "duration": 5125000, "text": "wire's"}
+{"type": "WordBoundary", "offset": 31250000, "duration": 6375000, "text": "magnetic"}
+{"type": "WordBoundary", "offset": 37625000, "duration": 4500000, "text": "field"}

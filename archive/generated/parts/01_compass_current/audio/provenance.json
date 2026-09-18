@@ -1,0 +1,73 @@
+{
+  "model": "ai4bharat/indic-parler-tts",
+  "license": "Apache-2.0",
+  "speaker": "Thoma",
+  "model_card": "https://huggingface.co/ai4bharat/indic-parler-tts",
+  "clips": {
+    "narration_00.mp3": {
+      "method": "official public demo",
+      "script_sha256": "1895784c2690700b9e16605ab365245224c4cb3e13a3710a6bc9178f2279b2d0",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_01.mp3": {
+      "method": "official public demo",
+      "script_sha256": "4a7cd43eeb232f04ba82c931fa964248293bce7b994f16e54acdc3140ef021c6",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_02.mp3": {
+      "method": "official public demo",
+      "script_sha256": "5b043c3f8d7f1e60a77f50a1e0e15bda43e603cf38495ff9407179acf441b0c5",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_03.mp3": {
+      "method": "official public demo",
+      "script_sha256": "83d3ca9dd996012e327dbbd8084504ab03ae4412b257000f284015364e2b913c",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_04.mp3": {
+      "method": "official public demo",
+      "script_sha256": "7a039f21178246d1b8669164e1029444590e0f6d8e0c36d92a0a4092e2b15396",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_05.mp3": {
+      "method": "official public demo",
+      "script_sha256": "1fb1e4dc80a35fe0ba5cac8e321c188c1c07c5a07a1cb018ed0f78acce29605b",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_06.mp3": {
+      "method": "official public demo",
+      "script_sha256": "6591b207053433c7523092855e256e5d08e5458c46e8ea9da61bd44ca82816ef",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_07.mp3": {
+      "method": "official public demo",
+      "script_sha256": "b98a6edcfb0048788db9e68a126b7eb7c2a30f837a7b99c7e47105d8e7959267",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_08.mp3": {
+      "method": "official public demo",
+      "script_sha256": "757b009dd4ce1668258085ab126d7cd9a636d5b66252d5ca5f3d37acd3ee4acd",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_09.mp3": {
+      "method": "official public demo",
+      "script_sha256": "52df6800b849fa893a2865a9b77032b6ffc3eead82be8be20a37280b1a81e26e",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_10.mp3": {
+      "method": "official public demo",
+      "script_sha256": "9baaea0cca87bb0ac50a7d0b1373a5967710c1db9b19de76f0dd1bf638123a07",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_11.mp3": {
+      "method": "official public demo",
+      "script_sha256": "a3e1848e4e7fafea7a819a7163407556dc751396dcf5a7b607888521f6667608",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    },
+    "narration_12.mp3": {
+      "method": "official public demo",
+      "script_sha256": "6509f8394363043b67ddf3f292ed3a5e415956a7545abe25587146cb37b60e1d",
+      "service": "https://huggingface.co/spaces/ai4bharat/indic-parler-tts"
+    }
+  }
+}

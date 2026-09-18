@@ -1,0 +1,100 @@
+{
+  "model": "ai4bharat/indic-parler-tts",
+  "speaker": "Thoma",
+  "description": "Thoma speaks with a clear male Indian English voice, at a slightly slow pace, in a calm and friendly teaching tone. The recording has very clear audio with no background noise.",
+  "segments": [
+    {
+      "start": 0,
+      "end": 3,
+      "text": "Can electricity make a magnet? Let's explore a circuit with a battery, copper wire, and a switch.",
+      "audio": "output/audio/narration_00.wav",
+      "speech_seconds": 6.119,
+      "target_start": 0.0,
+      "target_end": 6.958333333333333
+    },
+    {
+      "start": 3,
+      "end": 6,
+      "text": "Now, let's zoom into the copper wire. The blue dots represent electrons that are already inside it.",
+      "audio": "output/audio/narration_01.wav",
+      "speech_seconds": 6.683,
+      "target_start": 6.958333333333333,
+      "target_end": 14.458333333333334
+    },
+    {
+      "start": 6,
+      "end": 9,
+      "text": "With the switch open, electrons move randomly. Copper ions vibrate in place. There is no overall flow.",
+      "audio": "output/audio/narration_02.wav",
+      "speech_seconds": 7.244,
+      "target_start": 14.458333333333334,
+      "target_end": 22.541666666666668
+    },
+    {
+      "start": 9,
+      "end": 15,
+      "text": "Close the switch. The battery makes electrons drift. This electric current also creates a magnetic field around the wire.",
+      "audio": "output/audio/narration_03.wav",
+      "speech_seconds": 7.513,
+      "target_start": 22.541666666666668,
+      "target_end": 30.875
+    },
+    {
+      "start": 15,
+      "end": 21,
+      "text": "In the external circuit, electrons drift from the negative terminal towards the positive terminal. Here, they enter left and leave right.",
+      "audio": "output/audio/narration_04.wav",
+      "speech_seconds": 7.762,
+      "target_start": 30.875,
+      "target_end": 39.458333333333336
+    },
+    {
+      "start": 21,
+      "end": 27,
+      "text": "Let's reveal the magnetic field. These three green circles are drawing guides. Their arrows show the field's direction around the wire.",
+      "audio": "output/audio/narration_05.wav",
+      "speech_seconds": 8.259,
+      "target_start": 39.458333333333336,
+      "target_end": 48.541666666666664
+    },
+    {
+      "start": 27,
+      "end": 33,
+      "text": "As we zoom out, the current keeps flowing. The magnetic field is still present. Its guide circles remain visible.",
+      "audio": "output/audio/narration_06.wav",
+      "speech_seconds": 7.453,
+      "target_start": 48.541666666666664,
+      "target_end": 56.833333333333336
+    },
+    {
+      "start": 33,
+      "end": 38,
+      "text": "The whole circuit is connected. The tiny moving dots help us follow electron flow through the copper wire.",
+      "audio": "output/audio/narration_07.wav",
+      "speech_seconds": 6.697,
+      "target_start": 56.833333333333336,
+      "target_end": 64.33333333333333
+    },
+    {
+      "start": 38,
+      "end": 44,
+      "text": "Remember, electron flow goes from negative to positive. Conventional current is defined in the opposite direction, from positive to negative.",
+      "audio": "output/audio/narration_08.wav",
+      "speech_seconds": 8.265,
+      "target_start": 64.33333333333333,
+      "target_end": 73.41666666666667
+    },
+    {
+      "start": 44,
+      "end": 48,
+      "text": "Open the switch. The current stops, and its magnetic field disappears. Now predict: what would happen if we increased the current?",
+      "audio": "output/audio/narration_09.wav",
+      "speech_seconds": 7.833,
+      "target_start": 73.41666666666667,
+      "target_end": 82.08333333333333
+    }
+  ],
+  "fps": 24,
+  "duration": 82.08333333333333,
+  "frames": 1970
+}

@@ -1,0 +1,15 @@
+{
+  "case": 1,
+  "status": "frozen",
+  "duration_seconds": 86,
+  "fps": 12,
+  "files_sha256": {
+    "opening_and_compass_narrated_720p.mp4": "cf9ac5f4a57678eada724182df952b438929ad5ffe38a2cc0a587e377206f0b8",
+    "opening_and_compass_tutor.blend": "f9cbbd61044ca12e68439605c17995000d4ff5a3082630f36cd24158364ffa45"
+  },
+  "original_files_sha256": {
+    "opening_and_compass_narrated_720p.mp4": "cf9ac5f4a57678eada724182df952b438929ad5ffe38a2cc0a587e377206f0b8",
+    "opening_and_compass_tutor.blend": "f177ebd25f4bd62ff1ee84da2ef3894e1af788de11180d003096695fc0a8b4fb"
+  },
+  "packaging": "Portable packed scenes; approved geometry and animation unchanged. Exact original scenes remain in the private local snapshot."
+}
