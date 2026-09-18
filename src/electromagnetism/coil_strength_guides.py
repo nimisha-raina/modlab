@@ -17,18 +17,20 @@ def build(scene, mats, group, dense_traces, core_traces):
         material,opacity = fading_material(mats["ink_mint"],"EM / "+phase+" strength guides")
         objects = []
         for slot,index in enumerate(indices):
-            for plane in (0,math.pi):
+            planes = ((math.pi/10, math.pi/2) if phase == "dense" else
+                      (math.pi/5, math.pi/2, 4*math.pi/5))
+            for plane in planes:
                 if phase == "dense":
                     obj = morph.tube("Additional coil field | dense",
                         {"Basis":world_points(dense_traces[index],plane),
-                         "Iron core field":world_points(core_traces[(2,5,8)[slot]],plane+demo.CORE_GUIDE_ANGLE)},
+                         "Iron core field":world_points(core_traces[(2,5,8)[slot]],plane)},
                         .013,material,group,cyclic=True)
                 else:
-                    obj = g.line("Additional coil field | core",world_points(core_traces[index],plane+demo.CORE_GUIDE_ANGLE),
+                    obj = g.line("Additional coil field | core",world_points(core_traces[index],plane),
                                  .013,material,group,cyclic=True)
                 obj["strength_stage"] = phase
                 objects.append(obj)
-        for frame in frames(*CURRENT,(51,56),(73,77)):
+        for frame in frames(*CURRENT,(51,56),(68,72)):
             seconds = (frame-1)/demo.FPS
             value = abs(demo.current_at(seconds))*amount(seconds)
             opacity.default_value = value

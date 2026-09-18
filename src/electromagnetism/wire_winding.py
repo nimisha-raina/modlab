@@ -1,4 +1,4 @@
-"""Centre lines for a cropped straight-wire-to-coil teaching transition."""
+"""Centre lines for fixed-connection straight and helical wire configurations."""
 
 import math
 

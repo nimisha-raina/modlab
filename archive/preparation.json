@@ -922,7 +922,7 @@
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal.blend",
-      "original_sha256": "6caa8c9ddceccf13423e180564ed7c8bff29bc3ae2e47665831e04416758fb73"
+      "original_sha256": "23a0ed8e6c3513abbcb3111228b299ced957910f2532eafcc2c91896394193ae"
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_board_fix_6fps.mp4",
@@ -949,6 +949,14 @@
       "original_sha256": "805e79b8cc2762e25d0be863982448a2973e68dce1600144dec60594fc4b1551"
     },
     {
+      "path": "parts/02_coil_reversal/coil_reversal_before_preformed_coil_revision.blend",
+      "original_sha256": "6caa8c9ddceccf13423e180564ed7c8bff29bc3ae2e47665831e04416758fb73"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_preformed_coil_revision_6fps.mp4",
+      "original_sha256": "fc4357a5ea3e7bd17819d4d7d6ffb0db5f64643a48bfc92289f8459051f89ca1"
+    },
+    {
       "path": "parts/02_coil_reversal/coil_reversal_before_upper_guides.blend",
       "original_sha256": "76017009fe98cf25ed4d474bb8b5f8529cd55dd3d34789679f425ac1911a327b"
     },
@@ -958,7 +966,7 @@
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_draft_6fps.mp4",
-      "original_sha256": "fc4357a5ea3e7bd17819d4d7d6ffb0db5f64643a48bfc92289f8459051f89ca1"
+      "original_sha256": "e1aea7568c4925c5cf7035e94d31a3446c3d1b8ab5b4dc02bcaffab1f334fd89"
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_draft_6fps_before_field_spacing_revision.mp4",
@@ -971,6 +979,10 @@
     {
       "path": "parts/02_coil_reversal/coil_reversal_fixed_length_before_field_fade_6fps.mp4",
       "original_sha256": "40e29b2daec92f7b0f8d140297e15336b294a9f09e1d4f77fff7cb9ed269b378"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_preformed_coil_6fps.mp4",
+      "original_sha256": "e1aea7568c4925c5cf7035e94d31a3446c3d1b8ab5b4dc02bcaffab1f334fd89"
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_segment_000.0-023.0_draft_6fps.mp4",
@@ -1162,7 +1174,7 @@
     },
     {
       "path": "parts/02_coil_reversal/extended-render.json",
-      "original_sha256": "c000a474fac09db7400fbac34b8997cebd922ef4bec0b9a882977644d10c4ebf"
+      "original_sha256": "4f56e6b7c1a5cb300d5606c8f606db9650dfa5ad7737dd50a7e36f459cb32a08"
     },
     {
       "path": "parts/02_coil_reversal/extended-render_before_field_spacing_revision.json",
@@ -1186,11 +1198,15 @@
     },
     {
       "path": "parts/02_coil_reversal/preview-validation-6fps.json",
-      "original_sha256": "c440f0edf9432131af9dc6469826391b2a8bab695cd2d5c10005bb95c8394179"
+      "original_sha256": "77cc64fd422d092b3cf1bc79c3aba2ba8fa730859eeccb81c854da9e58f375a1"
     },
     {
       "path": "parts/02_coil_reversal/review_000.0s.png",
-      "original_sha256": "9ca722b2060163be80a4762673ccfad1ab7acc6fc4a34c764561c9277b57ef2a"
+      "original_sha256": "11a0429fe1178453c5c92f673160598c50c72ca54543118c30e72c6ce99380f8"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_006.0s.png",
+      "original_sha256": "144ef65bda19bc8ade1b7e4d698dfc53e5e4c974e2e33eecc0e123b46442637c"
     },
     {
       "path": "parts/02_coil_reversal/review_007.0s.png",
@@ -1199,6 +1215,10 @@
     {
       "path": "parts/02_coil_reversal/review_008.0s.png",
       "original_sha256": "a45019e718404a1913f3934a242469913e21de3b06758598676279b4ebd68003"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_010.0s.png",
+      "original_sha256": "f963b580ce23ce0b7ad369feb7823d3a9c4fe666d628abcfd3d53043639fc854"
     },
     {
       "path": "parts/02_coil_reversal/review_012.0s.png",
@@ -1210,7 +1230,7 @@
     },
     {
       "path": "parts/02_coil_reversal/review_016.0s.png",
-      "original_sha256": "e7b289138a9751278aac14cbee74ff5d5563475638788bb9142007b00f5ca619"
+      "original_sha256": "d54d6d25bbedff2bcf19d2a45be8d88cf04dcee05ff60a9067b8315b1f9b2fe4"
     },
     {
       "path": "parts/02_coil_reversal/review_017.0s.png",
@@ -1218,7 +1238,7 @@
     },
     {
       "path": "parts/02_coil_reversal/review_018.0s.png",
-      "original_sha256": "d37e35f1a83f0648129092f5b7b983439a1ac328fff9e84b8447eba2509c9460"
+      "original_sha256": "47a3045695ef88db2646e1019127802cf34b7a3beb3705b89b19b854d79a1a2c"
     },
     {
       "path": "parts/02_coil_reversal/review_019.0s.png",
@@ -1237,12 +1257,20 @@
       "original_sha256": "c82d1111ccbcf12139fbb05ffc2cdbaf9c527e5f0fd0200329cc25ff15763474"
     },
     {
+      "path": "parts/02_coil_reversal/review_024.0s.png",
+      "original_sha256": "f6cdcc152f231415ee68e79455472627aa8b4cb574dd7b75a265369fae9503dd"
+    },
+    {
       "path": "parts/02_coil_reversal/review_026.0s.png",
       "original_sha256": "af1dbe43471035d8a90da11052ed2d801a4a5c5f059122a8cf5e7ee4ac7c079c"
     },
     {
       "path": "parts/02_coil_reversal/review_029.0s.png",
-      "original_sha256": "5df29de6527a52933438f47ea9d194a9259f9e97bd4d6d9b735fd0c030fa8b26"
+      "original_sha256": "6a2cd65c5604487baedcff2e629be1d58bae60fbf4301f93bde16599b2f5d7e1"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_035.0s.png",
+      "original_sha256": "6ecb803c982528d8bea704551b75cab88dd8fdad24b99b7895681336878a9850"
     },
     {
       "path": "parts/02_coil_reversal/review_039.0s.png",
@@ -1257,12 +1285,28 @@
       "original_sha256": "221453103af01c1c65850f5ab93d864298656a37b1c60fa08df2ce4b9800c977"
     },
     {
+      "path": "parts/02_coil_reversal/review_047.0s.png",
+      "original_sha256": "b619dd64501149c52ab10017bed690bf6acfd0ca0b08f7ee7a9af25a881b1ae7"
+    },
+    {
       "path": "parts/02_coil_reversal/review_061.0s.png",
-      "original_sha256": "07f72406726fed3f99d86484f54449809345c2219d8ebab01577f1b24561129d"
+      "original_sha256": "b9ce6e76365e4d264b4bfd68c02af12525350d560c05bc28268c07a6147b4354"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_070.0s.png",
+      "original_sha256": "0ace811599229762415295a01261746eed34c3eaa3dc9d571b7f116ce65c429d"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_074.0s.png",
+      "original_sha256": "0cb04f168d292c40d444e4ac790e417f7432886844c69f1220e1313d5c097f29"
     },
     {
       "path": "parts/02_coil_reversal/review_075.0s.png",
       "original_sha256": "0255d062c25aa0b0bbe579901136a3e4c1ee1139a86f33adccca234b5202fdfd"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_083.0s.png",
+      "original_sha256": "8f78a71cec66c8d11f2c52083c845ff38ee3baaa7c7e1f7bf3776de9282b6d60"
     },
     {
       "path": "parts/02_coil_reversal/review_086.0s.png",
@@ -1270,19 +1314,31 @@
     },
     {
       "path": "parts/02_coil_reversal/review_093.0s.png",
-      "original_sha256": "42413ea30d71c50a037b9ad97fad44db2e5a2a55da470b4bb8152fbbd64172f2"
+      "original_sha256": "145c11dc5097f8faf52236d60b711629868e74e95beb467072c83f19409538e6"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_100.0s.png",
+      "original_sha256": "62c686df271f39f16fd43c8e1ac7c0da74b859b2963bbc9b7b0664d7f365d32b"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_104.0s.png",
+      "original_sha256": "ba95584e376758b9785ca5d09e8859fafac677b1fa395300734cf4c44186f056"
     },
     {
       "path": "parts/02_coil_reversal/review_108.0s.png",
-      "original_sha256": "516b289ad4a750dedc4e56dd48a76ea95ea349fb4c7c3c257975940d3bc4964b"
+      "original_sha256": "3c97fa1571da3b0beb419a46cc1935e92310f54e2fd59c2b44d496b5f8e4f4ea"
     },
     {
       "path": "parts/02_coil_reversal/review_113.0s.png",
-      "original_sha256": "5689d848fbdd4b16ba6fd1fe28058f55bdf38884ce12526014766ebda68cbbb3"
+      "original_sha256": "eedba0da6954c37374b7dd8af8566c3e5f4d4b5ff69f3c761f168a6f903950da"
     },
     {
       "path": "parts/02_coil_reversal/review_113.2s.png",
       "original_sha256": "5303541bc417191cc80e3513c2e4f0b0537b0b884b5276bbec692f837a46db15"
+    },
+    {
+      "path": "parts/02_coil_reversal/review_113.5s.png",
+      "original_sha256": "5b715fb1017b00a8bf4281249ad275834d85bbc6fada5d892356fcd28e83a09c"
     },
     {
       "path": "parts/02_coil_reversal/review_120.0s.png",
@@ -1309,6 +1365,10 @@
       "original_sha256": "1718d41798ba28f2d1c6a3118b4e9493ffa61514b1b3d5b319be3ed0f9d36aaa"
     },
     {
+      "path": "parts/02_coil_reversal/review_contact_sheet.png",
+      "original_sha256": "4d647599d25147885af70e8d5accc1c5f223ed2d02330e6df40319eb73aa177f"
+    },
+    {
       "path": "parts/frozen_case_01/manifest.json",
       "original_sha256": "8ff91da3849d7e9939e306cd8b76f0c838bc0b285d8a42b976be92464a33a76f"
     },
@@ -1330,7 +1390,7 @@
     },
     {
       "path": "share/electromagnetism.h5p",
-      "original_sha256": "53cfa78e0f397ae1db6faad5e626d3adad9c84f0cd912ddcd17b30293aba8192"
+      "original_sha256": "15fb88b4ce8ff5d07f9670f56ca0dd0293369af44226061ca055a7e4dc69e86a"
     },
     {
       "path": "video/eevee_probe_0001.png",
@@ -1388,7 +1448,7 @@
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal.blend",
-      "original_sha256": "6caa8c9ddceccf13423e180564ed7c8bff29bc3ae2e47665831e04416758fb73"
+      "original_sha256": "23a0ed8e6c3513abbcb3111228b299ced957910f2532eafcc2c91896394193ae"
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_cropped_winding.blend",
@@ -1401,6 +1461,10 @@
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_field_spacing_revision.blend",
       "original_sha256": "805e79b8cc2762e25d0be863982448a2973e68dce1600144dec60594fc4b1551"
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_preformed_coil_revision.blend",
+      "original_sha256": "6caa8c9ddceccf13423e180564ed7c8bff29bc3ae2e47665831e04416758fb73"
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_upper_guides.blend",

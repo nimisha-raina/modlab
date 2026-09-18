@@ -92,22 +92,24 @@ comparison uses the same field calculation as the physical needle.
 
 ## Sources used for fact checking
 
-The separate [coil and reversal case](PART_02.md) uses ten spaced, enamel-coated
-turns in the earlier close-up area. A finite-ring approximation supplies closed
-resultant field guides, with S→N arrows inside and N→S outside. The actual
-helical circuit supplies both compass calculations, with one common Earth field.
-The red north-seeking tips point away from the coil's N end and toward its S end;
-they need not point in opposite directions in the laboratory view. Opening the switch removes
+The separate [coil and reversal case](PART_02.md) begins with ten spaced,
+enamel-coated turns already formed. A finite-ring approximation supplies closed
+resultant field guides in several meridional planes, with S→N arrows inside and
+N→S outside. Two concentric circles at every displayed local site reinforce that
+all current-carrying branches have circular fields; their count and radius are
+illustrative. White arrows follow conventional current from positive to negative.
+The equidistant end compasses use the averaged axial coil contribution and one
+common Earth field, giving equal deflection in this ideal symmetric-solenoid
+comparison. The red north-seeking tips point away from the coil's N end and toward
+its S end; they need not point in opposite directions in the laboratory view. Opening the switch removes
 the coil contribution and leaves the needle following Earth's field. Turning
 the disconnected cell and closing the switch reverses current, coil field and
 poles. Fixed meter leads give −0.50 A after reversal, with unchanged magnitude.
 A centre-zero analogue scale allows the pointer to show this signed reversal.
-The camera shows only the winding area during a straight-wire-to-coil teaching
-transition, with the surrounding supply wire outside view. The diagram's drawn
-span does not conserve material length; real winding requires a longer wire.
-The circuit is open during this rearrangement, then closes to reveal local upper
-and lower contributions and their resultant pattern. Current does not elongate
-the wire. The field is similar to a bar magnet's, with poles while current flows;
+The circuit is open in the initial complete-coil view, then closes to reveal
+paired local upper/lower contributions and their resultant pattern. The camera
+orbits right to show the field-guide depth, then returns to the front. The field
+is similar to a bar magnet's, with poles while current flows;
 the air-core coil does not become a permanent bar magnet. The guide transition
 illustrates addition of fields, not physical strands moving and joining.
 
@@ -141,8 +143,9 @@ electron-following reference frame is a different, valid lesson; see
 Case 2 also changes 10 turns to 20 at fixed axial length, with smaller diameter
 and smaller gaps. The regulated supply keeps current magnitude fixed; changing
 both geometry parameters does not isolate turn count as a controlled experiment.
-Compass needles use the complete circuit and one shared Earth field. Iron-core
-strength is an illustrative gain on the coil contribution, not a permeability or
+Compass needles in the equal-distance comparison use the symmetric axial average
+and one shared Earth field; complete-circuit calculations remain documented for
+the rest of the scene. Iron-core strength is an illustrative gain on the coil contribution, not a permeability or
 hysteresis simulation. The magnetic-region board model shows directions aligning,
 not atoms physically moving. Regions sit inside a nail outline. In the reversed
 winding, electrons move right to left and the internal field points right;

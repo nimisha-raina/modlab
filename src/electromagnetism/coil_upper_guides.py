@@ -25,23 +25,24 @@ def build(scene, material, lower_guides):
         # the existing centre line, so both guide sets meet the same field pose.
         final = [sum((final_key.data[j*8+k].co for k in range(8)), Vector())/8
                  for j in range(192)]
-        straight, local = [], []
-        for j in range(192):
-            a = j*math.tau/192
-            straight.append((straight_x, demo.CENTER[1]+.42*math.cos(a),
-                             demo.CENTER[2]+.42*math.sin(a)))
-            # The uppermost wire point has a nearly horizontal Y tangent:
-            # its local field circle lies in XZ, around the copper itself.
-            local.append((coil_x+.28*math.cos(a), demo.CENTER[1],
-                          demo.CENTER[2]+demo.RADIUS+.28*math.sin(a)))
-        obj = morph.tube(f"Upper winding field guide {index+1}",
-                         {"Basis": straight, "Around wound wire": local,
-                          "Combined solenoid field": final},
-                         .013, ink, group, cyclic=True)
-        obj["upper_winding_field"] = True
-        obj["turn_index"] = index
-        guides.append(obj)
-    for frame in frames((9,20)):
+        for pair, radius in enumerate((.28,.40),1):
+            straight, local = [], []
+            for j in range(192):
+                a = j*math.tau/192
+                straight.append((straight_x, demo.CENTER[1]+.42*math.cos(a),
+                                 demo.CENTER[2]+.42*math.sin(a)))
+                # At the uppermost wire point the local field lies in XZ.
+                local.append((coil_x+radius*math.cos(a), demo.CENTER[1],
+                              demo.CENTER[2]+demo.RADIUS+radius*math.sin(a)))
+            obj = morph.tube(f"Upper winding field guide {index+1} | pair {pair}",
+                             {"Basis": straight, "Around wound wire": local,
+                              "Combined solenoid field": final},
+                             .010 if pair == 2 else .013, ink, group, cyclic=True)
+            obj["upper_winding_field"] = True
+            obj["turn_index"] = index
+            obj["concentric_pair"] = pair
+            guides.append(obj)
+    for frame in frames((5,16)):
         seconds = (frame-1)/demo.FPS
         wound, combined = demo.coil_fraction(seconds), demo.field_fraction(seconds)
         reveal = demo.smoothstep((seconds-demo.CLOSE_START)/(demo.FIELD_START-demo.CLOSE_START))
@@ -54,5 +55,5 @@ def build(scene, material, lower_guides):
             obj.hide_render = obj.hide_viewport = opacity < .001
             obj.keyframe_insert("hide_render", frame=frame)
             obj.keyframe_insert("hide_viewport", frame=frame)
-    scene["upper_field_guides"] = "Ten upper-wire contributions appear when current resumes, fading into the resultant field by 21 seconds."
+    scene["upper_field_guides"] = "Paired upper-wire circles appear with current and fade into the resultant field by 16 seconds."
     return guides

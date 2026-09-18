@@ -1,6 +1,6 @@
 """Build the genuine H5P lesson from readable questions and official libraries.
 
-Run from student-lesson after `pnpm install`: python3 scripts/build_h5p.py
+Run from student-lesson after `pnpm install`: python scripts/build_h5p.py
 The Blender video is copied into dist/assets before running this script.
 """
 

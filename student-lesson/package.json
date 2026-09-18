@@ -3,7 +3,7 @@
   "private": true,
   "version": "2.0.0",
   "scripts": {
-    "build": "python3 scripts/build_h5p.py",
+    "build": "node scripts/run_python.cjs",
     "test": "node --test tests/h5p.test.cjs"
   },
   "dependencies": {

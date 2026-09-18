@@ -16,37 +16,37 @@ LENGTH = 3.2
 CENTER = (0, 2.2, SAMPLE_Z)
 COMPASS_CENTERS = ((-2.5, 2.2, SAMPLE_Z+.30), (2.5, 2.2, SAMPLE_Z+.30))
 COMPASS_CENTER = COMPASS_CENTERS[0]
-CLOSE_VIEW = ((.5, -11, 12), (0, .0, 1.3))
-WINDING_VIEW = ((0, -3, 8.5), CENTER)
-REVERSAL_VIEW = ((1, -13, 13), (0, 0, 1.3))
-CLIPS_VIEW = ((.4,-8,7.5),(0,1,1.6))
-CORE_VIEW = ((4, -14, 12), (0, 0, 1.3))
+CLOSE_VIEW = ((.5, -11, 12), (0, 0, 1.3))
+FIELD_FRONT_VIEW = ((.5, -12.5, 9.5), (0, 2.2, 1.25))
+FIELD_ORBIT_VIEW = ((7.2, -8.7, 9.2), (0, 2.2, 1.25))
+REVERSAL_VIEW = ((1, -14.5, 12.5), (0, .2, 1.3))
+CLIPS_VIEW = ((7.5,-21,14),(0,.3,1.25))
+CORE_VIEW = ((7.2, -10.8, 9.7), (0, 2.0, 1.35))
 SUMMARY_VIEW = ((0, -8, 6.5), (0, 11.08, 3.5))
-COIL_START, COIL_END = 9., 14.
-FIELD_START, FIELD_END = 18.5, 20.
-POLE_START = 20.
+COIL_START, COIL_END = 0., 0.
+FIELD_START, FIELD_END = 12., 16.
+POLE_START = 16.
 OPEN_START, OPEN_END = 0., 0.
-CLOSE_START, CLOSE_END = 15., 16.
-COMPASS_START, COMPASS_END = 21., 24.
-REVERSE_START, REVERSE_END = 34., 39.
-CELL_TURN_START, CELL_TURN_END = 35., 38.
+CLOSE_START, CLOSE_END = 5., 6.
+COMPASS_START, COMPASS_END = 17., 20.
+REVERSE_START, REVERSE_END = 26., 32.
+CELL_TURN_START, CELL_TURN_END = 27., 30.
 DENSE_START, DENSE_END = 51., 56.
 DENSE_TURNS, DENSE_RADIUS = 20, .52
 WIRE_RADIUS = .065
 COMPASS_SCALE = .72
-CORE_START, CORE_END = 73., 77.
-CORE_GAIN = 3.
-CORE_GUIDE_ANGLE = .35
+CORE_START, CORE_END = 68., 72.
+CORE_GAIN = 4.
 SUMMARY_START, APPLICATIONS_START = 114., 125.
 APPLICATIONS_DURATION = 11.
-CLIP_FALL_DURATION = 1.2
+CLIP_FALL_DURATION = 2.5
 INSIDE_FIELD_LABEL = "MAGNETIC FIELD INSIDE COIL"
 OUTSIDE_FIELD_LABEL = "MAGNETIC FIELD OUTSIDE COIL"
 
 
 def compass_center_at(seconds, center):
     """Clear the insertion area while keeping measured positions explicit."""
-    offset = .22*ramp(seconds, 71, 73)
+    offset = .55*ramp(seconds, 66, 68)
     return (center[0]+math.copysign(offset, center[0]), center[1], center[2])
 
 
@@ -63,7 +63,8 @@ def core_fraction(seconds):
 
 
 def coil_fraction(seconds):
-    return smoothstep((seconds-COIL_START)/(COIL_END-COIL_START))
+    """The revised experiment begins with its ten-turn coil already made."""
+    return 1.
 
 
 def field_fraction(seconds):
@@ -72,15 +73,15 @@ def field_fraction(seconds):
 
 def current_at(seconds):
     # Open the circuit, reverse the cell while disconnected, then close it.
-    return (ramp(seconds, 15, 16)-ramp(seconds, 34, 35)-ramp(seconds, 38, 39)
+    return (ramp(seconds, 5, 6)-ramp(seconds, 26, 27)-ramp(seconds, 31, 32)
             +ramp(seconds, 50, 51)-ramp(seconds, 58, 59)
-            +ramp(seconds, 72, 73)-ramp(seconds, 78, 79)
-            +ramp(seconds, 100, 101)-ramp(seconds, 104, 105)+ramp(seconds, 111, 112))
+            +ramp(seconds, 66, 67)-ramp(seconds, 73, 74)
+            +ramp(seconds, 99, 100)-ramp(seconds, 102, 103)+ramp(seconds, 111, 112))
 
 
 @lru_cache(maxsize=512)
 def wire_points(fraction, samples=721):
-    """Straight-wire opening and cropped winding diagram; fixed end connections."""
+    """Reusable straight-to-wound geometry; the current scene starts wound."""
     return winding_points(fraction, CENTER, RADIUS, LENGTH, TURNS, samples)
 
 
@@ -126,10 +127,22 @@ def compass_angle(fraction, current, center=COMPASS_CENTER, turns=TURNS, radius=
 
 
 def compass_angle_at(seconds, center=COMPASS_CENTER):
+    """Ideal symmetric end-compass reading for equal-distance teaching views.
+
+    The full circuit remains the source for field calculations elsewhere. For
+    the paired end compasses, average the axial coil field at the two symmetric
+    positions. This removes small lead-wire asymmetries and makes the intended
+    equal-distance solenoid comparison clear without inventing unequal readings.
+    """
     dense, core = dense_fraction(seconds), core_fraction(seconds)
-    return compass_angle(coil_fraction(seconds), current_at(seconds), compass_center_at(seconds, center),
-                         TURNS+(DENSE_TURNS-TURNS)*dense, RADIUS+(DENSE_RADIUS-RADIUS)*dense,
-                         1+(CORE_GAIN-1)*core)
+    current = current_at(seconds)
+    turns = TURNS+(DENSE_TURNS-TURNS)*dense
+    radius = RADIUS+(DENSE_RADIUS-RADIUS)*dense
+    gain = 1+(CORE_GAIN-1)*core
+    fields = [field_at(compass_center_at(seconds,c),1,current,turns,radius,gain)
+              for c in COMPASS_CENTERS]
+    axial = sum(field[0] for field in fields)/len(fields)
+    return math.atan2(EARTH_FIELD[1], EARTH_FIELD[0]+axial)
 
 
 def needle_angle_at(seconds, center=COMPASS_CENTER):
@@ -140,19 +153,20 @@ def needle_angle_at(seconds, center=COMPASS_CENTER):
 
 
 def flow_phase(seconds, sign):
-    start, end = (24.,28.) if sign == 1 else (39.,44.)
+    start, end = (16.,26.) if sign == 1 else (32.,44.)
     return .45*max(0.,min(end-start,seconds-start))
 
 
 def camera_pose(seconds):
-    stops = [(0, OPENING_WIDE), (4, OPENING_WIDE), (9, WINDING_VIEW), (14, WINDING_VIEW),
-             (18, CLOSE_VIEW), (28, CLOSE_VIEW), (31, BOARD), (32, BOARD),
-             (34, REVERSAL_VIEW), (44, REVERSAL_VIEW), (47, BOARD), (48, BOARD),
-             (50, CLOSE_VIEW), (66, CLOSE_VIEW), (69, BOARD), (70, BOARD),
-             (72, CORE_VIEW), (80, CORE_VIEW), (83, BOARD), (89, BOARD),
-             (92, CORE_VIEW), (94, CORE_VIEW), (97, BOARD), (98, BOARD),
-             (100, REVERSAL_VIEW), (105,REVERSAL_VIEW),(107,CLIPS_VIEW),(111,CLIPS_VIEW),
-             (113,REVERSAL_VIEW),(114, REVERSAL_VIEW), (117, SUMMARY_VIEW), (DURATION, SUMMARY_VIEW)]
+    stops = [(0, OPENING_WIDE), (3, OPENING_WIDE), (5, REVERSAL_VIEW),
+             (8, FIELD_FRONT_VIEW), (11, FIELD_FRONT_VIEW),
+             (16, FIELD_ORBIT_VIEW), (20, FIELD_ORBIT_VIEW),
+             (24, REVERSAL_VIEW), (26, REVERSAL_VIEW),
+             (28, REVERSAL_VIEW), (44, REVERSAL_VIEW),
+             (47, BOARD), (49, BOARD), (51, CLOSE_VIEW), (65, CLOSE_VIEW),
+             (68, CORE_VIEW), (80, CORE_VIEW), (83, BOARD), (89, BOARD),
+             (92, CORE_VIEW), (99, CORE_VIEW), (101, CLIPS_VIEW),
+             (114, CLIPS_VIEW), (117, SUMMARY_VIEW), (DURATION, SUMMARY_VIEW)]
     for (ta, a), (tb, b) in zip(stops, stops[1:]):
         if seconds <= tb:
             return interpolate_pose(a, b, (seconds-ta)/(tb-ta))

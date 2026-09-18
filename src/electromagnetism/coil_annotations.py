@@ -19,10 +19,9 @@ def build(scene,mats,camera,group):
                 obj["field_annotation"] = True
                 shift = (.4 if obj==label else .34) if inside else 0.
                 annotations.append((sign,obj,obj.location.z,shift))
-    for frame in frames(*CURRENT,(18.5,20),(28,34),(44,50),(66,77),(80,92),(94,100)):
+    for frame in frames(*CURRENT,(12,16),(44,50),(68,92),(99,103)):
         seconds = (frame-1)/demo.FPS
-        reading_board = (28<=seconds<34 or 44<=seconds<50 or 66<=seconds<72 or 80<=seconds<92
-                         or 94<=seconds<100 or seconds>=114)
+        reading_board = (44<=seconds<50 or 80<=seconds<90 or seconds>=114)
         for sign,obj,base_z,shift in annotations:
             obj.location.z = base_z+shift*demo.core_fraction(seconds)
             obj.keyframe_insert("location",frame=frame)

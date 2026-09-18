@@ -30,12 +30,13 @@ class CoilTests(unittest.TestCase):
         self.assertTrue(all(p[1:] == demo.CENTER[1:] for p in straight))
         self.assertTrue(all(a[0] < b[0] for a, b in zip(straight, straight[1:])))
 
-    def test_switch_is_open_throughout_winding(self):
-        for t in (0, 6, 7, 12, 14):
+    def test_experiment_starts_with_coil_and_switch_off(self):
+        self.assertEqual(demo.coil_fraction(0), 1)
+        for t in (0, 2, 5):
             self.assertEqual(demo.current_at(t), 0)
-        self.assertEqual(demo.current_at(18), 1)
-        self.assertEqual(demo.field_fraction(18), 0)
-        self.assertEqual(demo.field_fraction(21), 1)
+        self.assertEqual(demo.current_at(6), 1)
+        self.assertEqual(demo.field_fraction(12), 0)
+        self.assertEqual(demo.field_fraction(16), 1)
 
     def test_current_reversal_reverses_field(self):
         field = demo.field_at(demo.CENTER)
@@ -43,9 +44,9 @@ class CoilTests(unittest.TestCase):
         self.assertLess(field[0], 0)  # Left N, right S for conventional current.
         for a, b in zip(field, reverse):
             self.assertAlmostEqual(a, -b)
-        self.assertAlmostEqual(demo.current_at(29), 1)
-        self.assertEqual(demo.current_at(36), 0)
-        self.assertEqual(demo.current_at(45), -1)
+        self.assertAlmostEqual(demo.current_at(26), 1)
+        self.assertEqual(demo.current_at(29), 0)
+        self.assertEqual(demo.current_at(32), -1)
 
     def test_needle_returns_to_earth_field_while_disconnected(self):
         north = demo.NORTH_ANGLE
@@ -59,18 +60,22 @@ class CoilTests(unittest.TestCase):
             self.assertGreater(math.cos(reverse), 0)
             separation = abs(math.atan2(math.sin(forward-reverse), math.cos(forward-reverse)))
             self.assertGreater(separation, math.radians(40))
+        # Equal-distance end compasses show the same ideal-solenoid deflection.
+        for t in (26, 32, 61, 93):
+            self.assertAlmostEqual(demo.needle_angle_at(t,demo.COMPASS_CENTERS[0]),
+                                   demo.needle_angle_at(t,demo.COMPASS_CENTERS[1]))
 
     def test_more_turns_and_iron_strengthen_compass_at_fixed_current(self):
-        self.assertEqual(demo.COIL_END-demo.COIL_START,5)
+        self.assertEqual(demo.coil_fraction(0),1)
         self.assertLess(demo.DENSE_RADIUS,demo.RADIUS)
         self.assertGreater(demo.LENGTH/demo.DENSE_TURNS,2*demo.WIRE_RADIUS)
         for center in demo.COMPASS_CENTERS:
-            angles = [abs(demo.needle_angle_at(t,center)-demo.NORTH_ANGLE) for t in (42,61,93)]
+            angles = [abs(demo.needle_angle_at(t,center)-demo.NORTH_ANGLE) for t in (32,61,93)]
             self.assertLess(angles[0],angles[1])
             self.assertLess(angles[1],angles[2])
-        for t in (42,61,93,108):
+        for t in (32,61,93,108):
             self.assertEqual(demo.current_at(t),-1)
-        for t in (53,75,102,113):
+        for t in (53,70,100,113):
             self.assertEqual(demo.current_at(t),0)
         a,b = demo.dense_wire_points(0),demo.dense_wire_points(1)
         self.assertLess(math.dist(a[0],b[0]),1e-12)
@@ -81,7 +86,11 @@ class CoilTests(unittest.TestCase):
             moved = demo.compass_center_at(93,center)
             self.assertGreater(abs(moved[0]),abs(center[0]))
             self.assertEqual(demo.compass_center_at(61,center),center)
-            expected = demo.compass_angle(1,-1,moved,demo.DENSE_TURNS,demo.DENSE_RADIUS,demo.CORE_GAIN)
+            fields = [demo.field_at(demo.compass_center_at(93,c),1,-1,
+                                    demo.DENSE_TURNS,demo.DENSE_RADIUS,demo.CORE_GAIN)
+                      for c in demo.COMPASS_CENTERS]
+            axial = sum(field[0] for field in fields)/2
+            expected = math.atan2(demo.EARTH_FIELD[1],demo.EARTH_FIELD[0]+axial)
             self.assertAlmostEqual(demo.needle_angle_at(93,center),expected)
         self.assertEqual(demo.DURATION-demo.APPLICATIONS_START,11)
 

@@ -21,37 +21,47 @@ Read [HANDOFF.md](HANDOFF.md) for detailed implementation and setup.
 
 ## Case 2: approved visual draft
 
-- Movie: `output/parts/02_coil_reversal/coil_reversal_field_revision_6fps.mp4`,
-  identical to `coil_reversal_draft_6fps.mp4`.
+- Movie: `output/parts/02_coil_reversal/coil_reversal_preformed_coil_6fps.mp4`,
+  identical to the latest `coil_reversal_draft_6fps.mp4` after encoding.
 - Editable scene: `output/parts/02_coil_reversal/coil_reversal.blend`.
+- Movie SHA-256:
+  `e1aea7568c4925c5cf7035e94d31a3446c3d1b8ab5b4dc02bcaffab1f334fd89`.
+- Editable-scene SHA-256:
+  `23a0ed8e6c3513abbcb3111228b299ced957910f2532eafcc2c91896394193ae`.
 - 136 seconds, 640×360, 6-fps silent review; editable animation is 24 fps.
-- Begin with straight copper and switch OFF. Approach the winding area; ten
-  turns form in five seconds at about half-screen width.
-- Switch ON, show upper/lower local contributions, then a closed magnetic field
-  resembling a bar magnet's. Show N/S, smaller compasses and deflection readings.
-- Disconnect, turn the battery, reconnect; poles, needles and larger gold/blue
-  direction arrows reverse. Inside and outside magnetic fields are labelled.
+- Begin with the ten-turn coil already formed and the switch OFF. White arrows
+  show conventional current from positive to negative after switch-on.
+- Every displayed wire-field location uses two concentric circles: paired guides
+  surround the coil turns and all six representative circuit branches.
+- Local circles crossfade to closed guides in several depth planes. The camera
+  orbits about 40 degrees right, pauses, then returns to the front.
+- Two equidistant smaller compasses show equal deflections: about 24 degrees for
+  ten turns, 34 for twenty turns and 49 with the soft-iron core.
+- Disconnect and turn the battery directly, without a board cutaway; poles,
+  needles, current arrows and field arrows reverse.
 - Switch OFF, change ten turns to twenty at the same coil length with smaller
   diameter and gaps. Switch ON at the same 0.50 A current magnitude.
-- Move compasses outward; view nail insertion from the right with battery and
-  switch state in frame. Switch ON for stronger field and compass response.
+- Move compasses farther outward and view nail insertion from the right. The
+  illustrative core gain and 28 evenly spread guides make strengthening clear.
 - Fixed regions inside a nail outline retain their positions while magnetic
   arrows align. Electron-flow/internal-field arrows explain this winding's
   directions. Stronger-field guide families are evenly spread.
-- Switch OFF, introduce six iron clips, switch ON to attract, then OFF to release.
-  The fall lasts 1.2 seconds. The final board sits higher in the picture.
+- Six iron clips already rest below the nail. Switch ON to attract, then OFF to
+  release them over 2.5 seconds. A wide view retains the whole circuit.
 - Summary omits the separate "current creates a magnetic field" point.
 - End with crane, dynamic microphone and MRI cutaways together, with all magnetic
   components highlighted continuously for 11 seconds, from 125 to 136.
-- Movie SHA-256:
-  `fc4357a5ea3e7bd17819d4d7d6ffb0db5f64643a48bfc92289f8459051f89ca1`.
+- The previous approved movie and scene are preserved as
+  `coil_reversal_before_preformed_coil_revision_6fps.mp4` and `.blend`.
 - Case 2 narration/H5P have not been added. This is not the final high-frame-rate
   encode. Ask what to work on next before adding content.
 
 ## Scientific assumptions
 
-Compasses follow the complete circuit plus one common Earth field at their actual
-animated positions. Reversal need not rotate them exactly 180 degrees. Internal
+The paired end compasses use an ideal symmetric-solenoid reading: the averaged
+axial coil contribution plus one common Earth field at equal distances. Other
+field calculations retain the complete circuit. Reversal need not rotate the
+needles exactly 180 degrees. Internal
 field runs S→N, external return runs N→S. Magnetic regions align with the internal
 field, not directly with electron drift. Turn count and diameter both change in
 this comparison. Core gain, drawn line counts and clip motion are illustrative;
@@ -91,6 +101,7 @@ set `GIT_EXEC_PATH` to the installation's `mingw64/bin` when helpers are missing
 The checkpoint passed 22 Python tests and both native H5P tests. All 14 Case 1
 narration sections passed the audio/video alignment check. Original frozen Case 1
 hashes remain unchanged. Both portable Blender scenes reopened and passed their
-scene checks. Case 2 decoded as 816 frames at 6 fps (136 seconds, silent). The
-public archive contains 342 checksum-verified files, totaling 344,506,306 bytes.
-The full local snapshot additionally preserves original render frames and logs.
+scene checks. Case 2 decoded as 816 frames at 6 fps (136 seconds, silent). Its
+render cache contains 460 distinct visual states. The public archive contains
+357 checksum-verified files totaling 363,994,170 bytes. The full local snapshot
+additionally preserves original render frames and logs.

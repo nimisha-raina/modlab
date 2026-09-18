@@ -36,9 +36,6 @@ def build(scene, mats, camera):
     shader = clip_metal.node_tree.nodes.get("Principled BSDF")
     shader.inputs["Base Color"].default_value = (.72,.77,.82,1)
     shader.inputs["Roughness"].default_value = .27
-    caption = g.face_camera(g.text("Paper clip experiment caption","IRON PAPER CLIPS",(0,.3,.20),
-                                  .25,mats["ink_white"],group,align="CENTER"),camera)
-    chalkboard.show_between(caption,104,114,demo.FPS,demo.DURATION)
     for i in range(6):
         clip = bpy.data.objects.new(f"Iron paper clip placement {i+1}",None)
         group.objects.link(clip)
@@ -52,9 +49,9 @@ def build(scene, mats, camera):
             points.extend(loop)
         obj = g.line("Iron paper clip wire",points,.018,clip_metal,group)
         obj.parent = clip
-        chalkboard.show_between(obj,101,demo.DURATION,demo.FPS,demo.DURATION)
+        chalkboard.show_between(obj,99,demo.DURATION,demo.FPS,demo.DURATION)
         clips.append((i,clip))
-    for frame in frames(*CURRENT,(73,77),(101,107),(112,112+demo.CLIP_FALL_DURATION)):
+    for frame in frames(*CURRENT,(68,72),(99,107),(112,112+demo.CLIP_FALL_DURATION)):
         seconds = (frame-1)/demo.FPS
         nail.location = (-4*(1-demo.core_fraction(seconds)),demo.CENTER[1],demo.CENTER[2])
         nail.keyframe_insert("location",frame=frame)
@@ -63,21 +60,24 @@ def build(scene, mats, camera):
             obj.keyframe_insert("hide_render",frame=frame)
             obj.keyframe_insert("hide_viewport",frame=frame)
         for i,clip in clips:
-            side = -1 if i < 3 else 1
-            n = i % 3
-            start = Vector((side*(2.6+.20*n),.85+.30*n,.035))
-            hanging = Vector((side*(1.94+.07*n),2.08+.09*(n-1),1.29))
-            brought = demo.ramp(seconds,101,104)
-            attracted = demo.ramp(seconds,104,107)
-            drop_time = max(0.,seconds-112)
+            n = i-2.5
+            x = .60*n
+            start = Vector((x,.86+.10*(i%2),.035))
+            hanging = Vector((x,2.02+.08*(i%2),1.29))
+            attracted = demo.ramp(seconds,103,107)
+            # Release begins as the switch opens, then continues for a clearly
+            # visible 2.5 seconds before the summary-board transition.
+            drop_time = max(0.,seconds-111)
             drop = min(1.,(drop_time/demo.CLIP_FALL_DURATION)**2)
-            clip.location = start+Vector((0,-1.8*(1-brought),.65*(1-brought)))
-            if seconds >=104:
+            # Clips rest below the nail and rise only after current establishes
+            # the stronger core field; there is no sideways arrival animation.
+            clip.location = start
+            if seconds >=103:
                 clip.location = start+(hanging-start)*attracted
                 clip.location.z += .18*math.sin(math.pi*attracted)
-            if seconds >=112:
+            if seconds >=111:
                 clip.location = hanging+(start-hanging)*drop
-            clip.rotation_euler = (math.pi/2*attracted*(1-drop),0,.18*(n-1)*(1-attracted+drop))
+            clip.rotation_euler = (math.pi/2*attracted*(1-drop),0,.10*n*(1-attracted+drop))
             clip.keyframe_insert("location",frame=frame)
             clip.keyframe_insert("rotation_euler",frame=frame)
     return nail, clips

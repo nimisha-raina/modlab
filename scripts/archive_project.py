@@ -21,6 +21,13 @@ def digest(path):
         return hashlib.file_digest(stream,"sha256").hexdigest()
 
 
+def write_text_lf(path,text):
+    """Write generated text with LF endings, replacing locked-in-place files safely."""
+    temporary = path.with_name(path.name+".tmp")
+    temporary.write_bytes(text.encode("utf-8"))
+    os.replace(temporary,path)
+
+
 def archived_file(relative):
     path = (GENERATED/relative).resolve()
     if not path.is_relative_to(GENERATED.resolve()):
@@ -54,16 +61,16 @@ def prepare():
         target.parent.mkdir(parents=True,exist_ok=True)
         original = digest(source)
         if source.suffix==".json":
-            target.write_text(json.dumps(portable(json.loads(source.read_text(encoding="utf-8"))),indent=2)+"\n",encoding="utf-8")
+            write_text_lf(target,json.dumps(portable(json.loads(source.read_text(encoding="utf-8"))),indent=2)+"\n")
         elif source.suffix==".jsonl":
-            target.write_text("\n".join(json.dumps(portable(json.loads(line))) for line in source.read_text(encoding="utf-8").splitlines() if line.strip())+"\n",encoding="utf-8")
+            write_text_lf(target,"\n".join(json.dumps(portable(json.loads(line))) for line in source.read_text(encoding="utf-8").splitlines() if line.strip())+"\n")
         else:
             shutil.copy2(source,target)
         entry = {"path":relative.as_posix(),"original_sha256":original}
         files.append(entry)
         if source.suffix==".blend":
             jobs.append(entry)
-    (ARCHIVE/"preparation.json").write_text(json.dumps({"files":files,"blender_jobs":jobs},indent=2)+"\n",encoding="utf-8")
+    write_text_lf(ARCHIVE/"preparation.json",json.dumps({"files":files,"blender_jobs":jobs},indent=2)+"\n")
     print(f"ARCHIVE_PREPARED: {len(files)} files; {len(jobs)} Blender scenes.")
 
 
@@ -71,10 +78,10 @@ def finalize():
     preparation = json.loads((ARCHIVE/"preparation.json").read_text(encoding="utf-8"))
     frozen = GENERATED/"parts/frozen_case_01/manifest.json"
     data = json.loads(frozen.read_text(encoding="utf-8"))
-    data["original_files_sha256"] = data["files_sha256"].copy()
+    data.setdefault("original_files_sha256",data["files_sha256"].copy())
     data["files_sha256"] = {name:digest(frozen.parent/name) for name in data["files_sha256"]}
     data["packaging"] = "Portable packed scenes; approved geometry and animation unchanged. Exact original scenes remain in the private local snapshot."
-    frozen.write_text(json.dumps(data,indent=2)+"\n",encoding="utf-8")
+    write_text_lf(frozen,json.dumps(data,indent=2)+"\n")
     for entry in preparation["files"]:
         file = GENERATED/entry["path"]
         entry["sha256"],entry["bytes"] = digest(file),file.stat().st_size
@@ -84,7 +91,7 @@ def finalize():
               "files":preparation["files"],"excluded_frame_caches":sorted(CACHES),
               "case_1":"Frozen 86-second narrated lesson with two H5P pauses.",
               "case_2":"Approved 136-second silent draft; three applications highlighted together for 11 seconds."}
-    (ARCHIVE/"manifest.json").write_text(json.dumps(result,indent=2)+"\n",encoding="utf-8")
+    write_text_lf(ARCHIVE/"manifest.json",json.dumps(result,indent=2)+"\n")
     verify()
 
 

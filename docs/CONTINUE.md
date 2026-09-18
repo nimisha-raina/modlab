@@ -11,9 +11,12 @@ Copy this prompt into a new development session:
 > restore; preserve existing local output and the exact frozen Case 1 masters.
 > Case 1 is finalized: 86 seconds, male Indian-English narration, two genuine H5P
 > questions, compact panels and visible Continue buttons. Keep it frozen.
-> Case 2's approved visual draft is 136 seconds, silent, with a 24-fps editable
-> Blender scene. It shows winding, polarity reversal, more turns, a soft-iron
-> core, magnetic-region alignment, clip attraction/release, summary, then all
+> Case 2's current visual draft is 136 seconds, silent, with a 24-fps editable
+> Blender scene. It starts with a completed coil and switch OFF, then shows white
+> conventional-current arrows, paired concentric fields across the circuit, a
+> 40-degree 3D field orbit, direct polarity reversal, equal-distance compass
+> readings, more turns, a soft-iron core, magnetic-region alignment, clips that
+> begin below the nail, attraction/release, summary, then all
 > three application pictures highlighted together for 11 seconds. Use the saved
 > movies for the first preview. Run documented checks, summarize the current
 > state and ask which change I want next. Do not rerender or download a voice

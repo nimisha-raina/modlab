@@ -162,14 +162,14 @@ repeat preparation, the Blender build, rendering and verification.
 
 ## Windows preview and checks
 
-Use a working Python 3 interpreter on PATH. If `python3` opens the Microsoft
-Store or cannot execute, run the H5P builder directly with `python` (or `py -3`)
-instead of `pnpm build`, which currently invokes `python3`:
+`pnpm build` first uses `PYTHON` when set, then the project's `.venv-media`
+interpreter, and finally a system Python 3 command. This avoids inaccessible
+Microsoft Store command aliases on Windows:
 
 ```powershell
 cd student-lesson
 pnpm install --frozen-lockfile
-python scripts/build_h5p.py
+pnpm build
 pnpm test
 cd ..
 python -m unittest discover -s tests -v

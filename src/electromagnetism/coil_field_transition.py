@@ -60,7 +60,7 @@ def build(scene, guides):
     result_ink, result_opacity = fading_material(source, "EM / resultant coil field reveal")
     local_ink, local_opacity = fading_material(source, "EM / lower turn contributions")
     local_guides = []
-    for guide in guides:
+    for index, guide in enumerate(guides):
         local = guide.copy()
         local.data = guide.data.copy()
         local.animation_data_clear()
@@ -76,13 +76,25 @@ def build(scene, guides):
         local_keys.key_blocks["Dense coil field"].value = 0.
         local_keys.key_blocks["Iron core field"].value = 0.
         local_guides.append(local)
+        # A second, larger circle at the same wire position makes each local
+        # field drawing explicitly concentric rather than a single orbit.
+        x = -demo.LENGTH/2+demo.LENGTH*(index+.5)/demo.TURNS
+        radius = .40
+        partner = g.line("Local lower concentric partner | " + guide.name,
+            [(x+radius*math.cos(j*math.tau/192),
+              demo.CENTER[1]-demo.RADIUS+radius*math.sin(j*math.tau/192),
+              demo.CENTER[2]) for j in range(192)],
+            .010, local_ink, guide.users_collection[0], cyclic=True)
+        partner["local_lower_field"] = True
+        partner["concentric_pair"] = 2
+        local_guides.append(partner)
         guide.animation_data_clear()
         guide.data.materials[0] = result_ink
         keys = guide.data.shape_keys
         keys.animation_data_clear()
         keys.key_blocks["Around wound wire"].value = 0.
         keys.key_blocks["Combined solenoid field"].value = 1.
-    for frame in frames(*CURRENT,(15,20),(51,56),(73,77)):
+    for frame in frames(*CURRENT,(5,16),(51,56),(68,72)):
         seconds = (frame-1)/demo.FPS
         combined = demo.field_fraction(seconds)
         reveal = demo.smoothstep((seconds-demo.CLOSE_START)/(demo.FIELD_START-demo.CLOSE_START))

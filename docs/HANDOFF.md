@@ -9,6 +9,14 @@ Private local snapshots under `backups/` preserve original scenes, all working
 output and render caches. Public scene copies are packed and portable; original
 frozen masters remain unchanged locally.
 
+The latest Case 2 revision begins with a completed ten-turn coil and switch OFF.
+It adds white conventional-current arrows, paired concentric field guides around
+the winding and six circuit branches, a smooth 40-degree right-side orbit, direct
+battery reversal without a board cutaway, equal readings on equidistant compasses,
+a clearer fourfold illustrative iron-core comparison and clips already below the
+nail. The clip release lasts 2.5 seconds; the wide clip view retains the circuit.
+See [PART_02.md](PART_02.md) and [RESUME.md](RESUME.md).
+
 ## Current student lesson
 
 The approved first case is now narrated and integrated with genuine H5P:
@@ -154,11 +162,13 @@ scene and narration script under `output/parts/frozen_case_01/`, with SHA-256
 checksums in `manifest.json`. The script refuses to overwrite a different frozen
 snapshot. Case 2 builders do not regenerate Case 1 or change its website media.
 
-Part 2 is now a separate 136-second silent visual review, starting with the switch
-OFF and a straight copper span. The camera approaches before a five-second
-winding transition (9–14 seconds); the winding occupies roughly half the screen.
-Smaller compasses have live deflection readings. Clearly larger gold/blue arrows
-show field reversal, and wider apparatus views retain the battery.
+Part 2 is a separate 136-second silent visual review, starting with a completed
+ten-turn coil and the switch OFF. White conventional-current arrows follow every
+visible branch and the winding. Two concentric local-field circles appear at each
+shown location. The local fields become a closed solenoid pattern while the camera
+orbits about 40 degrees right and returns to the front. Smaller equidistant
+compasses have equal live deflection readings. Direct battery reversal changes the
+poles, current arrows, field arrows and needles without a board cutaway.
 
 The extended sequence changes ten turns to twenty at the same axial length,
 with both smaller diameter and smaller gaps, then inserts a soft-iron nail,
@@ -177,15 +187,19 @@ complete timeline, output files, physics assumptions and cache invalidation.
 Case 2 narration/H5P are not part of this silent visual review. Case 1 media,
 narration and website are unchanged.
 The latest revision labels magnetic field inside and outside the coil, distributes
-stronger-field guides evenly, moves the compasses outward using their actual
-measurement positions, and views nail insertion from the right. The region model
-has a fixed nail outline plus electron-flow and internal-field arrows. Clip release
-lasts 1.2 seconds; final board framing reduces the upper wall margin. All three
+stronger-field guides across several depth planes, moves the compasses farther
+outward, and views nail insertion from the right. The region model
+has a fixed nail outline plus electron-flow and internal-field arrows. The clips
+begin below the nail instead of sliding in; release lasts 2.5 seconds. Final board
+framing reduces the upper wall margin. All three
 application pictures and component highlights remain visible together for the
 whole 11-second applications stage (125–136 seconds). The duration follows the
 sequence rather than an imposed finish deadline. All 22 Python tests, saved-scene
 checks and full media decoding pass (816 frames, 136 seconds, 640×360 at 6 fps,
-silent). The editable source retains 24 fps. See PART_02.md for validation.
+silent). The efficient renderer produced 460 distinct visual states. The editable
+source retains 24 fps. The approved review copy has SHA-256
+`e1aea7568c4925c5cf7035e94d31a3446c3d1b8ab5b4dc02bcaffab1f334fd89`.
+See PART_02.md for validation.
 
 Visible microscopic drift is faster (2.6 display units per second) and the
 drawn random displacement is reduced while current flows. This is a readability
@@ -250,9 +264,9 @@ checks require exactly two questions, each after its complete spoken explanation
 5. Choose the deployment location and original-work licence with the repository
    owner before distributing modified versions.
 
-On Windows, follow [Windows preview and checks](DEVELOPMENT.md#windows-preview-and-checks)
-if `pnpm build` cannot find a working `python3`. The direct Python build uses
-the same H5P builder. Blender 5.2.0 LTS has also passed the scene build and
+On Windows, follow [Windows preview and checks](DEVELOPMENT.md#windows-preview-and-checks).
+`pnpm build` now selects `PYTHON`, the project media environment, or an available
+system Python 3 interpreter. Blender 5.2.0 LTS has also passed the scene build and
 verification on Windows. Reuse the included video and narration for initial
 review; a full render or voice generation is needed only for relevant content
 changes. The included transcript report can be reused for unchanged recordings;
