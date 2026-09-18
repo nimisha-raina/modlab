@@ -8,3 +8,7 @@
 *.wav binary
 # Preserve upstream library bytes and keep them distinct in code statistics.
 student-lesson/vendor/** -text linguist-vendored
+# Archive checksums describe exact bytes, including metadata line endings.
+archive/generated/** -text
+archive/manifest.json -text
+archive/preparation.json -text

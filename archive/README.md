@@ -5,6 +5,8 @@ H5P, historical revisions, validation metadata and review pictures.
 `manifest.json` records stored SHA-256 values, original working-file hashes and
 byte sizes. Movies and audio retain their bytes. Blender copies pack assets and
 use relative resource paths. Portable text metadata omits local account paths.
+Git attributes preserve archived bytes, including metadata line endings, so
+checksum verification works on both Windows and Linux checkouts.
 
 Verify with `python scripts/archive_project.py verify`. In a fresh checkout,
 run `python scripts/archive_project.py restore` to copy missing files into
