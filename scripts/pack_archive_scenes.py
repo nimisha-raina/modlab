@@ -18,6 +18,29 @@ for job in preparation["blender_jobs"]:
     bpy.ops.wm.open_mainfile(filepath=str(original))
     bpy.ops.file.pack_all()
     bpy.ops.file.make_paths_relative()
+    for scene in bpy.data.scenes:
+        scene.render.filepath = "/"*1023
+        scene.render.filepath = "//renders/lesson_"
+    # Fixed-size path buffers can retain bytes beyond a shorter replacement.
+    # Clear them before storing portable paths in the public copy.
+    for block in list(bpy.data.sounds)+list(bpy.data.images):
+        if not block.filepath:
+            continue
+        relative = block.filepath
+        if not relative.startswith("//"):
+            relative = "//packed/"+Path(relative).name
+        block.filepath = "/"*1023
+        block.filepath = relative
+    for screen in bpy.data.screens:
+        for area in screen.areas:
+            for space in area.spaces:
+                if space.type=="FILE_BROWSER" and space.params:
+                    space.params.directory = b"/"*1023
+                    space.params.directory = b"//"
+    for area in bpy.context.window.screen.areas:
+        if area.type=="VIEW_3D":
+            area.spaces.active.region_3d.view_perspective = "CAMERA"
+            area.spaces.active.shading.type = "MATERIAL"
     bpy.ops.wm.save_as_mainfile(filepath=str(target),relative_remap=True)
     packed[job["original_sha256"]] = target
     print("PACKED_ARCHIVE_SCENE="+job["path"],flush=True)

@@ -4,6 +4,7 @@ Uses edge-tts, an LGPL-3.0 client for Microsoft's Edge speech service. Only the
 public lesson script is sent. Voice output is not an Apache-licensed model.
 """
 import asyncio
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -13,8 +14,8 @@ import edge_tts
 ROOT = Path(__file__).resolve().parents[1]
 
 
-async def main():
-    lesson = json.loads((ROOT / "docs/first-case-narration.json").read_text(encoding="utf-8"))
+async def main(script="docs/first-case-narration.json"):
+    lesson = json.loads((ROOT / script).read_text(encoding="utf-8"))
     output = ROOT / lesson["audio_directory"]
     output.mkdir(parents=True, exist_ok=True)
     provenance_path = output / "provenance.json"
@@ -38,4 +39,6 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--script", default="docs/first-case-narration.json")
+    asyncio.run(main(parser.parse_args().script))

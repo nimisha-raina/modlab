@@ -13,7 +13,7 @@ run `python scripts/archive_project.py restore` to copy missing files into
 `output/`. Existing files remain intact, including exact original frozen masters.
 The public frozen manifest matches the packed scene and records original hashes.
 
-The three reproducible frame-cache folders remain with all original working
+The reproducible frame-cache folders remain with all original working
 output in a private snapshot created by `python scripts/archive_project.py snapshot`.
 Its ZIP includes a per-file manifest and is checked by CRC and SHA-256.
 Dependencies, model caches and credentials are excluded; pinned requirements and
@@ -30,3 +30,9 @@ Preserve `student-lesson/THIRD_PARTY_NOTICES.md`, licences in vendored H5P libra
 and `assets/tutor-narration/CLIENT-LICENSE`. Application-picture provenance and
 scientific sources are in `assets/lesson-applications/README.md`.
 Archiving does not deploy GitHub Pages.
+
+To add selected Case 2 outputs while preserving older archived releases, use
+`python scripts/archive_project.py prepare --paths parts/02_coil_reversal/audio_fixed parts/02_coil_reversal/coil_fixed_view_source.blend parts/02_coil_reversal/coil_fixed_view_narrated.blend parts/02_coil_reversal/coil_fixed_view_narrated_720p.mp4`,
+then run the packing and finalize steps above. Only changed selected Blender
+scenes are repacked. `fixed_view_frames/` is a reproducible cache and is excluded
+from the public archive.

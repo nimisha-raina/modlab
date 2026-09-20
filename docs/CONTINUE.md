@@ -1,24 +1,25 @@
 # Continue development
 
-Copy this prompt into a new development session:
+Copy this prompt into a new development session using the same project folder:
 
-> Continue development of https://github.com/nimisha-raina/modlab from the saved
+> Continue development of https://github.com/nimisha-raina/modlab from this saved
 > project. First read README.md, docs/HANDOFF.md, docs/RESUME.md,
-> docs/DEVELOPMENT.md, docs/SCIENCE.md, docs/PART_02.md, archive/README.md and
-> student-lesson/README.md. Inspect Git status before changing files. Verify
-> archive/manifest.json with scripts/archive_project.py verify. In a fresh
+> docs/DEVELOPMENT.md, docs/SCIENCE.md, docs/PART_02_FIXED_VIEW.md,
+> archive/README.md and student-lesson/README.md. Inspect Git status first.
+> Verify archive/manifest.json with scripts/archive_project.py verify. In a fresh
 > checkout, restore missing generated files with scripts/archive_project.py
 > restore; preserve existing local output and the exact frozen Case 1 masters.
-> Case 1 is finalized: 86 seconds, male Indian-English narration, two genuine H5P
-> questions, compact panels and visible Continue buttons. Keep it frozen.
-> Case 2's current visual draft is 136 seconds, silent, with a 24-fps editable
-> Blender scene. It starts with a completed coil and switch OFF, then shows white
-> conventional-current arrows, paired concentric fields across the circuit, a
-> 40-degree 3D field orbit, direct polarity reversal, equal-distance compass
-> readings, more turns, a soft-iron core, magnetic-region alignment, clips that
-> begin below the nail, attraction/release, summary, then all
-> three application pictures highlighted together for 11 seconds. Use the saved
-> movies for the first preview. Run documented checks, summarize the current
-> state and ask which change I want next. Do not rerender or download a voice
-> model unless a relevant change requires it. Keep code modular, science accurate,
-> public files professional, licences intact and handoff documentation current.
+> Case 1 is frozen: 86 seconds, Indian male narration and two genuine H5P pauses.
+> The current Case 2 uses one fixed camera showing the board and whole circuit,
+> yellow conventional-current arrows, turquoise magnetic-field arrows, two
+> concentric circles at every illustrated wire site, and readable symmetric
+> compass deflections. Compare 10 and 20 turns at the same length and diameter,
+> then a soft-iron core at the same current. Include polarity reversal, magnetic
+> regions, clips attracting and falling, summary, then all three application
+> pictures highlighted together for 11 seconds. Its natural-speed Indian male
+> narration lasts 231.5 seconds. H5P for Case 2 is deferred until requested.
+> Use the included movie and packed Blender scene for the first preview; no
+> rerender or voice-model download unless relevant content changes. Check the
+> current handoff and validation reports, summarize status and ask what I want
+> changed next. Keep code modular, science accurate, public files professional,
+> third-party licences intact and handoff documentation current.

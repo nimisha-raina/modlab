@@ -61,9 +61,9 @@ def build(scene, mats, camera):
             obj.keyframe_insert("hide_viewport",frame=frame)
         for i,clip in clips:
             n = i-2.5
-            x = .60*n
-            start = Vector((x,.86+.10*(i%2),.035))
-            hanging = Vector((x,2.02+.08*(i%2),1.29))
+            x,y = demo.clip_site(i)
+            start = Vector((x,y,.035))
+            hanging = Vector((x,y,1.29))
             attracted = demo.ramp(seconds,103,107)
             # Release begins as the switch opens, then continues for a clearly
             # visible 2.5 seconds before the summary-board transition.

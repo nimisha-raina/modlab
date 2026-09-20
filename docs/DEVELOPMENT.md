@@ -1,5 +1,11 @@
 # Developing this project
 
+## Current Case 2 workflow
+
+See [PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md) for the fixed-camera narrated
+coil lesson. It has a separate script, packed scene, render cache and soundtrack.
+It does not modify the frozen first case or its H5P package.
+
 ## Current first-case narration workflow
 
 The website uses the revised 86-second opening, compass comparison and

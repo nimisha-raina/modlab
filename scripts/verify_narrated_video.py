@@ -31,6 +31,7 @@ def main():
     parser.add_argument("--timing", type=Path, default=ROOT / "output/audio/narration-timing.json")
     parser.add_argument("--video", type=Path, default=ROOT / "output/video/electromagnetism.mp4")
     parser.add_argument("--questions", type=Path, default=ROOT / "student-lesson/content/questions.json")
+    parser.add_argument("--no-questions",action="store_true",help="Validate a narrated chapter before H5P authoring")
     args = parser.parse_args()
     timing = json.loads(args.timing.read_text(encoding="utf-8"))
     video_path = args.video
@@ -60,13 +61,13 @@ def main():
         assert error < 1 / timing["fps"] + .01, f"Section {index+1} is shifted by {error:.3f}s."
         results.append({"section": index + 1, "alignment_error_seconds": round(error, 4),
                         "audio_correlation": round(score, 4)})
-    questions = json.loads(args.questions.read_text(encoding="utf-8"))
+    questions = [] if args.no_questions else json.loads(args.questions.read_text(encoding="utf-8"))
     for question in questions:
         pause = timing["segments"][question["after_section"]-1]["target_end"] - .3
         around_pause = mixed[round((pause-.05)*SAMPLE_RATE):round((pause+.05)*SAMPLE_RATE)]
         assert float(np.sqrt(np.mean(around_pause**2))) < .003, "A question interrupts audible speech."
     report = {"frames": timing["frames"], "duration": timing["duration"],
-              "sections": results, "question_pauses": "All fall in silence after narration."}
+              "sections": results, "question_pauses": "Deferred; no H5P in this chapter." if args.no_questions else "All fall in silence after narration."}
     args.timing.with_name("video-verification.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
     print("PASS: the exported video contains every narration section at the correct time.")

@@ -12,7 +12,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT/"archive"
 GENERATED = ARCHIVE/"generated"
-CACHES = {"complete_review_frames","tutor_review_frames","extended_review_frames"}
+CACHES = {"complete_review_frames","tutor_review_frames","extended_review_frames","fixed_view_frames"}
 EXTENSIONS = {".blend",".mp4",".mp3",".wav",".h5p",".srt",".vtt",".json",".jsonl",".png",".jpg",".svg"}
 
 
@@ -48,10 +48,22 @@ def portable(value):
     return value
 
 
-def prepare():
+def prepare(paths=None):
+    """Optionally update selected output paths while preserving older releases."""
     GENERATED.mkdir(parents=True,exist_ok=True)
-    files,jobs = [],[]
-    for source in sorted((ROOT/"output").rglob("*")):
+    existing = {}
+    if paths and (ARCHIVE/"manifest.json").exists():
+        existing = {e["path"]:e for e in json.loads((ARCHIVE/"manifest.json").read_text())["files"]}
+    sources = set()
+    for relative in paths or ["."]:
+        source = (ROOT/"output"/relative).resolve()
+        if not source.is_relative_to((ROOT/"output").resolve()):
+            raise ValueError("Selected archive path escapes output")
+        if not source.exists():
+            raise FileNotFoundError(source)
+        sources.update(source.rglob("*") if source.is_dir() else [source])
+    jobs = []
+    for source in sorted(sources):
         if not source.is_file() or source.suffix.lower() not in EXTENSIONS:
             continue
         if any(part in CACHES for part in source.parts):
@@ -60,6 +72,9 @@ def prepare():
         target = GENERATED/relative
         target.parent.mkdir(parents=True,exist_ok=True)
         original = digest(source)
+        previous = existing.get(relative.as_posix())
+        if previous and previous["original_sha256"]==original and target.exists():
+            continue
         if source.suffix==".json":
             write_text_lf(target,json.dumps(portable(json.loads(source.read_text(encoding="utf-8"))),indent=2)+"\n")
         elif source.suffix==".jsonl":
@@ -67,9 +82,10 @@ def prepare():
         else:
             shutil.copy2(source,target)
         entry = {"path":relative.as_posix(),"original_sha256":original}
-        files.append(entry)
+        existing[relative.as_posix()] = entry
         if source.suffix==".blend":
             jobs.append(entry)
+    files = sorted(existing.values(),key=lambda e:e["path"])
     write_text_lf(ARCHIVE/"preparation.json",json.dumps({"files":files,"blender_jobs":jobs},indent=2)+"\n")
     print(f"ARCHIVE_PREPARED: {len(files)} files; {len(jobs)} Blender scenes.")
 
@@ -90,7 +106,7 @@ def finalize():
     result = {"schema":1,"date_utc":datetime.now(timezone.utc).isoformat(),
               "files":preparation["files"],"excluded_frame_caches":sorted(CACHES),
               "case_1":"Frozen 86-second narrated lesson with two H5P pauses.",
-              "case_2":"Approved 136-second silent draft; three applications highlighted together for 11 seconds."}
+              "case_2":"231.5-second fixed-view narrated revision; earlier 136-second silent review retained; applications highlighted for 11 seconds."}
     write_text_lf(ARCHIVE/"manifest.json",json.dumps(result,indent=2)+"\n")
     verify()
 
@@ -155,4 +171,8 @@ def snapshot():
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("action",choices=("prepare","finalize","verify","restore","snapshot"))
-    globals()[parser.parse_args().action]()
+    parser.add_argument("--paths",nargs="+",help="For prepare: selected paths relative to output; preserve existing archive entries")
+    args = parser.parse_args()
+    if args.paths and args.action!="prepare":
+        parser.error("--paths is only supported with prepare")
+    prepare(args.paths) if args.action=="prepare" else globals()[args.action]()

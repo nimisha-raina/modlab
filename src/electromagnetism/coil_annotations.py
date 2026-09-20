@@ -6,22 +6,22 @@ from .coil_keyframes import frames, CURRENT
 def build(scene,mats,camera,group):
     annotations = []
     for sign in (1,-1):
-        ink = mats["ink_gold" if sign==1 else "ink_cyan"]
+        ink = mats["ink_cyan"]
         for inside,body,position,y,z in (
-                (True,demo.INSIDE_FIELD_LABEL,(0,2.2,3.6),2.2,3.36),
-                (False,demo.OUTSIDE_FIELD_LABEL,(0,-.2,.6),-.2,.3)):
+                (True,demo.INSIDE_FIELD_LABEL,(0,2.2,3.48),2.2,3.22),
+                (False,demo.OUTSIDE_FIELD_LABEL,(0,-.1,1.12),-.1,.89)):
             name = "Coil field direction caption" if inside else "Coil outside field direction caption"
-            label = g.face_camera(g.text(name,body,position,.19,ink,group,align="CENTER"),camera)
+            label = g.face_camera(g.text(name,body,position,.23,ink,group,align="CENTER"),camera)
             direction = -sign if inside else sign
             objects = [label]+g.arrow("Clear axial field direction" if inside else "Clear outside field direction",
                     (-.65*direction,y,z),(.65*direction,y,z),.065,ink,group)
             for obj in objects:
                 obj["field_annotation"] = True
-                shift = (.4 if obj==label else .34) if inside else 0.
+                shift = 0.
                 annotations.append((sign,obj,obj.location.z,shift))
     for frame in frames(*CURRENT,(12,16),(44,50),(68,92),(99,103)):
         seconds = (frame-1)/demo.FPS
-        reading_board = (44<=seconds<50 or 80<=seconds<90 or seconds>=114)
+        reading_board = False
         for sign,obj,base_z,shift in annotations:
             obj.location.z = base_z+shift*demo.core_fraction(seconds)
             obj.keyframe_insert("location",frame=frame)

@@ -1,5 +1,14 @@
 # Case 2: coils and electromagnets
 
+## Fixed-view revision
+
+The current narrated Case 2 is described in [PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md).
+It uses one fixed camera, unchanged coil diameter for the 10/20-turn comparison,
+yellow conventional-current arrows, turquoise field arrows and visible compass
+measurements. H5P for Case 2 is deferred. The older checkpoint below is retained
+as history; it is not the current camera or diameter specification.
+
+
 This independent 136-second visual lesson starts at frame 1, with the switch OFF.
 Its editable source has 3,264 frames at 24 fps. Case 1 remains frozen under
 `output/parts/frozen_case_01/`, with SHA-256 checksums in its manifest.
@@ -22,7 +31,10 @@ The Case 2 preview is silent; narration and H5P can follow the visual review.
 | 114–125 | Move to the summary board: poles, reversal, packed turns, iron core and controlled release. |
 | 125–136 | All three application pictures appear together for 11 seconds: scrapyard crane, dynamic microphone and MRI. All magnetic components remain highlighted throughout. |
 
-## Build and review
+## Historical build and review
+
+These commands describe the `case-2-preformed-coil-2026-09-18` checkpoint.
+Use [PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md) for current commands.
 
 Run from the project root, using Blender and the media Python environment:
 

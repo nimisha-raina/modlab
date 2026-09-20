@@ -17,13 +17,19 @@ PART = ROOT/"output/parts/02_coil_reversal"
 FRAMES = PART/"extended_review_frames"
 
 
-def fingerprint(scene, source_digest):
+def fingerprint(scene, source_digest, object_order=None):
     state = [(source_digest,scene.render.resolution_x,scene.render.resolution_y)]
     materials = set()
-    for obj in scene.objects:
+    objects = list(scene.objects)
+    if object_order is not None:
+        lookup = {o.name:o for o in objects}
+        objects = [lookup.pop(name) for name in object_order if name in lookup]+list(lookup.values())
+    for obj in objects:
         if obj.hide_render or obj.type not in ("MESH","CURVE","FONT"):
             continue
         state.append((obj.name,tuple(round(v,6) for row in obj.matrix_world for v in row)))
+        if obj.type == "CURVE":
+            state.append((obj.name,"arc",round(obj.data.bevel_factor_end,6)))
         keys = getattr(obj.data,"shape_keys",None)
         if keys:
             state.append((obj.name,"keys",round(keys.eval_time,5),tuple(round(k.value,6) for k in keys.key_blocks)))

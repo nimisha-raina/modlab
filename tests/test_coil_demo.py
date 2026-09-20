@@ -14,6 +14,17 @@ from electromagnetism.wire_winding import length
 
 
 class CoilTests(unittest.TestCase):
+    def test_case_two_camera_does_not_move_between_experiments(self):
+        initial = demo.camera_pose(0)
+        for seconds in range(demo.DURATION+1):
+            self.assertEqual(demo.camera_pose(seconds),initial)
+
+    def test_clips_attach_beyond_the_winding(self):
+        for index in range(6):
+            x,y = demo.clip_site(index)
+            self.assertGreater(abs(x)-.11,demo.LENGTH/2)
+            self.assertLess(abs(y-demo.CENTER[1]),.24)
+
     def test_ten_turns_and_fixed_connections(self):
         straight, wound = demo.wire_points(0), demo.wire_points(1)
         self.assertEqual(straight[0], wound[0])
@@ -53,7 +64,7 @@ class CoilTests(unittest.TestCase):
         self.assertAlmostEqual(demo.compass_angle(1, 0), north)
         for center in demo.COMPASS_CENTERS:
             self.assertAlmostEqual(demo.compass_angle(1, 0, center), north)
-            forward, reverse = [demo.compass_angle(1, i, center) for i in (1, -1)]
+            forward, reverse = [demo.needle_angle_at(t, center) for t in (24, 34)]
             # Both north tips point away from left N and toward right S;
             # reversing the supply changes both tips' axial direction.
             self.assertLess(math.cos(forward), 0)
@@ -67,7 +78,7 @@ class CoilTests(unittest.TestCase):
 
     def test_more_turns_and_iron_strengthen_compass_at_fixed_current(self):
         self.assertEqual(demo.coil_fraction(0),1)
-        self.assertLess(demo.DENSE_RADIUS,demo.RADIUS)
+        self.assertEqual(demo.DENSE_RADIUS,demo.RADIUS)
         self.assertGreater(demo.LENGTH/demo.DENSE_TURNS,2*demo.WIRE_RADIUS)
         for center in demo.COMPASS_CENTERS:
             angles = [abs(demo.needle_angle_at(t,center)-demo.NORTH_ANGLE) for t in (32,61,93)]
@@ -81,10 +92,10 @@ class CoilTests(unittest.TestCase):
         self.assertLess(math.dist(a[0],b[0]),1e-12)
         self.assertLess(math.dist(a[-1],b[-1]),1e-12)
 
-    def test_core_compasses_measure_their_new_positions(self):
+    def test_compasses_keep_fixed_symmetric_positions(self):
         for center in demo.COMPASS_CENTERS:
             moved = demo.compass_center_at(93,center)
-            self.assertGreater(abs(moved[0]),abs(center[0]))
+            self.assertEqual(moved,center)
             self.assertEqual(demo.compass_center_at(61,center),center)
             fields = [demo.field_at(demo.compass_center_at(93,c),1,-1,
                                     demo.DENSE_TURNS,demo.DENSE_RADIUS,demo.CORE_GAIN)

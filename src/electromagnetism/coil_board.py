@@ -7,7 +7,7 @@ from .config import ROOT
 
 SUMMARY = ["A current-carrying coil has north and south poles.",
            "Reversing current swaps the poles.",
-           "More closely packed turns strengthen the field.",
+           "More turns at the same current strengthen the field.",
            "An iron core makes the electromagnet stronger.",
            "Switching off releases the paper clips."]
 
@@ -21,28 +21,45 @@ def build(scene, mats):
                 bpy.data.objects.remove(obj,do_unlink=True)
             bpy.data.collections.remove(collection)
     cases = [
-        {"start": 0, "end": 44, "case": "MAGNETIC FIELD OF A COIL",
-         "heading": "Current flows from + to - through the copper coil",
-         "observation": "Paired circles combine into a field like a bar magnet's."},
-        {"start": 44, "end": 66, "case": "MORE TURNS, A NARROWER COIL",
+        {"start": 0, "end": 5, "case": "MAGNETIC FIELD OF A COIL",
+         "heading": "10 turns | Switch OFF",
+         "observation": "Watch the current, field and compass needles."},
+        {"start": 5, "end": 12, "case": "CLOSE THE SWITCH",
+         "heading": "Current flows through the copper wire",
+         "observation": "Yellow: conventional current, from + to -."},
+        {"start": 12, "end": 26, "case": "MAGNETIC FIELD OF A COIL",
+         "heading": "A field like a bar magnet's",
+         "observation": "Outside: N to S. Inside: S to N."},
+        {"start": 26, "end": 44, "case": "REVERSE THE CURRENT",
+         "heading": "The magnetic poles swap",
+         "observation": "Watch the arrows and both compass needles reverse."},
+        {"start": 44, "end": 66, "case": "MORE TURNS, SAME COIL SIZE",
          "heading": "10 turns become 20 turns",
-         "observation": "Same coil length. Smaller gaps. Same current: 0.50 A."},
+         "observation": "Same length and diameter. Same current: 0.50 A."},
         {"start": 66, "end": 80, "case": "OBSERVE THE ELECTROMAGNET",
          "heading": "The nail enters while the switch is OFF",
          "observation": "Switch ON to compare the stronger field directly."},
         {"start": 80, "end": 90, "rows": [
             ("INSIDE THE SOFT IRON", 5.8, .35),
             ("Magnetic regions line up", 5.1, .53),
-            ("ELECTRON FLOW ALONG THE WINDING", 4.55, .25),
             ("MAGNETIC FIELD INSIDE THE NAIL", 1.35, .25),
             ("Magnified model: groups of atoms act like tiny magnets.", .55, .30)]},
-        {"start": 90, "end": 114, "case": "A STRONGER ELECTROMAGNET",
-         "heading": "Watch the greater compass deflection",
-         "observation": "The iron core strengthens the field and lifts paper clips."},
+        {"start": 90, "end": 99, "case": "A STRONGER ELECTROMAGNET",
+         "heading": "Compare the three magnetic fields",
+         "observation": "10 turns < 20 turns < 20 turns + soft iron"},
+        {"start": 99, "end": 103, "case": "CONTROL THE ELECTROMAGNET",
+         "heading": "Paper clips below the iron nail",
+         "observation": "Switch OFF: the clips rest on the table."},
+        {"start": 103, "end": 111, "case": "SWITCH ON",
+         "heading": "The electromagnet attracts iron",
+         "observation": "The clips cling to the nail's exposed ends."},
+        {"start": 111, "end": 114, "case": "SWITCH OFF",
+         "heading": "The paper clips fall",
+         "observation": "Soft iron loses most of its induced magnetism."},
         {"start": 114, "end": 125, "case": "WHAT WE LEARNED",
          "heading": "Coils and electromagnets", "points": SUMMARY},
         {"start": 125, "end": demo.DURATION, "rows": [
-            ("USES OF ELECTROMAGNETISM", 5.85, .55),
+            ("USES OF ELECTROMAGNETISM", 5.5, .43),
             ("Educational cutaways show the coil or magnet inside.", .35, .29)]},
     ]
     chalkboard.build(scene, mats, cases)
@@ -56,8 +73,7 @@ def build(scene, mats):
         .025,mats["ink_white"],group,cyclic=True)
     outline["nail_region_outline"] = True
     chalkboard.show_between(outline,80,90,demo.FPS,demo.DURATION)
-    for name,z,a,b,ink in (("Electron flow in winding",4.45,(1.8,0,0),(-1.8,0,0),"ink_cyan"),
-                           ("Internal field and region alignment",1.65,(-1.8,0,0),(1.8,0,0),"ink_gold")):
+    for name,z,a,b,ink in (("Internal field and region alignment",1.65,(-1.8,0,0),(1.8,0,0),"ink_cyan"),):
         for obj in g.arrow(name,(a[0],11.0,z),(b[0],11.0,z),.035,mats[ink],group):
             chalkboard.show_between(obj,80,90,demo.FPS,demo.DURATION)
     for i in range(10):
@@ -81,7 +97,7 @@ def build(scene, mats):
                                .025, mats["ink_gold"], group):
                 obj.parent = pivot
                 chalkboard.show_between(obj, 80, 90, demo.FPS, demo.DURATION)
-            for seconds, rotation in ((0, angle), (83, angle), (86, 0), (demo.DURATION, 0)):
+            for seconds, rotation in ((0, angle), (87, angle), (89, 0), (demo.DURATION, 0)):
                 pivot.rotation_euler.y = rotation
                 pivot.keyframe_insert("rotation_euler", frame=round(seconds*demo.FPS)+1)
     build_applications(scene, mats)

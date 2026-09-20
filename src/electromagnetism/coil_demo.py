@@ -14,7 +14,7 @@ TURNS = 10
 RADIUS = .62
 LENGTH = 3.2
 CENTER = (0, 2.2, SAMPLE_Z)
-COMPASS_CENTERS = ((-2.5, 2.2, SAMPLE_Z+.30), (2.5, 2.2, SAMPLE_Z+.30))
+COMPASS_CENTERS = ((-2.85, .65, SAMPLE_Z+.30), (2.85, .65, SAMPLE_Z+.30))
 COMPASS_CENTER = COMPASS_CENTERS[0]
 CLOSE_VIEW = ((.5, -11, 12), (0, 0, 1.3))
 FIELD_FRONT_VIEW = ((.5, -12.5, 9.5), (0, 2.2, 1.25))
@@ -32,9 +32,9 @@ COMPASS_START, COMPASS_END = 17., 20.
 REVERSE_START, REVERSE_END = 26., 32.
 CELL_TURN_START, CELL_TURN_END = 27., 30.
 DENSE_START, DENSE_END = 51., 56.
-DENSE_TURNS, DENSE_RADIUS = 20, .52
+DENSE_TURNS, DENSE_RADIUS = 20, RADIUS
 WIRE_RADIUS = .065
-COMPASS_SCALE = .72
+COMPASS_SCALE = .92
 CORE_START, CORE_END = 68., 72.
 CORE_GAIN = 4.
 SUMMARY_START, APPLICATIONS_START = 114., 125.
@@ -45,9 +45,8 @@ OUTSIDE_FIELD_LABEL = "MAGNETIC FIELD OUTSIDE COIL"
 
 
 def compass_center_at(seconds, center):
-    """Clear the insertion area while keeping measured positions explicit."""
-    offset = .55*ramp(seconds, 66, 68)
-    return (center[0]+math.copysign(offset, center[0]), center[1], center[2])
+    """Keep both instruments fixed and clear of the nail's insertion path."""
+    return center
 
 
 def ramp(seconds, start, end):
@@ -114,7 +113,7 @@ def field_at(point, fraction=1, current=1, turns=TURNS, radius=RADIUS, core_gain
 
 BASE_FIELD = field_at(COMPASS_CENTER)
 HORIZONTAL = math.hypot(*BASE_FIELD[:2])
-EARTH_STRENGTH = HORIZONTAL/math.tan(math.radians(30))
+EARTH_STRENGTH = abs(sum(field_at(c)[0] for c in COMPASS_CENTERS)/2)/math.tan(math.radians(30))
 # One common Earth field for both physical compasses; the red tip follows
 # the resultant horizontal field, rather than forcing opposite end needles.
 EARTH_FIELD = (0., EARTH_STRENGTH, 0.)
@@ -126,11 +125,12 @@ def compass_angle(fraction, current, center=COMPASS_CENTER, turns=TURNS, radius=
     return math.atan2(EARTH_FIELD[1]+field[1], EARTH_FIELD[0]+field[0])
 
 
+@lru_cache(maxsize=8192)
 def compass_angle_at(seconds, center=COMPASS_CENTER):
     """Ideal symmetric end-compass reading for equal-distance teaching views.
 
     The full circuit remains the source for field calculations elsewhere. For
-    the paired end compasses, average the axial coil field at the two symmetric
+    the paired end compasses, average the axial circuit-field component at the two symmetric
     positions. This removes small lead-wire asymmetries and makes the intended
     equal-distance solenoid comparison clear without inventing unequal readings.
     """
@@ -147,7 +147,7 @@ def compass_angle_at(seconds, center=COMPASS_CENTER):
 
 def needle_angle_at(seconds, center=COMPASS_CENTER):
     angle = compass_angle_at(seconds, center)
-    settle = ramp(seconds, COMPASS_END, COMPASS_END+1.5)
+    settle = 1.
     delta = math.atan2(math.sin(angle-NORTH_ANGLE), math.cos(angle-NORTH_ANGLE))
     return NORTH_ANGLE+settle*delta
 
@@ -158,19 +158,8 @@ def flow_phase(seconds, sign):
 
 
 def camera_pose(seconds):
-    stops = [(0, OPENING_WIDE), (3, OPENING_WIDE), (5, REVERSAL_VIEW),
-             (8, FIELD_FRONT_VIEW), (11, FIELD_FRONT_VIEW),
-             (16, FIELD_ORBIT_VIEW), (20, FIELD_ORBIT_VIEW),
-             (24, REVERSAL_VIEW), (26, REVERSAL_VIEW),
-             (28, REVERSAL_VIEW), (44, REVERSAL_VIEW),
-             (47, BOARD), (49, BOARD), (51, CLOSE_VIEW), (65, CLOSE_VIEW),
-             (68, CORE_VIEW), (80, CORE_VIEW), (83, BOARD), (89, BOARD),
-             (92, CORE_VIEW), (99, CORE_VIEW), (101, CLIPS_VIEW),
-             (114, CLIPS_VIEW), (117, SUMMARY_VIEW), (DURATION, SUMMARY_VIEW)]
-    for (ta, a), (tb, b) in zip(stops, stops[1:]):
-        if seconds <= tb:
-            return interpolate_pose(a, b, (seconds-ta)/(tb-ta))
-    return CLOSE_VIEW
+    """One slightly elevated front view retains both board and experiment."""
+    return ((.65, -19., 11.2), (0., 1.4, 3.0))
 
 
 @lru_cache(maxsize=2)
@@ -219,7 +208,7 @@ def _solenoid_candidates(turns, radius):
     # Equal seed gaps do not give equal gaps outside a finite coil. Choose
     # true traced loops by evenly spaced outer extents, rather than bunching
     # separate strength families into narrow bands.
-    candidates = [trace(.48+.10*i/48) for i in range(49)]
+    candidates = [trace(.565+.04*i/48) for i in range(49)]
     candidates.sort(key=lambda line:max(p[1] for p in line),reverse=True)
     return candidates
 
@@ -249,3 +238,11 @@ def solenoid_lines(turns=TURNS, radius=RADIUS, seed_count=5):
             resampled.append(tuple(a+(b-a)*f for a, b in zip(points[cursor], points[cursor+1])))
         result.append(resampled)
     return result
+
+
+def clip_site(index):
+    """Three clips at each exposed iron pole, visible beyond the winding."""
+    slot = index % 3-1
+    if index < 3:
+        return (-1.98+.06*slot,CENTER[1]+.18*slot)
+    return (1.88+.06*slot,CENTER[1]+.08*slot)

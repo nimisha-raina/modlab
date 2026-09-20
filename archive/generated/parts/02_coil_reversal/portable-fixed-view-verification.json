@@ -1,0 +1,91 @@
+{
+  "checks": "passed",
+  "stages": [
+    {
+      "source_seconds": 0,
+      "video_seconds": 0.0,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 8,
+      "video_seconds": 16.5,
+      "current_amperes": 0.5,
+      "field_lines": 0,
+      "deflection_degrees": 30
+    },
+    {
+      "source_seconds": 24,
+      "video_seconds": 51.766666666666666,
+      "current_amperes": 0.5,
+      "field_lines": 10,
+      "deflection_degrees": 30
+    },
+    {
+      "source_seconds": 29,
+      "video_seconds": 61.383333333333326,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 34,
+      "video_seconds": 68.55128205128204,
+      "current_amperes": -0.5,
+      "field_lines": 10,
+      "deflection_degrees": 30
+    },
+    {
+      "source_seconds": 53,
+      "video_seconds": 94.54761904761904,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 61,
+      "video_seconds": 108.22916666666666,
+      "current_amperes": -0.5,
+      "field_lines": 20,
+      "deflection_degrees": 51
+    },
+    {
+      "source_seconds": 70,
+      "video_seconds": 125.71428571428571,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 93,
+      "video_seconds": 167.3611111111111,
+      "current_amperes": -0.5,
+      "field_lines": 30,
+      "deflection_degrees": 79
+    },
+    {
+      "source_seconds": 100,
+      "video_seconds": 177.5625,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 108,
+      "video_seconds": 189.67708333333334,
+      "current_amperes": -0.5,
+      "field_lines": 30,
+      "deflection_degrees": 79
+    },
+    {
+      "source_seconds": 114,
+      "video_seconds": 203.91666666666669,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    }
+  ],
+  "scene": "coil_fixed_view_narrated.blend",
+  "scene_sha256": "257309ef4b84acb9decb4b98986181d0c62e377e4e2bf5df97700b22685d2d16"
+}

@@ -1,0 +1,192 @@
+{
+  "speaker": "en-IN-PrabhatNeural",
+  "description": "Prabhat: male Indian-English tutor, natural speaking rate.",
+  "audio_directory": "output/parts/02_coil_reversal/audio_fixed",
+  "fps": 6,
+  "segments": [
+    {
+      "start": 0,
+      "end": 5,
+      "text": "Can a copper coil behave like a magnet? Here is our laboratory circuit, with a battery, switch, ammeter, and a coil of ten turns.",
+      "target_start": 0.0,
+      "target_end": 10.25,
+      "speech_start": 0.25,
+      "speech_seconds": 9.43671201814059,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_00.wav"
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "text": "Close the switch. Moving charged electrons produce an electric current and a magnetic field. The yellow arrows show conventional current, from positive to negative, opposite to electron flow.",
+      "target_start": 10.25,
+      "target_end": 24.833333333333336,
+      "speech_start": 10.5,
+      "speech_seconds": 13.716371882086168,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_01.wav"
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "text": "Each part of the wire has a magnetic field around it. In a coil, these contributions add together. The complete field has a pattern like that of a bar magnet.",
+      "target_start": 24.833333333333336,
+      "target_end": 37.5,
+      "speech_start": 25.083333333333336,
+      "speech_seconds": 11.806009070294785,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_02.wav"
+    },
+    {
+      "start": 16,
+      "end": 26,
+      "text": "Follow the turquoise arrows. Outside the coil, the field goes from north to south. Inside, it returns from south to north. Both compass needles deflect. The angle readings help us see how far they turn.",
+      "target_start": 37.5,
+      "target_end": 55.33333333333333,
+      "speech_start": 37.75,
+      "speech_seconds": 17.008208616780045,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_03.wav"
+    },
+    {
+      "start": 26,
+      "end": 31,
+      "text": "Now open the switch and turn the battery around to reverse its connections. We always disconnect the circuit before changing the setup.",
+      "target_start": 55.33333333333333,
+      "target_end": 65.41666666666666,
+      "speech_start": 55.58333333333333,
+      "speech_seconds": 9.21312925170068,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_04.wav"
+    },
+    {
+      "start": 31,
+      "end": 44,
+      "text": "Close the switch again. Current flows the other way. The magnetic field reverses, the north and south poles swap, and both compass needles turn to the other side.",
+      "target_start": 65.41666666666666,
+      "target_end": 78.99999999999999,
+      "speech_start": 65.66666666666666,
+      "speech_seconds": 12.753922902494331,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_05.wav"
+    },
+    {
+      "start": 44,
+      "end": 51,
+      "text": "How can we make this coil stronger? We will compare ten turns with twenty turns, keeping the coil's length and diameter the same. First, open the switch.",
+      "target_start": 78.99999999999999,
+      "target_end": 91.49999999999999,
+      "speech_start": 79.24999999999999,
+      "speech_seconds": 11.680748299319728,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_06.wav"
+    },
+    {
+      "start": 51,
+      "end": 58,
+      "text": "We use more wire to make twenty turns, with smaller gaps between them. The current will stay at the same value: half an ampere.",
+      "target_start": 91.49999999999999,
+      "target_end": 102.16666666666666,
+      "speech_start": 91.74999999999999,
+      "speech_seconds": 9.805419501133787,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_07.wav"
+    },
+    {
+      "start": 58,
+      "end": 66,
+      "text": "Switch on. More turns give a stronger magnetic field, and the compasses deflect further. We draw more evenly spaced lines to show this increase. These lines are a way of representing the field.",
+      "target_start": 102.16666666666666,
+      "target_end": 118.33333333333333,
+      "speech_start": 102.41666666666666,
+      "speech_seconds": 15.296507936507936,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_08.wav"
+    },
+    {
+      "start": 66,
+      "end": 73,
+      "text": "Open the switch again. Slide a soft iron nail into the coil. Keep the number of turns and the current setting the same, so we can compare the effect of the iron.",
+      "target_start": 118.33333333333333,
+      "target_end": 131.25,
+      "speech_start": 118.58333333333333,
+      "speech_seconds": 12.089342403628118,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_09.wav"
+    },
+    {
+      "start": 73,
+      "end": 80,
+      "text": "Switch on. The iron core makes the electromagnet even stronger. Notice the additional field lines and the larger deflection on both compasses.",
+      "target_start": 131.25,
+      "target_end": 143.41666666666666,
+      "speech_start": 131.5,
+      "speech_seconds": 11.311473922902495,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_10.wav"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Why does iron help? Look inside the nail on the board. Groups of atoms behave like tiny magnets, initially pointing in different directions. The coil's field makes more of these magnetic regions line up. Their fields add to the coil's field.",
+      "target_start": 143.41666666666666,
+      "target_end": 163.33333333333331,
+      "speech_start": 143.66666666666666,
+      "speech_seconds": 19.11512471655329,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_11.wav"
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "text": "Compare our three stages: ten turns, twenty turns, and twenty turns with soft iron. At the same current, the field becomes stronger at each step.",
+      "target_start": 163.33333333333331,
+      "target_end": 175.41666666666666,
+      "speech_start": 163.58333333333331,
+      "speech_seconds": 11.242040816326531,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_12.wav"
+    },
+    {
+      "start": 99,
+      "end": 103,
+      "text": "With the switch open, place iron paper clips below the nail. Watch what happens when we complete the circuit.",
+      "target_start": 175.41666666666666,
+      "target_end": 184.0,
+      "speech_start": 175.66666666666666,
+      "speech_seconds": 7.763038548752834,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_13.wav"
+    },
+    {
+      "start": 103,
+      "end": 111,
+      "text": "The electromagnet attracts the paper clips. Electric current lets us control this magnetic attraction using the switch.",
+      "target_start": 184.0,
+      "target_end": 193.08333333333334,
+      "speech_start": 184.25,
+      "speech_seconds": 8.218412698412699,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_14.wav"
+    },
+    {
+      "start": 111,
+      "end": 114,
+      "text": "Open the switch. The coil's field disappears, and the soft iron loses most of its magnetism. The clips fall back onto the table.",
+      "target_start": 193.08333333333334,
+      "target_end": 203.91666666666669,
+      "speech_start": 193.33333333333334,
+      "speech_seconds": 10.024263038548753,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_15.wav"
+    },
+    {
+      "start": 114,
+      "end": 125,
+      "text": "To summarize what we have learned: a coil has north and south poles. Reversing current swaps them. More turns and a soft iron core make the electromagnet stronger. Switching off releases the paper clips.",
+      "target_start": 203.91666666666669,
+      "target_end": 220.50000000000003,
+      "speech_start": 204.16666666666669,
+      "speech_seconds": 15.754081632653062,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_16.wav"
+    },
+    {
+      "start": 125,
+      "end": 136,
+      "text": "Electromagnetism helps cranes lift scrap iron, microphones detect sound, and M R I scanners look inside the body.",
+      "target_start": 220.50000000000003,
+      "target_end": 231.50000000000003,
+      "speech_start": 220.75000000000003,
+      "speech_seconds": 8.497097505668934,
+      "audio": "output/parts/02_coil_reversal/audio_fixed/narration_17.wav"
+    }
+  ],
+  "duration": 231.50000000000003,
+  "frames": 1389,
+  "source_duration": 136,
+  "video_file": "coil_fixed_view_narrated_720p.mp4"
+}

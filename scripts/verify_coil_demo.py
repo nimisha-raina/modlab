@@ -13,6 +13,10 @@ from electromagnetism.field_layout import with_ammeter
 from ammeter_checks import check_ammeter
 scene = bpy.data.scenes[demo.SCENE_NAME]
 bpy.context.window.scene = scene
+if any("resultant_stage" in o for o in scene.objects):
+    import runpy
+    runpy.run_path(str(Path(__file__).with_name("verify_coil_fixed_view.py")),run_name="__main__")
+    raise SystemExit(0)
 assert scene.frame_end == demo.FPS*demo.DURATION and scene.render.fps == 24
 wire = next(o for o in scene.objects if "maximum_turns" in o)
 assert wire.type == "CURVE" and abs(wire.data.bevel_depth-demo.WIRE_RADIUS)<1e-6

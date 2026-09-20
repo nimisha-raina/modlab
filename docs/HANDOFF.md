@@ -9,13 +9,17 @@ Private local snapshots under `backups/` preserve original scenes, all working
 output and render caches. Public scene copies are packed and portable; original
 frozen masters remain unchanged locally.
 
-The latest Case 2 revision begins with a completed ten-turn coil and switch OFF.
-It adds white conventional-current arrows, paired concentric field guides around
-the winding and six circuit branches, a smooth 40-degree right-side orbit, direct
-battery reversal without a board cutaway, equal readings on equidistant compasses,
-a clearer fourfold illustrative iron-core comparison and clips already below the
-nail. The clip release lasts 2.5 seconds; the wide clip view retains the circuit.
-See [PART_02.md](PART_02.md) and [RESUME.md](RESUME.md).
+The current Case 2 revision uses one fixed camera with the board and whole
+circuit visible. It compares 10 turns, 20 turns at unchanged length and diameter,
+and a soft-iron core at the same current. Yellow arrows follow conventional
+current; turquoise guides show magnetic field direction. Both fixed compasses
+have visible arcs and degree readings. Measured Indian male narration extends
+the lesson to 231.5 seconds, including an 11-second applications display.
+See [PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md) for current files, the build,
+validation and deferred H5P plan. Case 1 and older Case 2 media remain preserved.
+The visible clip attachment points are at the exposed nail ends, beyond the
+winding, with board headings for switch OFF, attraction and release. The complete
+movie is a 720p 6-fps review; the packed editable scene retains 24-fps animation.
 
 ## Current student lesson
 
@@ -162,7 +166,12 @@ scene and narration script under `output/parts/frozen_case_01/`, with SHA-256
 checksums in `manifest.json`. The script refuses to overwrite a different frozen
 snapshot. Case 2 builders do not regenerate Case 1 or change its website media.
 
-Part 2 is a separate 136-second silent visual review, starting with a completed
+### Historical Case 2 review
+
+The following describes the preserved earlier checkpoint; use
+[PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md) for the current implementation.
+
+Part 2 was a separate 136-second silent visual review, starting with a completed
 ten-turn coil and the switch OFF. White conventional-current arrows follow every
 visible branch and the winding. Two concentric local-field circles appear at each
 shown location. The local fields become a closed solenoid pattern while the camera

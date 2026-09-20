@@ -12,6 +12,6 @@ for area in bpy.context.window.screen.areas:
     if area.type == "VIEW_3D":
         area.spaces.active.region_3d.view_perspective = "CAMERA"
         area.spaces.active.shading.type = "MATERIAL"
-target = DESTINATION / "coil_reversal.blend"
+target = DESTINATION / "coil_fixed_view_source.blend"
 bpy.ops.wm.save_as_mainfile(filepath=str(target))
 print(f"COIL_CASE_READY={target}", flush=True)

@@ -9,6 +9,14 @@ English captions and **two native H5P questions inside the video**. Video and
 voice pause together. A compact question panel keeps Check, Try again and
 Continue accessible while the scene remains visible behind it.
 
+## Coil and electromagnet lesson
+
+[Case 2](docs/PART_02_FIXED_VIEW.md) keeps the laboratory board and complete
+experiment in one fixed view. It compares 10 turns, 20 turns at the same coil
+size, and a soft-iron core, with visible compass measurements, current reversal,
+paper clips and Indian male tutor narration. Its Blender scene and media use a
+separate workflow; H5P for this chapter is deferred. Case 1 remains frozen.
+
 ## Public student lesson
 
 [Open the published reference lesson](https://nimisha-raina.github.io/modlab/).

@@ -1,4 +1,20 @@
-# Approved project checkpoint
+# Project checkpoint
+
+## Fixed-view revision
+
+The current narrated Case 2 is described in [PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md).
+It uses one fixed camera, unchanged coil diameter for the 10/20-turn comparison,
+yellow conventional-current arrows, turquoise field arrows and visible compass
+measurements. H5P for Case 2 is deferred. The older checkpoint below is retained
+as history; it is not the current camera or diameter specification.
+
+- Current movie: `output/parts/02_coil_reversal/coil_fixed_view_narrated_720p.mp4`.
+- Editable scene: `output/parts/02_coil_reversal/coil_fixed_view_narrated.blend`.
+- Duration: 231.5 seconds; 1280 x 720, 6-fps narrated review; scene remains 24 fps.
+- The clips attach at exposed nail ends, with matching board headings.
+- Portable packed copies are in `archive/generated/parts/02_coil_reversal/`.
+- Case 1 is unchanged. The earlier fixed-view review is also preserved as v1.
+
 
 Read [HANDOFF.md](HANDOFF.md) for detailed implementation and setup.
 [CONTINUE.md](CONTINUE.md) contains the continuation prompt.
@@ -19,7 +35,7 @@ Read [HANDOFF.md](HANDOFF.md) for detailed implementation and setup.
 - Original frozen scene SHA-256:
   `f177ebd25f4bd62ff1ee84da2ef3894e1af788de11180d003096695fc0a8b4fb`.
 
-## Case 2: approved visual draft
+## Historical Case 2: approved silent visual draft
 
 - Movie: `output/parts/02_coil_reversal/coil_reversal_preformed_coil_6fps.mp4`,
   identical to the latest `coil_reversal_draft_6fps.mp4` after encoding.

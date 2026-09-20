@@ -1,0 +1,13 @@
+{
+  "frames": 1389,
+  "duration": 231.5,
+  "fps": 6,
+  "width": 1280,
+  "height": 720,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "video_file": "coil_fixed_view_narrated_720p.mp4",
+  "video_sha256": "264c3c618578116bec51405679bf1f8bc024c9adba1383ffa56c47011d99f673",
+  "scene_sha256": "0cc7ce2538e54a0c706ca4595506ab78b2402f19a37ac174acab7987a27fbb49",
+  "decoded": "All frames decoded; timestamps strictly increase."
+}
