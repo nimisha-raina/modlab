@@ -5,6 +5,7 @@ backups/
 student-lesson/dist/h5p/
 student-lesson/dist/vendor/
 student-lesson/dist/captions.js
+student-lesson/dist/release.json
 # Dependencies, model weights and local credentials
 node_modules/
 .venv*/

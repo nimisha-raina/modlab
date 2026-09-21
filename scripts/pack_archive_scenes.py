@@ -31,6 +31,11 @@ for job in preparation["blender_jobs"]:
             relative = "//packed/"+Path(relative).name
         block.filepath = "/"*1023
         block.filepath = relative
+        # Packed images also retain a separate source path for each packed tile.
+        # Changing Image.filepath alone leaves those original account paths.
+        for image_file in getattr(block, "packed_files", ()):
+            image_file.filepath = "/"*1023
+            image_file.filepath = relative
     for screen in bpy.data.screens:
         for area in screen.areas:
             for space in area.spaces:

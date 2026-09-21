@@ -1,0 +1,169 @@
+{
+  "speaker": "hi-IN-MadhurNeural",
+  "description": "Madhur: Indian male English tutor, natural speaking rate.",
+  "language": "english",
+  "audio_directory": "output/parts/01_compass_current/bilingual/audio_english",
+  "segments": [
+    {
+      "id": "introduction",
+      "start": 0,
+      "end": 3,
+      "text": "Can a simple wire act like a magnet? Let us investigate.",
+      "target_start": 0,
+      "target_end": 5.583333333333333,
+      "speech_start": 0.2,
+      "speech_seconds": 4.76530612244898,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_00.wav"
+    },
+    {
+      "id": "apparatus",
+      "start": 3,
+      "end": 10,
+      "text": "Our circuit has a battery, switch, copper wire, resistor, and an ammeter connected in series.",
+      "target_start": 5.583333333333333,
+      "target_end": 13.5,
+      "speech_start": 5.783333333333333,
+      "speech_seconds": 7.040680272108844,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_01.wav"
+    },
+    {
+      "id": "zoom",
+      "start": 10,
+      "end": 18,
+      "text": "Let us look inside the copper wire. We are enlarging a tiny part to see a teaching model of its particles.",
+      "target_start": 13.5,
+      "target_end": 22.5,
+      "speech_start": 13.7,
+      "speech_seconds": 8.129954648526077,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_02.wav"
+    },
+    {
+      "id": "particles",
+      "start": 18,
+      "end": 21,
+      "text": "The small blue dots are electrons. The copper-coloured spheres are copper ions, vibrating around fixed positions. These colours help us tell them apart.",
+      "target_start": 22.5,
+      "target_end": 35.083333333333336,
+      "speech_start": 22.7,
+      "speech_seconds": 11.761632653061225,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_03.wav"
+    },
+    {
+      "id": "random",
+      "start": 21,
+      "end": 23,
+      "text": "With the switch OFF, electrons move randomly. There is no net flow around the circuit, so no magnetic field from a current in this wire.",
+      "target_start": 35.083333333333336,
+      "target_end": 46.41666666666667,
+      "speech_start": 35.28333333333334,
+      "speech_seconds": 10.495714285714286,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_04.wav"
+    },
+    {
+      "id": "flow",
+      "start": 23,
+      "end": 31,
+      "text": "Switch ON. Electrons now drift to the right. This net flow creates current and a magnetic field around the wire.",
+      "target_start": 46.41666666666667,
+      "target_end": 56.50000000000001,
+      "speech_start": 46.616666666666674,
+      "speech_seconds": 9.219092970521542,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_05.wav"
+    },
+    {
+      "id": "directions",
+      "start": 31,
+      "end": 38,
+      "text": "Electrons drift from negative to positive. Moving yellow arrows show conventional current in the opposite direction: positive to negative.",
+      "target_start": 56.50000000000001,
+      "target_end": 66.41666666666667,
+      "speech_start": 56.70000000000001,
+      "speech_seconds": 9.095850340136055,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_06.wav"
+    },
+    {
+      "id": "field",
+      "start": 38,
+      "end": 48,
+      "text": "The green circles show the magnetic field around the wire. Their arrows show the field direction. The field remains while current flows.",
+      "target_start": 66.41666666666667,
+      "target_end": 77.91666666666667,
+      "speech_start": 66.61666666666667,
+      "speech_seconds": 10.688208616780045,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_07.wav"
+    },
+    {
+      "id": "compass",
+      "start": 48,
+      "end": 53,
+      "text": "Bring a magnetic compass near the wire. Its needle turns. That deflection helps us detect the magnetic field.",
+      "target_start": 77.91666666666667,
+      "target_end": 88.16666666666667,
+      "speech_start": 78.11666666666667,
+      "speech_seconds": 9.408662131519275,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_08.wav"
+    },
+    {
+      "id": "reference",
+      "start": 53,
+      "end": 57,
+      "text": "The ammeter reads half an ampere. Here, the compass deflection is about twenty-five degrees. Remember these starting readings.",
+      "target_start": 88.16666666666667,
+      "target_end": 99.25,
+      "speech_start": 88.36666666666667,
+      "speech_seconds": 10.249954648526078,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_09.wav"
+    },
+    {
+      "id": "increase",
+      "start": 57,
+      "end": 62,
+      "text": "Keep the wire and compass position the same. Now double the current. Compare the before and now readings on the ammeter and compass.",
+      "target_start": 99.25,
+      "target_end": 110.5,
+      "speech_start": 99.45,
+      "speech_seconds": 10.399931972789116,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_10.wav"
+    },
+    {
+      "id": "stronger",
+      "start": 62,
+      "end": 69,
+      "text": "One ampere: the wire\u2019s field is twice as strong at the same distance. More circles represent the stronger field. The needle turns from twenty-five to about forty-three degrees: about eighteen degrees further. The angle does not double.",
+      "target_start": 110.5,
+      "target_end": 129.41666666666666,
+      "speech_start": 110.7,
+      "speech_seconds": 18.096054421768706,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_11.wav"
+    },
+    {
+      "id": "reduce",
+      "start": 69,
+      "end": 72,
+      "text": "Reduce the current again. The field weakens, and the compass needle turns back.",
+      "target_start": 129.41666666666666,
+      "target_end": 136.08333333333331,
+      "speech_start": 129.61666666666665,
+      "speech_seconds": 5.822426303854876,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_12.wav"
+    },
+    {
+      "id": "summary",
+      "start": 72,
+      "end": 86,
+      "text": "To summarize what we learned: moving charge produces current and a magnetic field. A compass detects it. More current means a stronger field. If current stops, the wire\u00e2\u20ac\u2122s field disappears; Earth\u00e2\u20ac\u2122s magnetic field remains.",
+      "target_start": 136.08333333333331,
+      "target_end": 156.08333333333331,
+      "speech_start": 136.2833333333333,
+      "speech_seconds": 19.190680272108843,
+      "audio": "output/parts/01_compass_current/bilingual/audio_english/narration_13.wav"
+    }
+  ],
+  "duration": 156.08333333333331,
+  "fps": 24,
+  "frames": 3746,
+  "source_duration": 86,
+  "video_file": "case_one_english_720p.mp4",
+  "video_fps": 12,
+  "video_frames": 1873
+}

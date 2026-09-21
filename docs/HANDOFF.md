@@ -1,5 +1,25 @@
 # Maintainer handoff
 
+## Current bilingual Case 1
+
+Read [PART_01_BILINGUAL.md](PART_01_BILINGUAL.md) first for the revised first case.
+It offers English (156.083 s, Madhur male voice) and हिंदी (187.833 s,
+Swara female voice), fully Hindi board text and labels, brighter lettering,
+travelling yellow current arrows, a gradual 60° rightward close-up, and two
+compact native H5P questions. The Before/Now card mirrors 0.50 A / 25° and
+1.00 A / 43°; a dashed marker retains the initial compass direction.
+Hindi speech uses the approved तांबे pronunciation input while visible text
+retains ताँबे. Optional `speech_text` is included in voice cache validation. The webpage has been simplified and starts with a
+language choice. The frozen 86-second original and Case 2 remain preserved.
+Use the verification reports beside the generated files to check completion;
+the older first-case workflow below describes the preserved reference.
+
+Both complete movies and both native H5P question paths have passed browser
+playback, wrong-answer retry, correct-answer Continue and phone-width checks.
+The final validation includes 31 Python tests and 14 H5P tests across five
+lesson configurations. Verification reports are preserved with the bilingual
+media archive; final playback ends on the localized summary board.
+
 ## Current bilingual Case 2
 
 Read [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) for the current English/Hinglish
@@ -28,7 +48,7 @@ The visible clip attachment points are at the exposed nail ends, beyond the
 winding, with board headings for switch OFF, attraction and release. The complete
 movie is a 720p 6-fps review; the packed editable scene retains 24-fps animation.
 
-## Current student lesson
+## Preserved 86-second first-case reference
 
 The approved first case is now narrated and integrated with genuine H5P:
 
@@ -54,8 +74,8 @@ The approved first case is now narrated and integrated with genuine H5P:
   Importable package: `output/share/electromagnetism.h5p`. Local preview:
   `python scripts/serve_lesson.py`, then `http://127.0.0.1:8765/`.
 
-The website entry points are `/` for the frozen first case and `/coils/` for the
-bilingual coil lesson. GitHub Pages uses `https://nimisha-raina.github.io/modlab/`.
+The website entry points are `/` for the bilingual first-case revision and `/coils/`
+for the bilingual coil lesson. GitHub Pages uses `https://nimisha-raina.github.io/modlab/`.
 Updates require the publishing step in [PUBLISHING.md](PUBLISHING.md); pushing
 source alone does not deploy the website. The publisher uses the active Python
 environment and Node.js directly so it also runs on Windows. The Case 1 Blender

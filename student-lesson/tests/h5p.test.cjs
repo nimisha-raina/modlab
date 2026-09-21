@@ -5,12 +5,14 @@ const path = require('node:path');
 const { JSDOM, VirtualConsole } = require('jsdom');
 
 const root = path.resolve(__dirname, '..');
-const language=process.env.COIL_LANGUAGE;
+const caseOne=Boolean(process.env.CASE_ONE_LANGUAGE);
+const language=process.env.CASE_ONE_LANGUAGE||process.env.COIL_LANGUAGE;
 if (language && !['english','hinglish'].includes(language)) throw new Error('Invalid coil language');
-const packageDir = path.join(root, language ? `dist/h5p/coil-${language}` : 'dist/h5p/electromagnetism');
-let narrationPath=language ? path.join(root,`../output/parts/02_coil_reversal/bilingual/audio_${language}/narration-timing.json`) : path.join(root,'content/narration-timing.json');
+const chapter=caseOne?'01_compass_current':'02_coil_reversal';
+const packageDir = path.join(root, language ? `dist/h5p/${caseOne?'case-one':'coil'}-${language}` : 'dist/h5p/electromagnetism');
+let narrationPath=language ? path.join(root,`../output/parts/${chapter}/bilingual/audio_${language}/narration-timing.json`) : path.join(root,'content/narration-timing.json');
 if (language && !fs.existsSync(narrationPath)) {
-  narrationPath=path.join(root,`../archive/generated/parts/02_coil_reversal/bilingual/audio_${language}/narration-timing.json`);
+  narrationPath=path.join(root,`../archive/generated/parts/${chapter}/bilingual/audio_${language}/narration-timing.json`);
 }
 const checkLabel=language==='hinglish'?'जवाब जाँचें':'Check answer';
 const retryLabel=language==='hinglish'?'फिर कोशिश करें':'Try again';
@@ -18,7 +20,7 @@ const continueLabel=language==='hinglish'?'आगे बढ़ें':'Continue 
 const read = filename => JSON.parse(fs.readFileSync(filename, 'utf8'));
 const manifest = read(path.join(packageDir, 'h5p.json'));
 const params = read(path.join(packageDir, 'content/content.json'));
-const questions = read(path.join(root, language ? `content/coil/${language}.json` : 'content/questions.json'));
+const questions = read(path.join(root, language ? `content/${caseOne?'case-one':'coil'}/${language}.json` : 'content/questions.json'));
 const duration = read(narrationPath).duration;
 
 function nativeH5P() {
@@ -55,7 +57,9 @@ function nativeH5P() {
   }
   manifest.preloadedDependencies.forEach(load);
   w.eval(fs.readFileSync(path.join(root, 'dist/question-layout.js'), 'utf8'));
-  w.LessonQuestionLayout.install(w.document, w.document.querySelector('#player'));
+  w.LessonQuestionLayout.install(w.document, w.document.querySelector('#player'),{
+    fallbackTitle:caseOne && language==='hinglish'?'सोचकर जवाब दें':'Quick check'
+  });
   return { dom, w, errors };
 }
 
@@ -88,7 +92,7 @@ test('genuine H5P library closure and content assets are complete', () => {
       assert.ok(interaction.duration.from > speechEnd + .1, 'Questions follow the complete explanation');
     });
   }
-  assert.equal(questions.length, language ? 4 : 2);
+  assert.equal(questions.length, language && !caseOne ? 4 : 2);
   assert.equal(params.interactiveVideo.assets.interactions.length, questions.length);
   for (const interaction of params.interactiveVideo.assets.interactions) {
     assert.equal(interaction.action.library, 'H5P.MultiChoice 1.16');
@@ -119,6 +123,10 @@ test('upstream H5P questions score wrong answers, retry, and score correct answe
       question.attach(host.find('#question').empty());
       await new Promise(resolve => setTimeout(resolve, 0));
       assert.ok(wrapper.querySelector('.lesson-question-actions button'), 'Check stays in the fixed footer');
+      if (caseOne && language==='hinglish') {
+        assert.equal(wrapper.querySelector('.h5p-dialog-title').textContent,'सोचकर जवाब दें',
+          'The empty question heading receives a Hindi fallback');
+      }
       assert.equal(wrapper.querySelectorAll('.lesson-question-actions .h5p-question-buttons').length, 1,
         'Only the current question keeps its controls');
       assert.equal(wrapper.querySelector('.lesson-question-actions').textContent.trim(), checkLabel,

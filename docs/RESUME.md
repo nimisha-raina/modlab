@@ -1,5 +1,13 @@
 # Project checkpoint
 
+## Current bilingual Case 1
+
+[PART_01_BILINGUAL.md](PART_01_BILINGUAL.md) describes the revised first case:
+English 156.083 seconds (Madhur) and हिंदी 187.833 seconds (Swara), fully Hindi
+labels, board prose and captions, travelling current arrows, before/now readings, a 60° close-up, richer particle narration and two native H5P pauses.
+The root webpage starts with language selection. Its original 86-second version
+below remains frozen. Case 2 retains its existing bilingual media and behaviour.
+
 ## Current bilingual Case 2
 
 Read [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) for the current English/Hinglish
@@ -35,8 +43,8 @@ Read [HANDOFF.md](HANDOFF.md) for detailed implementation and setup.
 - Apparatus pointers follow the spoken tour; microscopic flow lasts eight seconds.
 - Two genuine H5P questions pause at 30.7 and 68.7 seconds. Compact panels retain
   reachable native Check, Try again and Continue controls.
-- Importable package: `output/share/electromagnetism.h5p`. The local webpage
-  uses this first case. The final summary remains on the lab board.
+- Original importable package: `output/share/electromagnetism.h5p`. The final
+  summary remains on the lab board; the root page now uses the bilingual revision.
 - Original frozen movie SHA-256:
   `cf9ac5f4a57678eada724182df952b438929ad5ffe38a2cc0a587e377206f0b8`.
 - Original frozen scene SHA-256:

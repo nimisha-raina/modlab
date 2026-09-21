@@ -1,0 +1,666 @@
+{
+  "01 - Electricity makes magnetism": [
+    {
+      "name": "Printed cell label",
+      "text": "DRY CELL  1.5 V"
+    },
+    {
+      "name": "BATTERY",
+      "text": "BATTERY"
+    },
+    {
+      "name": "(-)",
+      "text": "(-)"
+    },
+    {
+      "name": "(+)",
+      "text": "(+)"
+    },
+    {
+      "name": "Copper wire",
+      "text": "Copper wire"
+    },
+    {
+      "name": "Resistor",
+      "text": "Resistor"
+    },
+    {
+      "name": "SWITCH",
+      "text": "SWITCH"
+    },
+    {
+      "name": "Ammeter printed scale | -1.0",
+      "text": "-1.0"
+    },
+    {
+      "name": "Ammeter printed scale | -0.5",
+      "text": "-0.5"
+    },
+    {
+      "name": "Ammeter printed scale | 0",
+      "text": "0"
+    },
+    {
+      "name": "Ammeter printed scale | +0.5",
+      "text": "+0.5"
+    },
+    {
+      "name": "Ammeter printed scale | +1.0",
+      "text": "+1.0"
+    },
+    {
+      "name": "Ammeter printed unit",
+      "text": "A"
+    },
+    {
+      "name": "Ammeter reading | 0.00 A",
+      "text": "0.00 A"
+    },
+    {
+      "name": "Ammeter reading | 0.50 A",
+      "text": "0.50 A"
+    },
+    {
+      "name": "Case 1 | EXPERIMENT  /  ELECTRICITY AND MAGNETISM",
+      "text": "MAGNETIC EFFECT OF ELECTRIC CURRENT"
+    },
+    {
+      "name": "Case 1 | Magnetic effect of electric current",
+      "text": "A Wire Can Produce a Magnetic Field"
+    },
+    {
+      "name": "Case 1 | Close the circuit. Observe the magnetic field.",
+      "text": "Close the switch and observe the compass."
+    },
+    {
+      "name": "CIRCUIT STATUS",
+      "text": "CIRCUIT STATUS"
+    },
+    {
+      "name": "SWITCH  OPEN",
+      "text": "SWITCH  OPEN"
+    },
+    {
+      "name": "SWITCH  CLOSED",
+      "text": "SWITCH  CLOSED"
+    },
+    {
+      "name": "SWITCH  OPEN.001",
+      "text": "SWITCH  OPEN"
+    },
+    {
+      "name": "COPPER IONS / vibrate in place",
+      "text": "COPPER IONS / vibrate in place"
+    },
+    {
+      "name": "BLUE DOTS / mobile electrons",
+      "text": "BLUE DOTS / mobile electrons"
+    },
+    {
+      "name": "FROM BATTERY (-)",
+      "text": "FROM BATTERY (-)"
+    },
+    {
+      "name": "TOWARDS BATTERY (+)",
+      "text": "TOWARDS BATTERY (+)"
+    },
+    {
+      "name": "ELECTRON FLOW   /   negative to positive",
+      "text": "ELECTRON FLOW   /   negative to positive"
+    },
+    {
+      "name": "RANDOM MOTION  /  no net electron flow",
+      "text": "RANDOM MOTION  /  no net electron flow"
+    },
+    {
+      "name": "GREEN / magnetic field direction",
+      "text": "GREEN / magnetic field direction"
+    },
+    {
+      "name": "Electron flow   -  >>>  +",
+      "text": "Electron flow   -  >>>  +"
+    },
+    {
+      "name": "Conventional current   -  <<<  +",
+      "text": "Conventional current   -  <<<  +"
+    },
+    {
+      "name": "Current arrow legend",
+      "text": "YELLOW / conventional current"
+    }
+  ],
+  "02 - Compass and current": [
+    {
+      "name": "Printed cell label.001",
+      "text": "DRY CELL  1.5 V"
+    },
+    {
+      "name": "BATTERY.001",
+      "text": "BATTERY"
+    },
+    {
+      "name": "(-).001",
+      "text": "(-)"
+    },
+    {
+      "name": "(+).001",
+      "text": "(+)"
+    },
+    {
+      "name": "Copper wire.001",
+      "text": "Copper wire"
+    },
+    {
+      "name": "Resistor.001",
+      "text": "Resistor"
+    },
+    {
+      "name": "SWITCH.001",
+      "text": "SWITCH"
+    },
+    {
+      "name": "Ammeter printed scale | -1.001",
+      "text": "-1.0"
+    },
+    {
+      "name": "Ammeter printed scale | -0.001",
+      "text": "-0.5"
+    },
+    {
+      "name": "Ammeter printed scale | 0.001",
+      "text": "0"
+    },
+    {
+      "name": "Ammeter printed scale | +0.001",
+      "text": "+0.5"
+    },
+    {
+      "name": "Ammeter printed scale | +1.001",
+      "text": "+1.0"
+    },
+    {
+      "name": "Ammeter printed unit.001",
+      "text": "A"
+    },
+    {
+      "name": "Ammeter reading | 0.50 A.001",
+      "text": "0.50 A"
+    },
+    {
+      "name": "Ammeter reading | 0.52 A",
+      "text": "0.52 A"
+    },
+    {
+      "name": "Ammeter reading | 0.53 A",
+      "text": "0.53 A"
+    },
+    {
+      "name": "Ammeter reading | 0.56 A",
+      "text": "0.56 A"
+    },
+    {
+      "name": "Ammeter reading | 0.58 A",
+      "text": "0.58 A"
+    },
+    {
+      "name": "Ammeter reading | 0.62 A",
+      "text": "0.62 A"
+    },
+    {
+      "name": "Ammeter reading | 0.65 A",
+      "text": "0.65 A"
+    },
+    {
+      "name": "Ammeter reading | 0.69 A",
+      "text": "0.69 A"
+    },
+    {
+      "name": "Ammeter reading | 0.73 A",
+      "text": "0.73 A"
+    },
+    {
+      "name": "Ammeter reading | 0.77 A",
+      "text": "0.77 A"
+    },
+    {
+      "name": "Ammeter reading | 0.80 A",
+      "text": "0.80 A"
+    },
+    {
+      "name": "Ammeter reading | 0.84 A",
+      "text": "0.84 A"
+    },
+    {
+      "name": "Ammeter reading | 0.88 A",
+      "text": "0.88 A"
+    },
+    {
+      "name": "Ammeter reading | 0.91 A",
+      "text": "0.91 A"
+    },
+    {
+      "name": "Ammeter reading | 0.94 A",
+      "text": "0.94 A"
+    },
+    {
+      "name": "Ammeter reading | 0.96 A",
+      "text": "0.96 A"
+    },
+    {
+      "name": "Ammeter reading | 0.98 A",
+      "text": "0.98 A"
+    },
+    {
+      "name": "Ammeter reading | 0.99 A",
+      "text": "0.99 A"
+    },
+    {
+      "name": "Ammeter reading | 1.00 A",
+      "text": "1.00 A"
+    },
+    {
+      "name": "Ammeter reading | 0.97 A",
+      "text": "0.97 A"
+    },
+    {
+      "name": "Ammeter reading | 0.92 A",
+      "text": "0.92 A"
+    },
+    {
+      "name": "Ammeter reading | 0.85 A",
+      "text": "0.85 A"
+    },
+    {
+      "name": "Ammeter reading | 0.81 A",
+      "text": "0.81 A"
+    },
+    {
+      "name": "Ammeter reading | 0.70 A",
+      "text": "0.70 A"
+    },
+    {
+      "name": "Ammeter reading | 0.66 A",
+      "text": "0.66 A"
+    },
+    {
+      "name": "Ammeter reading | 0.59 A",
+      "text": "0.59 A"
+    },
+    {
+      "name": "Ammeter reading | 0.54 A",
+      "text": "0.54 A"
+    },
+    {
+      "name": "Ammeter reading | 0.51 A",
+      "text": "0.51 A"
+    },
+    {
+      "name": "Case 1 | CURRENT AND COMPASS",
+      "text": "DETECTING THE MAGNETIC FIELD"
+    },
+    {
+      "name": "Case 1 | A compass detects the magnetic field",
+      "text": "The Compass Needle Deflects"
+    },
+    {
+      "name": "Case 1 | The current is already flowing.",
+      "text": "Current in the wire changes the needle direction."
+    },
+    {
+      "name": "Case 2 | DOUBLING THE CURRENT",
+      "text": "INCREASING THE CURRENT"
+    },
+    {
+      "name": "Case 2 | More current. Stronger magnetic field.",
+      "text": "More Current, Stronger Magnetic Field"
+    },
+    {
+      "name": "Case 2 | Same wire. Same compass position.",
+      "text": "Keep the wire and compass in the same positions."
+    },
+    {
+      "name": "Case 3 | EXPERIMENT SUMMARY",
+      "text": "KEY OBSERVATIONS"
+    },
+    {
+      "name": "Case 3 | What we learned",
+      "text": "What We Learned"
+    },
+    {
+      "name": "Case 3 | 1. Electrons drift from negative to positive.",
+      "text": "1. Electrons drift from the negative to the positive terminal."
+    },
+    {
+      "name": "Case 3 | 2. Electric current creates a magnetic field.",
+      "text": "2. Electric current produces a magnetic field around the wire."
+    },
+    {
+      "name": "Case 3 | 3. A compass detects the wire's magnetic field.",
+      "text": "3. A compass needle detects the magnetic field."
+    },
+    {
+      "name": "Case 3 | 4. More current: stronger field, greater needle deflection.",
+      "text": "4. Increasing the current strengthens the magnetic field."
+    },
+    {
+      "name": "Compass cardinal | N",
+      "text": "N"
+    },
+    {
+      "name": "Compass cardinal | E",
+      "text": "E"
+    },
+    {
+      "name": "Compass cardinal | S",
+      "text": "S"
+    },
+    {
+      "name": "Compass cardinal | W",
+      "text": "W"
+    },
+    {
+      "name": "Compass apparatus label",
+      "text": "MAGNETIC COMPASS"
+    },
+    {
+      "name": "Compass marked angle",
+      "text": "0\u00b0"
+    },
+    {
+      "name": "Compass marked angle.001",
+      "text": "25\u00b0"
+    },
+    {
+      "name": "Compass marked angle.002",
+      "text": "43\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 25 degrees",
+      "text": "Deflection: 25\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 26 degrees",
+      "text": "Deflection: 26\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 27 degrees",
+      "text": "Deflection: 27\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 28 degrees",
+      "text": "Deflection: 28\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 29 degrees",
+      "text": "Deflection: 29\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 30 degrees",
+      "text": "Deflection: 30\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 31 degrees",
+      "text": "Deflection: 31\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 32 degrees",
+      "text": "Deflection: 32\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 33 degrees",
+      "text": "Deflection: 33\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 34 degrees",
+      "text": "Deflection: 34\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 36 degrees",
+      "text": "Deflection: 36\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 37 degrees",
+      "text": "Deflection: 37\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 38 degrees",
+      "text": "Deflection: 38\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 39 degrees",
+      "text": "Deflection: 39\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 40 degrees",
+      "text": "Deflection: 40\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 41 degrees",
+      "text": "Deflection: 41\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 42 degrees",
+      "text": "Deflection: 42\u00b0"
+    },
+    {
+      "name": "Compass deflection reading | 43 degrees",
+      "text": "Deflection: 43\u00b0"
+    },
+    {
+      "name": "COMPARE THE READINGS",
+      "text": "COMPARE THE READINGS"
+    },
+    {
+      "name": "BEFORE",
+      "text": "BEFORE"
+    },
+    {
+      "name": "NOW",
+      "text": "NOW"
+    },
+    {
+      "name": "Ammeter",
+      "text": "Ammeter"
+    },
+    {
+      "name": "Compass",
+      "text": "Compass"
+    },
+    {
+      "name": "0.50 A",
+      "text": "0.50 A"
+    },
+    {
+      "name": "25\u00b0",
+      "text": "25\u00b0"
+    },
+    {
+      "name": "0.50 A.001",
+      "text": "0.50 A"
+    },
+    {
+      "name": "0.52 A",
+      "text": "0.52 A"
+    },
+    {
+      "name": "0.53 A",
+      "text": "0.53 A"
+    },
+    {
+      "name": "0.56 A",
+      "text": "0.56 A"
+    },
+    {
+      "name": "0.58 A",
+      "text": "0.58 A"
+    },
+    {
+      "name": "0.62 A",
+      "text": "0.62 A"
+    },
+    {
+      "name": "0.65 A",
+      "text": "0.65 A"
+    },
+    {
+      "name": "0.69 A",
+      "text": "0.69 A"
+    },
+    {
+      "name": "0.73 A",
+      "text": "0.73 A"
+    },
+    {
+      "name": "0.77 A",
+      "text": "0.77 A"
+    },
+    {
+      "name": "0.80 A",
+      "text": "0.80 A"
+    },
+    {
+      "name": "0.84 A",
+      "text": "0.84 A"
+    },
+    {
+      "name": "0.88 A",
+      "text": "0.88 A"
+    },
+    {
+      "name": "0.91 A",
+      "text": "0.91 A"
+    },
+    {
+      "name": "0.94 A",
+      "text": "0.94 A"
+    },
+    {
+      "name": "0.96 A",
+      "text": "0.96 A"
+    },
+    {
+      "name": "0.98 A",
+      "text": "0.98 A"
+    },
+    {
+      "name": "0.99 A",
+      "text": "0.99 A"
+    },
+    {
+      "name": "1.00 A",
+      "text": "1.00 A"
+    },
+    {
+      "name": "0.97 A",
+      "text": "0.97 A"
+    },
+    {
+      "name": "0.92 A",
+      "text": "0.92 A"
+    },
+    {
+      "name": "0.85 A",
+      "text": "0.85 A"
+    },
+    {
+      "name": "0.81 A",
+      "text": "0.81 A"
+    },
+    {
+      "name": "0.70 A",
+      "text": "0.70 A"
+    },
+    {
+      "name": "0.66 A",
+      "text": "0.66 A"
+    },
+    {
+      "name": "0.59 A",
+      "text": "0.59 A"
+    },
+    {
+      "name": "0.54 A",
+      "text": "0.54 A"
+    },
+    {
+      "name": "0.51 A",
+      "text": "0.51 A"
+    },
+    {
+      "name": "25\u00b0.001",
+      "text": "25\u00b0"
+    },
+    {
+      "name": "26\u00b0",
+      "text": "26\u00b0"
+    },
+    {
+      "name": "27\u00b0",
+      "text": "27\u00b0"
+    },
+    {
+      "name": "28\u00b0",
+      "text": "28\u00b0"
+    },
+    {
+      "name": "29\u00b0",
+      "text": "29\u00b0"
+    },
+    {
+      "name": "30\u00b0",
+      "text": "30\u00b0"
+    },
+    {
+      "name": "31\u00b0",
+      "text": "31\u00b0"
+    },
+    {
+      "name": "32\u00b0",
+      "text": "32\u00b0"
+    },
+    {
+      "name": "33\u00b0",
+      "text": "33\u00b0"
+    },
+    {
+      "name": "34\u00b0",
+      "text": "34\u00b0"
+    },
+    {
+      "name": "36\u00b0",
+      "text": "36\u00b0"
+    },
+    {
+      "name": "37\u00b0",
+      "text": "37\u00b0"
+    },
+    {
+      "name": "38\u00b0",
+      "text": "38\u00b0"
+    },
+    {
+      "name": "39\u00b0",
+      "text": "39\u00b0"
+    },
+    {
+      "name": "40\u00b0",
+      "text": "40\u00b0"
+    },
+    {
+      "name": "41\u00b0",
+      "text": "41\u00b0"
+    },
+    {
+      "name": "42\u00b0",
+      "text": "42\u00b0"
+    },
+    {
+      "name": "43\u00b0",
+      "text": "43\u00b0"
+    },
+    {
+      "name": "Needle moved about 18\u00b0 further",
+      "text": "Needle moved about 18\u00b0 further"
+    }
+  ]
+}

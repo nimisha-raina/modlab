@@ -38,3 +38,21 @@ class ArchiveSelectionTests(unittest.TestCase):
             with patch.multiple(archive,ROOT=root,ARCHIVE=root/"archive",GENERATED=root/"archive/generated"):
                 with self.assertRaises(ValueError):
                     archive.prepare(["../outside.mp4"])
+
+    def test_restored_packed_copy_keeps_original_source_identity(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            generated=root/"archive/generated"
+            generated.mkdir(parents=True)
+            (root/"output").mkdir()
+            packed=generated/"lesson.blend"
+            packed.write_bytes(b"portable packed scene")
+            (root/"output/lesson.blend").write_bytes(packed.read_bytes())
+            entry=dict(path=packed.name,original_sha256="original-render-source",
+                       sha256=archive.digest(packed),bytes=packed.stat().st_size)
+            (root/"archive/manifest.json").write_text(json.dumps(dict(files=[entry])))
+            with patch.multiple(archive,ROOT=root,ARCHIVE=root/"archive",GENERATED=generated):
+                archive.prepare(["lesson.blend"])
+            preparation=json.loads((root/"archive/preparation.json").read_text())
+            self.assertEqual(preparation["files"][0]["original_sha256"],"original-render-source")
+            self.assertEqual(preparation["blender_jobs"],[])

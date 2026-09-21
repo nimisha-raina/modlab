@@ -1,5 +1,14 @@
 # Class 8 interactive electromagnetism lesson
 
+## Current Case 1: choose English or हिंदी
+
+The root page now opens with a language choice. English lasts 156.083 seconds and
+हिंदी 187.833 seconds. The Hindi movie has fully Hindi board prose and labels
+and Swara female narration. English retains the Madhur male narrator. Moving
+current arrows, brighter labels and live before/now measurements clarify the changes. Both versions have two genuine H5P questions. See
+[PART_01_BILINGUAL.md](../docs/PART_01_BILINGUAL.md) for current files and validation.
+The original 86-second package and the reference workflow below remain preserved.
+
 ## Case 2: coils and electromagnets
 
 Open `coils/` for the English/Hinglish narration choice and four genuine H5P
@@ -7,7 +16,7 @@ prediction questions. Both tracks use one Indian male voice. See
 [the bilingual chapter guide](../docs/PART_02_BILINGUAL.md) for scripts, build
 commands, separate importable packages and validation. Case 1 below is retained.
 
-## Case 1
+## Preserved 86-second Case 1 reference
 
 This webpage runs **genuine H5P Interactive Video 1.28.37** with H5P Multiple Choice
 1.16.27. H5P supplies playback, timed questions, answer checking, hints, retries,

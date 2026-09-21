@@ -1,4 +1,4 @@
-"""Author cached male Indian-English speech; student playback is entirely offline.
+"""Author cached tutor speech; student playback is entirely offline.
 
 Uses edge-tts, an LGPL-3.0 client for Microsoft's Edge speech service. Only the
 public lesson script is sent. Voice output is not an Apache-licensed model.
@@ -24,16 +24,19 @@ async def main(script="docs/first-case-narration.json"):
         "client": "edge-tts 7.2.8", "client_license": "LGPL-3.0",
         "client_source": "https://github.com/rany2/edge-tts", "clips": {},
     }
+    provenance['speaker'] = lesson['speaker']
     for index, section in enumerate(lesson["segments"]):
         clip = section.get("clip", index)
         path = output / f"narration_{clip:02}.mp3"
-        digest = hashlib.sha256((section["text"] + lesson["description"]).encode()).hexdigest()
-        if path.exists() and provenance["clips"].get(path.name, {}).get("script_sha256") == digest:
+        spoken = section.get('speech_text', section['text'])
+        digest = hashlib.sha256((spoken + lesson["description"]).encode()).hexdigest()
+        cached = provenance['clips'].get(path.name, {})
+        if path.exists() and cached.get('script_sha256') == digest and cached.get('voice') == lesson['speaker']:
             print(f"KEEP {path.name}", flush=True)
             continue
         for attempt in range(3):
             try:
-                voice = edge_tts.Communicate(section["text"], lesson["speaker"], boundary="WordBoundary")
+                voice = edge_tts.Communicate(spoken, lesson["speaker"], boundary="WordBoundary")
                 await voice.save(str(path), str(path.with_suffix(".words.jsonl")))
                 break
             except Exception:

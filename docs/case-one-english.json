@@ -1,0 +1,92 @@
+{
+  "speaker": "hi-IN-MadhurNeural",
+  "description": "Madhur: Indian male English tutor, natural speaking rate.",
+  "language": "english",
+  "audio_directory": "output/parts/01_compass_current/bilingual/audio_english",
+  "segments": [
+    {
+      "id": "introduction",
+      "start": 0,
+      "end": 3,
+      "text": "Can a simple wire act like a magnet? Let us investigate."
+    },
+    {
+      "id": "apparatus",
+      "start": 3,
+      "end": 10,
+      "text": "Our circuit has a battery, switch, copper wire, resistor, and an ammeter connected in series."
+    },
+    {
+      "id": "zoom",
+      "start": 10,
+      "end": 18,
+      "text": "Let us look inside the copper wire. We are enlarging a tiny part to see a teaching model of its particles."
+    },
+    {
+      "id": "particles",
+      "start": 18,
+      "end": 21,
+      "text": "The small blue dots are electrons. The copper-coloured spheres are copper ions, vibrating around fixed positions. These colours help us tell them apart."
+    },
+    {
+      "id": "random",
+      "start": 21,
+      "end": 23,
+      "text": "With the switch OFF, electrons move randomly. There is no net flow around the circuit, so no magnetic field from a current in this wire."
+    },
+    {
+      "id": "flow",
+      "start": 23,
+      "end": 31,
+      "text": "Switch ON. Electrons now drift to the right. This net flow creates current and a magnetic field around the wire."
+    },
+    {
+      "id": "directions",
+      "start": 31,
+      "end": 38,
+      "text": "Electrons drift from negative to positive. Moving yellow arrows show conventional current in the opposite direction: positive to negative."
+    },
+    {
+      "id": "field",
+      "start": 38,
+      "end": 48,
+      "text": "The green circles show the magnetic field around the wire. Their arrows show the field direction. The field remains while current flows."
+    },
+    {
+      "id": "compass",
+      "start": 48,
+      "end": 53,
+      "text": "Bring a magnetic compass near the wire. Its needle turns. That deflection helps us detect the magnetic field."
+    },
+    {
+      "id": "reference",
+      "start": 53,
+      "end": 57,
+      "text": "The ammeter reads half an ampere. Here, the compass deflection is about twenty-five degrees. Remember these starting readings."
+    },
+    {
+      "id": "increase",
+      "start": 57,
+      "end": 62,
+      "text": "Keep the wire and compass position the same. Now double the current. Compare the before and now readings on the ammeter and compass."
+    },
+    {
+      "id": "stronger",
+      "start": 62,
+      "end": 69,
+      "text": "One ampere: the wire’s field is twice as strong at the same distance. More circles represent the stronger field. The needle turns from twenty-five to about forty-three degrees: about eighteen degrees further. The angle does not double."
+    },
+    {
+      "id": "reduce",
+      "start": 69,
+      "end": 72,
+      "text": "Reduce the current again. The field weakens, and the compass needle turns back."
+    },
+    {
+      "id": "summary",
+      "start": 72,
+      "end": 86,
+      "text": "To summarize what we learned: moving charge produces current and a magnetic field. A compass detects it. More current means a stronger field. If current stops, the wireâ€™s field disappears; Earthâ€™s magnetic field remains."
+    }
+  ]
+}

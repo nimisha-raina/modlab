@@ -4,36 +4,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#071722">
-  <meta name="description" content="Explore electricity and magnetism with an Indian-English narrated 3D video and two interactive questions. A Class 8 science lesson.">
+  <meta name="description" content="Explore electric current and magnetic fields in a Class 8 laboratory lesson. Choose English or हिंदी.">
   <title>Electricity makes magnetism · Class 8</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23071722'/%3E%3Cpath d='M5 20h30' stroke='%23eaa269' stroke-width='4'/%3E%3Cellipse cx='20' cy='20' rx='7' ry='14' fill='none' stroke='%236fe6c6' stroke-width='3'/%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=case-one-clarity-3">
 </head>
 <body>
-  <a class="skip-link" href="#lesson">Skip to lesson</a>
-  <header class="site-header">
-    <a class="brand" href="./" aria-label="Field Notes lesson home"><span class="brand-mark" aria-hidden="true">F<span>n</span></span><span>FIELD NOTES<span class="brand-sub">A little curiosity. A big discovery.</span></span></a>
-    <span class="class-label">CLASS 8 <span aria-hidden="true">/</span> SCIENCE</span>
-  </header>
-  <main id="lesson">
-    <p><a href="coils/">Next experiment: coils and electromagnets · English / Hinglish</a></p>
-    <div class="lesson-heading"><div><p class="eyebrow">ELECTRICITY &amp; MAGNETISM</p><h1>Can electricity make a magnet?</h1><p class="intro">Watch, predict, and discover. Answer each question right inside the video.</p></div><span class="lesson-length">86-second video <span>·</span> Go at your own pace</span></div>
-
-    <section class="player-section" aria-label="Interactive lesson video">
-      <div class="video-stage" id="video-stage">
-        <div id="h5p-container"></div>
-        <p id="player-message" class="player-message" role="status">Loading your lesson…</p>
+  <a class="skip-link" href="#lesson-main">Skip to lesson</a>
+  <header class="site-header"><a class="brand" href="./">FIELD NOTES</a><span class="class-label">CLASS 8 / SCIENCE</span></header>
+  <main id="lesson-main">
+    <div class="lesson-heading"><div><p class="eyebrow">ELECTRICITY &amp; MAGNETISM</p><h1 id="lesson-title">Can electricity make a magnet?</h1><p class="intro" id="lesson-intro">Look inside a copper wire. Discover what changes when current flows.</p></div></div>
+    <section id="language-choice" class="player-section" aria-labelledby="language-title">
+      <img src="case-one-poster.jpg" alt="The laboratory board and copper circuit with battery, switch and ammeter" width="1280" height="720">
+      <div class="choice-panel"><h2 id="language-title">Choose your language · भाषा चुनें</h2>
+        <div class="language-buttons">
+          <button data-language="english"><strong>English</strong><span>Explore in English</span></button>
+          <button data-language="hinglish"><strong lang="hi">हिंदी</strong><span lang="hi">हिंदी में देखें, सुनें और समझें</span></button>
+        </div>
       </div>
-      <div class="lesson-tools"><span id="progress-text">2 questions inside the video</span><button id="restart" hidden>Watch and try again</button></div>
-      <div class="caption-block"><span class="caption-label">IN THE VIDEO</span><p id="caption-title">Electricity makes magnetism</p><p id="caption-detail">Can electricity make magnetism?</p></div>
-      <p class="video-note">Indian-English narration · English captions · Video and voice pause together for each question.</p>
     </section>
-    <footer class="lesson-footer"><span>ONE WIRE. THREE DISCOVERIES.</span><p>Your answers stay in this session. No name or sign-in needed.</p></footer>
+    <section id="lesson" class="player-section" hidden aria-label="Interactive laboratory experiment">
+      <div class="video-stage" id="video-stage"><div id="h5p-container"></div><p id="player-message" class="player-message" role="status">Loading your lesson…</p></div>
+      <div class="lesson-tools"><span id="lesson-length"></span><button id="change-language">Change language</button></div>
+      <p id="caption" class="lesson-caption" aria-live="off"></p>
+      <button id="restart" hidden>Watch and try again</button>
+    </section>
+    <nav class="next-lesson" aria-label="More experiments"><a href="coils/">Next experiment: coils and electromagnets →</a></nav>
   </main>
-  <noscript><p class="noscript">Turn on JavaScript to use the interactive questions.</p></noscript>
+  <noscript><p class="noscript">Turn on JavaScript to choose your language and use the lesson.</p></noscript>
   <script src="vendor/h5p-player/main.bundle.js"></script>
-  <script src="captions.js"></script>
-  <script src="question-layout.js"></script>
-  <script src="lesson.js"></script>
+  <script src="question-layout.js?v=case-one-clarity-4"></script>
+  <script src="lesson-tools.js"></script>
+  <script src="case-one-config.js?v=case-one-clarity-3"></script>
+  <script src="lesson.js?v=case-one-clarity-3"></script>
 </body>
 </html>

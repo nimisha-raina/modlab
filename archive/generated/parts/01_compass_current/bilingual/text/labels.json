@@ -1,0 +1,1710 @@
+{
+  "(+)": {
+    "english": {
+      "text": "(+)",
+      "file": "e0942680c70dc5a3f971.png",
+      "width": 93,
+      "height": 69
+    },
+    "hinglish": {
+      "text": "(+)",
+      "file": "e0942680c70dc5a3f971.png",
+      "width": 93,
+      "height": 69
+    }
+  },
+  "(-)": {
+    "english": {
+      "text": "(-)",
+      "file": "44c479ed89a0079d7f65.png",
+      "width": 71,
+      "height": 69
+    },
+    "hinglish": {
+      "text": "(-)",
+      "file": "44c479ed89a0079d7f65.png",
+      "width": 71,
+      "height": 69
+    }
+  },
+  "+0.5": {
+    "english": {
+      "text": "+0.5",
+      "file": "5ea3f37434df4c88dfac.png",
+      "width": 144,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "+0.5",
+      "file": "5ea3f37434df4c88dfac.png",
+      "width": 144,
+      "height": 58
+    }
+  },
+  "+1.0": {
+    "english": {
+      "text": "+1.0",
+      "file": "9bf9512a2481cb4e8447.png",
+      "width": 146,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "+1.0",
+      "file": "9bf9512a2481cb4e8447.png",
+      "width": 146,
+      "height": 58
+    }
+  },
+  "-0.5": {
+    "english": {
+      "text": "-0.5",
+      "file": "1b07b0cffa0b3f596b5e.png",
+      "width": 126,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "-0.5",
+      "file": "1b07b0cffa0b3f596b5e.png",
+      "width": 126,
+      "height": 58
+    }
+  },
+  "-1.0": {
+    "english": {
+      "text": "-1.0",
+      "file": "f006c4915bce75dd9588.png",
+      "width": 128,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "-1.0",
+      "file": "f006c4915bce75dd9588.png",
+      "width": 128,
+      "height": 58
+    }
+  },
+  "0": {
+    "english": {
+      "text": "0",
+      "file": "5feceb66ffc86f38d952.png",
+      "width": 37,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0",
+      "file": "5feceb66ffc86f38d952.png",
+      "width": 37,
+      "height": 58
+    }
+  },
+  "0.00 A": {
+    "english": {
+      "text": "0.00 A",
+      "file": "b90b7b3e4583220a4449.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.00 A",
+      "file": "b90b7b3e4583220a4449.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.50 A": {
+    "english": {
+      "text": "0.50 A",
+      "file": "33babf7e1f9e8ba658c5.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.50 A",
+      "file": "33babf7e1f9e8ba658c5.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.51 A": {
+    "english": {
+      "text": "0.51 A",
+      "file": "c98696896c84936f756f.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.51 A",
+      "file": "c98696896c84936f756f.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.52 A": {
+    "english": {
+      "text": "0.52 A",
+      "file": "0bf745ac5a9d64c6d872.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.52 A",
+      "file": "0bf745ac5a9d64c6d872.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.53 A": {
+    "english": {
+      "text": "0.53 A",
+      "file": "7d9cb527231d07da121e.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.53 A",
+      "file": "7d9cb527231d07da121e.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.54 A": {
+    "english": {
+      "text": "0.54 A",
+      "file": "98835a2a7cdb91f08bf9.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.54 A",
+      "file": "98835a2a7cdb91f08bf9.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.56 A": {
+    "english": {
+      "text": "0.56 A",
+      "file": "66da5cac72ff217f9cd6.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.56 A",
+      "file": "66da5cac72ff217f9cd6.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.58 A": {
+    "english": {
+      "text": "0.58 A",
+      "file": "0b7009b225e8d30f7be0.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.58 A",
+      "file": "0b7009b225e8d30f7be0.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.59 A": {
+    "english": {
+      "text": "0.59 A",
+      "file": "ac7944db7141c71e9bef.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.59 A",
+      "file": "ac7944db7141c71e9bef.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.62 A": {
+    "english": {
+      "text": "0.62 A",
+      "file": "2661efd34a9588e2217f.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.62 A",
+      "file": "2661efd34a9588e2217f.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.65 A": {
+    "english": {
+      "text": "0.65 A",
+      "file": "aa8dd7caa63299a93647.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.65 A",
+      "file": "aa8dd7caa63299a93647.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.66 A": {
+    "english": {
+      "text": "0.66 A",
+      "file": "f1eedcdd1e80d5bd7cae.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.66 A",
+      "file": "f1eedcdd1e80d5bd7cae.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.69 A": {
+    "english": {
+      "text": "0.69 A",
+      "file": "12011807a9eea6ec8692.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.69 A",
+      "file": "12011807a9eea6ec8692.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.70 A": {
+    "english": {
+      "text": "0.70 A",
+      "file": "1b263f981bd684ef4ce2.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.70 A",
+      "file": "1b263f981bd684ef4ce2.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.73 A": {
+    "english": {
+      "text": "0.73 A",
+      "file": "2d4c59dbaf8ae2fc5dba.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.73 A",
+      "file": "2d4c59dbaf8ae2fc5dba.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.77 A": {
+    "english": {
+      "text": "0.77 A",
+      "file": "05a011600f40a6e99cc8.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.77 A",
+      "file": "05a011600f40a6e99cc8.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.80 A": {
+    "english": {
+      "text": "0.80 A",
+      "file": "9d2d7f6397bcfad16537.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.80 A",
+      "file": "9d2d7f6397bcfad16537.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.81 A": {
+    "english": {
+      "text": "0.81 A",
+      "file": "1b8c98c970dec2ff10f8.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.81 A",
+      "file": "1b8c98c970dec2ff10f8.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.84 A": {
+    "english": {
+      "text": "0.84 A",
+      "file": "e2555b78881fb6e2fe6f.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.84 A",
+      "file": "e2555b78881fb6e2fe6f.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.85 A": {
+    "english": {
+      "text": "0.85 A",
+      "file": "c54fb44cb0f349ce06d5.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.85 A",
+      "file": "c54fb44cb0f349ce06d5.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.88 A": {
+    "english": {
+      "text": "0.88 A",
+      "file": "1552b59954362ffd879c.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.88 A",
+      "file": "1552b59954362ffd879c.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.91 A": {
+    "english": {
+      "text": "0.91 A",
+      "file": "92861c7a1cff3ef61095.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.91 A",
+      "file": "92861c7a1cff3ef61095.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.92 A": {
+    "english": {
+      "text": "0.92 A",
+      "file": "21bf1f6bb4e492f90926.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.92 A",
+      "file": "21bf1f6bb4e492f90926.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.94 A": {
+    "english": {
+      "text": "0.94 A",
+      "file": "b7b4e984ce253e271c28.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.94 A",
+      "file": "b7b4e984ce253e271c28.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.96 A": {
+    "english": {
+      "text": "0.96 A",
+      "file": "4f975c51d8bce0fd702d.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.96 A",
+      "file": "4f975c51d8bce0fd702d.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.97 A": {
+    "english": {
+      "text": "0.97 A",
+      "file": "bf9ae276ee76aa4f0d69.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.97 A",
+      "file": "bf9ae276ee76aa4f0d69.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.98 A": {
+    "english": {
+      "text": "0.98 A",
+      "file": "f5c6d9cba066c88db2fa.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.98 A",
+      "file": "f5c6d9cba066c88db2fa.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.99 A": {
+    "english": {
+      "text": "0.99 A",
+      "file": "bfdd020ddfb6e2f03c77.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.99 A",
+      "file": "bfdd020ddfb6e2f03c77.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0\u00b0": {
+    "english": {
+      "text": "0\u00b0",
+      "file": "b907ad4dc78cfd2ab7c3.png",
+      "width": 66,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0\u00b0",
+      "file": "b907ad4dc78cfd2ab7c3.png",
+      "width": 66,
+      "height": 58
+    }
+  },
+  "1. Electrons drift from the negative to the positive terminal.": {
+    "english": {
+      "text": "1. Electrons drift from the negative to the positive terminal.",
+      "file": "b0cc7f2f47263327b5c1.png",
+      "width": 2063,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "1. \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928 \u090b\u0923\u093e\u0924\u094d\u092e\u0915 \u0938\u0947 \u0927\u0928\u093e\u0924\u094d\u092e\u0915 \u0938\u093f\u0930\u0947 \u0915\u0940 \u0913\u0930 \u092c\u0939\u0924\u0947 \u0939\u0948\u0902\u0964",
+      "file": "b4c7f51c2cc56cc3ecee.png",
+      "width": 1680,
+      "height": 105
+    }
+  },
+  "1.00 A": {
+    "english": {
+      "text": "1.00 A",
+      "file": "972f80e1cdd9a3aa3e9b.png",
+      "width": 212,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "1.00 A",
+      "file": "972f80e1cdd9a3aa3e9b.png",
+      "width": 212,
+      "height": 58
+    }
+  },
+  "2. Electric current produces a magnetic field around the wire.": {
+    "english": {
+      "text": "2. Electric current produces a magnetic field around the wire.",
+      "file": "9b08daa44d337c061cd3.png",
+      "width": 2127,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "2. \u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u0927\u093e\u0930\u093e \u0938\u0947 \u0924\u093e\u0930 \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u092c\u0928\u0924\u093e \u0939\u0948\u0964",
+      "file": "75cf402189cb2c56b31b.png",
+      "width": 1729,
+      "height": 105
+    }
+  },
+  "25\u00b0": {
+    "english": {
+      "text": "25\u00b0",
+      "file": "a18c896cde2e8bb7f4de.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "25\u00b0",
+      "file": "a18c896cde2e8bb7f4de.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "26\u00b0": {
+    "english": {
+      "text": "26\u00b0",
+      "file": "5cd7f0f5c386938ff621.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "26\u00b0",
+      "file": "5cd7f0f5c386938ff621.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "27\u00b0": {
+    "english": {
+      "text": "27\u00b0",
+      "file": "a4498bf56aa62d2abf78.png",
+      "width": 109,
+      "height": 57
+    },
+    "hinglish": {
+      "text": "27\u00b0",
+      "file": "a4498bf56aa62d2abf78.png",
+      "width": 109,
+      "height": 57
+    }
+  },
+  "28\u00b0": {
+    "english": {
+      "text": "28\u00b0",
+      "file": "c01110bcfb8ba3afa0a3.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "28\u00b0",
+      "file": "c01110bcfb8ba3afa0a3.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "29\u00b0": {
+    "english": {
+      "text": "29\u00b0",
+      "file": "26a7ae99f2b99f1b29f1.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "29\u00b0",
+      "file": "26a7ae99f2b99f1b29f1.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "3. A compass needle detects the magnetic field.": {
+    "english": {
+      "text": "3. A compass needle detects the magnetic field.",
+      "file": "c7b4bed0f7140bf57beb.png",
+      "width": 1669,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "3. \u0915\u092e\u094d\u092a\u093e\u0938 \u0915\u0940 \u0938\u0941\u0908 \u0938\u0947 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0915\u093e \u092a\u0924\u093e \u091a\u0932\u0924\u093e \u0939\u0948\u0964",
+      "file": "5cee1a6bb0a957446050.png",
+      "width": 1560,
+      "height": 105
+    }
+  },
+  "30\u00b0": {
+    "english": {
+      "text": "30\u00b0",
+      "file": "391321dbab243d2f3c7d.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "30\u00b0",
+      "file": "391321dbab243d2f3c7d.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "31\u00b0": {
+    "english": {
+      "text": "31\u00b0",
+      "file": "8a32c4f6bcd0ad7ea3fc.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "31\u00b0",
+      "file": "8a32c4f6bcd0ad7ea3fc.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "32\u00b0": {
+    "english": {
+      "text": "32\u00b0",
+      "file": "e742fe51456e274e1d42.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "32\u00b0",
+      "file": "e742fe51456e274e1d42.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "33\u00b0": {
+    "english": {
+      "text": "33\u00b0",
+      "file": "4f73d2d7f1c370d9f077.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "33\u00b0",
+      "file": "4f73d2d7f1c370d9f077.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "34\u00b0": {
+    "english": {
+      "text": "34\u00b0",
+      "file": "52260b7edd24896bbee1.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "34\u00b0",
+      "file": "52260b7edd24896bbee1.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "36\u00b0": {
+    "english": {
+      "text": "36\u00b0",
+      "file": "44982b30a7bf265cd07c.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "36\u00b0",
+      "file": "44982b30a7bf265cd07c.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "37\u00b0": {
+    "english": {
+      "text": "37\u00b0",
+      "file": "e0c475f347b7ef53da95.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "37\u00b0",
+      "file": "e0c475f347b7ef53da95.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "38\u00b0": {
+    "english": {
+      "text": "38\u00b0",
+      "file": "131adf6f79057c1414c5.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "38\u00b0",
+      "file": "131adf6f79057c1414c5.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "39\u00b0": {
+    "english": {
+      "text": "39\u00b0",
+      "file": "51212063b1cafe94f9f5.png",
+      "width": 109,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "39\u00b0",
+      "file": "51212063b1cafe94f9f5.png",
+      "width": 109,
+      "height": 58
+    }
+  },
+  "4. Increasing the current strengthens the magnetic field.": {
+    "english": {
+      "text": "4. Increasing the current strengthens the magnetic field.",
+      "file": "bfe46c86408547ae75d2.png",
+      "width": 1961,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "4. \u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u0927\u093e\u0930\u093e \u092c\u0922\u093c\u093e\u0928\u0947 \u092a\u0930 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u092a\u094d\u0930\u092c\u0932 \u0939\u094b\u0924\u093e \u0939\u0948\u0964",
+      "file": "4239395aaa8082417212.png",
+      "width": 1577,
+      "height": 105
+    }
+  },
+  "40\u00b0": {
+    "english": {
+      "text": "40\u00b0",
+      "file": "8586c0c2f57f47674b34.png",
+      "width": 113,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "40\u00b0",
+      "file": "8586c0c2f57f47674b34.png",
+      "width": 113,
+      "height": 58
+    }
+  },
+  "41\u00b0": {
+    "english": {
+      "text": "41\u00b0",
+      "file": "864062c5b950f1cf1552.png",
+      "width": 113,
+      "height": 57
+    },
+    "hinglish": {
+      "text": "41\u00b0",
+      "file": "864062c5b950f1cf1552.png",
+      "width": 113,
+      "height": 57
+    }
+  },
+  "42\u00b0": {
+    "english": {
+      "text": "42\u00b0",
+      "file": "cf9090fb8c2339832884.png",
+      "width": 113,
+      "height": 57
+    },
+    "hinglish": {
+      "text": "42\u00b0",
+      "file": "cf9090fb8c2339832884.png",
+      "width": 113,
+      "height": 57
+    }
+  },
+  "43\u00b0": {
+    "english": {
+      "text": "43\u00b0",
+      "file": "4bb68473e8cd55ec749e.png",
+      "width": 113,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "43\u00b0",
+      "file": "4bb68473e8cd55ec749e.png",
+      "width": 113,
+      "height": 58
+    }
+  },
+  "A": {
+    "english": {
+      "text": "A",
+      "file": "559aead08264d5795d39.png",
+      "width": 51,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "A",
+      "file": "559aead08264d5795d39.png",
+      "width": 51,
+      "height": 56
+    }
+  },
+  "A Wire Can Produce a Magnetic Field": {
+    "english": {
+      "text": "A Wire Can Produce a Magnetic Field",
+      "file": "0e8e925e9c4941eb5757.png",
+      "width": 1303,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0924\u093e\u0930 \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+      "file": "87b84c11dc5bb0d3f0e2.png",
+      "width": 898,
+      "height": 101
+    }
+  },
+  "Ammeter": {
+    "english": {
+      "text": "Ammeter",
+      "file": "5ceac702bdc25200c40b.png",
+      "width": 327,
+      "height": 57
+    },
+    "hinglish": {
+      "text": "\u0910\u092e\u0940\u091f\u0930",
+      "file": "c70cb5e41019a8b6602b.png",
+      "width": 210,
+      "height": 93
+    }
+  },
+  "BATTERY": {
+    "english": {
+      "text": "BATTERY",
+      "file": "eb690390d504c803f513.png",
+      "width": 301,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "\u092c\u0948\u091f\u0930\u0940",
+      "file": "4aed09527e311c8e4b74.png",
+      "width": 161,
+      "height": 86
+    }
+  },
+  "BEFORE": {
+    "english": {
+      "text": "BEFORE",
+      "file": "c341c7fe1027f9487e80.png",
+      "width": 264,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u092a\u0939\u0932\u0947",
+      "file": "d860eff23db3febae71a.png",
+      "width": 157,
+      "height": 91
+    }
+  },
+  "BLUE DOTS / mobile electrons": {
+    "english": {
+      "text": "BLUE DOTS / mobile electrons",
+      "file": "9e5a0b7866c44d4ba4d6.png",
+      "width": 1047,
+      "height": 68
+    },
+    "hinglish": {
+      "text": "\u0928\u0940\u0932\u0947 \u092c\u093f\u0902\u0926\u0941 / \u0917\u0924\u093f\u0936\u0940\u0932 \u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928",
+      "file": "ad5b8faba52887cf8faf.png",
+      "width": 891,
+      "height": 103
+    }
+  },
+  "Battery": {
+    "english": {
+      "text": "Battery",
+      "file": "dfcb7c1619d5abd12f2d.png",
+      "width": 245,
+      "height": 75
+    },
+    "hinglish": {
+      "text": "\u092c\u0948\u091f\u0930\u0940",
+      "file": "4aed09527e311c8e4b74.png",
+      "width": 161,
+      "height": 86
+    }
+  },
+  "CIRCUIT STATUS": {
+    "english": {
+      "text": "CIRCUIT STATUS",
+      "file": "cd0f4d6e5b803d3ecf8e.png",
+      "width": 564,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u092a\u0930\u093f\u092a\u0925 \u0915\u0940 \u0938\u094d\u0925\u093f\u0924\u093f",
+      "file": "aa1ae59cb6b060628cae.png",
+      "width": 520,
+      "height": 83
+    }
+  },
+  "COMPARE THE READINGS": {
+    "english": {
+      "text": "COMPARE THE READINGS",
+      "file": "7ebb0a2bc0211437c442.png",
+      "width": 911,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u092e\u093e\u092a\u094b\u0902 \u0915\u0940 \u0924\u0941\u0932\u0928\u093e \u0915\u0930\u0947\u0902",
+      "file": "e8347734e13b7d17804b.png",
+      "width": 587,
+      "height": 101
+    }
+  },
+  "COPPER IONS / vibrate in place": {
+    "english": {
+      "text": "COPPER IONS / vibrate in place",
+      "file": "064754b80f5784740d1c.png",
+      "width": 1098,
+      "height": 77
+    },
+    "hinglish": {
+      "text": "\u0924\u093e\u0901\u092c\u0947 \u0915\u0947 \u0906\u092f\u0928 / \u0905\u092a\u0928\u0940 \u091c\u0917\u0939 \u092a\u0930 \u0915\u0902\u092a\u0928",
+      "file": "fab7855e1ecf3e1386fc.png",
+      "width": 1156,
+      "height": 96
+    }
+  },
+  "Close the switch and observe the compass.": {
+    "english": {
+      "text": "Close the switch and observe the compass.",
+      "file": "1ba9a256f07ccf1ba5d2.png",
+      "width": 1502,
+      "height": 77
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u092c\u0902\u0926 \u0915\u0930\u0947\u0902 \u0914\u0930 \u0915\u092e\u094d\u092a\u093e\u0938 \u0915\u0940 \u0938\u0941\u0908 \u0926\u0947\u0916\u0947\u0902\u0964",
+      "file": "716305894eae0be6188a.png",
+      "width": 1205,
+      "height": 105
+    }
+  },
+  "Compass": {
+    "english": {
+      "text": "Compass",
+      "file": "f082ac980336071f811f.png",
+      "width": 314,
+      "height": 75
+    },
+    "hinglish": {
+      "text": "\u0915\u092e\u094d\u092a\u093e\u0938",
+      "file": "5538a33f1ada738ec596.png",
+      "width": 229,
+      "height": 59
+    }
+  },
+  "Conventional current   -  <<<  +": {
+    "english": {
+      "text": "Conventional current   -  <<<  +",
+      "file": "435a9c48b99f8ff3b097.png",
+      "width": 1131,
+      "height": 60
+    },
+    "hinglish": {
+      "text": "\u0927\u093e\u0930\u093e \u0915\u0940 \u092a\u094d\u0930\u091a\u0932\u093f\u0924 \u0926\u093f\u0936\u093e   -  <<<  +",
+      "file": "79b475bfc0df5c48adb5.png",
+      "width": 1062,
+      "height": 87
+    }
+  },
+  "Copper Wire": {
+    "english": {
+      "text": "Copper Wire",
+      "file": "f6516ae207e795cab381.png",
+      "width": 439,
+      "height": 76
+    },
+    "hinglish": {
+      "text": "\u0924\u093e\u0901\u092c\u0947 \u0915\u093e \u0924\u093e\u0930",
+      "file": "621acd7425be9fc89b2a.png",
+      "width": 366,
+      "height": 87
+    }
+  },
+  "Copper wire": {
+    "english": {
+      "text": "Copper wire",
+      "file": "fd4d944f06b64365703b.png",
+      "width": 422,
+      "height": 76
+    },
+    "hinglish": {
+      "text": "\u0924\u093e\u0901\u092c\u0947 \u0915\u093e \u0924\u093e\u0930",
+      "file": "621acd7425be9fc89b2a.png",
+      "width": 366,
+      "height": 87
+    }
+  },
+  "Current in the wire changes the needle direction.": {
+    "english": {
+      "text": "Current in the wire changes the needle direction.",
+      "file": "f01771eca1143857dae8.png",
+      "width": 1705,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0924\u093e\u0930 \u092e\u0947\u0902 \u0927\u093e\u0930\u093e \u092c\u0939\u0928\u0947 \u092a\u0930 \u0938\u0941\u0908 \u0915\u0940 \u0926\u093f\u0936\u093e \u092c\u0926\u0932\u0924\u0940 \u0939\u0948\u0964",
+      "file": "81bd8581ea1b248a37ac.png",
+      "width": 1374,
+      "height": 105
+    }
+  },
+  "DETECTING THE MAGNETIC FIELD": {
+    "english": {
+      "text": "DETECTING THE MAGNETIC FIELD",
+      "file": "5331b9e74525814e8f58.png",
+      "width": 1186,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0915\u093e \u092a\u0924\u093e \u0932\u0917\u093e\u0928\u093e",
+      "file": "b75c97351c02b74589df.png",
+      "width": 843,
+      "height": 101
+    }
+  },
+  "DRY CELL  1.5 V": {
+    "english": {
+      "text": "DRY CELL  1.5 V",
+      "file": "bed3fb5e17ac655fe73c.png",
+      "width": 546,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0936\u0941\u0937\u094d\u0915 \u0938\u0947\u0932  1.5 V",
+      "file": "2d169eec2b1138efe4c9.png",
+      "width": 516,
+      "height": 101
+    }
+  },
+  "Deflection: 25\u00b0": {
+    "english": {
+      "text": "Deflection: 25\u00b0",
+      "file": "cf5defc0e35f0b99130e.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 25\u00b0",
+      "file": "0e8d393d992b05ab0bdf.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 26\u00b0": {
+    "english": {
+      "text": "Deflection: 26\u00b0",
+      "file": "62534c10bb9b009b08e3.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 26\u00b0",
+      "file": "53e28956ef6929dfe2a5.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 27\u00b0": {
+    "english": {
+      "text": "Deflection: 27\u00b0",
+      "file": "01156c59e176a36f90b6.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 27\u00b0",
+      "file": "6a6972bbdd9e6fc789fc.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 28\u00b0": {
+    "english": {
+      "text": "Deflection: 28\u00b0",
+      "file": "3eef308792e0a4b14132.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 28\u00b0",
+      "file": "2d1373a15e86b2a5c8e7.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 29\u00b0": {
+    "english": {
+      "text": "Deflection: 29\u00b0",
+      "file": "5427f026184a54aa4720.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 29\u00b0",
+      "file": "e179355b66fd50be420d.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 30\u00b0": {
+    "english": {
+      "text": "Deflection: 30\u00b0",
+      "file": "d8e7b63cc97f83098576.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 30\u00b0",
+      "file": "c2805e057cd2806a55f3.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 31\u00b0": {
+    "english": {
+      "text": "Deflection: 31\u00b0",
+      "file": "108c85da3c907a926a28.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 31\u00b0",
+      "file": "2283d2782682f60bb0a0.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 32\u00b0": {
+    "english": {
+      "text": "Deflection: 32\u00b0",
+      "file": "f6e3ded3b2be0e293991.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 32\u00b0",
+      "file": "c4998448b8d874da80de.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 33\u00b0": {
+    "english": {
+      "text": "Deflection: 33\u00b0",
+      "file": "e9346fdbcc852b677f3c.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 33\u00b0",
+      "file": "63d709009097ba257ed7.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 34\u00b0": {
+    "english": {
+      "text": "Deflection: 34\u00b0",
+      "file": "fbb20e22a0cca6d66643.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 34\u00b0",
+      "file": "1f47b2cd6da516289a07.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 36\u00b0": {
+    "english": {
+      "text": "Deflection: 36\u00b0",
+      "file": "3a08e27e8f2ff5ffe4d2.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 36\u00b0",
+      "file": "35b4a660be9b42f18f95.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 37\u00b0": {
+    "english": {
+      "text": "Deflection: 37\u00b0",
+      "file": "4fe897888a9fa6b00e18.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 37\u00b0",
+      "file": "4ca58413df6adc94628d.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 38\u00b0": {
+    "english": {
+      "text": "Deflection: 38\u00b0",
+      "file": "56f8c9380cf831823160.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 38\u00b0",
+      "file": "80cd5a97daffbee61f88.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 39\u00b0": {
+    "english": {
+      "text": "Deflection: 39\u00b0",
+      "file": "4689740c1eac27aaf2e8.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 39\u00b0",
+      "file": "56bb5d0f9f3f180ac542.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 40\u00b0": {
+    "english": {
+      "text": "Deflection: 40\u00b0",
+      "file": "b3a26db3bd8604278519.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 40\u00b0",
+      "file": "9d26fc3d37dca0711e77.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 41\u00b0": {
+    "english": {
+      "text": "Deflection: 41\u00b0",
+      "file": "fe3398ab4493e8eb8621.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 41\u00b0",
+      "file": "7e415f1d1a2e8483a835.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 42\u00b0": {
+    "english": {
+      "text": "Deflection: 42\u00b0",
+      "file": "b797e1e975fb3465ff25.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 42\u00b0",
+      "file": "0546e1ed01aca2ca9dbc.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 43\u00b0": {
+    "english": {
+      "text": "Deflection: 43\u00b0",
+      "file": "5d692d0906572a52fe43.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 43\u00b0",
+      "file": "c6b24726a6f9a338762f.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "E": {
+    "english": {
+      "text": "E",
+      "file": "a9f51566bd6705f7ea6a.png",
+      "width": 30,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "\u092a\u0942",
+      "file": "5c91ff100e4792d96496.png",
+      "width": 55,
+      "height": 78
+    }
+  },
+  "ELECTRON FLOW   /   negative to positive": {
+    "english": {
+      "text": "ELECTRON FLOW   /   negative to positive",
+      "file": "10026720f1087eede6de.png",
+      "width": 1453,
+      "height": 77
+    },
+    "hinglish": {
+      "text": "\u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928 \u0915\u093e \u092c\u0939\u093e\u0935 / \u090b\u0923\u093e\u0924\u094d\u092e\u0915 \u0938\u0947 \u0927\u0928\u093e\u0924\u094d\u092e\u0915",
+      "file": "a043937bdf148fccaab8.png",
+      "width": 1299,
+      "height": 103
+    }
+  },
+  "Electron flow   -  >>>  +": {
+    "english": {
+      "text": "Electron flow   -  >>>  +",
+      "file": "d51bae868fe891253ceb.png",
+      "width": 845,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0907\u0932\u0947\u0915\u094d\u091f\u094d\u0930\u0949\u0928 \u0915\u093e \u092c\u0939\u093e\u0935   -  >>>  +",
+      "file": "854fb243421af02671c8.png",
+      "width": 959,
+      "height": 103
+    }
+  },
+  "FROM BATTERY (-)": {
+    "english": {
+      "text": "FROM BATTERY (-)",
+      "file": "d35edb68a992cd63fadf.png",
+      "width": 639,
+      "height": 70
+    },
+    "hinglish": {
+      "text": "\u092c\u0948\u091f\u0930\u0940 (-) \u0938\u0947",
+      "file": "cd0f07dfa0efd9e31a2c.png",
+      "width": 343,
+      "height": 98
+    }
+  },
+  "GREEN / magnetic field direction": {
+    "english": {
+      "text": "GREEN / magnetic field direction",
+      "file": "a18aab4102962b73100d.png",
+      "width": 1145,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u0939\u0930\u093e \u0930\u0902\u0917 / \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0915\u0940 \u0926\u093f\u0936\u093e",
+      "file": "f5076bc5796bd170c561.png",
+      "width": 954,
+      "height": 101
+    }
+  },
+  "INCREASING THE CURRENT": {
+    "english": {
+      "text": "INCREASING THE CURRENT",
+      "file": "7c41c23b952813a75a51.png",
+      "width": 967,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u0927\u093e\u0930\u093e \u092c\u0922\u093c\u093e\u0928\u093e",
+      "file": "54b1fbc14b5a50bfddc7.png",
+      "width": 587,
+      "height": 101
+    }
+  },
+  "KEY OBSERVATIONS": {
+    "english": {
+      "text": "KEY OBSERVATIONS",
+      "file": "f925f6b7e985d568d890.png",
+      "width": 696,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u092a\u094d\u0930\u092f\u094b\u0917 \u0938\u0947 \u092e\u093f\u0932\u0940 \u091c\u093e\u0928\u0915\u093e\u0930\u0940",
+      "file": "e2bfdb5ad2d753fa061c.png",
+      "width": 727,
+      "height": 82
+    }
+  },
+  "Keep the wire and compass in the same positions.": {
+    "english": {
+      "text": "Keep the wire and compass in the same positions.",
+      "file": "956bd13e6984ed7f094a.png",
+      "width": 1742,
+      "height": 77
+    },
+    "hinglish": {
+      "text": "\u0924\u093e\u0930 \u0914\u0930 \u0915\u092e\u094d\u092a\u093e\u0938 \u0915\u0940 \u091c\u0917\u0939 \u0935\u0939\u0940 \u0930\u0916\u0947\u0902\u0964",
+      "file": "1458a4ae08ff45034f59.png",
+      "width": 1089,
+      "height": 95
+    }
+  },
+  "MAGNETIC COMPASS": {
+    "english": {
+      "text": "MAGNETIC COMPASS",
+      "file": "d15c7db71e268fe67f4d.png",
+      "width": 758,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u092e\u094d\u092a\u093e\u0938",
+      "file": "b4507fe8f35e650a3ab9.png",
+      "width": 495,
+      "height": 101
+    }
+  },
+  "MAGNETIC EFFECT OF ELECTRIC CURRENT": {
+    "english": {
+      "text": "MAGNETIC EFFECT OF ELECTRIC CURRENT",
+      "file": "35d8edde3163b4c05d4e.png",
+      "width": 1491,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u0927\u093e\u0930\u093e \u0915\u093e \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u092a\u094d\u0930\u092d\u093e\u0935",
+      "file": "f0ed03b1cd0a8b3148b3.png",
+      "width": 946,
+      "height": 101
+    }
+  },
+  "More Current, Stronger Magnetic Field": {
+    "english": {
+      "text": "More Current, Stronger Magnetic Field",
+      "file": "a57aa5843d21f1720811.png",
+      "width": 1343,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0905\u0927\u093f\u0915 \u0927\u093e\u0930\u093e, \u0905\u0927\u093f\u0915 \u092a\u094d\u0930\u092c\u0932 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+      "file": "b81f6b9af082d3574d15.png",
+      "width": 1170,
+      "height": 101
+    }
+  },
+  "N": {
+    "english": {
+      "text": "N",
+      "file": "8ce86a6ae65d3692e730.png",
+      "width": 46,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "\u0909",
+      "file": "fcce4891a82542450d0f.png",
+      "width": 60,
+      "height": 59
+    }
+  },
+  "NOW": {
+    "english": {
+      "text": "NOW",
+      "file": "97bfc0d9913d2b682d4c.png",
+      "width": 187,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0905\u092c",
+      "file": "ed371c4c8550855686fb.png",
+      "width": 113,
+      "height": 58
+    }
+  },
+  "Needle moved about 18\u00b0 further": {
+    "english": {
+      "text": "Needle moved about 18\u00b0 further",
+      "file": "8ec1e9fedb62f21a26e1.png",
+      "width": 1141,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0938\u0941\u0908 \u0932\u0917\u092d\u0917 18\u00b0 \u0914\u0930 \u092e\u0941\u0921\u093c\u0940",
+      "file": "bef741016b257db19c0b.png",
+      "width": 782,
+      "height": 105
+    }
+  },
+  "RANDOM MOTION  /  no net electron flow": {
+    "english": {
+      "text": "RANDOM MOTION  /  no net electron flow",
+      "file": "968a94e3dc7e0dbe68cc.png",
+      "width": 1500,
+      "height": 69
+    },
+    "hinglish": {
+      "text": "\u092f\u093e\u0926\u0943\u091a\u094d\u091b\u093f\u0915 \u0917\u0924\u093f / \u090f\u0915 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0915\u0941\u0932 \u092c\u0939\u093e\u0935 \u0928\u0939\u0940\u0902",
+      "file": "c8e31d6b9a9db32c49d1.png",
+      "width": 1360,
+      "height": 102
+    }
+  },
+  "Resistor": {
+    "english": {
+      "text": "Resistor",
+      "file": "37e96ce70a98582db6d9.png",
+      "width": 269,
+      "height": 59
+    },
+    "hinglish": {
+      "text": "\u092a\u094d\u0930\u0924\u093f\u0930\u094b\u0927\u0915",
+      "file": "43bf8d7eb348a9d5ddb6.png",
+      "width": 301,
+      "height": 82
+    }
+  },
+  "S": {
+    "english": {
+      "text": "S",
+      "file": "8de0b3c47f112c59745f.png",
+      "width": 35,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0926",
+      "file": "8581650a6ce0b5fe891b.png",
+      "width": 54,
+      "height": 64
+    }
+  },
+  "SWITCH": {
+    "english": {
+      "text": "SWITCH",
+      "file": "dc253e04c999bd7cec77.png",
+      "width": 272,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a",
+      "file": "fea2bb0cba1a895e6302.png",
+      "width": 160,
+      "height": 83
+    }
+  },
+  "SWITCH  CLOSED": {
+    "english": {
+      "text": "SWITCH  CLOSED",
+      "file": "5a40cd888446cfe4e13c.png",
+      "width": 604,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u092c\u0902\u0926 \u0939\u0948",
+      "file": "1d6216b37301bc981a8b.png",
+      "width": 351,
+      "height": 95
+    }
+  },
+  "SWITCH  OPEN": {
+    "english": {
+      "text": "SWITCH  OPEN",
+      "file": "1e90a3ac39a3f9c23eed.png",
+      "width": 521,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u0916\u0941\u0932\u093e \u0939\u0948",
+      "file": "9ef91755c0b11066afc8.png",
+      "width": 397,
+      "height": 105
+    }
+  },
+  "Series Ammeter": {
+    "english": {
+      "text": "Series Ammeter",
+      "file": "db19d83356ee387c7ec8.png",
+      "width": 553,
+      "height": 59
+    },
+    "hinglish": {
+      "text": "\u0936\u094d\u0930\u0947\u0923\u0940\u0915\u094d\u0930\u092e \u092e\u0947\u0902 \u0910\u092e\u0940\u091f\u0930",
+      "file": "6bc8e44a2273934fc7c8.png",
+      "width": 558,
+      "height": 93
+    }
+  },
+  "Switch": {
+    "english": {
+      "text": "Switch",
+      "file": "39921a740bf2b67802a2.png",
+      "width": 218,
+      "height": 60
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a",
+      "file": "fea2bb0cba1a895e6302.png",
+      "width": 160,
+      "height": 83
+    }
+  },
+  "TOWARDS BATTERY (+)": {
+    "english": {
+      "text": "TOWARDS BATTERY (+)",
+      "file": "fd50c4727aecec7d4dd7.png",
+      "width": 818,
+      "height": 70
+    },
+    "hinglish": {
+      "text": "\u092c\u0948\u091f\u0930\u0940 (+) \u0915\u0940 \u0913\u0930",
+      "file": "82410611a716740d5530.png",
+      "width": 545,
+      "height": 98
+    }
+  },
+  "The Compass Needle Deflects": {
+    "english": {
+      "text": "The Compass Needle Deflects",
+      "file": "dd28f6855498dcce2409.png",
+      "width": 1045,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0915\u092e\u094d\u092a\u093e\u0938 \u0915\u0940 \u0938\u0941\u0908 \u0915\u093e \u0935\u093f\u0915\u094d\u0937\u0947\u092a",
+      "file": "b3b0232c05b26731b2de.png",
+      "width": 773,
+      "height": 105
+    }
+  },
+  "W": {
+    "english": {
+      "text": "W",
+      "file": "fcb5f40df9be6bae66c1.png",
+      "width": 73,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "\u092a",
+      "file": "dcd0dc96002b13dbf75e.png",
+      "width": 52,
+      "height": 58
+    }
+  },
+  "What We Learned": {
+    "english": {
+      "text": "What We Learned",
+      "file": "97101788f28f4aff0866.png",
+      "width": 621,
+      "height": 60
+    },
+    "hinglish": {
+      "text": "\u0939\u092e\u0928\u0947 \u0915\u094d\u092f\u093e \u0938\u0940\u0916\u093e",
+      "file": "eab11cdaf365ef23e585.png",
+      "width": 479,
+      "height": 91
+    }
+  },
+  "YELLOW / conventional current": {
+    "english": {
+      "text": "YELLOW / conventional current",
+      "file": "6c8ca5dec104228292cd.png",
+      "width": 1091,
+      "height": 68
+    },
+    "hinglish": {
+      "text": "\u092a\u0940\u0932\u093e \u0930\u0902\u0917 / \u0927\u093e\u0930\u093e \u0915\u0940 \u092a\u094d\u0930\u091a\u0932\u093f\u0924 \u0926\u093f\u0936\u093e",
+      "file": "70d11b34ab1c7f5ca2d1.png",
+      "width": 1007,
+      "height": 90
+    }
+  }
+}

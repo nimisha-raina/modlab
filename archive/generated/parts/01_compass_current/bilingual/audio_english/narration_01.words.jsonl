@@ -1,0 +1,15 @@
+{"type": "WordBoundary", "offset": 1000000, "duration": 2000000, "text": "Our"}
+{"type": "WordBoundary", "offset": 3250000, "duration": 5125000, "text": "circuit"}
+{"type": "WordBoundary", "offset": 8375000, "duration": 3500000, "text": "has"}
+{"type": "WordBoundary", "offset": 11875000, "duration": 625000, "text": "a"}
+{"type": "WordBoundary", "offset": 12500000, "duration": 5625000, "text": "battery"}
+{"type": "WordBoundary", "offset": 20500000, "duration": 4875000, "text": "switch"}
+{"type": "WordBoundary", "offset": 28125000, "duration": 3875000, "text": "copper"}
+{"type": "WordBoundary", "offset": 32000000, "duration": 4625000, "text": "wire"}
+{"type": "WordBoundary", "offset": 38625000, "duration": 6625000, "text": "resistor"}
+{"type": "WordBoundary", "offset": 48000000, "duration": 2250000, "text": "and"}
+{"type": "WordBoundary", "offset": 50250000, "duration": 1250000, "text": "an"}
+{"type": "WordBoundary", "offset": 52250000, "duration": 5500000, "text": "ammeter"}
+{"type": "WordBoundary", "offset": 58000000, "duration": 5500000, "text": "connected"}
+{"type": "WordBoundary", "offset": 64375000, "duration": 1500000, "text": "in"}
+{"type": "WordBoundary", "offset": 65875000, "duration": 5375000, "text": "series"}

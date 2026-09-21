@@ -37,7 +37,12 @@ for (const [command, prefix] of candidates) {
       cwd: lessonRoot, stdio: 'inherit',
     });
     if (coil.error) throw coil.error;
-    process.exit(coil.status ?? 1);
+    if (coil.status !== 0) process.exit(coil.status ?? 1);
+    const caseOne = spawnSync(command, [...prefix, path.join(__dirname, 'build_case_one_h5p.py')], {
+      cwd: lessonRoot, stdio: 'inherit',
+    });
+    if (caseOne.error) throw caseOne.error;
+    process.exit(caseOne.status ?? 1);
   }
   if (!['ENOENT', 'EACCES', 'EPERM'].includes(result.error.code)) throw result.error;
 }

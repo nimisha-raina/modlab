@@ -1,0 +1,77 @@
+{
+  "frames": 2254,
+  "duration": 187.83333333333331,
+  "sections": [
+    {
+      "section": 1,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 2,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9916
+    },
+    {
+      "section": 3,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9913
+    },
+    {
+      "section": 4,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9933
+    },
+    {
+      "section": 5,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9919
+    },
+    {
+      "section": 6,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9926
+    },
+    {
+      "section": 7,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9918
+    },
+    {
+      "section": 8,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9906
+    },
+    {
+      "section": 9,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9916
+    },
+    {
+      "section": 10,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 11,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9933
+    },
+    {
+      "section": 12,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 13,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 14,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9908
+    }
+  ],
+  "question_pauses": "All fall in silence after narration."
+}

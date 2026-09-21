@@ -37,8 +37,8 @@ def main():
     video_path = args.video
     with av.open(video_path) as video:
         stream = video.streams.video[0]
-        assert stream.frames == timing["frames"], "Rendered frame count differs from the speech timeline."
-        assert float(stream.average_rate) == timing["fps"]
+        assert stream.frames == timing.get('video_frames',timing["frames"]), "Rendered frame count differs from the speech timeline."
+        assert float(stream.average_rate) == timing.get('video_fps',timing["fps"])
         assert video.streams.audio, "The video has no audio track."
     mixed = decode_audio(video_path)
     assert abs(len(mixed) / SAMPLE_RATE - timing["duration"]) < .1
@@ -63,10 +63,11 @@ def main():
                         "audio_correlation": round(score, 4)})
     questions = [] if args.no_questions else json.loads(args.questions.read_text(encoding="utf-8"))
     for question in questions:
-        pause = timing["segments"][question["after_section"]-1]["target_end"] - .3
+        section = next(s for s in timing['segments'] if s['id']==question['after_id']) if 'after_id' in question else timing["segments"][question["after_section"]-1]
+        pause = section["target_end"] - .3
         around_pause = mixed[round((pause-.05)*SAMPLE_RATE):round((pause+.05)*SAMPLE_RATE)]
         assert float(np.sqrt(np.mean(around_pause**2))) < .003, "A question interrupts audible speech."
-    report = {"frames": timing["frames"], "duration": timing["duration"],
+    report = {"frames": timing.get('video_frames',timing["frames"]), "duration": timing["duration"],
               "sections": results, "question_pauses": "Not checked by this invocation." if args.no_questions else "All fall in silence after narration."}
     args.timing.with_name("video-verification.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))

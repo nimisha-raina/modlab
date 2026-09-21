@@ -12,7 +12,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT/"archive"
 GENERATED = ARCHIVE/"generated"
-CACHES = {"complete_review_frames","tutor_review_frames","extended_review_frames","fixed_view_frames","bilingual_frames"}
+CACHES = {"complete_review_frames","tutor_review_frames","extended_review_frames","fixed_view_frames","bilingual_frames","case_one_frames"}
 EXTENSIONS = {".blend",".mp4",".mp3",".wav",".h5p",".srt",".vtt",".json",".jsonl",".png",".jpg",".svg"}
 
 
@@ -73,7 +73,9 @@ def prepare(paths=None):
         target.parent.mkdir(parents=True,exist_ok=True)
         original = digest(source)
         previous = existing.get(relative.as_posix())
-        if previous and previous["original_sha256"]==original and target.exists():
+        # A fresh checkout may restore the already-packed public copy. Keep its
+        # link to the original render source when that restored copy is unchanged.
+        if previous and original in (previous["original_sha256"],previous.get("sha256")) and target.exists():
             continue
         if source.suffix==".json":
             write_text_lf(target,json.dumps(portable(json.loads(source.read_text(encoding="utf-8"))),indent=2)+"\n")
@@ -105,7 +107,7 @@ def finalize():
             raise ValueError("File exceeds GitHub per-file limit: "+entry["path"])
     result = {"schema":1,"date_utc":datetime.now(timezone.utc).isoformat(),
               "files":preparation["files"],"excluded_frame_caches":sorted(CACHES),
-              "case_1":"Frozen 86-second narrated lesson with two H5P pauses.",
+              "case_1":"English and Hindi Case 1 with moving current arrows, before/now readings, Madhur English and Swara Hindi narration, localized labels and two H5P pauses; frozen 86-second original retained.",
               "case_2":"English 255-second and Hinglish 303.83-second interactive lessons; previous fixed-view and silent reviews retained; applications highlighted for 11 seconds."}
     write_text_lf(ARCHIVE/"manifest.json",json.dumps(result,indent=2)+"\n")
     verify()

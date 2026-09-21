@@ -1,0 +1,46 @@
+{
+  "fps": 12,
+  "frames": [
+    {
+      "time": 0.0,
+      "file": "case_one_frames/hinglish/ca0d4a125f681f0c0b512a16.png"
+    },
+    {
+      "time": 5.0,
+      "file": "case_one_frames/hinglish/1bdb0a45a159be45c632810a.png"
+    },
+    {
+      "time": 20.0,
+      "file": "case_one_frames/hinglish/f1ec326a7a47160d463d3d04.png"
+    },
+    {
+      "time": 24.0,
+      "file": "case_one_frames/hinglish/e7fc30d6ff4c02a33d90a02f.png"
+    },
+    {
+      "time": 28.0,
+      "file": "case_one_frames/hinglish/4e7f45cf04b5bd29da8be05f.png"
+    },
+    {
+      "time": 30.0,
+      "file": "case_one_frames/hinglish/81565fcba3093ca757d62ca0.png"
+    },
+    {
+      "time": 36.0,
+      "file": "case_one_frames/hinglish/f6d10ae13be1d1141cfadb5d.png"
+    },
+    {
+      "time": 55.0,
+      "file": "case_one_frames/hinglish/b0af635723cb8afb5413e4ff.png"
+    },
+    {
+      "time": 66.0,
+      "file": "case_one_frames/hinglish/08c2d56e1930de0ea5932d38.png"
+    },
+    {
+      "time": 78.0,
+      "file": "case_one_frames/hinglish/3ae7f800d93c0617b6a81c80.png"
+    }
+  ],
+  "source_sha256": "8d27a107ceba6968b2aaa43305cc5accbedf11d0c52b8395202159dcc5a43374"
+}

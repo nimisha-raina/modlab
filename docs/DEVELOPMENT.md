@@ -1,5 +1,12 @@
 # Developing this project
 
+## Current Case 1 workflow
+
+See [PART_01_BILINGUAL.md](PART_01_BILINGUAL.md) for the localized English/Hindi
+revision, measured apparatus cues, Hindi shaping, rendering, native H5P tests and
+preservation. Existing movies and packed scenes provide the first preview.
+The 86-second workflow below is the preserved original, not the current root page.
+
 ## Current Case 2 workflow
 
 See [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) for the English/Hinglish coil
@@ -7,7 +14,7 @@ lesson with contact-synchronized fields, nail orbit and H5P questions. It has
 separate scripts, packed scenes, a shared picture track and two soundtracks.
 It does not modify the frozen first case or its H5P package.
 
-## Current first-case narration workflow
+## Preserved 86-second first-case workflow
 
 The website uses the revised 86-second opening, compass comparison and
 summary, with two quiz pauses. `docs/first-case-narration.json` contains fourteen

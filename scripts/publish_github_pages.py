@@ -5,6 +5,8 @@ The repository owner must enable GitHub Pages once; see docs/PUBLISHING.md.
 """
 
 import argparse
+import hashlib
+import json
 import os
 from pathlib import Path
 import shutil
@@ -31,23 +33,28 @@ def publish(remote):
     # store shortcut and cannot execute pnpm.cmd through subprocess uniformly.
     run(sys.executable, "scripts/build_h5p.py", cwd=SITE)
     run(sys.executable, "scripts/build_coil_h5p.py", cwd=SITE)
-    run("node", "--test", "tests/h5p.test.cjs", cwd=SITE)
-    run("node", "--test", "tests/coil-language.test.cjs", cwd=SITE)
-    for language in ("english","hinglish"):
-        test_env=os.environ.copy()
-        test_env["COIL_LANGUAGE"]=language
-        run("node","--test","tests/h5p.test.cjs",cwd=SITE,env=test_env)
+    run(sys.executable, "scripts/build_case_one_h5p.py", cwd=SITE)
+    run("node", "scripts/test_lessons.cjs", cwd=SITE)
     dist = SITE / "dist"
     for name in ["index.html", "captions.js", "vendor/h5p-player/main.bundle.js",
                  "h5p/electromagnetism/content/content.json",
                  "h5p/electromagnetism/content/videos/electromagnetism.mp4",
-                 "coils/index.html","coils/config.js",
+                 "coils/index.html","coils/config.js","case-one-config.js",
+                 "h5p/case-one-english/content/videos/lesson.mp4",
+                 "h5p/case-one-hinglish/content/videos/lesson.mp4",
                  "h5p/coil-english/content/videos/coil.mp4",
                  "h5p/coil-hinglish/content/videos/coil.mp4"]:
         if not (dist / name).is_file():
             raise SystemExit(f"Missing website asset: {name}")
     if any(p.is_symlink() for p in dist.rglob("*")):
         raise SystemExit("Publish regular files, not links to local dependencies.")
+    release={"source_revision":source_revision,"case_one":{}}
+    for language in ('english','hinglish'):
+        media=dist/f'h5p/case-one-{language}/content/videos/lesson.mp4'
+        with media.open('rb') as stream:
+            checksum=hashlib.file_digest(stream,'sha256').hexdigest()
+        release['case_one'][language]={"sha256":checksum,"bytes":media.stat().st_size}
+    (dist/'release.json').write_text(json.dumps(release,indent=2)+'\n',encoding='utf-8')
 
     existing = run("git", "ls-remote", "--heads", remote, "gh-pages", capture=True)
     (ROOT / "output").mkdir(exist_ok=True)

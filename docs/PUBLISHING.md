@@ -38,6 +38,8 @@ working GitHub credentials. Run it with the project's Python environment.
 It builds and
 tests H5P, copies the website into a temporary checkout, preserves deployment
 history and pushes a new `gh-pages` commit with a neutral project identity.
+The generated `release.json` records the source revision and both Case 1 movie
+checksums, so deployed media can be matched to the verified local release.
 It does not force-push. If another publication happens concurrently, update
 your source as needed and rerun the script.
 
@@ -49,7 +51,8 @@ render and synchronization workflow in [DEVELOPMENT.md](DEVELOPMENT.md).
 After publishing, wait for GitHub Pages to deploy and check the final address:
 
 - The video and audio play, pause, seek and resume together.
-- Case 1’s two questions support incorrect answers, retry and Continue.
+- At the root, both Case 1 languages load their own movie and labels, and their
+  two questions support incorrect answers, retry and Continue.
 - At `coils/`, both English and Hinglish choices load their own narration and
   four native questions; all four support retry and Continue.
 - The question footer remains visible on a small phone screen.

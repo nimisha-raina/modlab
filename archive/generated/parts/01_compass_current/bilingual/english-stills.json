@@ -1,0 +1,46 @@
+{
+  "fps": 12,
+  "frames": [
+    {
+      "time": 0.0,
+      "file": "case_one_frames/english/16ff165a30cf3391b1b5d8cb.png"
+    },
+    {
+      "time": 5.0,
+      "file": "case_one_frames/english/4e8e07e813e0a764d38416d4.png"
+    },
+    {
+      "time": 20.0,
+      "file": "case_one_frames/english/119bd3c5c8e79a1e52686d65.png"
+    },
+    {
+      "time": 24.0,
+      "file": "case_one_frames/english/71bc0c114d3cdd3e39adb4f7.png"
+    },
+    {
+      "time": 28.0,
+      "file": "case_one_frames/english/3b475e0caa771cfdb590143f.png"
+    },
+    {
+      "time": 30.0,
+      "file": "case_one_frames/english/8bfd776f17fc848f22d9a525.png"
+    },
+    {
+      "time": 36.0,
+      "file": "case_one_frames/english/42431c1968294b9f83c39415.png"
+    },
+    {
+      "time": 55.0,
+      "file": "case_one_frames/english/9e728c01020b400bfa59715d.png"
+    },
+    {
+      "time": 66.0,
+      "file": "case_one_frames/english/c3c3837d9dbbee81154f924b.png"
+    },
+    {
+      "time": 78.0,
+      "file": "case_one_frames/english/855f82c18b607bac2526484a.png"
+    }
+  ],
+  "source_sha256": "df08fe0b0dec3f358db04387137fc3f7b571215cfa80812fa7404665ce9c694f"
+}

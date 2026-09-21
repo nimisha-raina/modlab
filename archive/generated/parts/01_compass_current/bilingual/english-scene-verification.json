@@ -1,0 +1,11 @@
+{
+  "language": "english",
+  "probes": 19,
+  "maximum_pose_error": 1.3425946235656738e-05,
+  "camera_azimuth_degrees": 59.99999999999999,
+  "packed_narration": true,
+  "packed_localized_labels": true,
+  "visibility_matches_source": true,
+  "live_readings_match_instruments": true,
+  "current_arrows_advance_along_wire": true
+}

@@ -1,0 +1,774 @@
+{
+  "fps": 12,
+  "frames": [
+    {
+      "time": 48.0,
+      "file": "case_one_frames/hinglish/ba63fd1a78d4056064b755a2.png"
+    },
+    {
+      "time": 48.083333333333336,
+      "file": "case_one_frames/hinglish/fabd35110bb9ba4a75e3a017.png"
+    },
+    {
+      "time": 48.166666666666664,
+      "file": "case_one_frames/hinglish/47180a2b8d144f82310f7fee.png"
+    },
+    {
+      "time": 48.25,
+      "file": "case_one_frames/hinglish/534188d75ef87921fe2b7ad9.png"
+    },
+    {
+      "time": 48.333333333333336,
+      "file": "case_one_frames/hinglish/4758c5d67c85006bf0ff8aa9.png"
+    },
+    {
+      "time": 48.416666666666664,
+      "file": "case_one_frames/hinglish/add8133369c848e50c064a1d.png"
+    },
+    {
+      "time": 48.5,
+      "file": "case_one_frames/hinglish/b27b81948c1b9030cc27adfc.png"
+    },
+    {
+      "time": 48.583333333333336,
+      "file": "case_one_frames/hinglish/4a62c73e50a36f0cc26f17fc.png"
+    },
+    {
+      "time": 48.666666666666664,
+      "file": "case_one_frames/hinglish/f0f7e5fc02e8d9bbd612d094.png"
+    },
+    {
+      "time": 48.75,
+      "file": "case_one_frames/hinglish/7fdf201710bdab3b297f7357.png"
+    },
+    {
+      "time": 48.833333333333336,
+      "file": "case_one_frames/hinglish/d63f83091ecabd4341d42f04.png"
+    },
+    {
+      "time": 48.916666666666664,
+      "file": "case_one_frames/hinglish/277c9f516a3c6d12205722fe.png"
+    },
+    {
+      "time": 49.0,
+      "file": "case_one_frames/hinglish/f4183d8c48e088c97a9b41be.png"
+    },
+    {
+      "time": 49.083333333333336,
+      "file": "case_one_frames/hinglish/f47d6bf7792c82a89f35509a.png"
+    },
+    {
+      "time": 49.166666666666664,
+      "file": "case_one_frames/hinglish/2d926594fbb4c356e2c5fdc1.png"
+    },
+    {
+      "time": 49.25,
+      "file": "case_one_frames/hinglish/a1986fb650045bd84b090252.png"
+    },
+    {
+      "time": 49.333333333333336,
+      "file": "case_one_frames/hinglish/d09a1c6eae7b470467f537c3.png"
+    },
+    {
+      "time": 49.416666666666664,
+      "file": "case_one_frames/hinglish/bba05fb5a5ce18f2d6093798.png"
+    },
+    {
+      "time": 49.5,
+      "file": "case_one_frames/hinglish/ef4dfe169fbb4c35eb563958.png"
+    },
+    {
+      "time": 49.583333333333336,
+      "file": "case_one_frames/hinglish/e8f8532f401f853164b8eddd.png"
+    },
+    {
+      "time": 49.666666666666664,
+      "file": "case_one_frames/hinglish/e51d0c4704fcb8d9125ccd80.png"
+    },
+    {
+      "time": 49.75,
+      "file": "case_one_frames/hinglish/e4fde9d67a72f674dab2ce1b.png"
+    },
+    {
+      "time": 49.833333333333336,
+      "file": "case_one_frames/hinglish/51ad75b5fb7435e9540c394d.png"
+    },
+    {
+      "time": 49.916666666666664,
+      "file": "case_one_frames/hinglish/330608ac1060f13094e43ed9.png"
+    },
+    {
+      "time": 50.0,
+      "file": "case_one_frames/hinglish/b3c5dcc79a095ecb483313bc.png"
+    },
+    {
+      "time": 50.083333333333336,
+      "file": "case_one_frames/hinglish/ab1f0b4813a94eae786bb554.png"
+    },
+    {
+      "time": 50.166666666666664,
+      "file": "case_one_frames/hinglish/4e07de65e19e24fdf572fd26.png"
+    },
+    {
+      "time": 50.25,
+      "file": "case_one_frames/hinglish/859b9365a7618c681c77c3ae.png"
+    },
+    {
+      "time": 50.333333333333336,
+      "file": "case_one_frames/hinglish/a415eaa499944b0532354dbe.png"
+    },
+    {
+      "time": 50.416666666666664,
+      "file": "case_one_frames/hinglish/cbeb7f67087c6026928043e9.png"
+    },
+    {
+      "time": 50.5,
+      "file": "case_one_frames/hinglish/2b3f76a05780f1dd1dc9f5ba.png"
+    },
+    {
+      "time": 50.583333333333336,
+      "file": "case_one_frames/hinglish/ca6e60ea181b06d4221d78dd.png"
+    },
+    {
+      "time": 50.666666666666664,
+      "file": "case_one_frames/hinglish/8621d81e866594590fc9312e.png"
+    },
+    {
+      "time": 50.75,
+      "file": "case_one_frames/hinglish/e8e5b32b25c3f8eb16a8fad3.png"
+    },
+    {
+      "time": 50.833333333333336,
+      "file": "case_one_frames/hinglish/82d9275401c753339971ad70.png"
+    },
+    {
+      "time": 50.916666666666664,
+      "file": "case_one_frames/hinglish/b8e431050770cdcc714f6978.png"
+    },
+    {
+      "time": 51.0,
+      "file": "case_one_frames/hinglish/d827d4f863bc2592c253522a.png"
+    },
+    {
+      "time": 51.083333333333336,
+      "file": "case_one_frames/hinglish/19640096e7271ecfa3c9a072.png"
+    },
+    {
+      "time": 51.166666666666664,
+      "file": "case_one_frames/hinglish/9b3b15a7210ebe965a0edc0b.png"
+    },
+    {
+      "time": 51.25,
+      "file": "case_one_frames/hinglish/e8632c0a00a1bb4cb297b2d9.png"
+    },
+    {
+      "time": 51.333333333333336,
+      "file": "case_one_frames/hinglish/350d4b4312c267e77382f8ea.png"
+    },
+    {
+      "time": 51.416666666666664,
+      "file": "case_one_frames/hinglish/837e26f1b8a7fbf17fd8f701.png"
+    },
+    {
+      "time": 51.5,
+      "file": "case_one_frames/hinglish/5de640152efa8bd0422b6e4f.png"
+    },
+    {
+      "time": 51.583333333333336,
+      "file": "case_one_frames/hinglish/d70a55d81ce76653240efbee.png"
+    },
+    {
+      "time": 51.666666666666664,
+      "file": "case_one_frames/hinglish/32963b2ce5477777c183ac64.png"
+    },
+    {
+      "time": 51.75,
+      "file": "case_one_frames/hinglish/4c8a31e4dd2f3bac296f0364.png"
+    },
+    {
+      "time": 51.833333333333336,
+      "file": "case_one_frames/hinglish/b0c31ccfa7a43cab19233d8d.png"
+    },
+    {
+      "time": 51.916666666666664,
+      "file": "case_one_frames/hinglish/1f488a2a9569864ec41ff777.png"
+    },
+    {
+      "time": 52.0,
+      "file": "case_one_frames/hinglish/4adb2a91d0d77dabf041da0c.png"
+    },
+    {
+      "time": 52.083333333333336,
+      "file": "case_one_frames/hinglish/f0ec3b0d68ed1e1542860c57.png"
+    },
+    {
+      "time": 52.166666666666664,
+      "file": "case_one_frames/hinglish/ef17d4af93da42ac0ba2f986.png"
+    },
+    {
+      "time": 52.25,
+      "file": "case_one_frames/hinglish/733cc58683cd048a59b8b3ec.png"
+    },
+    {
+      "time": 52.333333333333336,
+      "file": "case_one_frames/hinglish/1ab48700e1a439b914e892c2.png"
+    },
+    {
+      "time": 52.416666666666664,
+      "file": "case_one_frames/hinglish/a15cdf9dee10c0582a4aaf63.png"
+    },
+    {
+      "time": 52.5,
+      "file": "case_one_frames/hinglish/ab9ebb04a4794dbc12b2c1a9.png"
+    },
+    {
+      "time": 52.583333333333336,
+      "file": "case_one_frames/hinglish/30e381fed2674aff65d812dd.png"
+    },
+    {
+      "time": 52.666666666666664,
+      "file": "case_one_frames/hinglish/2f783df93a7e0d7a05d0ec6d.png"
+    },
+    {
+      "time": 52.75,
+      "file": "case_one_frames/hinglish/cadecbfb6011f4fc1a9edac2.png"
+    },
+    {
+      "time": 52.833333333333336,
+      "file": "case_one_frames/hinglish/599773103fd6026fe4dea91b.png"
+    },
+    {
+      "time": 52.916666666666664,
+      "file": "case_one_frames/hinglish/0e1b0cb8eb69ad7064d4e234.png"
+    },
+    {
+      "time": 53.0,
+      "file": "case_one_frames/hinglish/2b6d8f9863c41a74730a56cd.png"
+    },
+    {
+      "time": 53.083333333333336,
+      "file": "case_one_frames/hinglish/51c4dba51ddfe2c81ae8b8c8.png"
+    },
+    {
+      "time": 53.166666666666664,
+      "file": "case_one_frames/hinglish/198b598c778a4479eb3e99a8.png"
+    },
+    {
+      "time": 53.25,
+      "file": "case_one_frames/hinglish/b17a26964a6ffddc840f9c55.png"
+    },
+    {
+      "time": 53.333333333333336,
+      "file": "case_one_frames/hinglish/3c4a7c8f10685a08b2dd25fa.png"
+    },
+    {
+      "time": 53.416666666666664,
+      "file": "case_one_frames/hinglish/24ca703bce90eff90290caa6.png"
+    },
+    {
+      "time": 53.5,
+      "file": "case_one_frames/hinglish/b0af635723cb8afb5413e4ff.png"
+    },
+    {
+      "time": 53.583333333333336,
+      "file": "case_one_frames/hinglish/9d5d63ebf1a0376a2a71ae57.png"
+    },
+    {
+      "time": 53.666666666666664,
+      "file": "case_one_frames/hinglish/b58e614da7720df36dc632c9.png"
+    },
+    {
+      "time": 53.75,
+      "file": "case_one_frames/hinglish/4f969259e832e414188a9951.png"
+    },
+    {
+      "time": 53.833333333333336,
+      "file": "case_one_frames/hinglish/a6786331bcfcabd286bac945.png"
+    },
+    {
+      "time": 53.916666666666664,
+      "file": "case_one_frames/hinglish/757f633d2a96de3cc8054c64.png"
+    },
+    {
+      "time": 54.0,
+      "file": "case_one_frames/hinglish/72f5e2f47301b56170af59ae.png"
+    },
+    {
+      "time": 54.083333333333336,
+      "file": "case_one_frames/hinglish/ceb53a7984959d2881b74d56.png"
+    },
+    {
+      "time": 54.166666666666664,
+      "file": "case_one_frames/hinglish/55d85e76dab2ab563d2ac054.png"
+    },
+    {
+      "time": 54.25,
+      "file": "case_one_frames/hinglish/b5b5907c26f24e32afabf811.png"
+    },
+    {
+      "time": 54.333333333333336,
+      "file": "case_one_frames/hinglish/8909a24b1ab8d10d0bf2dbb9.png"
+    },
+    {
+      "time": 54.416666666666664,
+      "file": "case_one_frames/hinglish/eb3c638caf3ba2133f57e637.png"
+    },
+    {
+      "time": 54.5,
+      "file": "case_one_frames/hinglish/2b6d8f9863c41a74730a56cd.png"
+    },
+    {
+      "time": 54.583333333333336,
+      "file": "case_one_frames/hinglish/51c4dba51ddfe2c81ae8b8c8.png"
+    },
+    {
+      "time": 54.666666666666664,
+      "file": "case_one_frames/hinglish/198b598c778a4479eb3e99a8.png"
+    },
+    {
+      "time": 54.75,
+      "file": "case_one_frames/hinglish/b17a26964a6ffddc840f9c55.png"
+    },
+    {
+      "time": 54.833333333333336,
+      "file": "case_one_frames/hinglish/3c4a7c8f10685a08b2dd25fa.png"
+    },
+    {
+      "time": 54.916666666666664,
+      "file": "case_one_frames/hinglish/24ca703bce90eff90290caa6.png"
+    },
+    {
+      "time": 55.0,
+      "file": "case_one_frames/hinglish/b0af635723cb8afb5413e4ff.png"
+    },
+    {
+      "time": 55.083333333333336,
+      "file": "case_one_frames/hinglish/9d5d63ebf1a0376a2a71ae57.png"
+    },
+    {
+      "time": 55.166666666666664,
+      "file": "case_one_frames/hinglish/b58e614da7720df36dc632c9.png"
+    },
+    {
+      "time": 55.25,
+      "file": "case_one_frames/hinglish/4f969259e832e414188a9951.png"
+    },
+    {
+      "time": 55.333333333333336,
+      "file": "case_one_frames/hinglish/a6786331bcfcabd286bac945.png"
+    },
+    {
+      "time": 55.416666666666664,
+      "file": "case_one_frames/hinglish/757f633d2a96de3cc8054c64.png"
+    },
+    {
+      "time": 55.5,
+      "file": "case_one_frames/hinglish/72f5e2f47301b56170af59ae.png"
+    },
+    {
+      "time": 55.583333333333336,
+      "file": "case_one_frames/hinglish/ceb53a7984959d2881b74d56.png"
+    },
+    {
+      "time": 55.666666666666664,
+      "file": "case_one_frames/hinglish/55d85e76dab2ab563d2ac054.png"
+    },
+    {
+      "time": 55.75,
+      "file": "case_one_frames/hinglish/b5b5907c26f24e32afabf811.png"
+    },
+    {
+      "time": 55.833333333333336,
+      "file": "case_one_frames/hinglish/8909a24b1ab8d10d0bf2dbb9.png"
+    },
+    {
+      "time": 55.916666666666664,
+      "file": "case_one_frames/hinglish/eb3c638caf3ba2133f57e637.png"
+    },
+    {
+      "time": 56.0,
+      "file": "case_one_frames/hinglish/2b6d8f9863c41a74730a56cd.png"
+    },
+    {
+      "time": 56.083333333333336,
+      "file": "case_one_frames/hinglish/51c4dba51ddfe2c81ae8b8c8.png"
+    },
+    {
+      "time": 56.166666666666664,
+      "file": "case_one_frames/hinglish/198b598c778a4479eb3e99a8.png"
+    },
+    {
+      "time": 56.25,
+      "file": "case_one_frames/hinglish/b17a26964a6ffddc840f9c55.png"
+    },
+    {
+      "time": 56.333333333333336,
+      "file": "case_one_frames/hinglish/3c4a7c8f10685a08b2dd25fa.png"
+    },
+    {
+      "time": 56.416666666666664,
+      "file": "case_one_frames/hinglish/24ca703bce90eff90290caa6.png"
+    },
+    {
+      "time": 56.5,
+      "file": "case_one_frames/hinglish/b0af635723cb8afb5413e4ff.png"
+    },
+    {
+      "time": 56.583333333333336,
+      "file": "case_one_frames/hinglish/9d5d63ebf1a0376a2a71ae57.png"
+    },
+    {
+      "time": 56.666666666666664,
+      "file": "case_one_frames/hinglish/b58e614da7720df36dc632c9.png"
+    },
+    {
+      "time": 56.75,
+      "file": "case_one_frames/hinglish/4f969259e832e414188a9951.png"
+    },
+    {
+      "time": 56.833333333333336,
+      "file": "case_one_frames/hinglish/a6786331bcfcabd286bac945.png"
+    },
+    {
+      "time": 56.916666666666664,
+      "file": "case_one_frames/hinglish/757f633d2a96de3cc8054c64.png"
+    },
+    {
+      "time": 57.0,
+      "file": "case_one_frames/hinglish/72f5e2f47301b56170af59ae.png"
+    },
+    {
+      "time": 57.083333333333336,
+      "file": "case_one_frames/hinglish/0504936c79c712703063d0a9.png"
+    },
+    {
+      "time": 57.166666666666664,
+      "file": "case_one_frames/hinglish/eef9a6f7885531e52e84b19d.png"
+    },
+    {
+      "time": 57.25,
+      "file": "case_one_frames/hinglish/4b6c1944d9d819c435186412.png"
+    },
+    {
+      "time": 57.333333333333336,
+      "file": "case_one_frames/hinglish/4d30ef816863cb66a9c7d878.png"
+    },
+    {
+      "time": 57.416666666666664,
+      "file": "case_one_frames/hinglish/ab53ee0bd771dc062c08c6e9.png"
+    },
+    {
+      "time": 57.5,
+      "file": "case_one_frames/hinglish/76875d0b39c181771ca96f88.png"
+    },
+    {
+      "time": 57.583333333333336,
+      "file": "case_one_frames/hinglish/3eb466b15a3f5ef2daa0c823.png"
+    },
+    {
+      "time": 57.666666666666664,
+      "file": "case_one_frames/hinglish/d005eaebecbce82c6df0347c.png"
+    },
+    {
+      "time": 57.75,
+      "file": "case_one_frames/hinglish/4635195b34aaa4ac597809f7.png"
+    },
+    {
+      "time": 57.833333333333336,
+      "file": "case_one_frames/hinglish/a4a7729e577b54ed95441d70.png"
+    },
+    {
+      "time": 57.916666666666664,
+      "file": "case_one_frames/hinglish/d3147ce86d33006113c017ef.png"
+    },
+    {
+      "time": 58.0,
+      "file": "case_one_frames/hinglish/62089847dd105ea3e6e0102c.png"
+    },
+    {
+      "time": 58.083333333333336,
+      "file": "case_one_frames/hinglish/8c7d2881c620739d60d9e2e4.png"
+    },
+    {
+      "time": 58.166666666666664,
+      "file": "case_one_frames/hinglish/68e81a3624cf4e9442444040.png"
+    },
+    {
+      "time": 58.25,
+      "file": "case_one_frames/hinglish/cf6d6c5e33f7c79bfde9efbf.png"
+    },
+    {
+      "time": 58.333333333333336,
+      "file": "case_one_frames/hinglish/5ca3a176e28c24af21c02048.png"
+    },
+    {
+      "time": 58.416666666666664,
+      "file": "case_one_frames/hinglish/2276fa3deb6f6f837b065c3d.png"
+    },
+    {
+      "time": 58.5,
+      "file": "case_one_frames/hinglish/59ab649e296239aa944a40db.png"
+    },
+    {
+      "time": 58.583333333333336,
+      "file": "case_one_frames/hinglish/0668cbc39c5cd33be862d4ef.png"
+    },
+    {
+      "time": 58.666666666666664,
+      "file": "case_one_frames/hinglish/b8f92ae4f1673afd47fe0d46.png"
+    },
+    {
+      "time": 58.75,
+      "file": "case_one_frames/hinglish/4bb234bebb15acc138683e3d.png"
+    },
+    {
+      "time": 58.833333333333336,
+      "file": "case_one_frames/hinglish/3d10eeb39725f8c62ff0779d.png"
+    },
+    {
+      "time": 58.916666666666664,
+      "file": "case_one_frames/hinglish/6a9092fcd0b9d72a8efcd112.png"
+    },
+    {
+      "time": 59.0,
+      "file": "case_one_frames/hinglish/b480c339f5698914efc35e9f.png"
+    },
+    {
+      "time": 59.083333333333336,
+      "file": "case_one_frames/hinglish/f6296787ecc9a774a921aca5.png"
+    },
+    {
+      "time": 59.166666666666664,
+      "file": "case_one_frames/hinglish/3a39f96d8fbdba78062b93d3.png"
+    },
+    {
+      "time": 59.25,
+      "file": "case_one_frames/hinglish/a2df8908ef8167d49d971311.png"
+    },
+    {
+      "time": 59.333333333333336,
+      "file": "case_one_frames/hinglish/0f685ecc53bbd4bf93569934.png"
+    },
+    {
+      "time": 59.416666666666664,
+      "file": "case_one_frames/hinglish/4193a39cf587fcc612c1c422.png"
+    },
+    {
+      "time": 59.5,
+      "file": "case_one_frames/hinglish/4fe4b3081c9e51112021ea5e.png"
+    },
+    {
+      "time": 59.583333333333336,
+      "file": "case_one_frames/hinglish/ad9f3d4016a0cd7e8818c60f.png"
+    },
+    {
+      "time": 59.666666666666664,
+      "file": "case_one_frames/hinglish/cea9a81e27e68a85f87d85ec.png"
+    },
+    {
+      "time": 59.75,
+      "file": "case_one_frames/hinglish/eb08c8aec17118f470676c48.png"
+    },
+    {
+      "time": 59.833333333333336,
+      "file": "case_one_frames/hinglish/68ddc17c36f0699b0f01bb8a.png"
+    },
+    {
+      "time": 59.916666666666664,
+      "file": "case_one_frames/hinglish/cd0ee915e0a6419804e0babc.png"
+    },
+    {
+      "time": 60.0,
+      "file": "case_one_frames/hinglish/e5ac14b27744429150df2dce.png"
+    },
+    {
+      "time": 60.083333333333336,
+      "file": "case_one_frames/hinglish/ed7f569502b8dc6f88ce1913.png"
+    },
+    {
+      "time": 60.166666666666664,
+      "file": "case_one_frames/hinglish/5502539bee1c072bafcb88c9.png"
+    },
+    {
+      "time": 60.25,
+      "file": "case_one_frames/hinglish/93ed6fbf3ec0959d56f6dabc.png"
+    },
+    {
+      "time": 60.333333333333336,
+      "file": "case_one_frames/hinglish/2d25bd781c410affa29d2458.png"
+    },
+    {
+      "time": 60.416666666666664,
+      "file": "case_one_frames/hinglish/6845987496c28bfc823ace89.png"
+    },
+    {
+      "time": 60.5,
+      "file": "case_one_frames/hinglish/a45102943e41661c7055eaf4.png"
+    },
+    {
+      "time": 60.583333333333336,
+      "file": "case_one_frames/hinglish/b275b0bf14ac4969324cea88.png"
+    },
+    {
+      "time": 60.666666666666664,
+      "file": "case_one_frames/hinglish/5bceb81a87a2b167f8c49ead.png"
+    },
+    {
+      "time": 60.75,
+      "file": "case_one_frames/hinglish/451a59eecca7cd8a976ecc20.png"
+    },
+    {
+      "time": 60.833333333333336,
+      "file": "case_one_frames/hinglish/925eef8b828bcf9f181b3355.png"
+    },
+    {
+      "time": 60.916666666666664,
+      "file": "case_one_frames/hinglish/1a5c1d2624098e5dd90fd008.png"
+    },
+    {
+      "time": 61.0,
+      "file": "case_one_frames/hinglish/5afc9cf478d7fd16191e6616.png"
+    },
+    {
+      "time": 61.083333333333336,
+      "file": "case_one_frames/hinglish/d6ed276755ca0a13ed9d3d48.png"
+    },
+    {
+      "time": 61.166666666666664,
+      "file": "case_one_frames/hinglish/cd4196ac656ec959615a45aa.png"
+    },
+    {
+      "time": 61.25,
+      "file": "case_one_frames/hinglish/5c2a43a3d8fc471a9617b5bf.png"
+    },
+    {
+      "time": 61.333333333333336,
+      "file": "case_one_frames/hinglish/c9b907e2beb642da818dc7f4.png"
+    },
+    {
+      "time": 61.416666666666664,
+      "file": "case_one_frames/hinglish/bf7c5661975d3404aebd2b89.png"
+    },
+    {
+      "time": 61.5,
+      "file": "case_one_frames/hinglish/9bd94e9965b765d2fbb14eaa.png"
+    },
+    {
+      "time": 61.583333333333336,
+      "file": "case_one_frames/hinglish/52003d1b0fd9ba701f4ef416.png"
+    },
+    {
+      "time": 61.666666666666664,
+      "file": "case_one_frames/hinglish/fb3ee354d2d8e2c837f56d1c.png"
+    },
+    {
+      "time": 61.75,
+      "file": "case_one_frames/hinglish/28882f3e2bfc05c6a8ff86b9.png"
+    },
+    {
+      "time": 61.833333333333336,
+      "file": "case_one_frames/hinglish/04cf5de9939ebbc418b42bf7.png"
+    },
+    {
+      "time": 61.916666666666664,
+      "file": "case_one_frames/hinglish/aebb2c1967a629642d69d671.png"
+    },
+    {
+      "time": 62.0,
+      "file": "case_one_frames/hinglish/50704007dc9655a79baab929.png"
+    },
+    {
+      "time": 62.083333333333336,
+      "file": "case_one_frames/hinglish/361a556e954b875075f47f9f.png"
+    },
+    {
+      "time": 62.166666666666664,
+      "file": "case_one_frames/hinglish/26eb824691ff0da252faddd0.png"
+    },
+    {
+      "time": 62.25,
+      "file": "case_one_frames/hinglish/450d8880dd4c112d98832ad8.png"
+    },
+    {
+      "time": 62.333333333333336,
+      "file": "case_one_frames/hinglish/5d1eaa7c8fd1ef8b3450f1ea.png"
+    },
+    {
+      "time": 62.416666666666664,
+      "file": "case_one_frames/hinglish/2b2707093768ee3650e70ae0.png"
+    },
+    {
+      "time": 62.5,
+      "file": "case_one_frames/hinglish/4ff2d55cb534ce75e9489302.png"
+    },
+    {
+      "time": 62.583333333333336,
+      "file": "case_one_frames/hinglish/3a2b803525c0cc5435de52a7.png"
+    },
+    {
+      "time": 62.666666666666664,
+      "file": "case_one_frames/hinglish/5ab98f7e56a3796d16cdc452.png"
+    },
+    {
+      "time": 62.75,
+      "file": "case_one_frames/hinglish/9e081dbfc22fb2d6e5ef3d12.png"
+    },
+    {
+      "time": 62.833333333333336,
+      "file": "case_one_frames/hinglish/b170211a4eee3595673d1039.png"
+    },
+    {
+      "time": 62.916666666666664,
+      "file": "case_one_frames/hinglish/58884acc1c811d172f55d911.png"
+    },
+    {
+      "time": 63.0,
+      "file": "case_one_frames/hinglish/08c2d56e1930de0ea5932d38.png"
+    },
+    {
+      "time": 63.083333333333336,
+      "file": "case_one_frames/hinglish/6ab69155cd405c5d9024e00a.png"
+    },
+    {
+      "time": 63.166666666666664,
+      "file": "case_one_frames/hinglish/70a045dddf8ed20da3ee9028.png"
+    },
+    {
+      "time": 63.25,
+      "file": "case_one_frames/hinglish/5e9c6adf98911716a25a3366.png"
+    },
+    {
+      "time": 63.333333333333336,
+      "file": "case_one_frames/hinglish/b30a3d94a3420ae0e2f4a676.png"
+    },
+    {
+      "time": 63.416666666666664,
+      "file": "case_one_frames/hinglish/8d22a493268c319c83f7f9e0.png"
+    },
+    {
+      "time": 63.5,
+      "file": "case_one_frames/hinglish/1235e0430b40283743ff6a41.png"
+    },
+    {
+      "time": 63.583333333333336,
+      "file": "case_one_frames/hinglish/097766f81faa52b56ecf6c08.png"
+    },
+    {
+      "time": 63.666666666666664,
+      "file": "case_one_frames/hinglish/e8a8091432c1614d7ad7982b.png"
+    },
+    {
+      "time": 63.75,
+      "file": "case_one_frames/hinglish/72058abc4991f9473e396694.png"
+    },
+    {
+      "time": 63.833333333333336,
+      "file": "case_one_frames/hinglish/c5383e09bfe1adc0773c38a6.png"
+    },
+    {
+      "time": 63.916666666666664,
+      "file": "case_one_frames/hinglish/e2ce8c55e2b239ea85a0689c.png"
+    }
+  ],
+  "source_sha256": "8d27a107ceba6968b2aaa43305cc5accbedf11d0c52b8395202159dcc5a43374"
+}

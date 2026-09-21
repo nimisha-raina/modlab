@@ -153,8 +153,8 @@
     {
       "path": "electromagnetism_intro.blend",
       "original_sha256": "6cf7c73310746c910c14adbb17a91beb33627d82ce1b399e3447da8e3af3fbcc",
-      "sha256": "41805d873bdece29900b0d535e98e54687054efdd2d83ab676db7c7ecaa6d354",
-      "bytes": 7976385
+      "sha256": "c0b5b45cfdb16686987ef2f9214d882468e5e41b255141ff90c4715b11250fa4",
+      "bytes": 7976234
     },
     {
       "path": "indian_voice_test.mp3",
@@ -703,6 +703,2194 @@
       "bytes": 1674
     },
     {
+      "path": "parts/01_compass_current/bilingual/archive-path-verification.json",
+      "original_sha256": "8021f74e1b732c1e4c7a55d0920a45a08ce13eb4dd7444c3aa956f4fddf2f2e4",
+      "sha256": "b70e2e2c22fd472de7342dd505c91cd968ab4dfeb22acacdb1bb48e2080371df",
+      "bytes": 4604
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/apparatus-cues.json",
+      "original_sha256": "aa37d1e78b44dc3efdf85f1a7755c0241db50c0e6020048a93157a7f1a5fc1f4",
+      "sha256": "842c7d7a71d7cdb008f89110ac96a2749104f3e5ed8b48795892190bd3cf1b54",
+      "bytes": 464
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/h5p-timing.json",
+      "original_sha256": "eae3abfbebf140613aeaa80f7e10c0166d0a11f3711b4914fce193524c5efab1",
+      "sha256": "c82a27aaa8a695cb4298496e86b68dac30654fb677296cdfb831fb35626e35b6",
+      "bytes": 187
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration-timing.json",
+      "original_sha256": "14fcd1b9e463ec76cc2de8a6d5a78a837644aef922a8aaafe1231aa35eed37bd",
+      "sha256": "079ee163ef18e68b13127d4b7aee0d695e992a4e07228aead18cd46644f6d89f",
+      "bytes": 6854
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration.wav",
+      "original_sha256": "99baef329794cd94fc296bedd0c2ba594b8b560bdfc51806e88bc4cac6e873e8",
+      "sha256": "99baef329794cd94fc296bedd0c2ba594b8b560bdfc51806e88bc4cac6e873e8",
+      "bytes": 13766594
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_00.mp3",
+      "original_sha256": "8467bb506e25a9eaebcf9488d8215065ecb13807877a2a957565fe24c468b969",
+      "sha256": "8467bb506e25a9eaebcf9488d8215065ecb13807877a2a957565fe24c468b969",
+      "bytes": 34848
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_00.wav",
+      "original_sha256": "e209a8b212d985fba2480744a9a975caf72b8867ea5a40c804cfe4f11e094129",
+      "sha256": "e209a8b212d985fba2480744a9a975caf72b8867ea5a40c804cfe4f11e094129",
+      "bytes": 420344
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_00.words.jsonl",
+      "original_sha256": "7a12f54bf7358caeb73d3af24f4f3406f345f02fcea327760ce9a478629896b3",
+      "sha256": "b5412573177e2fb1f3a4e945f2c280702d4ea2d013f2e4e3d3fd6cacbc43635f",
+      "bytes": 896
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_01.mp3",
+      "original_sha256": "967879856acfe83aaac2013896728fb9f372325f00f11a30102863a54fde1090",
+      "sha256": "967879856acfe83aaac2013896728fb9f372325f00f11a30102863a54fde1090",
+      "bytes": 48384
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_01.wav",
+      "original_sha256": "b062f13e0dbc23034d1de0c147cb5a715a91a5bc3105e30e13413010d8d1d944",
+      "sha256": "b062f13e0dbc23034d1de0c147cb5a715a91a5bc3105e30e13413010d8d1d944",
+      "bytes": 621032
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_01.words.jsonl",
+      "original_sha256": "3c679a09fdfd172bb78339181736105d6daea132d5fc60f85a3b7d9ec56e5920",
+      "sha256": "8296a25e5c46a5586880271c26e1b5e549735d3c256960e0314362a96a6c8b79",
+      "bytes": 1240
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_02.mp3",
+      "original_sha256": "6ec6074a4196cde656131601cd2c1fb1f3bfda44712f285fe767e4a3a1259e0c",
+      "sha256": "6ec6074a4196cde656131601cd2c1fb1f3bfda44712f285fe767e4a3a1259e0c",
+      "bytes": 54720
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_02.wav",
+      "original_sha256": "76beec02c102e3e15cac486ce51e86b8bfd78058ff6c6232c438e3ac14f4044e",
+      "sha256": "76beec02c102e3e15cac486ce51e86b8bfd78058ff6c6232c438e3ac14f4044e",
+      "bytes": 717106
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_02.words.jsonl",
+      "original_sha256": "89ae3514acd8557ea700e1789792b87f80939d96c0829def562ce21c509a74fd",
+      "sha256": "743b5e87e6d47d9fe66334d2a995b58919dca9e5ab4462a4784abcb81501bb0f",
+      "bytes": 1717
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_03.mp3",
+      "original_sha256": "310c48adf72e942a478e1761940936b427e706f74b98b621908c052e85a6b233",
+      "sha256": "310c48adf72e942a478e1761940936b427e706f74b98b621908c052e85a6b233",
+      "bytes": 77040
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_03.wav",
+      "original_sha256": "68921353c736da6f8722f22bb370a09ab804ee982f1291f7f8bdf19be7d11c91",
+      "sha256": "68921353c736da6f8722f22bb370a09ab804ee982f1291f7f8bdf19be7d11c91",
+      "bytes": 1037420
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_03.words.jsonl",
+      "original_sha256": "634ac64ac0b620a609d142e714e70873a1936a5c3a1e0ccc97bf2e12b87ecc06",
+      "sha256": "c48a5b24cefcfab7076d4ce03cffad3bcdb5d4b065e076e275acbf6c9a7e92cd",
+      "bytes": 1920
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_04.mp3",
+      "original_sha256": "e38add69ec4ba3f2ece1c75d11d3337b551354ab42866dc6e94a5ca0191f6e47",
+      "sha256": "e38add69ec4ba3f2ece1c75d11d3337b551354ab42866dc6e94a5ca0191f6e47",
+      "bytes": 69264
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_04.wav",
+      "original_sha256": "932631e160575cb55a32cd6c2066e23963f59ac831489a98c47b2f2f26c8151e",
+      "sha256": "932631e160575cb55a32cd6c2066e23963f59ac831489a98c47b2f2f26c8151e",
+      "bytes": 925766
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_04.words.jsonl",
+      "original_sha256": "6e4a66596aa013a066babbcd01fbd34566efcc78e72064e0b4b372779165fb4a",
+      "sha256": "092ccd588755914d1a6cd99f2891d05dee12b61a85f087d6d8504ee4ca5d4c7c",
+      "bytes": 2055
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_05.mp3",
+      "original_sha256": "c2355f9f1fb8d61468ac8b15a5e65c06d690b18d323e1016eee08cdae5491228",
+      "sha256": "c2355f9f1fb8d61468ac8b15a5e65c06d690b18d323e1016eee08cdae5491228",
+      "bytes": 61920
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_05.wav",
+      "original_sha256": "c8359dcbf013c794604597dea85bba81c3183e99687ddf0f48f353c37d695afc",
+      "sha256": "c8359dcbf013c794604597dea85bba81c3183e99687ddf0f48f353c37d695afc",
+      "bytes": 813168
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_05.words.jsonl",
+      "original_sha256": "d2884120598c8887b14ecbcb4b998ae89d272fd2162996dca4ab1323ea30fa54",
+      "sha256": "176ebcf86d3f0a252c187101045eaf700a24db1e1c5bba2452340ab4e10811a2",
+      "bytes": 1647
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_06.mp3",
+      "original_sha256": "331c0935ff274c6b5e0e19aaee46d99db810cdba175e0f11cb921e393aa0eb70",
+      "sha256": "331c0935ff274c6b5e0e19aaee46d99db810cdba175e0f11cb921e393aa0eb70",
+      "bytes": 60912
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_06.wav",
+      "original_sha256": "c3c1562c25c94869f42313cba28801dc73c9a9990411ece1f7836913ed2bd040",
+      "sha256": "c3c1562c25c94869f42313cba28801dc73c9a9990411ece1f7836913ed2bd040",
+      "bytes": 802298
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_06.words.jsonl",
+      "original_sha256": "94e5271efbae11aef13f52b4d5ae796f7ef33b00ca342de2594ff6fbe0ee71fd",
+      "sha256": "cc2bea980a45be56d42b87af53d520d87329abd99840ba400c18f59eafa8b5e8",
+      "bytes": 1597
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_07.mp3",
+      "original_sha256": "3ff2536c6d7909ec39893e85b26fa1592dc65dd70f00fad41cd31f928042a87f",
+      "sha256": "3ff2536c6d7909ec39893e85b26fa1592dc65dd70f00fad41cd31f928042a87f",
+      "bytes": 69984
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_07.wav",
+      "original_sha256": "b0ebb5341e43cd5c065f2e26a5c774bd693df2216d9b14f7dbd418bf7aebd8d4",
+      "sha256": "b0ebb5341e43cd5c065f2e26a5c774bd693df2216d9b14f7dbd418bf7aebd8d4",
+      "bytes": 942744
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_07.words.jsonl",
+      "original_sha256": "ad15538936ddab97e8b425df0b033e282380b8fd53f809ff0f4f2386308a3f6f",
+      "sha256": "34531ee71f513c8142270b95473c63f3da4786054a912bcc6ae7bb34d0cdeda4",
+      "bytes": 1826
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_08.mp3",
+      "original_sha256": "ebf34edeb05a7ff166f059aa62a6db0c2d672901df00166d38c13b7caaea6d24",
+      "sha256": "ebf34edeb05a7ff166f059aa62a6db0c2d672901df00166d38c13b7caaea6d24",
+      "bytes": 62496
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_08.wav",
+      "original_sha256": "46a12e4a0a9c0eda39958a39367c30018fab1c1575626573f682eebba97bfb07",
+      "sha256": "46a12e4a0a9c0eda39958a39367c30018fab1c1575626573f682eebba97bfb07",
+      "bytes": 829888
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_08.words.jsonl",
+      "original_sha256": "654e8fdc152fb72bd63ada3b3001379674143de2e2952b27a24f4a888f6c150f",
+      "sha256": "3c6982e32d6129119ec699a49f3f264014cf1293b504a24f3d1f6efdebeae67a",
+      "bytes": 1490
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_09.mp3",
+      "original_sha256": "bdc70b38a16ae4c6864f20d5e965753cc5180d07fda8ab97c9654c70bef0b7fa",
+      "sha256": "bdc70b38a16ae4c6864f20d5e965753cc5180d07fda8ab97c9654c70bef0b7fa",
+      "bytes": 67536
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_09.wav",
+      "original_sha256": "e9654bcb3a11fdf0963ca503560e7aea7ba8d1d95044734c27c58338a71f9b77",
+      "sha256": "e9654bcb3a11fdf0963ca503560e7aea7ba8d1d95044734c27c58338a71f9b77",
+      "bytes": 904090
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_09.words.jsonl",
+      "original_sha256": "5cb7a06d28a5ee59a405809e6f369b65803eeb2a80fe36c54d66a915060286b7",
+      "sha256": "96e5c7427c2b11df395b2fb2139d8b13b3f27d99d57763994affd294f5feebac",
+      "bytes": 1506
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_10.mp3",
+      "original_sha256": "efcc5e1a667b9e4b6cb34f0fc6ac3007c168f5b5e1f69ea77c07f7ddccc84a35",
+      "sha256": "efcc5e1a667b9e4b6cb34f0fc6ac3007c168f5b5e1f69ea77c07f7ddccc84a35",
+      "bytes": 68544
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_10.wav",
+      "original_sha256": "cda01b38fbb379d8a5abe3b2281bb6992ec97abbdef937815690ecca0edbe5e9",
+      "sha256": "cda01b38fbb379d8a5abe3b2281bb6992ec97abbdef937815690ecca0edbe5e9",
+      "bytes": 917318
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_10.words.jsonl",
+      "original_sha256": "a89bb21079aa34ef8f2fa29f360e78aafa3c0febfe59ebb15443b84de7f4ecba",
+      "sha256": "5af6e78b03b4b2fb5283a16c0201a40bd44978a8702f337b6a8abdf78b22be29",
+      "bytes": 1898
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_11.mp3",
+      "original_sha256": "af39f272a64a994ebb379490c0cb6501cef8c823b2041ceb0e1a235cc75fb5a6",
+      "sha256": "af39f272a64a994ebb379490c0cb6501cef8c823b2041ceb0e1a235cc75fb5a6",
+      "bytes": 114768
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_11.wav",
+      "original_sha256": "c8d32b0af0fd82374758b74aed725770c5e6bf6b80415d71aafb204d8a3df77c",
+      "sha256": "c8d32b0af0fd82374758b74aed725770c5e6bf6b80415d71aafb204d8a3df77c",
+      "bytes": 1596116
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_11.words.jsonl",
+      "original_sha256": "ffbdf698d835848e235dba1b525d12409da7006b2777c4500a16f6966aad6053",
+      "sha256": "cfc3c82a9e7e42460fc5379f4370639c4e7cd36b7a9130f9aa5b04a558dfc0f2",
+      "bytes": 3098
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_12.mp3",
+      "original_sha256": "727d4c49b80f8df14b89574beb6eb62e0b6fc7972c6d14d118168f282ac0dbba",
+      "sha256": "727d4c49b80f8df14b89574beb6eb62e0b6fc7972c6d14d118168f282ac0dbba",
+      "bytes": 42048
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_12.wav",
+      "original_sha256": "16e75a28c34aa16a53cb53aae6c0d15bec858fda098b48b76bda8813af5246e9",
+      "sha256": "16e75a28c34aa16a53cb53aae6c0d15bec858fda098b48b76bda8813af5246e9",
+      "bytes": 513582
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_12.words.jsonl",
+      "original_sha256": "d8d0db4e2500b8af5142f5e1749d1d0df57b48e5d7831a7f0d4f0e508b73580b",
+      "sha256": "2a716e4131b163279ab9767bed81f557c6fd96ec2eab06cefa81e36051beacdc",
+      "bytes": 1075
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_13.mp3",
+      "original_sha256": "fcfa792be91323b59c6aeb4f0a29f822c9b121c57a78e3bcc7cfa342108ffbd4",
+      "sha256": "fcfa792be91323b59c6aeb4f0a29f822c9b121c57a78e3bcc7cfa342108ffbd4",
+      "bytes": 121536
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_13.wav",
+      "original_sha256": "07d327de647e565b1e4dc2df382f1cf1370e42b020b1ac0bd17c71c235ff74fb",
+      "sha256": "07d327de647e565b1e4dc2df382f1cf1370e42b020b1ac0bd17c71c235ff74fb",
+      "bytes": 1692662
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/narration_13.words.jsonl",
+      "original_sha256": "d11a04be9842df34519538016b0c7bd3edeff8e7b53e6101ed7f889a5f8cf008",
+      "sha256": "f40246d752d4c40cb67899adc03c6dcf2eb0efe54ab2f0c98e157a70f5af9a6f",
+      "bytes": 3021
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/provenance.json",
+      "original_sha256": "636c83799c3abdb446178ca67cbffce18e3a6aa7fbe9025fb9a8b370958c40f2",
+      "sha256": "efd25351cbb323d153c675299fbe07cfc724281496bcaa9f5b0116fba45fbedc",
+      "bytes": 2459
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/video-timing.json",
+      "original_sha256": "f68b04dfae9c2bb00fa3d2cd8bf14df3e7824a693cf0ba859ecf797e827f5af8",
+      "sha256": "bb751993746cd789e660a4743870bac2be705289cf463572b47f80547bb4242a",
+      "bytes": 6942
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_english/video-verification.json",
+      "original_sha256": "6add2446b4d5d2f0136fb17d02f38be8b2b19ac71cd58f0b713715ab24c16f31",
+      "sha256": "f5a540d959aea536da555e4d365961ba3b00cb12824dc1982b71904054c81b06",
+      "bytes": 1592
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/apparatus-cues.json",
+      "original_sha256": "19cf9d40e04be57fc1b1614c603df341fdabe4bd2742e075e2b84854773b2987",
+      "sha256": "3554756fe9dc572fa13dbf0c24d5ca8dc5d1791bb764ec8c33834887253f3cc5",
+      "bytes": 492
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/h5p-timing.json",
+      "original_sha256": "c032a75be3c591f2b2667fdde944a9cb4327e2f656747a6bb50817b82af19a5c",
+      "sha256": "5fddc1af77fa5ab602c3b5d884ed861e3274fc26d0949c69c50ad81a704828e7",
+      "bytes": 188
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration-timing.json",
+      "original_sha256": "dd3915a95d2e54fbb110b731ef0c7b1faf55d5bfa8cda704477e48acf0620879",
+      "sha256": "a7d9d31fa60da0b262d958ae0a1621226cc2f2b1e6ede13449b34f3b4954fde4",
+      "bytes": 16894
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration.wav",
+      "original_sha256": "5d827f6a4185d9507b501d6f2dfe3015fc34a1a14830234d8111323a3b8d6aa4",
+      "sha256": "5d827f6a4185d9507b501d6f2dfe3015fc34a1a14830234d8111323a3b8d6aa4",
+      "bytes": 16566944
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_00.mp3",
+      "original_sha256": "5a489ef26e15bddcfa1418c536f96d544593a110d041d97edf07a215ec908f42",
+      "sha256": "5a489ef26e15bddcfa1418c536f96d544593a110d041d97edf07a215ec908f42",
+      "bytes": 50832
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_00.wav",
+      "original_sha256": "63c213743b332c9a17165888225c501b9a9eef410e5f696feb8353b5364b641f",
+      "sha256": "63c213743b332c9a17165888225c501b9a9eef410e5f696feb8353b5364b641f",
+      "bytes": 637448
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_00.words.jsonl",
+      "original_sha256": "863da38f6e1e019e2cc0af72126be5386361030606e9b4f94cd4f0cf1179a4c7",
+      "sha256": "68ddff71d7b60c3bcdad05d8fbf542152d55b2bbb09c20ec8111ad90322e7246",
+      "bytes": 1503
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_01.mp3",
+      "original_sha256": "682f52114a97ea1d2daa5ea666a80ab997b0d7def09b6ff194a7c0f0fe122638",
+      "sha256": "682f52114a97ea1d2daa5ea666a80ab997b0d7def09b6ff194a7c0f0fe122638",
+      "bytes": 67392
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_01.wav",
+      "original_sha256": "822b49111f94ffb59436b7d912cce5b3fa19c443f0e56eccf7253d43372762b3",
+      "sha256": "822b49111f94ffb59436b7d912cce5b3fa19c443f0e56eccf7253d43372762b3",
+      "bytes": 895110
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_01.words.jsonl",
+      "original_sha256": "b1dfd59d426efe552e84941afc7f9457ec90fb495abf6e0a63f0f173398a6a0e",
+      "sha256": "c67da48ab3ed4816150bed21feb88ea701d1464900b06328a9f012fb45ac3f85",
+      "bytes": 2092
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_02.mp3",
+      "original_sha256": "cbca8949a78a0d13b1274ac18a9981570f0891754c3cfc1d71f6585d057b9b64",
+      "sha256": "cbca8949a78a0d13b1274ac18a9981570f0891754c3cfc1d71f6585d057b9b64",
+      "bytes": 62352
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_02.wav",
+      "original_sha256": "1ff1ece2c50a6e3d0882fc657c838ab640e2211432d25abf0b94c0bd383d2d6e",
+      "sha256": "1ff1ece2c50a6e3d0882fc657c838ab640e2211432d25abf0b94c0bd383d2d6e",
+      "bytes": 815244
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_02.words.jsonl",
+      "original_sha256": "6af53f61e51ed1ea61354a68bb16229905a6d016a69ffc748a9a08782b7ad4cb",
+      "sha256": "fe21281791da3b25cf46e4f1ac0f6a7ecafe1166394448b95a4ccde4e8d4377d",
+      "bytes": 2217
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_03.mp3",
+      "original_sha256": "49b1bd615c925277658299e330aec7c579270d5b6717056b66371b6dbb15c46a",
+      "sha256": "49b1bd615c925277658299e330aec7c579270d5b6717056b66371b6dbb15c46a",
+      "bytes": 93312
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_03.wav",
+      "original_sha256": "f8882cb5026070575f1e2b8cb7a449ee86ee2bc7b163fbc1252452df13bf7bf0",
+      "sha256": "f8882cb5026070575f1e2b8cb7a449ee86ee2bc7b163fbc1252452df13bf7bf0",
+      "bytes": 1268628
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_03.words.jsonl",
+      "original_sha256": "6cc37772f1a7983e32495ccb2ec8f17d1a74e9211db1bdfa2dffe21ae02f1228",
+      "sha256": "c65c949ff83d7bf84b2573040460e1b3f3f4a69c7b5a0ffd727e94617c1ced5f",
+      "bytes": 3135
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_04.mp3",
+      "original_sha256": "5890d4427e23648cb54bcf9cfa2d3c2500485619ce09cef6d62c2ba1b9e0a919",
+      "sha256": "5890d4427e23648cb54bcf9cfa2d3c2500485619ce09cef6d62c2ba1b9e0a919",
+      "bytes": 91152
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_04.wav",
+      "original_sha256": "180fb1a4ec39052478a7f172cde9424f024430bb9fe88444cc912a11ea364957",
+      "sha256": "180fb1a4ec39052478a7f172cde9424f024430bb9fe88444cc912a11ea364957",
+      "bytes": 1228468
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_04.words.jsonl",
+      "original_sha256": "0af09c39c6963529a021805a906f998f7aabb63835685a66c29a28819e61f16c",
+      "sha256": "9546a5da837b828db3dc39f77bec1f51ea882840bce4ce0b734af011a18e95f1",
+      "bytes": 3301
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_05.mp3",
+      "original_sha256": "7fc1297834aba070b6ebf2207cbc11d938c921cba8856c1148efb60ffa7d5e62",
+      "sha256": "7fc1297834aba070b6ebf2207cbc11d938c921cba8856c1148efb60ffa7d5e62",
+      "bytes": 79488
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_05.wav",
+      "original_sha256": "d6c037cfe6731ed7a006c59b9a48fd431230963aaa61bb71b7dcae5c955db71f",
+      "sha256": "d6c037cfe6731ed7a006c59b9a48fd431230963aaa61bb71b7dcae5c955db71f",
+      "bytes": 1071406
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_05.words.jsonl",
+      "original_sha256": "0bbebb0c7b62dc0a3dffb5eefa2596364bd8fde31627360802f0728b360be6b3",
+      "sha256": "ceccf81ab38a0cf58bb0a9aa56a483f61a772c9f50038a02d5ae798534e0558a",
+      "bytes": 2929
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_06.mp3",
+      "original_sha256": "a6d4828b57ee1c43906b94c2b13a517a7bf91e900b386a57125e470a7e486364",
+      "sha256": "a6d4828b57ee1c43906b94c2b13a517a7bf91e900b386a57125e470a7e486364",
+      "bytes": 91584
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_06.wav",
+      "original_sha256": "9b636ae8ede1ad3c23eb18471467ab3eaad6ee43c1498b9476d6497523ff8be9",
+      "sha256": "9b636ae8ede1ad3c23eb18471467ab3eaad6ee43c1498b9476d6497523ff8be9",
+      "bytes": 1245072
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_06.words.jsonl",
+      "original_sha256": "057cee070f9e41b6199b40708395afa52da6291d7f1c2155e9c54256b285b138",
+      "sha256": "56a2120e21929137211857e40a5304b62ab948087e32b2dae09884b9027409df",
+      "bytes": 3093
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_07.mp3",
+      "original_sha256": "9ca86f8201cbc893747600c088d45666e23b0d4e1e429004157249ac7efb57e7",
+      "sha256": "9ca86f8201cbc893747600c088d45666e23b0d4e1e429004157249ac7efb57e7",
+      "bytes": 84672
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_07.wav",
+      "original_sha256": "f441637aca37128f791b7c3a65b7b36304e8da9792c9825636b1ae60bc94e03b",
+      "sha256": "f441637aca37128f791b7c3a65b7b36304e8da9792c9825636b1ae60bc94e03b",
+      "bytes": 1147838
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_07.words.jsonl",
+      "original_sha256": "965e910bd92bb16f201fc76432653f15f920db3c4739903f984dd0873fd0532e",
+      "sha256": "e88d1adef496d3db9731f7d12a3a76cb94d800148d0647f8e72def74ab556a2d",
+      "bytes": 2928
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_08.mp3",
+      "original_sha256": "b003c3a240508e20330e4fb599ba17d6ecc5aa60fbbfb7b54bf41d0a940d1b32",
+      "sha256": "b003c3a240508e20330e4fb599ba17d6ecc5aa60fbbfb7b54bf41d0a940d1b32",
+      "bytes": 68256
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_08.wav",
+      "original_sha256": "b8a94281109b427134efbbfba6fa3a3c267808b075d5698050d153a9f6c0fbc0",
+      "sha256": "b8a94281109b427134efbbfba6fa3a3c267808b075d5698050d153a9f6c0fbc0",
+      "bytes": 903502
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_08.words.jsonl",
+      "original_sha256": "b0b96078b8cf4e2d52bafb6d9a16d2978c3158462d2936d45615b9ad874cdfa5",
+      "sha256": "1e51f2f3675a8e8584dfd5c4e99f92d578bd249b8a50cd3e49890b473ee55ade",
+      "bytes": 2320
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_09.mp3",
+      "original_sha256": "78260a1f2f0d67a8ea9746b34a88844833af44f2cbafc1aa9eb8eb506bbce716",
+      "sha256": "78260a1f2f0d67a8ea9746b34a88844833af44f2cbafc1aa9eb8eb506bbce716",
+      "bytes": 68400
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_09.wav",
+      "original_sha256": "1d56d784804763abc37e5bff9d3dd3f0977293421ea6cbb361e4feada2af9575",
+      "sha256": "1d56d784804763abc37e5bff9d3dd3f0977293421ea6cbb361e4feada2af9575",
+      "bytes": 907398
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_09.words.jsonl",
+      "original_sha256": "dfcc3d2bd32a4471766d66a4cdac158945ba5626c4e6494d7eab1d4fd5d58952",
+      "sha256": "405555ab72c8da3fff90eaba74ca03fa324c90208c08f4967fc4e7a0f8c79557",
+      "bytes": 2241
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_10.mp3",
+      "original_sha256": "9d476707598afae5a634160e4c46d9b4abffe6912a3409140b561a44a77a80d9",
+      "sha256": "9d476707598afae5a634160e4c46d9b4abffe6912a3409140b561a44a77a80d9",
+      "bytes": 73296
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_10.wav",
+      "original_sha256": "94dbf6d2f07101f1a33081209ce352f49810221e7d17085ed1bfcc03175e0bfa",
+      "sha256": "94dbf6d2f07101f1a33081209ce352f49810221e7d17085ed1bfcc03175e0bfa",
+      "bytes": 970920
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_10.words.jsonl",
+      "original_sha256": "0130b05d43d7e51c8f7b3202af0e44c76f17a92d56817d9ff49e472414da8ac2",
+      "sha256": "38694c34096f187bbee730628ffb3814d184ff7307a942abaca68eb9408a90dd",
+      "bytes": 2592
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_11.mp3",
+      "original_sha256": "62a7b230c93b81b8891b8e08488599db14ed8c902279c06311d0dec9f7a11bb9",
+      "sha256": "62a7b230c93b81b8891b8e08488599db14ed8c902279c06311d0dec9f7a11bb9",
+      "bytes": 123408
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_11.wav",
+      "original_sha256": "4c2eff576d425f38dec8b7e3752093537bbb6b8bef8c1f8b7a6d05fd34288263",
+      "sha256": "4c2eff576d425f38dec8b7e3752093537bbb6b8bef8c1f8b7a6d05fd34288263",
+      "bytes": 1715322
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_11.words.jsonl",
+      "original_sha256": "6ba707d3e5de0f573de7bcd0d6c98826336da2c59ef6ef7d57ebea4a0ca2c8a1",
+      "sha256": "e93c2452b18827c3f833d69323949b4834ab30c8cc79955839c9598b56c6a978",
+      "bytes": 4314
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_12.mp3",
+      "original_sha256": "ad770e8bb8d50724f44b257b79b7216b24ab1a6d9fc29ecad17bfcbf3523b1b2",
+      "sha256": "ad770e8bb8d50724f44b257b79b7216b24ab1a6d9fc29ecad17bfcbf3523b1b2",
+      "bytes": 52128
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_12.wav",
+      "original_sha256": "c34a47f3a942e11eaf4672e1d50cb599bb80f2300880c941d09252d29c42af24",
+      "sha256": "c34a47f3a942e11eaf4672e1d50cb599bb80f2300880c941d09252d29c42af24",
+      "bytes": 671074
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_12.words.jsonl",
+      "original_sha256": "873cc7b9e9a130be52effb5e9a004798517556abb21c2ea138c67f1b2d877193",
+      "sha256": "9dfb432b1cdf6918c8e0a475cc86378e1c90b1b085f5e15b94f522c96c243b64",
+      "bytes": 1846
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_13.mp3",
+      "original_sha256": "13ffd594e1a1ba484da5f074e732396c20c4037a978a9fbb5718263e9d3aaaaa",
+      "sha256": "13ffd594e1a1ba484da5f074e732396c20c4037a978a9fbb5718263e9d3aaaaa",
+      "bytes": 146448
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_13.wav",
+      "original_sha256": "8f3faea49844fff133dd1e815c0f278e2e1a71bb5f85ca273464253be81df3cb",
+      "sha256": "8f3faea49844fff133dd1e815c0f278e2e1a71bb5f85ca273464253be81df3cb",
+      "bytes": 2056548
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/narration_13.words.jsonl",
+      "original_sha256": "8f02551a2ef45bab798bfb494824f31a0ac2fdd62aa9a334a9aa4fb3266d95fe",
+      "sha256": "61f29f5fffdc0d62befbd531029fa1d331d496079b72f995945b204d2727f728",
+      "bytes": 5147
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/provenance.json",
+      "original_sha256": "77df18c63150562f50b5c8aeaee35cb9519964be0c6d14e0af092bea71a25cc3",
+      "sha256": "8427eccaddebb53f88ea57b64ece1bef10637f97be69e9a5cc0b65cc8aa54359",
+      "bytes": 2444
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/video-timing.json",
+      "original_sha256": "f41234c46a5cdfcb50ff5cb4ea1aedafbdabd62b34ed8bf61c0194083ed40351",
+      "sha256": "e08d554c334f72ccdf5b81ae37586ddd4ffe04fe30e7df957d3da645e73f7244",
+      "bytes": 16983
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/audio_hinglish/video-verification.json",
+      "original_sha256": "6b42dfd0d8d6367ab30ab7d6e8237d1678a5139c4b142648468603e8ac7b628d",
+      "sha256": "eb582d7567fb8728e3176cbb3d1452ad1267af4095e109d395ce3e79abbc484a",
+      "bytes": 1599
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/automated-validation.json",
+      "original_sha256": "f24bb6b63a319e4d4ebdde4caa65904192127921554f606a29aa382047096704",
+      "sha256": "cf207145145f8e82172f1637bdf0ab85c775d70ad814c3d1795cbd712d9f37dc",
+      "bytes": 274
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_english.blend",
+      "original_sha256": "8227f955b8d931dca3cd94ff3b8ec91a5fdbd82384e92d9917316d118fd7a201",
+      "sha256": "bd651e046c13e6b4004a233f1f7c8ad5bd4365c4fc9a8a69e007b58f29d5ed97",
+      "bytes": 12859377
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_english_720p.mp4",
+      "original_sha256": "32caa8f1c2d2e8aea8b248b1a89ef3ed948fe7266c1a60f5facef37cdf00f317",
+      "sha256": "32caa8f1c2d2e8aea8b248b1a89ef3ed948fe7266c1a60f5facef37cdf00f317",
+      "bytes": 22616221
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_english_source.blend",
+      "original_sha256": "df08fe0b0dec3f358db04387137fc3f7b571215cfa80812fa7404665ce9c694f",
+      "sha256": "3c64584c143989cfb1f76baa5b42b49bf48860416c87063ff5be70f8dc5be01e",
+      "bytes": 2993708
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_hinglish.blend",
+      "original_sha256": "02818bdd326c91dba0a5d4e9e2399df3fdce8dbfb4a5d47414f7f2c08d24078a",
+      "sha256": "2f0f4dad4fa7aec21f2a41908aaec1c8e63fab4f3e0a27f17bfa2df1b18592bc",
+      "bytes": 14921450
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_hinglish_720p.mp4",
+      "original_sha256": "1c9d98c79a84e25a14b81bf6581d1bb9d123e30f81b6aba279f0627380ff3dbf",
+      "sha256": "1c9d98c79a84e25a14b81bf6581d1bb9d123e30f81b6aba279f0627380ff3dbf",
+      "bytes": 24904298
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_hinglish_source.blend",
+      "original_sha256": "8d27a107ceba6968b2aaa43305cc5accbedf11d0c52b8395202159dcc5a43374",
+      "sha256": "937a4fac3695beef0717eecc25126f10585e8c3fd0af0a9d34d180bb575340f6",
+      "bytes": 3603643
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_source.blend",
+      "original_sha256": "9e02f5bfc447a4041e35ad442fc98de0b51d5d6fbae28aae7055caa7b523709f",
+      "sha256": "153525b06ead50d19db504070ffab74e53bf9cb9d7943f707f9544c452d6707d",
+      "bytes": 2979553
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/current-arrow-check.png",
+      "original_sha256": "f586ffc42e377c1e9de9857aa9bcdcf70c28f0db01b593e97f528523197861a3",
+      "sha256": "f586ffc42e377c1e9de9857aa9bcdcf70c28f0db01b593e97f528523197861a3",
+      "bytes": 1889600
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-browser-verification.json",
+      "original_sha256": "d626a274f4106846782ef96553f221d39facd9eed9469010196cd9d53dfcbbc2",
+      "sha256": "72a29dea681d320af9e846880a56878075718a83e2533ea5d4f1fc7f17c309f5",
+      "bytes": 543
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-frames-0000-0192.json",
+      "original_sha256": "4502286fabd7fda24f711b53a151b54f1e5fcf40692aa6314d6021ad91d54e9c",
+      "sha256": "c484267c5390f6b5573b48236d41608461c6cb87c1f58a9cc1475e91a9a2b280",
+      "bytes": 21443
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-frames-0192-0384.json",
+      "original_sha256": "74f1530392a98396fd3e0c7b156c45bb3e79c5f84adb7b86f3d81b286b9d253f",
+      "sha256": "e4c9a23736c57d38cb0e9594e4000e865bcd28c904ff5f9cb911d451d2a49277",
+      "bytes": 21529
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-frames-0384-0576.json",
+      "original_sha256": "7017d6b099b375908b9eb24bd9bcc9f48f4664da50538e4f7ba0d5876e198145",
+      "sha256": "72570135a99267c568bf397a7defb419b1b5a7e50b6946dcd7beee460a3abfd1",
+      "bytes": 21529
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-frames-0576-0768.json",
+      "original_sha256": "515f862a6b7b810c14e9323df353fce4a1a4e8246e6f4f9f117f6bfc9e1ce6fc",
+      "sha256": "b8c3ec628fb12663a556013966b48bd4a778e4478b9641e87925a5ad3b216daf",
+      "bytes": 21529
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-frames-0768-0960.json",
+      "original_sha256": "6c0832cd0dc42a15695e5a4e937ea441b220c0cf6a4ec9b92c14a8e4cfe7f368",
+      "sha256": "93c898f74ce6c684a764c98ef622dacf4df878f6dd3034b4751e552745326212",
+      "bytes": 21401
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-frames-0960-1032.json",
+      "original_sha256": "32d04eb1d43286561d7be909948f820962cc6cc4872db12d4fdcb0996306e1ac",
+      "sha256": "d29910951c5dfa7703cbbb792ee2dd39ec60dac371d2a9e372059d394cb56769",
+      "bytes": 8101
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-frames.json",
+      "original_sha256": "280ce4e6f1d2e34bceb8c1730e6ae716d47584a274f6e8e267179cc82c15ef8f",
+      "sha256": "f67bc70a2afb2cebeb59a036a834693e8eb1ab0230957fcb4cf05c687786416b",
+      "bytes": 114927
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-scene-verification.json",
+      "original_sha256": "f0a44176b0df116595b5e0553905f42327a097895b62e41f24dc67e601519996",
+      "sha256": "3ce4a8b55fe8469aca64729f3ef2fd7ba87c5e64f1324396d160bdeff40ffc51",
+      "bytes": 327
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-stills.json",
+      "original_sha256": "a13c7b9d47270d8dc5a6d924238027c45db340fd4151cdf15468209c8943467d",
+      "sha256": "c6060f89900cf27bd071c124af633d31fe73effe69af235e879a96286b3afd39",
+      "bytes": 1139
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-video-112s.jpg",
+      "original_sha256": "b081ebb8c47b5f9ebb7e9f49559051bfb08a1d294e4824d7354e0bc1df96a86c",
+      "sha256": "b081ebb8c47b5f9ebb7e9f49559051bfb08a1d294e4824d7354e0bc1df96a86c",
+      "bytes": 52306
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/english-video-48s.jpg",
+      "original_sha256": "7742eed7f6e9aa4cb58191ff63b094a7124ab9bd8b8679a046da03bea9d41184",
+      "sha256": "7742eed7f6e9aa4cb58191ff63b094a7124ab9bd8b8679a046da03bea9d41184",
+      "bytes": 42697
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-browser-verification.json",
+      "original_sha256": "cb8771a6041ec648f1644b6c42d5e3a35749ca572fe386c8edd6b069d80a1f7a"
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-contact.png",
+      "original_sha256": "4c23157804673d670f3d01def8be82d418fd237aef440e44aa3fc99f1b8bf8ec",
+      "sha256": "4c23157804673d670f3d01def8be82d418fd237aef440e44aa3fc99f1b8bf8ec",
+      "bytes": 1964697
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-frames-0000-0192.json",
+      "original_sha256": "0aad0f57bf409238bd33674d3d3369de78207e447a61cc693faac45276e72008",
+      "sha256": "340abfb122a84ec47e3726fe2837768205a614aa28b7cff4210999fb06617664",
+      "bytes": 21635
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-frames-0192-0384.json",
+      "original_sha256": "50e4a4ff58f38d8214f588bc49cd30c8b208791cb846307eb891645efd813d51",
+      "sha256": "257b57ea957b54ef274e56f20e39f796f1476a63f01e66ec68c92389ef467ef8",
+      "bytes": 21721
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-frames-0384-0576.json",
+      "original_sha256": "5b52ffba02030aceff387bb11f9512cf8704c7bd3a0438ad959a6dac0c8ee188",
+      "sha256": "e199b3ebd53079c6799d8836d5b7ba36e2c954d8dc7db8f65b6adb3f8620b67f",
+      "bytes": 21721
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-frames-0576-0768.json",
+      "original_sha256": "ae17efdf601eeb7057c95807a123626cf43112635db140ed3158dd5213db1db3",
+      "sha256": "a6e02007a416433faf0e818f811967855c33cdbe45d0b485cab16255b11b8f47",
+      "bytes": 21721
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-frames-0768-0960.json",
+      "original_sha256": "aa112e4bdf948fa17aabc0397225919730325020a26ef989dcf01690871428ab",
+      "sha256": "48775c36cde1982e52d0df0e2bd396d0480f1f8a777ef7939aadfc7259f398cc",
+      "bytes": 21593
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-frames-0960-1032.json",
+      "original_sha256": "e56fd716423295b38e5ffb6e231cf5de765d177136b3e3c9233d17a36252ef0a",
+      "sha256": "6ed3bddcee0d580cf8deaff4dc7756ea6a5c87bd61b2f6c7f7dbc9e5416fb89a",
+      "bytes": 8173
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-frames.json",
+      "original_sha256": "4da5418fa29b999b7936f71131a443ad98a5b404d812778843a2276a5cfe317f",
+      "sha256": "f02c6f5b555ffb65e80ad289a8b895eb46028eaa1bd7890650b33a239a7ca6ad",
+      "bytes": 115959
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-scene-verification.json",
+      "original_sha256": "f4207656e745492c54bf5905f7754be359dabf3ef6ec215c61f4aede118776c9",
+      "sha256": "f3dc826b2ef6567da52143fb42c9c7bef04890300ddcc317c6756b8728680312",
+      "bytes": 327
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/hinglish-stills.json",
+      "original_sha256": "756c3acf6683709a47eec67a290d4a28b700ce40b6c4b03404893bbe67b9755c",
+      "sha256": "7cd0491f7c1fc819635b715808810e83fe1e04fa1cdf1e12c01097a83486a4b2",
+      "bytes": 1149
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/language-verification.json",
+      "original_sha256": "b5c01c4bdfd39100d2723097a286e730f7f0de49cff0d8432ca6227649689b08",
+      "sha256": "30332a25b109a60ece106a0bda2ec9896d0d819d0d02bfeb9c07a9323792a1bd",
+      "bytes": 723
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/original-text.json",
+      "original_sha256": "0af88089b3780a8391ef701f5c82e2531c6632a8e08bb4f0d126948c3197fc04",
+      "sha256": "9d622a530b78a1b08f26856f907e0b50b771cf1922eb454e97abec59ca84da01",
+      "bytes": 125714
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/poster-english.jpg",
+      "original_sha256": "8da51ef8d9b442bc59720ab38af8bcb82782421a008aa533ace5851c73f5d239",
+      "sha256": "8da51ef8d9b442bc59720ab38af8bcb82782421a008aa533ace5851c73f5d239",
+      "bytes": 134076
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/poster-hinglish.jpg",
+      "original_sha256": "028868ee02354e3a3f08554de25cd8c2dc0ea09246b61bb47ab3096a71e0c834",
+      "sha256": "028868ee02354e3a3f08554de25cd8c2dc0ea09246b61bb47ab3096a71e0c834",
+      "bytes": 130664
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/speech-verification.json",
+      "original_sha256": "71fa7ff86c19708fa2804e368f252739542696395c39c87c0f6d1c97ee88c7b0",
+      "sha256": "8fe2bfc94b570b22a4000d578468ebeb4690241f6fea5762a675e40ec0a97e49",
+      "bytes": 227
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text-inventory.json",
+      "original_sha256": "9880128af515f71b4dcbae6f737c1b715cba863232b05ffbda3a077f3ac0821c",
+      "sha256": "b31d0ab427871e0e388d2b1594744a288979fa2976d892acbb04eb8e2dfb0fc8",
+      "bytes": 13531
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/01156c59e176a36f90b6.png",
+      "original_sha256": "31d780779630e4e1100272da4486e871e296a576f9926949e30332f8ebf9cec7",
+      "sha256": "31d780779630e4e1100272da4486e871e296a576f9926949e30332f8ebf9cec7",
+      "bytes": 6134
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/04bb5e3baa9b8cc024de.png",
+      "original_sha256": "33bf9f5d6e9e602c075e07fb1d4caf021f646c23acd1fd29edc650eaeffae90a",
+      "sha256": "33bf9f5d6e9e602c075e07fb1d4caf021f646c23acd1fd29edc650eaeffae90a",
+      "bytes": 16269
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/0546e1ed01aca2ca9dbc.png",
+      "original_sha256": "d39fe2d8d7db1b50e92a7ef6f600a2fb50774a2aaeb94efde655e8ae3b7821c2",
+      "sha256": "d39fe2d8d7db1b50e92a7ef6f600a2fb50774a2aaeb94efde655e8ae3b7821c2",
+      "bytes": 5228
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/05a011600f40a6e99cc8.png",
+      "original_sha256": "c956239dc7dc9d7b800d52caa100daa7b1fb982da1373e5fdbcd31d5d9980da1",
+      "sha256": "c956239dc7dc9d7b800d52caa100daa7b1fb982da1373e5fdbcd31d5d9980da1",
+      "bytes": 2528
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/064754b80f5784740d1c.png",
+      "original_sha256": "2c54228bb4ffb93d0c1aa1e87c7abe33632029ceb255290f82f169f112975176",
+      "sha256": "2c54228bb4ffb93d0c1aa1e87c7abe33632029ceb255290f82f169f112975176",
+      "bytes": 13883
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/0ab274dc433e6459f0a1.png",
+      "original_sha256": "6df004ddeb6adb7f1cc1c520b3291f2d6ee875919c7dcf9ac18b70877942bcfe",
+      "sha256": "6df004ddeb6adb7f1cc1c520b3291f2d6ee875919c7dcf9ac18b70877942bcfe",
+      "bytes": 5200
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/0b7009b225e8d30f7be0.png",
+      "original_sha256": "d44437b4cddef28201342d9265e519a29bb4b3a74e284fad38aa5fa1645f62cb",
+      "sha256": "d44437b4cddef28201342d9265e519a29bb4b3a74e284fad38aa5fa1645f62cb",
+      "bytes": 3168
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/0bf745ac5a9d64c6d872.png",
+      "original_sha256": "350b64fffa4b6a589d4dc5978890ed1a6bf1cf980fbd8b297ecf726af8f1892f",
+      "sha256": "350b64fffa4b6a589d4dc5978890ed1a6bf1cf980fbd8b297ecf726af8f1892f",
+      "bytes": 2967
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/0d888689f3bad3275f30.png",
+      "original_sha256": "2e2f3b17234269e135fcf4f18671957886dfe5fa446e928788421b94c83bfdae",
+      "sha256": "2e2f3b17234269e135fcf4f18671957886dfe5fa446e928788421b94c83bfdae",
+      "bytes": 12383
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/0e8d393d992b05ab0bdf.png",
+      "original_sha256": "37247afd0e78f620648ec9115919a89bbda342e5b91210a0438986648fafd585",
+      "sha256": "37247afd0e78f620648ec9115919a89bbda342e5b91210a0438986648fafd585",
+      "bytes": 5487
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/0e8e925e9c4941eb5757.png",
+      "original_sha256": "18af216cc77fad458ff60bcbf34ee06ab7333a66ff7bb42a54620f778f048738",
+      "sha256": "18af216cc77fad458ff60bcbf34ee06ab7333a66ff7bb42a54620f778f048738",
+      "bytes": 15053
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/10026720f1087eede6de.png",
+      "original_sha256": "a5efb31f8bded94735f9883cde80fddeb08191ddc0f47136b1072a5d29599526",
+      "sha256": "a5efb31f8bded94735f9883cde80fddeb08191ddc0f47136b1072a5d29599526",
+      "bytes": 15801
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/108c85da3c907a926a28.png",
+      "original_sha256": "14170550009a0e91cf37075593d83a5d31e40d32939949ce77b9aed600effb32",
+      "sha256": "14170550009a0e91cf37075593d83a5d31e40d32939949ce77b9aed600effb32",
+      "bytes": 5939
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/12011807a9eea6ec8692.png",
+      "original_sha256": "230ce85525b9b786af21431cc443d1e4e4c734b43feb3ae976f7bfb144df693e",
+      "sha256": "230ce85525b9b786af21431cc443d1e4e4c734b43feb3ae976f7bfb144df693e",
+      "bytes": 3339
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/12bdab5ca927c8e00822.png",
+      "original_sha256": "ac371aaa1c0e12cd4cf4e9ee56ab4aa35e847c1dc5cfbd67fc6cd1ca0df501ed",
+      "sha256": "ac371aaa1c0e12cd4cf4e9ee56ab4aa35e847c1dc5cfbd67fc6cd1ca0df501ed",
+      "bytes": 13838
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/131adf6f79057c1414c5.png",
+      "original_sha256": "73921b37e512615646e2ef4d703ccafe06ee5b63501a3b33020fb4d60befae6c",
+      "sha256": "73921b37e512615646e2ef4d703ccafe06ee5b63501a3b33020fb4d60befae6c",
+      "bytes": 2006
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/1458a4ae08ff45034f59.png",
+      "original_sha256": "5e05af41c1ede61e5c6771bd96fb984e4e23071b6c45af238d8cf3a4ce4358e0",
+      "sha256": "5e05af41c1ede61e5c6771bd96fb984e4e23071b6c45af238d8cf3a4ce4358e0",
+      "bytes": 14100
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/1552b59954362ffd879c.png",
+      "original_sha256": "4836d0f6663b437f0116b240ce9ecaaf6e20eed567b4ee0380bc1a925ddc701b",
+      "sha256": "4836d0f6663b437f0116b240ce9ecaaf6e20eed567b4ee0380bc1a925ddc701b",
+      "bytes": 3289
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/18102ea392d7d1145392.png",
+      "original_sha256": "bbe665ed09145548934720988d657578f38d287d51aaa95df444155ad011c1a3",
+      "sha256": "bbe665ed09145548934720988d657578f38d287d51aaa95df444155ad011c1a3",
+      "bytes": 4954
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/1b07b0cffa0b3f596b5e.png",
+      "original_sha256": "ad0722d77640cab67ea0a1e0363fb1b560356e161ee39a54e4823f851ce88e2d",
+      "sha256": "ad0722d77640cab67ea0a1e0363fb1b560356e161ee39a54e4823f851ce88e2d",
+      "bytes": 1940
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/1b263f981bd684ef4ce2.png",
+      "original_sha256": "d66cfe57665cf76a00a382dc468584526db58b613ef141d4ab4998d6300fe52f",
+      "sha256": "d66cfe57665cf76a00a382dc468584526db58b613ef141d4ab4998d6300fe52f",
+      "bytes": 3002
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/1b8c98c970dec2ff10f8.png",
+      "original_sha256": "7cfeaf5fc8d046cdc992334641d57d2004535a3cdb905218a594a7fed89661b7",
+      "sha256": "7cfeaf5fc8d046cdc992334641d57d2004535a3cdb905218a594a7fed89661b7",
+      "bytes": 3147
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/1ba9a256f07ccf1ba5d2.png",
+      "original_sha256": "acd307548a79b6bf66b7f57bd5383fb254a895d3149a0b3c0e083b1df1e8e161",
+      "sha256": "acd307548a79b6bf66b7f57bd5383fb254a895d3149a0b3c0e083b1df1e8e161",
+      "bytes": 14763
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/1d6216b37301bc981a8b.png",
+      "original_sha256": "e58fcb6eb8be9d6a2efaaaa35c34f1bfffd5e25e7e9dcf33c90c7eda8bdf2505",
+      "sha256": "e58fcb6eb8be9d6a2efaaaa35c34f1bfffd5e25e7e9dcf33c90c7eda8bdf2505",
+      "bytes": 5119
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/1e90a3ac39a3f9c23eed.png",
+      "original_sha256": "e68a41775ba1eb55217ebf8d0f2b274df3b95dc1e1cf076b098e638c8e6fde09",
+      "sha256": "e68a41775ba1eb55217ebf8d0f2b274df3b95dc1e1cf076b098e638c8e6fde09",
+      "bytes": 6509
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/1f47b2cd6da516289a07.png",
+      "original_sha256": "0f732dec9fcc7c607664bc7d15ab226e45117e66828b1273c36faee2cd56e5d7",
+      "sha256": "0f732dec9fcc7c607664bc7d15ab226e45117e66828b1273c36faee2cd56e5d7",
+      "bytes": 5469
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/21bf1f6bb4e492f90926.png",
+      "original_sha256": "9e51b93804586c22555460d28264afc70c449b2c148d515ecc98e5a5ff596f62",
+      "sha256": "9e51b93804586c22555460d28264afc70c449b2c148d515ecc98e5a5ff596f62",
+      "bytes": 3236
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/2283d2782682f60bb0a0.png",
+      "original_sha256": "39bb48b386551b4bd8cc2e1702d2513fa389897444b19d1ea6f2e7d765238d6b",
+      "sha256": "39bb48b386551b4bd8cc2e1702d2513fa389897444b19d1ea6f2e7d765238d6b",
+      "bytes": 5349
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/2377f2255443b02a60d1.png",
+      "original_sha256": "3c0cbef55c9eb2b213df3d6c3741f18d498c807149dc4c479aa674ddfce5330e",
+      "sha256": "3c0cbef55c9eb2b213df3d6c3741f18d498c807149dc4c479aa674ddfce5330e",
+      "bytes": 10567
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/2661efd34a9588e2217f.png",
+      "original_sha256": "9899a08c87aa5e863d50233791d1b6a803e22fa48b6d3c2cdc725b2b783127d3",
+      "sha256": "9899a08c87aa5e863d50233791d1b6a803e22fa48b6d3c2cdc725b2b783127d3",
+      "bytes": 3050
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/2684ad8f051995834713.png",
+      "original_sha256": "8c6e1e45185e9a5cef8154d8ba9af9148e4636da7b63e3196c0e40f309576f83",
+      "sha256": "8c6e1e45185e9a5cef8154d8ba9af9148e4636da7b63e3196c0e40f309576f83",
+      "bytes": 16115
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/26a7ae99f2b99f1b29f1.png",
+      "original_sha256": "000afaa3dadf833323c6052b25dcb2a04b02662879afcb4d3c565a583fb9471e",
+      "sha256": "000afaa3dadf833323c6052b25dcb2a04b02662879afcb4d3c565a583fb9471e",
+      "bytes": 1922
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/2d1373a15e86b2a5c8e7.png",
+      "original_sha256": "3906838abf9cda21e47ade4862dde850e6dbced280130bc9c6fa120e2a3968b5",
+      "sha256": "3906838abf9cda21e47ade4862dde850e6dbced280130bc9c6fa120e2a3968b5",
+      "bytes": 5474
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/2d169eec2b1138efe4c9.png",
+      "original_sha256": "5c9ea64c7a22dc868df50490d9c57d8618536fe0ad20278a512a51e0f6bfdc47",
+      "sha256": "5c9ea64c7a22dc868df50490d9c57d8618536fe0ad20278a512a51e0f6bfdc47",
+      "bytes": 7105
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/2d4c59dbaf8ae2fc5dba.png",
+      "original_sha256": "a3d33ccbb1df1e06ca79a03d049361badf6d567bffb0323748c615f135896d3c",
+      "sha256": "a3d33ccbb1df1e06ca79a03d049361badf6d567bffb0323748c615f135896d3c",
+      "bytes": 2879
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/33babf7e1f9e8ba658c5.png",
+      "original_sha256": "c97f555e568c69aee28f4fd9468ba0782a3af6aa5868ef22f1eaf0078458b4e6",
+      "sha256": "c97f555e568c69aee28f4fd9468ba0782a3af6aa5868ef22f1eaf0078458b4e6",
+      "bytes": 3306
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/35b4a660be9b42f18f95.png",
+      "original_sha256": "80c649ba37cc64996f1c29a0fe2fc88b7681e305ad9db5f0b15130c07aeafff4",
+      "sha256": "80c649ba37cc64996f1c29a0fe2fc88b7681e305ad9db5f0b15130c07aeafff4",
+      "bytes": 5874
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/35d8edde3163b4c05d4e.png",
+      "original_sha256": "c9169e89c4a20055f7f600c9d2bb8dbba148f6008560959ed7ae12d6be3db9b5",
+      "sha256": "c9169e89c4a20055f7f600c9d2bb8dbba148f6008560959ed7ae12d6be3db9b5",
+      "bytes": 12362
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/363a8e980f394f757665.png",
+      "original_sha256": "0cdc9aedc29c3d0ccff5059a5198f995b221e33ec943f78e8d0ff8d2af08886e",
+      "sha256": "0cdc9aedc29c3d0ccff5059a5198f995b221e33ec943f78e8d0ff8d2af08886e",
+      "bytes": 10475
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/37e96ce70a98582db6d9.png",
+      "original_sha256": "188eecad2daa392017170760a72f1406e4a2a75bd557065cb2a9a36f37c1a8d4",
+      "sha256": "188eecad2daa392017170760a72f1406e4a2a75bd557065cb2a9a36f37c1a8d4",
+      "bytes": 4018
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/391321dbab243d2f3c7d.png",
+      "original_sha256": "7212831f8f2344a5e3f06fb23ecce3ad37491a9d714ee8837e0814f2b51917ce",
+      "sha256": "7212831f8f2344a5e3f06fb23ecce3ad37491a9d714ee8837e0814f2b51917ce",
+      "bytes": 2197
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/39921a740bf2b67802a2.png",
+      "original_sha256": "a48a2f8fb21b66d8013a775fba714b0ef05ce9e54559e27433c6beaee36c3c18",
+      "sha256": "a48a2f8fb21b66d8013a775fba714b0ef05ce9e54559e27433c6beaee36c3c18",
+      "bytes": 3581
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/3a08e27e8f2ff5ffe4d2.png",
+      "original_sha256": "706c7fef8612f0eba9b4d20e761fc4b2970656739891db9618632c23f41257b4",
+      "sha256": "706c7fef8612f0eba9b4d20e761fc4b2970656739891db9618632c23f41257b4",
+      "bytes": 6469
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/3eef308792e0a4b14132.png",
+      "original_sha256": "0e0dba61bf31d8f399239490870eb65464f156924345745ac9af475ac9890bc7",
+      "sha256": "0e0dba61bf31d8f399239490870eb65464f156924345745ac9af475ac9890bc7",
+      "bytes": 6398
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/41861bf46c5c0742ad06.png",
+      "original_sha256": "4b0621945a05e0776879fef577afd028d2423a236f27eb514216d5f187a924d6",
+      "sha256": "4b0621945a05e0776879fef577afd028d2423a236f27eb514216d5f187a924d6",
+      "bytes": 16017
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/4239395aaa8082417212.png",
+      "original_sha256": "f906479dcc6603add266643faaa5ffde6fab6f55095436be9cec25f3697a6a78",
+      "sha256": "f906479dcc6603add266643faaa5ffde6fab6f55095436be9cec25f3697a6a78",
+      "bytes": 21914
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/42b66927485566aec2a1.png",
+      "original_sha256": "d579ac3002e5c86def93c1c6b683f54dd0ee6e1937b4e79fbd0766336e29f7d3",
+      "sha256": "d579ac3002e5c86def93c1c6b683f54dd0ee6e1937b4e79fbd0766336e29f7d3",
+      "bytes": 9205
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/43217024ea23a3079b64.png",
+      "original_sha256": "d82d3cd88d13eb8cde1b8e5a9950790d6bd4eae5d268cca2eba19b5b4e31a00f",
+      "sha256": "d82d3cd88d13eb8cde1b8e5a9950790d6bd4eae5d268cca2eba19b5b4e31a00f",
+      "bytes": 17965
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/435a9c48b99f8ff3b097.png",
+      "original_sha256": "c403b7b2ab23a8c21349f784acb4464acf03c802fa5c616ec052cde4e5eae550",
+      "sha256": "c403b7b2ab23a8c21349f784acb4464acf03c802fa5c616ec052cde4e5eae550",
+      "bytes": 10015
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/43bf8d7eb348a9d5ddb6.png",
+      "original_sha256": "fa13aacfd4fb1bf59d894e8c025355d18ba7e4650291e723a828bfe4b78c0475",
+      "sha256": "fa13aacfd4fb1bf59d894e8c025355d18ba7e4650291e723a828bfe4b78c0475",
+      "bytes": 4942
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/44982b30a7bf265cd07c.png",
+      "original_sha256": "2d480809dfa3dd0ed1aaef92c9f465b6abee6cf90aa9a656434f4800b96d4ac7",
+      "sha256": "2d480809dfa3dd0ed1aaef92c9f465b6abee6cf90aa9a656434f4800b96d4ac7",
+      "bytes": 2000
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/44c479ed89a0079d7f65.png",
+      "original_sha256": "c18f52f1881b40aae9239074e7bcfb442387024b366bb7c34a332cb4732eb18c",
+      "sha256": "c18f52f1881b40aae9239074e7bcfb442387024b366bb7c34a332cb4732eb18c",
+      "bytes": 1401
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/4689740c1eac27aaf2e8.png",
+      "original_sha256": "a90cac048b8fb946e417e892b6c3660a81d088a78df0ac4c5d6d655508b28478",
+      "sha256": "a90cac048b8fb946e417e892b6c3660a81d088a78df0ac4c5d6d655508b28478",
+      "bytes": 6570
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/4aed09527e311c8e4b74.png",
+      "original_sha256": "21e44fceed9d1e384c556870f318bc0c078b362f2a11df1160a849afd21342c7",
+      "sha256": "21e44fceed9d1e384c556870f318bc0c078b362f2a11df1160a849afd21342c7",
+      "bytes": 2925
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/4bb68473e8cd55ec749e.png",
+      "original_sha256": "7b0676f7c4ff902f38a3336618d636fd955e9c1f1daae480873be4e999a14bdd",
+      "sha256": "7b0676f7c4ff902f38a3336618d636fd955e9c1f1daae480873be4e999a14bdd",
+      "bytes": 1732
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/4ca58413df6adc94628d.png",
+      "original_sha256": "c4dfaace8986976c49bf3ecb9e3f3ea002cf47ce6983f5c57e476b09925e850e",
+      "sha256": "c4dfaace8986976c49bf3ecb9e3f3ea002cf47ce6983f5c57e476b09925e850e",
+      "bytes": 5390
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/4f7342de8566126237e6.png",
+      "original_sha256": "c336539b51ed2930271619f19a37f7c7ecae4d0145e6cba7deb94379d3aba8d4",
+      "sha256": "c336539b51ed2930271619f19a37f7c7ecae4d0145e6cba7deb94379d3aba8d4",
+      "bytes": 16630
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/4f73d2d7f1c370d9f077.png",
+      "original_sha256": "5135d37512a6093f1f46db79fdf0a9c194a087333005d236e60b827410a76c88",
+      "sha256": "5135d37512a6093f1f46db79fdf0a9c194a087333005d236e60b827410a76c88",
+      "bytes": 1851
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/4f975c51d8bce0fd702d.png",
+      "original_sha256": "c7ed4d9ca7669202e2e56e742e1b9bf66d5c0721a9760723858afd6653c5d1c8",
+      "sha256": "c7ed4d9ca7669202e2e56e742e1b9bf66d5c0721a9760723858afd6653c5d1c8",
+      "bytes": 3325
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/4fe897888a9fa6b00e18.png",
+      "original_sha256": "4c7064bc610a9dcd47de991030b4529162d315bb3b7ed006e9c5ee07c8fd471a",
+      "sha256": "4c7064bc610a9dcd47de991030b4529162d315bb3b7ed006e9c5ee07c8fd471a",
+      "bytes": 6140
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/51212063b1cafe94f9f5.png",
+      "original_sha256": "490876f2f58f6e976fc1199c7d8800780d2c9a37d96d12b6cb83ad6dc3d09440",
+      "sha256": "490876f2f58f6e976fc1199c7d8800780d2c9a37d96d12b6cb83ad6dc3d09440",
+      "bytes": 2054
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/52260b7edd24896bbee1.png",
+      "original_sha256": "e665871ef967c2ed1f3b147de95619f7b1d6687ee1fd16fc35bbddc5ac99d24d",
+      "sha256": "e665871ef967c2ed1f3b147de95619f7b1d6687ee1fd16fc35bbddc5ac99d24d",
+      "bytes": 1661
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5331b9e74525814e8f58.png",
+      "original_sha256": "ac99fb66f597fc9b3937f336a2d6b696b6cdc48a53b27a20a38cbdf508b320ca",
+      "sha256": "ac99fb66f597fc9b3937f336a2d6b696b6cdc48a53b27a20a38cbdf508b320ca",
+      "bytes": 9719
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/53e28956ef6929dfe2a5.png",
+      "original_sha256": "49f060d3f95da55bb5d702b23a3b42481a800d8e685284dd3e7d3fef30bdea9e",
+      "sha256": "49f060d3f95da55bb5d702b23a3b42481a800d8e685284dd3e7d3fef30bdea9e",
+      "bytes": 5748
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5427f026184a54aa4720.png",
+      "original_sha256": "7373a31b7d31c904f51c6fbf16503a5218b5a4d18023b31b184ae790b9362afc",
+      "sha256": "7373a31b7d31c904f51c6fbf16503a5218b5a4d18023b31b184ae790b9362afc",
+      "bytes": 6505
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/54b1fbc14b5a50bfddc7.png",
+      "original_sha256": "66428e51f9ec4e61c24d17f3c95bfa68f506de6dc1bfd1437a19aec9201edaf0",
+      "sha256": "66428e51f9ec4e61c24d17f3c95bfa68f506de6dc1bfd1437a19aec9201edaf0",
+      "bytes": 8460
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5538a33f1ada738ec596.png",
+      "original_sha256": "a91d6542f06d3a3c02e4e142920980d748c09b8215242a142935f1cea75e29a1",
+      "sha256": "a91d6542f06d3a3c02e4e142920980d748c09b8215242a142935f1cea75e29a1",
+      "bytes": 2716
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/559aead08264d5795d39.png",
+      "original_sha256": "000e182b290730211884d194864b5e31e878c34748584de4f23769434cdc22ca",
+      "sha256": "000e182b290730211884d194864b5e31e878c34748584de4f23769434cdc22ca",
+      "bytes": 758
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/56bb5d0f9f3f180ac542.png",
+      "original_sha256": "91597abd712ca4a81083a544d897b506e5a11f49309c9d670423a39266f913dd",
+      "sha256": "91597abd712ca4a81083a544d897b506e5a11f49309c9d670423a39266f913dd",
+      "bytes": 5630
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/56f8c9380cf831823160.png",
+      "original_sha256": "869d66928bd1f997638b6232f14dd19072095d755992cfb50248d4666cfc2018",
+      "sha256": "869d66928bd1f997638b6232f14dd19072095d755992cfb50248d4666cfc2018",
+      "bytes": 6543
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5a40cd888446cfe4e13c.png",
+      "original_sha256": "9febfee126342a3d147fcf44d9377eca9225f7291796da9a0142344c1858a5fb",
+      "sha256": "9febfee126342a3d147fcf44d9377eca9225f7291796da9a0142344c1858a5fb",
+      "bytes": 7678
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5ae3254b0099eef92a79.png",
+      "original_sha256": "9e876676a87cb52a0771a335d07024bb7f685314b500be11a8c21ad38bbd8026",
+      "sha256": "9e876676a87cb52a0771a335d07024bb7f685314b500be11a8c21ad38bbd8026",
+      "bytes": 27566
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5c91ff100e4792d96496.png",
+      "original_sha256": "b1293a884c0fe2099e970bd542430b9a511ea9c8b18a6f578bdb494eedcfaaef",
+      "sha256": "b1293a884c0fe2099e970bd542430b9a511ea9c8b18a6f578bdb494eedcfaaef",
+      "bytes": 936
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5cd7f0f5c386938ff621.png",
+      "original_sha256": "e898957efc53fef87d4aaaf600357f2596227361bee70be1600e1cdd82941476",
+      "sha256": "e898957efc53fef87d4aaaf600357f2596227361bee70be1600e1cdd82941476",
+      "bytes": 1884
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5ceac702bdc25200c40b.png",
+      "original_sha256": "4da0de3d94d2f997ab82bda273b8d3a8ff61010c126f156791a0e00668eb4d80",
+      "sha256": "4da0de3d94d2f997ab82bda273b8d3a8ff61010c126f156791a0e00668eb4d80",
+      "bytes": 3891
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5cee1a6bb0a957446050.png",
+      "original_sha256": "14302c06cf9a21cf87f424f45371d0e9141db037c8c7b18e553530010f86c00f",
+      "sha256": "14302c06cf9a21cf87f424f45371d0e9141db037c8c7b18e553530010f86c00f",
+      "bytes": 18617
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5d692d0906572a52fe43.png",
+      "original_sha256": "5f7570ccf429df5303c64a6caab6e1864680cf5057b8f29a6687169be83d3f78",
+      "sha256": "5f7570ccf429df5303c64a6caab6e1864680cf5057b8f29a6687169be83d3f78",
+      "bytes": 6157
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5ea3f37434df4c88dfac.png",
+      "original_sha256": "9b66d66913cf2b4c35c975bcb62c6ca291a886eaa43de2d9acda07c1b5738efc",
+      "sha256": "9b66d66913cf2b4c35c975bcb62c6ca291a886eaa43de2d9acda07c1b5738efc",
+      "bytes": 2009
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5f55fde9206df89d4aa5.png",
+      "original_sha256": "3129613b51a85827569f2a9bcfd8d31c388f61b98aa7dea1f61730951b2991d3",
+      "sha256": "3129613b51a85827569f2a9bcfd8d31c388f61b98aa7dea1f61730951b2991d3",
+      "bytes": 24630
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/5feceb66ffc86f38d952.png",
+      "original_sha256": "864ec254e11c1ea531a4ea6339c506ea894712c46806977d7184815cc9012f21",
+      "sha256": "864ec254e11c1ea531a4ea6339c506ea894712c46806977d7184815cc9012f21",
+      "bytes": 1015
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/621acd7425be9fc89b2a.png",
+      "original_sha256": "4a2365b6445de8e13947b9ed37fd8d361edb0e4928855a8eb8d723fdab19585b",
+      "sha256": "4a2365b6445de8e13947b9ed37fd8d361edb0e4928855a8eb8d723fdab19585b",
+      "bytes": 4953
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/62534c10bb9b009b08e3.png",
+      "original_sha256": "f32f50df91cba9efa1646d2e810a39a9075edea7976b4bf4ed815dca9ff6c60d",
+      "sha256": "f32f50df91cba9efa1646d2e810a39a9075edea7976b4bf4ed815dca9ff6c60d",
+      "bytes": 6458
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/63d709009097ba257ed7.png",
+      "original_sha256": "70c8c5c9c2e5af5a0dd808fbab3539f442403e9b62a27fb95d0c0e8aaeba5d94",
+      "sha256": "70c8c5c9c2e5af5a0dd808fbab3539f442403e9b62a27fb95d0c0e8aaeba5d94",
+      "bytes": 4998
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/66da5cac72ff217f9cd6.png",
+      "original_sha256": "f8a6adb921a5b9bf8f37ac41d85ae72b7907151199b25c87e3777e7f330c899b",
+      "sha256": "f8a6adb921a5b9bf8f37ac41d85ae72b7907151199b25c87e3777e7f330c899b",
+      "bytes": 3246
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/67e84c9f8cfcd8533526.png",
+      "original_sha256": "74e8ae7b16063e44b10a67c1774654bbd71860bc80884e8099de01db8558f99a",
+      "sha256": "74e8ae7b16063e44b10a67c1774654bbd71860bc80884e8099de01db8558f99a",
+      "bytes": 8709
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/67ff5ae01e6f1d5069e9.png",
+      "original_sha256": "8f200cbf650e97c384ea4a6dc3428f86908a0211028ddca2dc9839d486e934b6",
+      "sha256": "8f200cbf650e97c384ea4a6dc3428f86908a0211028ddca2dc9839d486e934b6",
+      "bytes": 19867
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/6a6972bbdd9e6fc789fc.png",
+      "original_sha256": "d9035cce18efbe23661699d15c9f5e6da222e26c28df821926f560d141977675",
+      "sha256": "d9035cce18efbe23661699d15c9f5e6da222e26c28df821926f560d141977675",
+      "bytes": 5243
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/6bc8e44a2273934fc7c8.png",
+      "original_sha256": "1ba9d07f30805b6ef1eaac60aa471b296edbec916ac12b44edd55df0666e732c",
+      "sha256": "1ba9d07f30805b6ef1eaac60aa471b296edbec916ac12b44edd55df0666e732c",
+      "bytes": 7691
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/6c8ca5dec104228292cd.png",
+      "original_sha256": "9f0216bf2ecb0e20338efd688a16d7122457a11f4ac451b8216eb7359f0c83f9",
+      "sha256": "9f0216bf2ecb0e20338efd688a16d7122457a11f4ac451b8216eb7359f0c83f9",
+      "bytes": 11915
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/6ddf27bba995389bc1d9.png",
+      "original_sha256": "8a700b5f93d35c73e176207f9f0fae4258da1b50ce1a7468f48cd0546b6263b5",
+      "sha256": "8a700b5f93d35c73e176207f9f0fae4258da1b50ce1a7468f48cd0546b6263b5",
+      "bytes": 6670
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/6e1bb454f23277e5f8f4.png",
+      "original_sha256": "d6526403239629b3385889017fd1476050c167adcdcc2dce78fcbd95befc8a8b",
+      "sha256": "d6526403239629b3385889017fd1476050c167adcdcc2dce78fcbd95befc8a8b",
+      "bytes": 17576
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/6ef6291b413c79a15351.png",
+      "original_sha256": "903c43d025630e369056c9e4085e47af3dc2171c67367256a5237698170e0ddd",
+      "sha256": "903c43d025630e369056c9e4085e47af3dc2171c67367256a5237698170e0ddd",
+      "bytes": 11397
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/70d11b34ab1c7f5ca2d1.png",
+      "original_sha256": "75e261285c1a6b0e59364200ca1ccf79f388cae0b2a459e777a2a308f0ef9ddd",
+      "sha256": "75e261285c1a6b0e59364200ca1ccf79f388cae0b2a459e777a2a308f0ef9ddd",
+      "bytes": 12627
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/716305894eae0be6188a.png",
+      "original_sha256": "bb4dbabb126cf0a2a5741d24d69b492263e607118285bfc739a0febbc07d415d",
+      "sha256": "bb4dbabb126cf0a2a5741d24d69b492263e607118285bfc739a0febbc07d415d",
+      "bytes": 16054
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/75cf402189cb2c56b31b.png",
+      "original_sha256": "c730cb31eeadc561da0ea29f9ccb2428303f480fa0c4675fbbcf55154cab2c77",
+      "sha256": "c730cb31eeadc561da0ea29f9ccb2428303f480fa0c4675fbbcf55154cab2c77",
+      "bytes": 20571
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/773e6f44ce0693fe41aa.png",
+      "original_sha256": "d6f598d7211e1aa3c5b7cff4b0400c52218632975e97aea258191f2a71fc42d9",
+      "sha256": "d6f598d7211e1aa3c5b7cff4b0400c52218632975e97aea258191f2a71fc42d9",
+      "bytes": 14129
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/79b475bfc0df5c48adb5.png",
+      "original_sha256": "015512ecb6f411e6fcd2b2d0a3c37076d8dab17b2e880a407d73daaa1d86df18",
+      "sha256": "015512ecb6f411e6fcd2b2d0a3c37076d8dab17b2e880a407d73daaa1d86df18",
+      "bytes": 11312
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/7c41c23b952813a75a51.png",
+      "original_sha256": "64c6ff14861aa15350938cb29d6f8c4589af716d474f5072d9a548b16b1074e1",
+      "sha256": "64c6ff14861aa15350938cb29d6f8c4589af716d474f5072d9a548b16b1074e1",
+      "bytes": 10110
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/7d9cb527231d07da121e.png",
+      "original_sha256": "921130b6ed9393a62a66ee87e75a02c9b67f0076393042950a8b81cdb185010f",
+      "sha256": "921130b6ed9393a62a66ee87e75a02c9b67f0076393042950a8b81cdb185010f",
+      "bytes": 3058
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/7e415f1d1a2e8483a835.png",
+      "original_sha256": "a49dc2bab1144c87d5be6c44cac4657d0b56e42279d94d8c12b77921425b8774",
+      "sha256": "a49dc2bab1144c87d5be6c44cac4657d0b56e42279d94d8c12b77921425b8774",
+      "bytes": 4883
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/7ebb0a2bc0211437c442.png",
+      "original_sha256": "f9be80b8afba62fc4adfd00414508445da61bfc8539b9fa79035c51fdcfdb09c",
+      "sha256": "f9be80b8afba62fc4adfd00414508445da61bfc8539b9fa79035c51fdcfdb09c",
+      "bytes": 10756
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/80cd5a97daffbee61f88.png",
+      "original_sha256": "40a92a8bade2b5f9b849691b339733fc657585d67b3b0704806635645364b951",
+      "sha256": "40a92a8bade2b5f9b849691b339733fc657585d67b3b0704806635645364b951",
+      "bytes": 5625
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/81bd8581ea1b248a37ac.png",
+      "original_sha256": "24643c6594d0f8f0b9a2f7c239bd3359521c9e73cd09b91c1b3626cff81b041b",
+      "sha256": "24643c6594d0f8f0b9a2f7c239bd3359521c9e73cd09b91c1b3626cff81b041b",
+      "bytes": 18238
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/82410611a716740d5530.png",
+      "original_sha256": "22ed01253688e9a182411d6da5e4a756ebaa5f9a544096539660d4fc88b06f15",
+      "sha256": "22ed01253688e9a182411d6da5e4a756ebaa5f9a544096539660d4fc88b06f15",
+      "bytes": 8182
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/854fb243421af02671c8.png",
+      "original_sha256": "0b12a27ad701e58b8a963cdb1a809fd2988ca0d9299225f496b1382ce9d80d5c",
+      "sha256": "0b12a27ad701e58b8a963cdb1a809fd2988ca0d9299225f496b1382ce9d80d5c",
+      "bytes": 9290
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/8581650a6ce0b5fe891b.png",
+      "original_sha256": "d37035bdfe6f804d7b1392a6ac0623f3270d2f0aed0a188dc9da4276f971e53a",
+      "sha256": "d37035bdfe6f804d7b1392a6ac0623f3270d2f0aed0a188dc9da4276f971e53a",
+      "bytes": 837
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/8586c0c2f57f47674b34.png",
+      "original_sha256": "ab16d064b876e47b88f977a1d0df9d37bd35d27c49cc62a259bdd9f22d8be372",
+      "sha256": "ab16d064b876e47b88f977a1d0df9d37bd35d27c49cc62a259bdd9f22d8be372",
+      "bytes": 1958
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/864062c5b950f1cf1552.png",
+      "original_sha256": "dafa10d07eaa8d610194412c3fe95d5d153bfb1fab01ed8ae864ccf6fb72796d",
+      "sha256": "dafa10d07eaa8d610194412c3fe95d5d153bfb1fab01ed8ae864ccf6fb72796d",
+      "bytes": 1266
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/87b84c11dc5bb0d3f0e2.png",
+      "original_sha256": "effc291ff61b0c8ce35eb05861270f45ba1230dcc23568cbbfe71a86c2204738",
+      "sha256": "effc291ff61b0c8ce35eb05861270f45ba1230dcc23568cbbfe71a86c2204738",
+      "bytes": 11904
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/88ccdfb5c397d8ac3b03.png",
+      "original_sha256": "2a82a64a7d1866162e11fb63d938b21755edaba52c169d26e7f3a1f6bfc81d2a",
+      "sha256": "2a82a64a7d1866162e11fb63d938b21755edaba52c169d26e7f3a1f6bfc81d2a",
+      "bytes": 12313
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/8a32c4f6bcd0ad7ea3fc.png",
+      "original_sha256": "bf7aab52746c1c52304d5a299c66d8007648f8b3cb3d8cfceeaf1061fdb77be1",
+      "sha256": "bf7aab52746c1c52304d5a299c66d8007648f8b3cb3d8cfceeaf1061fdb77be1",
+      "bytes": 1629
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/8ce86a6ae65d3692e730.png",
+      "original_sha256": "f520e925004d8c2308c76cd384f2d7cea5b4cba2683ec5dca82d6ffc486243b2",
+      "sha256": "f520e925004d8c2308c76cd384f2d7cea5b4cba2683ec5dca82d6ffc486243b2",
+      "bytes": 846
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/8de0b3c47f112c59745f.png",
+      "original_sha256": "56c1dbd2b68577b06cdaffd1b15ce998fb24867c5e8005cdda2b79e9846f9cf7",
+      "sha256": "56c1dbd2b68577b06cdaffd1b15ce998fb24867c5e8005cdda2b79e9846f9cf7",
+      "bytes": 965
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/8e2ad43181ad5d1fa552.png",
+      "original_sha256": "d0c1082c142bfd68c2615a9f45b7680798058da18f0e3bc79e85a6fc95d3610d",
+      "sha256": "d0c1082c142bfd68c2615a9f45b7680798058da18f0e3bc79e85a6fc95d3610d",
+      "bytes": 14683
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/8ec1e9fedb62f21a26e1.png",
+      "original_sha256": "29350bf0838f11c91824bf61896919db09ec157fc8cae71b8e436ff312e957d3",
+      "sha256": "29350bf0838f11c91824bf61896919db09ec157fc8cae71b8e436ff312e957d3",
+      "bytes": 12193
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/92861c7a1cff3ef61095.png",
+      "original_sha256": "4e9a686af5ef6446044490dad7ef4103584572074fcd51d95ba88a3b59692b2a",
+      "sha256": "4e9a686af5ef6446044490dad7ef4103584572074fcd51d95ba88a3b59692b2a",
+      "bytes": 3115
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/93b21306f577456b575c.png",
+      "original_sha256": "1cf286b685d12f9fcdf1fa786ae2435b7726fdf4c08311da5c9afeb0dc162476",
+      "sha256": "1cf286b685d12f9fcdf1fa786ae2435b7726fdf4c08311da5c9afeb0dc162476",
+      "bytes": 11805
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/956bd13e6984ed7f094a.png",
+      "original_sha256": "49f297f06ae6659b1c55d7aea23606f95c236a9ea6358a7a38e4df5e77500df7",
+      "sha256": "49f297f06ae6659b1c55d7aea23606f95c236a9ea6358a7a38e4df5e77500df7",
+      "bytes": 16380
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/968a94e3dc7e0dbe68cc.png",
+      "original_sha256": "e4f6e9c93e427ba0438b3af26f247fcd425305e54d6b039327231ab3832f7c69",
+      "sha256": "e4f6e9c93e427ba0438b3af26f247fcd425305e54d6b039327231ab3832f7c69",
+      "bytes": 16298
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/97101788f28f4aff0866.png",
+      "original_sha256": "8b77cd0698bacd23b1a5daf59a1b8025bfbedc32edb429d6306778e5bdf385d3",
+      "sha256": "8b77cd0698bacd23b1a5daf59a1b8025bfbedc32edb429d6306778e5bdf385d3",
+      "bytes": 7573
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/972f80e1cdd9a3aa3e9b.png",
+      "original_sha256": "33030899d33af25608207cda2b52be360ffb2bbeaaa19d1f23185c42dbe2676a",
+      "sha256": "33030899d33af25608207cda2b52be360ffb2bbeaaa19d1f23185c42dbe2676a",
+      "bytes": 2977
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/97bfc0d9913d2b682d4c.png",
+      "original_sha256": "bc978338cc7a3ad597ec564f255d1b7dc96bbcb84b26c7d99c9f7d4f3dee457a",
+      "sha256": "bc978338cc7a3ad597ec564f255d1b7dc96bbcb84b26c7d99c9f7d4f3dee457a",
+      "bytes": 3334
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/98835a2a7cdb91f08bf9.png",
+      "original_sha256": "c8d77fd7eed276ad08fdc60fa756db76899038bb24ccbde685e0fad2e1f12492",
+      "sha256": "c8d77fd7eed276ad08fdc60fa756db76899038bb24ccbde685e0fad2e1f12492",
+      "bytes": 2895
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/992259facb65bbe5656d.png",
+      "original_sha256": "2c50dd2217278b18b3a3f902cdc2b9fee7c554eb8635285d0dedcb07d50a3805",
+      "sha256": "2c50dd2217278b18b3a3f902cdc2b9fee7c554eb8635285d0dedcb07d50a3805",
+      "bytes": 14379
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/99c2504ab4d3701bed99.png",
+      "original_sha256": "0306feb052f70662fb7ed3cb25f8d99e36858a2ff68e617b13f8f8f5426625f9",
+      "sha256": "0306feb052f70662fb7ed3cb25f8d99e36858a2ff68e617b13f8f8f5426625f9",
+      "bytes": 4826
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/9b08daa44d337c061cd3.png",
+      "original_sha256": "75550788a2f27fbd69565c764d6545b0060b44d35a19405f913ff11285b281a0",
+      "sha256": "75550788a2f27fbd69565c764d6545b0060b44d35a19405f913ff11285b281a0",
+      "bytes": 19423
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/9bf9512a2481cb4e8447.png",
+      "original_sha256": "60c36e1a6eda9108bea9723363dfba708724c78955c7df7c69b9007985df92b5",
+      "sha256": "60c36e1a6eda9108bea9723363dfba708724c78955c7df7c69b9007985df92b5",
+      "bytes": 1520
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/9d26fc3d37dca0711e77.png",
+      "original_sha256": "78bb90af42d9229166af245a7650c9698824de76fbe6097a9fdca11f1ba00105",
+      "sha256": "78bb90af42d9229166af245a7650c9698824de76fbe6097a9fdca11f1ba00105",
+      "bytes": 5624
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/9d2d7f6397bcfad16537.png",
+      "original_sha256": "133f3c0457e62419d7c8d5811ba84859d20c523cab50b8372193b854900bbe8c",
+      "sha256": "133f3c0457e62419d7c8d5811ba84859d20c523cab50b8372193b854900bbe8c",
+      "bytes": 3602
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/9e5a0b7866c44d4ba4d6.png",
+      "original_sha256": "bd16d020ed0240786dac14ae18c1056ffdee69483334a33bda8d958580ac9f7a",
+      "sha256": "bd16d020ed0240786dac14ae18c1056ffdee69483334a33bda8d958580ac9f7a",
+      "bytes": 11312
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/9ef91755c0b11066afc8.png",
+      "original_sha256": "b8ae1699f3c7a1d811793d7a3cbc95a362b3818029b270726d1d3468d409e349",
+      "sha256": "b8ae1699f3c7a1d811793d7a3cbc95a362b3818029b270726d1d3468d409e349",
+      "bytes": 6616
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/a043937bdf148fccaab8.png",
+      "original_sha256": "ff190e63f85d41c38a00fbf1abbe0c8434bc16dbbaf0c1175d9f76d3d6d529de",
+      "sha256": "ff190e63f85d41c38a00fbf1abbe0c8434bc16dbbaf0c1175d9f76d3d6d529de",
+      "bytes": 14399
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/a1016dc87f8006635a6f.png",
+      "original_sha256": "65dc41d42cb36897d29a500d1287add465620ff2af43ea75afb18a5092050b71",
+      "sha256": "65dc41d42cb36897d29a500d1287add465620ff2af43ea75afb18a5092050b71",
+      "bytes": 8028
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/a18aab4102962b73100d.png",
+      "original_sha256": "3b01cfea6e13d8573d2bc57c07bf783f9f0a9eb2f299628a957b5c68548728f6",
+      "sha256": "3b01cfea6e13d8573d2bc57c07bf783f9f0a9eb2f299628a957b5c68548728f6",
+      "bytes": 12120
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/a18c896cde2e8bb7f4de.png",
+      "original_sha256": "80d9e9df4e125d199d762862e1c63474e0e8da56522aa886ece59da457cb354b",
+      "sha256": "80d9e9df4e125d199d762862e1c63474e0e8da56522aa886ece59da457cb354b",
+      "bytes": 1709
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/a4498bf56aa62d2abf78.png",
+      "original_sha256": "af7a8f02aae32ee747089e73f2bce977303ebe2a6304cc7fd8f8ff1c67b98465",
+      "sha256": "af7a8f02aae32ee747089e73f2bce977303ebe2a6304cc7fd8f8ff1c67b98465",
+      "bytes": 1471
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/a57aa5843d21f1720811.png",
+      "original_sha256": "4ff9b16ac260ff1238e3be466cff26062973dc0530192d350b75580c99357c29",
+      "sha256": "4ff9b16ac260ff1238e3be466cff26062973dc0530192d350b75580c99357c29",
+      "bytes": 14373
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/a7fc2ff9c8c284410558.png",
+      "original_sha256": "64b0bb150a6a9f8d81b99e3474608b7d1f81304cfbb00f72501d6ef183d9c5e4",
+      "sha256": "64b0bb150a6a9f8d81b99e3474608b7d1f81304cfbb00f72501d6ef183d9c5e4",
+      "bytes": 25851
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/a9f51566bd6705f7ea6a.png",
+      "original_sha256": "bd6f6333acefd00ae5c5be8d1b86957bb9a3977d70d3358f97acc207c1341f84",
+      "sha256": "bd6f6333acefd00ae5c5be8d1b86957bb9a3977d70d3358f97acc207c1341f84",
+      "bytes": 203
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/aa1ae59cb6b060628cae.png",
+      "original_sha256": "2f27a654af887822532cd0d76f04d654a950ea356bebf2f15c0015c9f5783881",
+      "sha256": "2f27a654af887822532cd0d76f04d654a950ea356bebf2f15c0015c9f5783881",
+      "bytes": 7546
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/aa8dd7caa63299a93647.png",
+      "original_sha256": "afba26555636bfb4d349805e5b32036e871d2e226592bec6c10b2f9f466edbd9",
+      "sha256": "afba26555636bfb4d349805e5b32036e871d2e226592bec6c10b2f9f466edbd9",
+      "bytes": 3158
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/ac09000c6ce58cc30a87.png",
+      "original_sha256": "902baafa43b53a0037b7d13e7703d7c67743e7593deb830d03c4958e964438f4",
+      "sha256": "902baafa43b53a0037b7d13e7703d7c67743e7593deb830d03c4958e964438f4",
+      "bytes": 17526
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/ac7944db7141c71e9bef.png",
+      "original_sha256": "ac664a2b58b4effa8217d209f8888da5223b9a14df851fecf84bd30d16e85335",
+      "sha256": "ac664a2b58b4effa8217d209f8888da5223b9a14df851fecf84bd30d16e85335",
+      "bytes": 3130
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/ad5b8faba52887cf8faf.png",
+      "original_sha256": "9bd73ba3ff91d89d7fef04fc6c937bd17cb1d85c70c051d8968ac74f6f1d0a6a",
+      "sha256": "9bd73ba3ff91d89d7fef04fc6c937bd17cb1d85c70c051d8968ac74f6f1d0a6a",
+      "bytes": 12887
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/afbb8229cb8c6b55e383.png",
+      "original_sha256": "a813ee5a2e27b923a95d5bfc1c22c9504d6b6c2754f7ef084a48538570b67044",
+      "sha256": "a813ee5a2e27b923a95d5bfc1c22c9504d6b6c2754f7ef084a48538570b67044",
+      "bytes": 11316
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b0cc7f2f47263327b5c1.png",
+      "original_sha256": "5b5c418a87e553e3ce8d6147ae31f0f23fc0ded61f9343f75cd58b1341c76ac2",
+      "sha256": "5b5c418a87e553e3ce8d6147ae31f0f23fc0ded61f9343f75cd58b1341c76ac2",
+      "bytes": 17906
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b3a26db3bd8604278519.png",
+      "original_sha256": "6df672b497017ef011282a7c11709006b0174ed9fbe88b45c6064cf4be5ed4ca",
+      "sha256": "6df672b497017ef011282a7c11709006b0174ed9fbe88b45c6064cf4be5ed4ca",
+      "bytes": 6202
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b3b0232c05b26731b2de.png",
+      "original_sha256": "442d8a1aa65874fca11611a1a1e53dcfb06e2d8c5b82439a9798a698c01f8ab2",
+      "sha256": "442d8a1aa65874fca11611a1a1e53dcfb06e2d8c5b82439a9798a698c01f8ab2",
+      "bytes": 10108
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b4507fe8f35e650a3ab9.png",
+      "original_sha256": "838dfa209200edc36ffe3acbf2bc85f71d0ab36fea6bae1358a9e05ada00db9c",
+      "sha256": "838dfa209200edc36ffe3acbf2bc85f71d0ab36fea6bae1358a9e05ada00db9c",
+      "bytes": 6457
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b4c7f51c2cc56cc3ecee.png",
+      "original_sha256": "85277db86d2a72fda7027d58592242e6483d12a206d0dd5239ccbb057f3f8e8e",
+      "sha256": "85277db86d2a72fda7027d58592242e6483d12a206d0dd5239ccbb057f3f8e8e",
+      "bytes": 20022
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b75c97351c02b74589df.png",
+      "original_sha256": "fc69257fa44bf8502f15b09f9b1486e5285c8dbfee1e1ea017110dbe67176775",
+      "sha256": "fc69257fa44bf8502f15b09f9b1486e5285c8dbfee1e1ea017110dbe67176775",
+      "bytes": 10562
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b797e1e975fb3465ff25.png",
+      "original_sha256": "6ee48cbe5ad71a1544e1435c20dc1de94799fc55dfef55648f90c7b91da255bf",
+      "sha256": "6ee48cbe5ad71a1544e1435c20dc1de94799fc55dfef55648f90c7b91da255bf",
+      "bytes": 6136
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b7b4e984ce253e271c28.png",
+      "original_sha256": "60a315ae6124c0f90bbd46dd6e836e1c88cf274256eae4a77308741cb5dd629c",
+      "sha256": "60a315ae6124c0f90bbd46dd6e836e1c88cf274256eae4a77308741cb5dd629c",
+      "bytes": 3212
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b81f6b9af082d3574d15.png",
+      "original_sha256": "e04e85a8e7c8e2e1f83b403ae9e07f6df5115e03fc15037dbdadbb51e7093220",
+      "sha256": "e04e85a8e7c8e2e1f83b403ae9e07f6df5115e03fc15037dbdadbb51e7093220",
+      "bytes": 15076
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b907ad4dc78cfd2ab7c3.png",
+      "original_sha256": "cd0d56fca78d8e71570e77fabb36ef22d023f66189dd5e527ba1e58aff11b9e5",
+      "sha256": "cd0d56fca78d8e71570e77fabb36ef22d023f66189dd5e527ba1e58aff11b9e5",
+      "bytes": 1372
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/b90b7b3e4583220a4449.png",
+      "original_sha256": "93b4d65211ae56ed5bb0051c587a43c7eeced1f8f6651f36ed55aa082969c968",
+      "sha256": "93b4d65211ae56ed5bb0051c587a43c7eeced1f8f6651f36ed55aa082969c968",
+      "bytes": 3363
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/bdae5c4fd0ca1fb5da17.png",
+      "original_sha256": "d4d37bdf4682ea451c67950d0285390f31ef64379057d6dbbdbbcd5fbd84db6f",
+      "sha256": "d4d37bdf4682ea451c67950d0285390f31ef64379057d6dbbdbbcd5fbd84db6f",
+      "bytes": 12076
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/bed3fb5e17ac655fe73c.png",
+      "original_sha256": "55d6065321752497d07ab4e1eba5f3fe3693bd68f7f96e2d2bee68673bf66e75",
+      "sha256": "55d6065321752497d07ab4e1eba5f3fe3693bd68f7f96e2d2bee68673bf66e75",
+      "bytes": 5712
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/bef741016b257db19c0b.png",
+      "original_sha256": "073ab1597115f242b491c94c6956d58fe83e7113217fe1c77b7690340c868c29",
+      "sha256": "073ab1597115f242b491c94c6956d58fe83e7113217fe1c77b7690340c868c29",
+      "bytes": 11192
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/bf9ae276ee76aa4f0d69.png",
+      "original_sha256": "08e52d8fd959ce7cf326ee382435fb1566d682f3ffcd108631b76918243a3921",
+      "sha256": "08e52d8fd959ce7cf326ee382435fb1566d682f3ffcd108631b76918243a3921",
+      "bytes": 3010
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/bfdd020ddfb6e2f03c77.png",
+      "original_sha256": "cbbebd6098a1e6c1e3c170a72f1247faa98c9359a5ee3ce4705b8e295d5e824b",
+      "sha256": "cbbebd6098a1e6c1e3c170a72f1247faa98c9359a5ee3ce4705b8e295d5e824b",
+      "bytes": 3425
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/bfe46c86408547ae75d2.png",
+      "original_sha256": "87c4f844be5768328994a2f6428c08c22b6360c1e1c28b53e11a28715181c298",
+      "sha256": "87c4f844be5768328994a2f6428c08c22b6360c1e1c28b53e11a28715181c298",
+      "bytes": 16505
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c01110bcfb8ba3afa0a3.png",
+      "original_sha256": "8845972b10954db6a0330159252f132a8c4c6b6b96125f9e403058583a2f4bda",
+      "sha256": "8845972b10954db6a0330159252f132a8c4c6b6b96125f9e403058583a2f4bda",
+      "bytes": 1951
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c2805e057cd2806a55f3.png",
+      "original_sha256": "ab516ec86768af08a3dd74494adc4bd0149502f180823ebd9b3823da650d37dc",
+      "sha256": "ab516ec86768af08a3dd74494adc4bd0149502f180823ebd9b3823da650d37dc",
+      "bytes": 5744
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c2dfe0bf26b0b36f8c32.png",
+      "original_sha256": "24dc2496f41f2a1f75cdb50f0943f4c643ccb3253587168c6332544ac9fc9a64",
+      "sha256": "24dc2496f41f2a1f75cdb50f0943f4c643ccb3253587168c6332544ac9fc9a64",
+      "bytes": 13719
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c341c7fe1027f9487e80.png",
+      "original_sha256": "d6f91d83ba54deab535f9e763c207b7a9ca45e41333bd3d0ab844b3e59074ad3",
+      "sha256": "d6f91d83ba54deab535f9e763c207b7a9ca45e41333bd3d0ab844b3e59074ad3",
+      "bytes": 3371
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c4998448b8d874da80de.png",
+      "original_sha256": "40d0bc1c5cc528181780b6d67bfd2975e22527675ba54592a4220173b1051149",
+      "sha256": "40d0bc1c5cc528181780b6d67bfd2975e22527675ba54592a4220173b1051149",
+      "bytes": 5526
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c54fb44cb0f349ce06d5.png",
+      "original_sha256": "d9f7982fa6aa92487e968dec8b206a769c14f2e27b9154e0ac09204b643113a9",
+      "sha256": "d9f7982fa6aa92487e968dec8b206a769c14f2e27b9154e0ac09204b643113a9",
+      "bytes": 3197
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c6b24726a6f9a338762f.png",
+      "original_sha256": "03699d4d4cc4b256da081ced80e015a48852e04f17cf7cb82330cca4c81b02c5",
+      "sha256": "03699d4d4cc4b256da081ced80e015a48852e04f17cf7cb82330cca4c81b02c5",
+      "bytes": 5461
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c70cb5e41019a8b6602b.png",
+      "original_sha256": "922611d62e30113d2d8cd1819895bd9e5ea48e279a016f4d2736f742688a444b",
+      "sha256": "922611d62e30113d2d8cd1819895bd9e5ea48e279a016f4d2736f742688a444b",
+      "bytes": 2971
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c7b4bed0f7140bf57beb.png",
+      "original_sha256": "2828682f9edd43e5e87ca31a64433a478cfc070ab53eb6851c1e703636cc0099",
+      "sha256": "2828682f9edd43e5e87ca31a64433a478cfc070ab53eb6851c1e703636cc0099",
+      "bytes": 16688
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c8e31d6b9a9db32c49d1.png",
+      "original_sha256": "0d6985db537561ca6804d0f028819e860429de6bb7191ab4568b83571dafa2b6",
+      "sha256": "0d6985db537561ca6804d0f028819e860429de6bb7191ab4568b83571dafa2b6",
+      "bytes": 18195
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/c98696896c84936f756f.png",
+      "original_sha256": "c5f808e9e4614c33c2a71b61e5882800aa89e709f20b1136515a40d42ed9cde1",
+      "sha256": "c5f808e9e4614c33c2a71b61e5882800aa89e709f20b1136515a40d42ed9cde1",
+      "bytes": 2908
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/cd0f07dfa0efd9e31a2c.png",
+      "original_sha256": "881eb11f6a6d43490b611f5ab2b6b0739fd997587f109f904e62ef908505790a",
+      "sha256": "881eb11f6a6d43490b611f5ab2b6b0739fd997587f109f904e62ef908505790a",
+      "bytes": 5886
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/cd0f4d6e5b803d3ecf8e.png",
+      "original_sha256": "0122786c00025e7164e45517bda03725e30e595d6486a7d79048bcf8cf19dc60",
+      "sha256": "0122786c00025e7164e45517bda03725e30e595d6486a7d79048bcf8cf19dc60",
+      "bytes": 6655
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/cd86d82d72dc80ec710e.png",
+      "original_sha256": "12ccce49f8cb35bb65abf0487d341b3979156c8488ce526ed13f16a6c9c01a3e",
+      "sha256": "12ccce49f8cb35bb65abf0487d341b3979156c8488ce526ed13f16a6c9c01a3e",
+      "bytes": 9470
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/cdc8f6d6e3aac62c33a4.png",
+      "original_sha256": "c4465d2618a9a667aaff21f43cc1d48d19f097ec782d5714301ac03a3738aeae",
+      "sha256": "c4465d2618a9a667aaff21f43cc1d48d19f097ec782d5714301ac03a3738aeae",
+      "bytes": 13132
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/cdd1f42b320e639875a1.png",
+      "original_sha256": "31c5fb6681fc295127aea304d5c9fc6a0e7daaf86969366fbb31fcc3f8fff5d8",
+      "sha256": "31c5fb6681fc295127aea304d5c9fc6a0e7daaf86969366fbb31fcc3f8fff5d8",
+      "bytes": 20012
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/cf5defc0e35f0b99130e.png",
+      "original_sha256": "1805d765ec744f8376ee9d88abc7af2bc98741fa35b434e6e494b75b5a970b3a",
+      "sha256": "1805d765ec744f8376ee9d88abc7af2bc98741fa35b434e6e494b75b5a970b3a",
+      "bytes": 6174
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/cf9090fb8c2339832884.png",
+      "original_sha256": "479a12b918cdb9a1773d52a4cda9fd0596fcfe5c9808fa96258258a229745ea7",
+      "sha256": "479a12b918cdb9a1773d52a4cda9fd0596fcfe5c9808fa96258258a229745ea7",
+      "bytes": 1570
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/d11bc1beb7f6ad4b3d10.png",
+      "original_sha256": "3a609c25c4c739140e2f9f42657512f6eabf854a01c7cf71d20254ebca4afe80",
+      "sha256": "3a609c25c4c739140e2f9f42657512f6eabf854a01c7cf71d20254ebca4afe80",
+      "bytes": 17475
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/d15c7db71e268fe67f4d.png",
+      "original_sha256": "83a5eb0569b36e55b7a25b69b6f7cffdce5f77822f838e227dec692c28049b6d",
+      "sha256": "83a5eb0569b36e55b7a25b69b6f7cffdce5f77822f838e227dec692c28049b6d",
+      "bytes": 10385
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/d2fc2b48e3956a36d5ae.png",
+      "original_sha256": "462f46449e6f0f4d6d3b1ac380416f6a3bd9d212b96ed7b9af32c417dabb13ad",
+      "sha256": "462f46449e6f0f4d6d3b1ac380416f6a3bd9d212b96ed7b9af32c417dabb13ad",
+      "bytes": 13929
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/d35edb68a992cd63fadf.png",
+      "original_sha256": "b5f3bd43edf8a840f136c462fb6bc44a96a4b9712d023d371edb1dde9d119b8c",
+      "sha256": "b5f3bd43edf8a840f136c462fb6bc44a96a4b9712d023d371edb1dde9d119b8c",
+      "bytes": 8012
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/d51bae868fe891253ceb.png",
+      "original_sha256": "9b9d3e7334b2e581e805d964d06f821bbe96d97069df47ee4c643b8fa9fb9d30",
+      "sha256": "9b9d3e7334b2e581e805d964d06f821bbe96d97069df47ee4c643b8fa9fb9d30",
+      "bytes": 7272
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/d860eff23db3febae71a.png",
+      "original_sha256": "0cd879913d68cf97bc9d40f90bf320bca9a5048b2b9ec33b5a4d1f6f8bdf4f60",
+      "sha256": "0cd879913d68cf97bc9d40f90bf320bca9a5048b2b9ec33b5a4d1f6f8bdf4f60",
+      "bytes": 2658
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/d8e7b63cc97f83098576.png",
+      "original_sha256": "43f3d24824a828d76eccc4f4caabe3ac5d36e0594a665852d793011d99bb9b41",
+      "sha256": "43f3d24824a828d76eccc4f4caabe3ac5d36e0594a665852d793011d99bb9b41",
+      "bytes": 6414
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/db19d83356ee387c7ec8.png",
+      "original_sha256": "6b176920f98e7deaa1dd78adc06a5c3b545e7748b84aa5b9f92a7649c2f15331",
+      "sha256": "6b176920f98e7deaa1dd78adc06a5c3b545e7748b84aa5b9f92a7649c2f15331",
+      "bytes": 6442
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/dc253e04c999bd7cec77.png",
+      "original_sha256": "b95c80cc917523b88fbf6a9223f884fd34c632c59e415ce51b1bf49ef7331161",
+      "sha256": "b95c80cc917523b88fbf6a9223f884fd34c632c59e415ce51b1bf49ef7331161",
+      "bytes": 3918
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/dcd0dc96002b13dbf75e.png",
+      "original_sha256": "90ad69478428209caac45f0f1c2552adb46e7eecdcd63e0e28de14db5d52fd05",
+      "sha256": "90ad69478428209caac45f0f1c2552adb46e7eecdcd63e0e28de14db5d52fd05",
+      "bytes": 574
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/dd28f6855498dcce2409.png",
+      "original_sha256": "0073cb8bf71e4bb20acf6c85d32866604240f700e3cde27a3f5a7f91623a2733",
+      "sha256": "0073cb8bf71e4bb20acf6c85d32866604240f700e3cde27a3f5a7f91623a2733",
+      "bytes": 12311
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/dfcb7c1619d5abd12f2d.png",
+      "original_sha256": "bad80eb429d79c5ee5ce2d7588145b82ded3a30016b25038b97ef572b94dccbd",
+      "sha256": "bad80eb429d79c5ee5ce2d7588145b82ded3a30016b25038b97ef572b94dccbd",
+      "bytes": 3748
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/e0942680c70dc5a3f971.png",
+      "original_sha256": "a2552a2099ed995acf7b235eb383ae4b0262f667d4211986201d95c32c10f7aa",
+      "sha256": "a2552a2099ed995acf7b235eb383ae4b0262f667d4211986201d95c32c10f7aa",
+      "bytes": 1313
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/e0c475f347b7ef53da95.png",
+      "original_sha256": "75bf278b81fdbf1456cb747052ab345b64958970cfdada63e065fbc0b178b428",
+      "sha256": "75bf278b81fdbf1456cb747052ab345b64958970cfdada63e065fbc0b178b428",
+      "bytes": 1662
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/e179355b66fd50be420d.png",
+      "original_sha256": "8e8e2df6276d427b9eb277694f2f6e59dbb72791523ff06305490e96e9883b1b",
+      "sha256": "8e8e2df6276d427b9eb277694f2f6e59dbb72791523ff06305490e96e9883b1b",
+      "bytes": 5773
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/e2555b78881fb6e2fe6f.png",
+      "original_sha256": "7dc79a7dad0896f46f666348ed24b736afdca59458ef5312fa2486ab0ed3f6df",
+      "sha256": "7dc79a7dad0896f46f666348ed24b736afdca59458ef5312fa2486ab0ed3f6df",
+      "bytes": 2926
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/e2bfdb5ad2d753fa061c.png",
+      "original_sha256": "b798c30663785c760681497d5c2a4ad61834d7b89a685ca85fcb186bde2d34c1",
+      "sha256": "b798c30663785c760681497d5c2a4ad61834d7b89a685ca85fcb186bde2d34c1",
+      "bytes": 8432
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/e6b188f5ad4811658db7.png",
+      "original_sha256": "2ffea749d6164d56623a31f4bcde7cf80cb695dfb445fd426107e97b9b29095d",
+      "sha256": "2ffea749d6164d56623a31f4bcde7cf80cb695dfb445fd426107e97b9b29095d",
+      "bytes": 20422
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/e742fe51456e274e1d42.png",
+      "original_sha256": "c8698c9bba63993ce98375fd1024250eff69e1b2c4d6f3ab1bc80d1763159802",
+      "sha256": "c8698c9bba63993ce98375fd1024250eff69e1b2c4d6f3ab1bc80d1763159802",
+      "bytes": 1816
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/e8347734e13b7d17804b.png",
+      "original_sha256": "cdb0c5ed8df27263b1c650fa2090818cb337368ba828d755ddade672d5a705dd",
+      "sha256": "cdb0c5ed8df27263b1c650fa2090818cb337368ba828d755ddade672d5a705dd",
+      "bytes": 7366
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/e9346fdbcc852b677f3c.png",
+      "original_sha256": "9812804da19be532b11ff04029e1a0ee206097d5326037b26f7d3442e2d1f5d2",
+      "sha256": "9812804da19be532b11ff04029e1a0ee206097d5326037b26f7d3442e2d1f5d2",
+      "bytes": 6322
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/eab11cdaf365ef23e585.png",
+      "original_sha256": "0f85fa4f3469be06c93e7f47e2c3143aeead11ca9d4f81ebbc5ab94de7ea68b5",
+      "sha256": "0f85fa4f3469be06c93e7f47e2c3143aeead11ca9d4f81ebbc5ab94de7ea68b5",
+      "bytes": 6281
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/eb690390d504c803f513.png",
+      "original_sha256": "6fcc5a7675502d5310a4574e6d5970b8dfd1f047c09ed30831d4583f9f370b85",
+      "sha256": "6fcc5a7675502d5310a4574e6d5970b8dfd1f047c09ed30831d4583f9f370b85",
+      "bytes": 3542
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/ed371c4c8550855686fb.png",
+      "original_sha256": "3a5df21260625e39171049736ff8c397515335ef084fff2222cce9d3805912ce",
+      "sha256": "3a5df21260625e39171049736ff8c397515335ef084fff2222cce9d3805912ce",
+      "bytes": 1894
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f006c4915bce75dd9588.png",
+      "original_sha256": "3a0436fffbd59d52eebfe9c9591429f4fb4350ef1772fce7a12e946517599b41",
+      "sha256": "3a0436fffbd59d52eebfe9c9591429f4fb4350ef1772fce7a12e946517599b41",
+      "bytes": 1562
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f01771eca1143857dae8.png",
+      "original_sha256": "e257c4b9acb4ec8943a71d169511e71d720f8a590316191cb427ca0b98744e26",
+      "sha256": "e257c4b9acb4ec8943a71d169511e71d720f8a590316191cb427ca0b98744e26",
+      "bytes": 14907
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f082ac980336071f811f.png",
+      "original_sha256": "c56306b783210a4b415ad45ac744c1a8e9ddfb9e6db96b399c4b6e76ea9e63d6",
+      "sha256": "c56306b783210a4b415ad45ac744c1a8e9ddfb9e6db96b399c4b6e76ea9e63d6",
+      "bytes": 4312
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f0ed03b1cd0a8b3148b3.png",
+      "original_sha256": "e9644624bbc352060e28ea24f9d7a4be7b95f689a5848c1142dfdb5e3eac9ef1",
+      "sha256": "e9644624bbc352060e28ea24f9d7a4be7b95f689a5848c1142dfdb5e3eac9ef1",
+      "bytes": 12342
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f1eedcdd1e80d5bd7cae.png",
+      "original_sha256": "83394266e55e30a82f49deeaa9af7dd209d4d1baac1ca3a952194aaf8787d5b5",
+      "sha256": "83394266e55e30a82f49deeaa9af7dd209d4d1baac1ca3a952194aaf8787d5b5",
+      "bytes": 3377
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f352e9b14c163b42d084.png",
+      "original_sha256": "ac3b9eca8379c24a3aa452604f2aa8efb393b07aefc02ccbcaa83021aa4e3830",
+      "sha256": "ac3b9eca8379c24a3aa452604f2aa8efb393b07aefc02ccbcaa83021aa4e3830",
+      "bytes": 16031
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f5076bc5796bd170c561.png",
+      "original_sha256": "26a5d141c38277ae5061cec880445b6466caa94c5e63ba01be4a570e106de55c",
+      "sha256": "26a5d141c38277ae5061cec880445b6466caa94c5e63ba01be4a570e106de55c",
+      "bytes": 13394
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f557e9555a2dffa8cde4.png",
+      "original_sha256": "128e9224357de75c3a989bcf7eff9ce2277cee27a9f03aca48918c1e8efd1d5e",
+      "sha256": "128e9224357de75c3a989bcf7eff9ce2277cee27a9f03aca48918c1e8efd1d5e",
+      "bytes": 13025
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f5c6d9cba066c88db2fa.png",
+      "original_sha256": "d9b777d66e0b09af9d730eb15904ca8f5614b0f14007fe4fc7348c6bdbb12ffd",
+      "sha256": "d9b777d66e0b09af9d730eb15904ca8f5614b0f14007fe4fc7348c6bdbb12ffd",
+      "bytes": 3442
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f6516ae207e795cab381.png",
+      "original_sha256": "d511f56aef49cffe30470133a572d2accab9bb3a29357fcd060471ebaca4d7b6",
+      "sha256": "d511f56aef49cffe30470133a572d2accab9bb3a29357fcd060471ebaca4d7b6",
+      "bytes": 6054
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f6e3ded3b2be0e293991.png",
+      "original_sha256": "a833494c5cf8bf495eba3877f092759fb48007a8163bd977100cdbb355dc3212",
+      "sha256": "a833494c5cf8bf495eba3877f092759fb48007a8163bd977100cdbb355dc3212",
+      "bytes": 6332
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f73303efb4fdd5ca15ca.png",
+      "original_sha256": "ce3102fe35f8ba1de10e4eca05d14aa1e9696b9016e4e5d4b8fcdba88f0fa2a0",
+      "sha256": "ce3102fe35f8ba1de10e4eca05d14aa1e9696b9016e4e5d4b8fcdba88f0fa2a0",
+      "bytes": 18608
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/f925f6b7e985d568d890.png",
+      "original_sha256": "79080c5799dbebfb862cdf130e1ab0c70c3bb75b38fb6c1c509f7f5c295430ce",
+      "sha256": "79080c5799dbebfb862cdf130e1ab0c70c3bb75b38fb6c1c509f7f5c295430ce",
+      "bytes": 9863
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/fab7855e1ecf3e1386fc.png",
+      "original_sha256": "912d26f4951cea735f352780437ab4bea4b044ab926698ab7440debaa6bcfdc4",
+      "sha256": "912d26f4951cea735f352780437ab4bea4b044ab926698ab7440debaa6bcfdc4",
+      "bytes": 13825
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/fbb20e22a0cca6d66643.png",
+      "original_sha256": "c6d34e21d7729a9215e4b34364b7b0dd76225865fa96e6683c33fddb529b4dd7",
+      "sha256": "c6d34e21d7729a9215e4b34364b7b0dd76225865fa96e6683c33fddb529b4dd7",
+      "bytes": 6130
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/fcb5f40df9be6bae66c1.png",
+      "original_sha256": "29cec21e5d1a9e0958eb05a96f8ca58cbcbc769418c0254c490b15a5d162796d",
+      "sha256": "29cec21e5d1a9e0958eb05a96f8ca58cbcbc769418c0254c490b15a5d162796d",
+      "bytes": 1376
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/fcce4891a82542450d0f.png",
+      "original_sha256": "7493209661eac422f48603b76c5cdb3c8fd4fdd3315c41eb5cd990082259c81f",
+      "sha256": "7493209661eac422f48603b76c5cdb3c8fd4fdd3315c41eb5cd990082259c81f",
+      "bytes": 1008
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/fd4d944f06b64365703b.png",
+      "original_sha256": "1e81e38aac215da8dec51752e4745aa8f5d2ec558f459cd510e26fe1d989ea94",
+      "sha256": "1e81e38aac215da8dec51752e4745aa8f5d2ec558f459cd510e26fe1d989ea94",
+      "bytes": 5611
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/fd50c4727aecec7d4dd7.png",
+      "original_sha256": "fdd4f5544389eb7ba4b1136063c948dfd4648ea1ec18576c4f9ceff666485c51",
+      "sha256": "fdd4f5544389eb7ba4b1136063c948dfd4648ea1ec18576c4f9ceff666485c51",
+      "bytes": 10266
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/fe3398ab4493e8eb8621.png",
+      "original_sha256": "5dbae8b9b7b386817f104aedb8395bffbab9ab7eae7d6115dc46475a21f7ffc8",
+      "sha256": "5dbae8b9b7b386817f104aedb8395bffbab9ab7eae7d6115dc46475a21f7ffc8",
+      "bytes": 5838
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/fea2bb0cba1a895e6302.png",
+      "original_sha256": "eb9938627cdeabe15f72219181ffe6bb8b10b86bf6dd57af91c2e73b21e3c81a",
+      "sha256": "eb9938627cdeabe15f72219181ffe6bb8b10b86bf6dd57af91c2e73b21e3c81a",
+      "bytes": 2690
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/feec750493c35d6fa65f.png",
+      "original_sha256": "71411fc24c6b03899faaa9c8e418e15655334922385e74043325597ddf765dad",
+      "sha256": "71411fc24c6b03899faaa9c8e418e15655334922385e74043325597ddf765dad",
+      "bytes": 7808
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/labels.json",
+      "original_sha256": "8d68c6009f40cd24ac91432b4aeac7fa262fe011db10663e362f0115fd451bfb",
+      "sha256": "41cb7cb4a59b7eb8973cde22fc345727b78209840739701b0d09d7dafc8508e9",
+      "bytes": 41665
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/text/raster-jobs.json",
+      "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
       "path": "parts/01_compass_current/build-info.json",
       "original_sha256": "dd7337f86de92e3bff43becc4436563e3f4c66f0f94282bfe573d3a73e47e214",
       "sha256": "dd7337f86de92e3bff43becc4436563e3f4c66f0f94282bfe573d3a73e47e214",
@@ -717,8 +2905,8 @@
     {
       "path": "parts/01_compass_current/compass_current.blend",
       "original_sha256": "795e97a87b895fe4b45d9f851f28fd18052d7af2908a05fb10020992fe6444d1",
-      "sha256": "dd1324b785fdb5f05bdfefbb7c3f64965e833d1bcb174c1838459952001ae9e7",
-      "bytes": 2562220
+      "sha256": "ecd86bc00a7e9655f1f9a93e88b12cba58aff7584b17c5986e1624942033a9b9",
+      "bytes": 2561724
     },
     {
       "path": "parts/01_compass_current/compass_current_preview.mp4",
@@ -1005,8 +3193,8 @@
     {
       "path": "parts/01_compass_current/opening_and_compass.blend",
       "original_sha256": "b13de17c313a330638c2d6525f1c2d62f7f3e22ea7222843e17be54d8af2f730",
-      "sha256": "726b7b892026f9c56df93b0cff368b0304088ca22157c1bab3b1d64182d79cf3",
-      "bytes": 2566518
+      "sha256": "d6c10afa6c6b6954fb4738eae5cc30c65f1ea9ad16c9a83429e62de0a0c02677",
+      "bytes": 2565688
     },
     {
       "path": "parts/01_compass_current/opening_and_compass_draft_4fps.mp4",
@@ -1047,8 +3235,8 @@
     {
       "path": "parts/01_compass_current/opening_and_compass_tutor.blend",
       "original_sha256": "f177ebd25f4bd62ff1ee84da2ef3894e1af788de11180d003096695fc0a8b4fb",
-      "sha256": "f9cbbd61044ca12e68439605c17995000d4ff5a3082630f36cd24158364ffa45",
-      "bytes": 2657471
+      "sha256": "073a6b38fadde274c526e7e556bf4ac0a2af2226473e17fce887bd25bd84aece",
+      "bytes": 2657299
     },
     {
       "path": "parts/01_compass_current/opening_and_compass_tutor_review_720p.mp4",
@@ -2516,19 +4704,21 @@
     },
     {
       "path": "parts/02_coil_reversal/bilingual/browser-verification.json",
-      "original_sha256": "58e529f539796dca19152a902de8ae7cf57e8b8282083292844ff9ebafb10847"
+      "original_sha256": "58e529f539796dca19152a902de8ae7cf57e8b8282083292844ff9ebafb10847",
+      "sha256": "2d12ce8be414aad7c3b8bdf8ab84ae177a58c75c2ee2c21c13777316586973eb",
+      "bytes": 752
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_bilingual_source.blend",
       "original_sha256": "52ca103153368a935bbf330b39e9bb6b23ad7ee8c2aa2c8e579ed66f89f8cc04",
-      "sha256": "649d410493e911b63c9a987eb0321f5477ae02019969b46af60454e2e974ebc2",
-      "bytes": 5583366
+      "sha256": "e8568812d27f9747b27d5c7763b149fddcc962f56a14e6682e34cbe1569b6009",
+      "bytes": 5582664
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_english.blend",
       "original_sha256": "20653400ce313504fa0c22cfef73ee66b449578b6e754e3b0dcb1036ab1140a3",
-      "sha256": "b93d6118a141e32b2e15506ffe499f5dafe5ce89a8690ebf402a2ad16894f3ed",
-      "bytes": 22050191
+      "sha256": "f9949f44858bed9d979eb28352c2989a2c99c64bd0759fb2891fdb84b0f2e0cd",
+      "bytes": 22050286
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_english_720p.mp4",
@@ -2539,8 +4729,8 @@
     {
       "path": "parts/02_coil_reversal/bilingual/coil_hinglish.blend",
       "original_sha256": "19a862d733713d7171a015d910d44f8f56a51300dfcb522ec6488d4f3e1cbcd2",
-      "sha256": "968ec38231defe74873fad1959686695500ea9c6664b777051f4997b4641b1ea",
-      "bytes": 24416620
+      "sha256": "15e78555e46e1eee309bf8cde2a7d9eea9e52b35dd4c50c8a2614a8943d68b16",
+      "bytes": 24416803
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_hinglish_720p.mp4",
@@ -2551,8 +4741,8 @@
     {
       "path": "parts/02_coil_reversal/bilingual/coil_visual_master.blend",
       "original_sha256": "0b4f929586e071c12a34e27fbd7a4ac40eae7c76db94dc545596c0d8297a55a9",
-      "sha256": "7052531ba0052ed85b8302ba1825ba6a1fe266722422825668bbb26e6824419f",
-      "bytes": 22067915
+      "sha256": "925f6b1e9aee766a0e5047ae84fff98f4cd53b03def89e9dd80634edc965687b",
+      "bytes": 22067970
     },
     {
       "path": "parts/02_coil_reversal/bilingual/fixed_006.0s.png",
@@ -2592,11 +4782,15 @@
     },
     {
       "path": "parts/02_coil_reversal/bilingual/portable-verification-english.json",
-      "original_sha256": "d328764ff93f2264e97abe82adab08dec72a3fb16816d88e3004d928118a0a99"
+      "original_sha256": "d328764ff93f2264e97abe82adab08dec72a3fb16816d88e3004d928118a0a99",
+      "sha256": "bbc0545c0bd4b93a2bf346cbc94966a0f57490b05732c193ba366373636c58cb",
+      "bytes": 2151
     },
     {
       "path": "parts/02_coil_reversal/bilingual/portable-verification-hinglish.json",
-      "original_sha256": "a2507bfe9019475923e7ef897bc2b19adb8864b851d0ee09deafefb82dc6b650"
+      "original_sha256": "a2507bfe9019475923e7ef897bc2b19adb8864b851d0ee09deafefb82dc6b650",
+      "sha256": "ecd29829606c6fff56112ae25aae6cae4b5eb6d7af6e11ce6090710422e33c2b",
+      "bytes": 2151
     },
     {
       "path": "parts/02_coil_reversal/bilingual/poster.jpg",
@@ -2606,7 +4800,9 @@
     },
     {
       "path": "parts/02_coil_reversal/bilingual/preservation-verification.json",
-      "original_sha256": "babb2878bd3a9f5f447ea6bf3acfc3b8943b160c63201e6880bcae22d8c7226a"
+      "original_sha256": "babb2878bd3a9f5f447ea6bf3acfc3b8943b160c63201e6880bcae22d8c7226a",
+      "sha256": "e332d413382dca95a048a52d95381415d329d408146e5c72152d8bfae45ab1cb",
+      "bytes": 447
     },
     {
       "path": "parts/02_coil_reversal/bilingual/render.json",
@@ -2635,8 +4831,8 @@
     {
       "path": "parts/02_coil_reversal/coil_fixed_view_narrated.blend",
       "original_sha256": "0cc7ce2538e54a0c706ca4595506ab78b2402f19a37ac174acab7987a27fbb49",
-      "sha256": "257309ef4b84acb9decb4b98986181d0c62e377e4e2bf5df97700b22685d2d16",
-      "bytes": 20742078
+      "sha256": "ac0a5261ba8628b66b331259ef48ab6f3ddf83a1c0313b31ccccd3ebee95e959",
+      "bytes": 20739754
     },
     {
       "path": "parts/02_coil_reversal/coil_fixed_view_narrated_720p.mp4",
@@ -2647,8 +4843,8 @@
     {
       "path": "parts/02_coil_reversal/coil_fixed_view_review_v1.blend",
       "original_sha256": "1b29fc105f4b49d7570ab65334a116bd973d418b4405fdbf53cd65d85b34c964",
-      "sha256": "61de81448a1afdd7a52eb4ee74d4ca16fe00905f24450ca3edb5ea467cb3ffe5",
-      "bytes": 20695449
+      "sha256": "4532b21ec10f2d3b0adc959a22e9c93423197d0a31e1c25a56d0ccf54ff1ee2e",
+      "bytes": 20681657
     },
     {
       "path": "parts/02_coil_reversal/coil_fixed_view_review_v1_720p.mp4",
@@ -2659,14 +4855,14 @@
     {
       "path": "parts/02_coil_reversal/coil_fixed_view_source.blend",
       "original_sha256": "d4cd41eda3664ecd9ab305775b735724f68ab243ece5f561baa0af1aa52c2461",
-      "sha256": "46c7fe1ab58048d0a3f026068e1cb48299ce0a1c23c81871fe17047d43437759",
-      "bytes": 5631542
+      "sha256": "0dfb038021040a8723dac070183247a4a70eebd351de508cc9b75b06283be48d",
+      "bytes": 5630701
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal.blend",
       "original_sha256": "23a0ed8e6c3513abbcb3111228b299ced957910f2532eafcc2c91896394193ae",
-      "sha256": "cd64405b4862760d653a64eeee840b1e56dcdb66573fe24a1daa48a93d42538e",
-      "bytes": 7628605
+      "sha256": "a113113b775093426e69e20a372bcb72545dd40883ae717ebcfb952abdb414b0",
+      "bytes": 7627367
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_board_fix_6fps.mp4",
@@ -2677,8 +4873,8 @@
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_cropped_winding.blend",
       "original_sha256": "da684e3ef562524ddbc58a50b035f569cf5f77ff3cc544651cb7febedd40786c",
-      "sha256": "af1f9a6532a7cb6577270edefa1de9b311471c4bc7251763b87ccd549de4018c",
-      "bytes": 3355393
+      "sha256": "75ac3d5b7cd05de54dbccde458fa679612aae2fcc0915e09a6d671409e33bcd8",
+      "bytes": 3361255
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_cropped_winding_6fps.mp4",
@@ -2689,8 +4885,8 @@
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_extended_experiments.blend",
       "original_sha256": "85a33545f43124192fcd785c3ccad78fd6991d1184b0ead79ced8e1d680955e3",
-      "sha256": "e4579869e84704740ea9fafb0d740bf8b61072b212772a405e16a1420c06e76a",
-      "bytes": 3233972
+      "sha256": "657ad8710541422111d5b723bee421ae39ee0210bf3e633ae7a35c3daf4ad3fe",
+      "bytes": 3224716
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_extended_experiments.mp4",
@@ -2701,14 +4897,14 @@
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_field_spacing_revision.blend",
       "original_sha256": "805e79b8cc2762e25d0be863982448a2973e68dce1600144dec60594fc4b1551",
-      "sha256": "35b2007f93520d404b342ce517e9b98963ad3ae11b60ac18954859a3818de789",
-      "bytes": 6504025
+      "sha256": "befa4e8d3626856ab61ffcabe96f97e149793f68f76e79eb60f071da699a4870",
+      "bytes": 6502655
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_preformed_coil_revision.blend",
       "original_sha256": "6caa8c9ddceccf13423e180564ed7c8bff29bc3ae2e47665831e04416758fb73",
-      "sha256": "8e67c341b35086c3adacc413e7b0a9bedf350422c7e0360c21973d3b09399ef4",
-      "bytes": 7528443
+      "sha256": "ccb3d24bf8aecb2662bd79b84eb9cb4ce2b5f446db1d0557a99527f1dc930f4d",
+      "bytes": 7522221
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_preformed_coil_revision_6fps.mp4",
@@ -2719,8 +4915,8 @@
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_upper_guides.blend",
       "original_sha256": "76017009fe98cf25ed4d474bb8b5f8529cd55dd3d34789679f425ac1911a327b",
-      "sha256": "e8f52c389c5c3e2da3cb44827319d78fbb6b3bd27c9aca6362bb1de9e8ebbfe6",
-      "bytes": 935163
+      "sha256": "236fda437637649ddec3ecdd4615547b14e3315806c65179e2dd8f0cc3667428",
+      "bytes": 930613
     },
     {
       "path": "parts/02_coil_reversal/coil_reversal_before_upper_guides_draft_6fps.mp4",
@@ -3439,7 +5635,7 @@
     {
       "path": "parts/frozen_case_01/manifest.json",
       "original_sha256": "8ff91da3849d7e9939e306cd8b76f0c838bc0b285d8a42b976be92464a33a76f",
-      "sha256": "e118140cb8e6b494127a977c835acecf7851653efef8bf76f14f696c911cd11f",
+      "sha256": "4c85bf08989927893dac5b9e90f33983c2921171f834ed68a825cd998052c577",
       "bytes": 719
     },
     {
@@ -3457,14 +5653,26 @@
     {
       "path": "parts/frozen_case_01/opening_and_compass_tutor.blend",
       "original_sha256": "f177ebd25f4bd62ff1ee84da2ef3894e1af788de11180d003096695fc0a8b4fb",
-      "sha256": "f9cbbd61044ca12e68439605c17995000d4ff5a3082630f36cd24158364ffa45",
-      "bytes": 2657471
+      "sha256": "c2107a8c854a1ac8486ad2c52c2bf0310ae56657446fc510473ec98c5ffcdb91",
+      "bytes": 2656761
     },
     {
       "path": "questions.json",
       "original_sha256": "d0304566dead93dd78a4b3644e6972b008f5c9f15e37420cd2eafd8feddc2f54",
       "sha256": "0c64a7178d83c4ad397b52b7a705511e2783252049fe39616dc931d24c80996b",
       "bytes": 1451
+    },
+    {
+      "path": "share/case-one-english.h5p",
+      "original_sha256": "f0cc8a3167b366f1715188f952c17d0c71be3a46862feb5acd953a8ba1033b26",
+      "sha256": "f0cc8a3167b366f1715188f952c17d0c71be3a46862feb5acd953a8ba1033b26",
+      "bytes": 24139936
+    },
+    {
+      "path": "share/case-one-hinglish.h5p",
+      "original_sha256": "7b61f521797b7ec54a8501cf04575e9ecd4452176cabb2406ad7de7e1df01577",
+      "sha256": "7b61f521797b7ec54a8501cf04575e9ecd4452176cabb2406ad7de7e1df01577",
+      "bytes": 26381655
     },
     {
       "path": "share/coil-english.h5p",

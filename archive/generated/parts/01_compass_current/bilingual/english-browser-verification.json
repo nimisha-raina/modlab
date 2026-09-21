@@ -1,0 +1,17 @@
+{
+  "method": "Interactive browser validation",
+  "checked_at_utc": "2026-09-21T13:52:09.962172+00:00",
+  "language": "english",
+  "video_sha256": "32caa8f1c2d2e8aea8b248b1a89ef3ed948fe7266c1a60f5facef37cdf00f317",
+  "duration": 156.083333,
+  "question_pause_seconds": [
+    56.264309,
+    129.164715
+  ],
+  "both_questions_wrong_answer_retry_and_correct_continue": true,
+  "continue_visible_at_390_by_844": true,
+  "sound_enabled": true,
+  "browser_console_errors": [],
+  "playback_reached_end": true,
+  "final_summary_board_visible": true
+}

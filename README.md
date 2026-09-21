@@ -1,5 +1,10 @@
 # Modlab · Electricity makes magnetism
 
+Current Case 1: [English/हिंदी wire and compass lesson](docs/PART_01_BILINGUAL.md),
+with localized Hindi labels and board text, conventional-current arrows and two
+native H5P pauses. English lasts 156.083 seconds; हिंदी lasts 187.833 seconds.
+The original 86-second version is preserved.
+
 Current Case 2: [English/Hinglish interactive coil lesson](docs/PART_02_BILINGUAL.md).
 Choose narration before playback; the lesson includes four genuine H5P prediction questions.
 
@@ -7,8 +12,8 @@ A Class 8 science lesson built with Python and Blender's `bpy` API. A copper
 circuit in a school laboratory leads into an enlarged view of vibrating copper
 ions and mobile electrons, then returns to the magnetic field around the wire.
 
-The first-case lesson includes **86 seconds of male Indian-English narration**,
-English captions and **two native H5P questions inside the video**. Video and
+The first-case lesson offers English or हिंदी narration and
+**two native H5P questions inside the video**. Video and
 voice pause together. A compact question panel keeps Check, Try again and
 Continue accessible while the scene remains visible behind it.
 

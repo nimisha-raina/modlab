@@ -1,0 +1,19 @@
+[
+  {
+    "id":"case-one-flow", "after_id":"flow",
+    "question":"Why does a steady magnetic field appear around the wire?",
+    "answers":["Electrons have a net flow, producing current","Copper ions travel around the circuit","The blue colour creates magnetism"],
+    "correct":0,
+    "hint":"Electrons already move randomly with the switch OFF. Think about what changes when the circuit closes.",
+    "success":"Correct! Net electron flow is an electric current, which creates a magnetic field around the wire."
+  },
+  {
+    "id":"case-one-strength", "after_id":"stronger",
+    "question":"What happens to the wire's magnetic field when current doubles?",
+    "context":"Keep the same wire and observe at the same distance.",
+    "answers":["It becomes weaker","It becomes twice as strong","It stays the same"],
+    "correct":1,
+    "hint":"Compare the ammeter reading with the compass's larger deflection.",
+    "success":"Correct! Twice the current gives twice the wire's field here. The compass angle need not double."
+  }
+]

@@ -1,5 +1,13 @@
 # Science behind the teaching model
 
+The bilingual Case 1 revision adds yellow conventional-current arrows and a
+rightward 60° view of the same perpendicular circular field guides. Its narration
+explicitly distinguishes random motion from net electron drift and identifies
+the blue electrons and copper-coloured vibrating ions as colour-coded teaching
+representations. Hindi text uses the same scientific meanings. More drawn field
+guides represent stronger field, while the compass angle responds to the vector
+sum of the wire and Earth fields; doubling current need not double that angle.
+
 ## What the first chapter teaches
 
 - Copper already has mobile conduction electrons. The battery supplies energy

@@ -1,0 +1,142 @@
+{
+  "scenes": [
+    {
+      "path": "electromagnetism_intro.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_english.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_english_source.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_hinglish.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_hinglish_source.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_source.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/01_compass_current/compass_current.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/01_compass_current/opening_and_compass_tutor.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/bilingual/coil_bilingual_source.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/bilingual/coil_english.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/bilingual/coil_hinglish.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/bilingual/coil_visual_master.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_fixed_view_narrated.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_fixed_view_review_v1.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_fixed_view_source.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_cropped_winding.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_extended_experiments.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_field_spacing_revision.blend",
+      "packed_image_paths_sanitized": 1,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_preformed_coil_revision.blend",
+      "packed_image_paths_sanitized": 1,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/02_coil_reversal/coil_reversal_before_upper_guides.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    },
+    {
+      "path": "parts/frozen_case_01/opening_and_compass_tutor.blend",
+      "packed_image_paths_sanitized": 0,
+      "image_data_preserved": true,
+      "raw_path_scan_passed": true
+    }
+  ]
+}

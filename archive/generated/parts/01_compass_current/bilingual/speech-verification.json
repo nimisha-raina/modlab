@@ -1,0 +1,12 @@
+{
+  "english": {
+    "speaker": "hi-IN-MadhurNeural",
+    "minimum_script_coverage": 1.0,
+    "sections": 14
+  },
+  "hinglish": {
+    "speaker": "hi-IN-SwaraNeural",
+    "minimum_script_coverage": 1.0,
+    "sections": 14
+  }
+}
