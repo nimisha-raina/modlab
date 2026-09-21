@@ -1,5 +1,8 @@
 # Case 2: fixed-view narrated lesson
 
+This previous review is retained. The current workflow is in
+[PART_02_BILINGUAL.md](PART_02_BILINGUAL.md).
+
 This revision keeps the physical laboratory board and complete circuit in one
 slightly elevated front view. The camera never moves. The earlier 136-second
 silent orbit review and frozen Case 1 are retained separately.

@@ -11,7 +11,7 @@ def build(scene,mats,camera,group):
                 (True,demo.INSIDE_FIELD_LABEL,(0,2.2,3.48),2.2,3.22),
                 (False,demo.OUTSIDE_FIELD_LABEL,(0,-.1,1.12),-.1,.89)):
             name = "Coil field direction caption" if inside else "Coil outside field direction caption"
-            label = g.face_camera(g.text(name,body,position,.23,ink,group,align="CENTER"),camera)
+            label = g.face_camera(g.text(name,body,position,.23 if inside else .19,ink,group,align="CENTER"),camera)
             direction = -sign if inside else sign
             objects = [label]+g.arrow("Clear axial field direction" if inside else "Clear outside field direction",
                     (-.65*direction,y,z),(.65*direction,y,z),.065,ink,group)

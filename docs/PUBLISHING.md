@@ -49,7 +49,9 @@ render and synchronization workflow in [DEVELOPMENT.md](DEVELOPMENT.md).
 After publishing, wait for GitHub Pages to deploy and check the final address:
 
 - The video and audio play, pause, seek and resume together.
-- Both questions support incorrect answers, retry and Continue.
+- Case 1’s two questions support incorrect answers, retry and Continue.
+- At `coils/`, both English and Hinglish choices load their own narration and
+  four native questions; all four support retry and Continue.
 - The question footer remains visible on a small phone screen.
 
 ## Student link and QR code

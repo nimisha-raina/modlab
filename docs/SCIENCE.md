@@ -190,3 +190,20 @@ The soft-iron diagram shows magnetic domains as groups of aligned atomic
 magnetic moments. The imposed field changes their net alignment; this is a
 qualitative domain model, not electrons tilting in the direction of current.
 Soft iron loses most of its induced magnetism when the current is removed.
+
+
+## Contact timing and bilingual nail explanation
+
+The revised Case 2 treats the contact as an ideal switch: the blade can move
+without current flowing, and all circuit-produced field cues share its closed
+state. Fast electromagnetic transients are not resolved in this teaching model.
+Earth's field remains when the circuit is open. A short 60-degree camera orbit
+shows nail insertion and the switched-on field before returning to the front.
+
+The magnetic-region explanation opens the circuit before showing mixed
+orientations, then closes it to show alignment. The gold circular current arrow
+is explicitly an end view from the north pole, where conventional current is
+counterclockwise. The separate blue axial field arrow points toward that north
+pole. Magnetic regions align with the coil's field, not with a straight-line
+current arrow through the iron. The soft-iron nail is a core, not a series
+conductor in this circuit.

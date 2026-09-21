@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "id": "coil-reversal",
+      "time": 76.867
+    },
+    {
+      "id": "coil-turns",
+      "time": 120.867
+    },
+    {
+      "id": "coil-core",
+      "time": 157.2
+    },
+    {
+      "id": "coil-release",
+      "time": 256.033
+    }
+  ],
+  "duration": 303.8333333333333,
+  "speaker": "hi-IN-MadhurNeural"
+}

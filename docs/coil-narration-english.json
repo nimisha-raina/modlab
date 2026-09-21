@@ -1,0 +1,123 @@
+{
+  "speaker": "hi-IN-MadhurNeural",
+  "description": "Madhur: one Indian male tutor for English and Hinglish, natural speaking rate.",
+  "language": "english",
+  "audio_directory": "output/parts/02_coil_reversal/bilingual/audio_english",
+  "fps": 24,
+  "segments": [
+    {
+      "start": 0,
+      "end": 5,
+      "text": "Can a copper coil behave like a magnet? Here is our laboratory circuit, with a battery, switch, ammeter, and a coil of ten turns.",
+      "id": "introduction"
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "text": "Close the switch. Moving charged electrons produce an electric current and a magnetic field. The yellow arrows show conventional current, from positive to negative, opposite to electron flow.",
+      "id": "current"
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "text": "Each part of the wire has a magnetic field around it. In a coil, these contributions add together. The complete field has a pattern like that of a bar magnet.",
+      "id": "local_fields"
+    },
+    {
+      "start": 16,
+      "end": 26,
+      "text": "Follow the turquoise arrows. Outside the coil, the field goes from north to south. Inside, it returns from south to north. Both compass needles deflect. The angle readings help us see how far they turn.",
+      "id": "directions"
+    },
+    {
+      "start": 26,
+      "end": 31,
+      "text": "Now open the switch and turn the battery around to reverse its connections. We always disconnect the circuit before changing the setup.",
+      "id": "reverse_setup"
+    },
+    {
+      "start": 31,
+      "end": 44,
+      "text": "Close the switch again. Current flows the other way. The magnetic field reverses, the north and south poles swap, and both compass needles turn to the other side.",
+      "id": "reverse_on"
+    },
+    {
+      "start": 44,
+      "end": 51,
+      "text": "How can we make this coil stronger? We will compare ten turns with twenty turns, keeping the coil's length and diameter the same. First, open the switch.",
+      "id": "turns_question"
+    },
+    {
+      "start": 51,
+      "end": 58,
+      "text": "We use more wire to make twenty turns, with smaller gaps between them. The current will stay at the same value: half an ampere.",
+      "id": "turns_setup"
+    },
+    {
+      "start": 58,
+      "end": 66,
+      "text": "Switch on. More turns give a stronger magnetic field, and the compasses deflect further. We draw more evenly spaced lines to show this increase. These lines are a way of representing the field.",
+      "id": "turns_on"
+    },
+    {
+      "start": 66,
+      "end": 73,
+      "text": "Open the switch. From the side, watch a soft iron nail slide inside the coil. Keep twenty turns and the same current setting. What will happen when we switch on?",
+      "id": "core_setup"
+    },
+    {
+      "start": 73,
+      "end": 80,
+      "text": "Close the switch. The iron core makes the electromagnet stronger. Notice the extra field lines around the coil and the larger deflection of both compasses. Now we return to the front view.",
+      "id": "core_on"
+    },
+    {
+      "id": "domains_off",
+      "start": 80,
+      "end": 85,
+      "text": "Why does iron help? First, open the switch. In the nail on the board, groups of atoms act like tiny magnets. Their magnetic directions are mixed."
+    },
+    {
+      "id": "domains_on",
+      "start": 85,
+      "end": 90,
+      "text": "Close the switch. The yellow arrow shows current around the coil. This produces the blue magnetic field along the nail. More magnetic regions align with this field, adding to its strength. Current direction and magnetic-field direction are different."
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "text": "Compare our three stages: ten turns, twenty turns, and twenty turns with soft iron. At the same current, the field becomes stronger at each step.",
+      "id": "comparison"
+    },
+    {
+      "start": 99,
+      "end": 103,
+      "text": "With the switch open, place iron paper clips below the nail. Watch what happens when we complete the circuit.",
+      "id": "clips_setup"
+    },
+    {
+      "start": 103,
+      "end": 111,
+      "text": "The electromagnet attracts the paper clips. Electric current lets us control this magnetic attraction using the switch.",
+      "id": "clips_on"
+    },
+    {
+      "start": 111,
+      "end": 114,
+      "text": "Open the switch. The coil's field disappears, and the soft iron loses most of its magnetism. The clips fall back onto the table.",
+      "id": "clips_off"
+    },
+    {
+      "start": 114,
+      "end": 125,
+      "text": "To summarize what we have learned: a coil has north and south poles. Reversing current swaps them. More turns and a soft iron core make the electromagnet stronger. Switching off releases the paper clips.",
+      "id": "summary"
+    },
+    {
+      "start": 125,
+      "end": 136,
+      "text": "Electromagnetism helps cranes lift scrap iron, microphones detect sound, and M R I scanners look inside the body.",
+      "id": "applications"
+    }
+  ]
+}

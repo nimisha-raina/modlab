@@ -1,0 +1,76 @@
+[
+  {
+    "id": "coil-reversal",
+    "after_id": "reverse_setup",
+    "question": "Current reverse करने पर poles का क्या होगा?",
+    "answers": [
+      "North और south बदल जाएंगे",
+      "Poles वही रहेंगे",
+      "दोनों ends north होंगे"
+    ],
+    "correct": 0,
+    "hint": "Current की direction बदलने से field की direction पर क्या असर होगा?",
+    "success": "सही! Current reverse होने से field उलटती है और poles बदल जाते हैं।",
+    "title": "सवाल 1 / 4",
+    "ui": {
+      "checkAnswerButton": "जवाब जाँचें",
+      "tryAgainButton": "फिर कोशिश करें"
+    }
+  },
+  {
+    "id": "coil-turns",
+    "after_id": "turns_setup",
+    "question": "10 turns से 20 turns करने पर क्या होगा?",
+    "context": "Current, coil की length और diameter वही हैं।",
+    "answers": [
+      "Field कम होगी",
+      "Field बढ़ेगी",
+      "कोई बदलाव नहीं होगा"
+    ],
+    "correct": 1,
+    "hint": "हर turn, coil की magnetic field में योगदान देता है।",
+    "success": "सही! उसी current पर ज़्यादा turns से field stronger होती है।",
+    "title": "सवाल 2 / 4",
+    "ui": {
+      "checkAnswerButton": "जवाब जाँचें",
+      "tryAgainButton": "फिर कोशिश करें"
+    }
+  },
+  {
+    "id": "coil-core",
+    "after_id": "core_setup",
+    "question": "Soft iron core डालने से क्या होगा?",
+    "context": "Turns और current वही रखें।",
+    "answers": [
+      "Current रुक जाएगा",
+      "Field कम होगी",
+      "Field बढ़ेगी"
+    ],
+    "correct": 2,
+    "hint": "Iron के magnetic regions, coil की field में align हो सकते हैं।",
+    "success": "सही! Aligned regions अपनी field जोड़ते हैं, इसलिए field बढ़ती है।",
+    "title": "सवाल 3 / 4",
+    "ui": {
+      "checkAnswerButton": "जवाब जाँचें",
+      "tryAgainButton": "फिर कोशिश करें"
+    }
+  },
+  {
+    "id": "coil-release",
+    "after_id": "clips_on",
+    "question": "Switch OFF करने पर clips का क्या होगा?",
+    "answers": [
+      "वे गिर जाएंगी",
+      "हमेशा चिपकी रहेंगी",
+      "ऊपर जाएंगी"
+    ],
+    "correct": 0,
+    "hint": "Circuit खुलने से coil का current रुकता है।",
+    "success": "सही! Coil की field खत्म होती है और soft iron का ज़्यादातर induced magnetism चला जाता है।",
+    "title": "सवाल 4 / 4",
+    "ui": {
+      "checkAnswerButton": "जवाब जाँचें",
+      "tryAgainButton": "फिर कोशिश करें"
+    }
+  }
+]

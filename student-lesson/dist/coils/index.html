@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102736">
+  <title>Build an electromagnet · Class 8</title>
+  <link rel="stylesheet" href="coil.css">
+</head>
+<body>
+  <header><a href="../">Class 8 Science</a><span>COILS &amp; ELECTROMAGNETS</span></header>
+  <main>
+    <h1>Build an electromagnet</h1>
+    <p class="intro">Watch the experiment. Make a prediction. Discover what changes.</p>
+    <section id="language-choice" aria-labelledby="language-title">
+      <img src="poster.jpg" alt="The laboratory coil, battery, ammeter and two compasses" width="1280" height="720">
+      <div class="choice-panel">
+        <h2 id="language-title">Choose your narration</h2>
+        <p>One Indian male tutor. Two ways to learn.</p>
+        <div class="choices">
+          <button data-language="english"><strong>English</strong><span>English narration and questions · 4 min 15 sec</span></button>
+          <button data-language="hinglish"><strong>Hinglish</strong><span lang="hi">हिंदी में समझें, English science terms के साथ · लगभग 5 मिनट</span></button>
+        </div>
+      </div>
+    </section>
+    <section id="lesson" hidden aria-label="Interactive coil experiment">
+      <div id="video-stage"><div id="h5p-container"></div><p id="player-message" role="status">Loading your lesson…</p></div>
+      <div class="tools"><span id="progress" aria-live="polite"></span><button id="change-language">Change language · restart</button></div>
+      <p id="caption" aria-live="off"></p>
+      <button id="replay" hidden>Watch and try again</button>
+    </section>
+    <p class="note">The video pauses for four short questions. Your answers stay in this session.</p>
+  </main>
+  <noscript>Please enable JavaScript to choose narration and answer the questions.</noscript>
+  <script src="../vendor/h5p-player/main.bundle.js"></script>
+  <script src="../question-layout.js"></script>
+  <script src="config.js"></script>
+  <script src="coil.js"></script>
+</body>
+</html>

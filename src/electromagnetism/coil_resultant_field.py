@@ -77,7 +77,7 @@ def build(scene, mats, group):
         seconds = (frame-1)/demo.FPS
         current = demo.current_at(seconds)
         combined = demo.field_fraction(seconds)
-        value = demo.ramp(seconds,5,8)*(1-combined)*abs(current)
+        value = (1-combined)*abs(current)
         local_opacity.default_value = value
         local_opacity.keyframe_insert("default_value",frame=frame)
         for obj in local:

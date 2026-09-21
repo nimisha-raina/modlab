@@ -1,0 +1,34 @@
+{
+  "english": {
+    "speaker": "hi-IN-MadhurNeural",
+    "minimum_text_coverage": 1.0,
+    "sections": 19,
+    "frames": 1530,
+    "duration": 254.99999999999997,
+    "fps": 6,
+    "pauses": [
+      66.533,
+      104.033,
+      134.7,
+      215.367
+    ],
+    "maximum_picture_mean_error": 1.665152271412037,
+    "video_sha256": "4d9a6cae9f522fd62852d121eaaf5db05815617539f95ff993211a3ecfde0cce"
+  },
+  "hinglish": {
+    "speaker": "hi-IN-MadhurNeural",
+    "minimum_text_coverage": 1.0,
+    "sections": 19,
+    "frames": 1823,
+    "duration": 303.8333333333333,
+    "fps": 6,
+    "pauses": [
+      76.867,
+      120.867,
+      157.2,
+      256.033
+    ],
+    "maximum_picture_mean_error": 1.696459056712963,
+    "video_sha256": "7a2dd61dcf767b1264f99e744b474d6bfdbd0779b6a4affc4b38e127f1c19ee5"
+  }
+}

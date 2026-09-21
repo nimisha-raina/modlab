@@ -5,12 +5,21 @@ const path = require('node:path');
 const { JSDOM, VirtualConsole } = require('jsdom');
 
 const root = path.resolve(__dirname, '..');
-const packageDir = path.join(root, 'dist/h5p/electromagnetism');
+const language=process.env.COIL_LANGUAGE;
+if (language && !['english','hinglish'].includes(language)) throw new Error('Invalid coil language');
+const packageDir = path.join(root, language ? `dist/h5p/coil-${language}` : 'dist/h5p/electromagnetism');
+let narrationPath=language ? path.join(root,`../output/parts/02_coil_reversal/bilingual/audio_${language}/narration-timing.json`) : path.join(root,'content/narration-timing.json');
+if (language && !fs.existsSync(narrationPath)) {
+  narrationPath=path.join(root,`../archive/generated/parts/02_coil_reversal/bilingual/audio_${language}/narration-timing.json`);
+}
+const checkLabel=language==='hinglish'?'जवाब जाँचें':'Check answer';
+const retryLabel=language==='hinglish'?'फिर कोशिश करें':'Try again';
+const continueLabel=language==='hinglish'?'आगे बढ़ें':'Continue video';
 const read = filename => JSON.parse(fs.readFileSync(filename, 'utf8'));
 const manifest = read(path.join(packageDir, 'h5p.json'));
 const params = read(path.join(packageDir, 'content/content.json'));
-const questions = read(path.join(root, 'content/questions.json'));
-const duration = read(path.join(root, 'content/narration-timing.json')).duration;
+const questions = read(path.join(root, language ? `content/coil/${language}.json` : 'content/questions.json'));
+const duration = read(narrationPath).duration;
 
 function nativeH5P() {
   const errors = [];
@@ -68,19 +77,18 @@ test('genuine H5P library closure and content assets are complete', () => {
   assert.equal(params.override.autoplay, false);
   assert.equal(params.override.hasNoAutoPause, false);
   assert.deepEqual(params.interactiveVideo.assets.endscreens, [], 'The final laboratory summary stays visible');
-  const narrationPath = path.join(root, 'content/narration-timing.json');
   if (fs.existsSync(narrationPath)) {
     const timing = read(narrationPath);
     assert.equal(params.override.deactivateSound, false, 'Narrated lessons must enable audio');
     assert.equal(duration, timing.duration);
     params.interactiveVideo.assets.interactions.forEach((interaction, index) => {
-      const section = timing.segments[questions[index].after_section - 1];
+      const section = language ? timing.segments.find(s=>s.id===questions[index].after_id) : timing.segments[questions[index].after_section - 1];
       const speechStart = section.speech_start ?? Math.round((section.target_start + .2) * timing.fps) / timing.fps;
       const speechEnd = speechStart + section.speech_seconds;
       assert.ok(interaction.duration.from > speechEnd + .1, 'Questions follow the complete explanation');
     });
   }
-  assert.equal(questions.length, 2, 'The first case contains two quiz pauses');
+  assert.equal(questions.length, language ? 4 : 2);
   assert.equal(params.interactiveVideo.assets.interactions.length, questions.length);
   for (const interaction of params.interactiveVideo.assets.interactions) {
     assert.equal(interaction.action.library, 'H5P.MultiChoice 1.16');
@@ -113,22 +121,22 @@ test('upstream H5P questions score wrong answers, retry, and score correct answe
       assert.ok(wrapper.querySelector('.lesson-question-actions button'), 'Check stays in the fixed footer');
       assert.equal(wrapper.querySelectorAll('.lesson-question-actions .h5p-question-buttons').length, 1,
         'Only the current question keeps its controls');
-      assert.equal(wrapper.querySelector('.lesson-question-actions').textContent.trim(), 'Check answer',
+      assert.equal(wrapper.querySelector('.lesson-question-actions').textContent.trim(), checkLabel,
         'Earlier Continue buttons are removed when the next question opens');
       assert.equal(question.getMaxScore(), 1);
       let radios = host.find('[role="radio"]');
       assert.equal(radios.length, 3);
       radios.get((questions[index].correct + 1) % 3).click();
-      host.find('button').filter((_, el) => el.textContent.trim() === 'Check answer').get(0).click();
+      host.find('button').filter((_, el) => el.textContent.trim() === checkLabel).get(0).click();
       assert.equal(question.getScore(), 0, `question ${index + 1} wrong answer`);
       assert.ok(host.text().includes(questions[index].hint));
       assert.ok(question.hasButton('try-again'));
       await new Promise(resolve => setTimeout(resolve, 300));
-      host.find('button').filter((_, el) => el.textContent.trim() === 'Try again').get(0).click();
+      host.find('button').filter((_, el) => el.textContent.trim() === retryLabel).get(0).click();
       await new Promise(resolve => setTimeout(resolve, 300));
       radios = host.find('[role="radio"]');
       radios.get(questions[index].correct).click();
-      const checkAgain = host.find('button').filter((_, el) => el.textContent.trim() === 'Check answer').get(0);
+      const checkAgain = host.find('button').filter((_, el) => el.textContent.trim() === checkLabel).get(0);
       assert.ok(checkAgain, host.find('button').map((_, el) => el.outerHTML).get().join('\n'));
       checkAgain.click();
       assert.equal(question.getScore(), 1, `question ${index + 1} correct answer`);
@@ -136,7 +144,7 @@ test('upstream H5P questions score wrong answers, retry, and score correct answe
       assert.equal(interaction.hasFullScore(), true);
       assert.ok(question.hasButton('iv-continue'), 'H5P provides native continue');
       await new Promise(resolve => setTimeout(resolve, 0));
-      assert.equal(wrapper.querySelector('.lesson-question-actions button').textContent.trim(), 'Continue video');
+      assert.equal(wrapper.querySelector('.lesson-question-actions button').textContent.trim(), continueLabel);
     }
     assert.deepEqual(errors, []);
   } finally { dom.window.close(); }

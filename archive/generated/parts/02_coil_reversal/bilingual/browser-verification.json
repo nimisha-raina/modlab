@@ -1,0 +1,26 @@
+{
+  "checks": "passed",
+  "desktop": "default browser viewport",
+  "mobile": {
+    "width": 390,
+    "height": 844
+  },
+  "languages": {
+    "english": {
+      "all_four_pauses_and_continue": true,
+      "first_question_wrong_answer_and_retry": true,
+      "completed_count": 4,
+      "mobile_footer_visible": true
+    },
+    "hinglish": {
+      "all_four_pauses_and_continue": true,
+      "first_question_wrong_answer_and_retry": true,
+      "completed_count": 4,
+      "mobile_footer_visible": true
+    }
+  },
+  "language_restart": true,
+  "case_1_regression": "First native pause, wrong answer, retry and Continue verified; original media hashes unchanged.",
+  "browser_errors": [],
+  "listening_review": "Not assessed by automated audio checks."
+}

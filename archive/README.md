@@ -36,3 +36,9 @@ To add selected Case 2 outputs while preserving older archived releases, use
 then run the packing and finalize steps above. Only changed selected Blender
 scenes are repacked. `fixed_view_frames/` is a reproducible cache and is excluded
 from the public archive.
+
+For the current English/Hinglish lesson, select
+`parts/02_coil_reversal/bilingual share/coil-english.h5p share/coil-hinglish.h5p`
+instead. Its `bilingual_frames/` cache is also excluded. The source storyboard,
+visual master, both packed language scenes, soundtracks, videos, question timing
+and validation reports are included. See `docs/PART_02_BILINGUAL.md`.

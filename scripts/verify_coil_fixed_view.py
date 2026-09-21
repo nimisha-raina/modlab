@@ -40,7 +40,11 @@ for source,amps,count,left in ((0,0,0,None),(8,.5,0,None),(24,.5,10,"N"),
     pose = tuple(v for row in scene.camera.matrix_world for v in row)
     if camera is None:
         camera = pose
-    assert pose == camera, "Camera must remain fixed"
+    if 'revision' in scene:
+        expected,_=demo.camera_pose(source)
+        assert math.dist(scene.camera.location,expected)<.02
+    else:
+        assert pose == camera, "Camera must remain fixed"
     check_ammeter(scene,amps,framed=True)
     assert sum(not o.hide_render for o in resultant)==count,(source,"field count")
     poles = [o for o in scene.objects if "pole" in o and not o.hide_render]
@@ -59,7 +63,7 @@ for source,amps,count,left in ((0,0,0,None),(8,.5,0,None),(24,.5,10,"N"),
                 _,field = demo.circuit_fields(tuple(obj.matrix_world.translation),1,demo.TURNS,demo.RADIUS)
                 assert direction.dot(Vector(field)*amps)>0,(source,obj.name,"field arrow reversed")
     for obj in scene.objects:
-        if obj.name.startswith(("Battery body","School science chalkboard","Switch state |")) and not obj.hide_render:
+        if obj.name.startswith(("Battery body","School science chalkboard","Switch state |")) and not obj.hide_render and not demo.orbit_fraction(source):
             for corner in obj.bound_box:
                 uv = world_to_camera_view(scene,scene.camera,obj.matrix_world@Vector(corner))
                 assert .005<uv.x<.995 and .005<uv.y<.995,(obj.name,tuple(uv),"clipped")
@@ -96,9 +100,26 @@ assert abs(map_time(136,timing)-map_time(125,timing)-11)<1e-6
 assert all(image.packed_file for image in bpy.data.images if image.source=="FILE")
 if timing:
     assert scene.sequence_editor.strips[0].sound.packed_file
-    assert scene["narrator"] == "en-IN-PrabhatNeural"
+    assert scene["narrator"] in ("en-IN-PrabhatNeural","hi-IN-MadhurNeural")
 name = "portable-fixed-view-verification.json" if Path(bpy.data.filepath).is_relative_to(ROOT/"archive") else "fixed-view-verification.json"
-path = ROOT/"output/parts/02_coil_reversal"/name
+if 'revision' in scene:
+    field_objects=[o for o in scene.objects if 'branch_field_pair' in o or 'local_winding_pair' in o or 'resultant_stage' in o]
+    switch=next(o for o in scene.objects if o.name.startswith('Switch') and o.animation_data and any(c.data_path=='rotation_euler' for c in __import__('electromagnetism.narration',fromlist=['curves']).curves(o.animation_data.action)))
+    # Check every delivery frame, not only a few storyboard stages.
+    for frame in range(1,scene.frame_end+1,4):
+        scene.frame_set(frame)
+        closed=abs(switch.rotation_euler.y)<1e-6
+        assert any(not o.hide_render for o in field_objects)==closed,(frame,'Field/contact mismatch')
+    for source,visible in ((82,False),(84,False),(87,True),(89,True)):
+        scene.frame_set(round(map_time(source,timing)*24)+1)
+        assert all((not o.hide_render)==visible for o in scene.objects if o.get('board_current_cue'))
+    directory=ROOT/'output/parts/02_coil_reversal/bilingual'
+    name='verification-'+Path(bpy.data.filepath).stem.removeprefix('coil_')+'.json'
+    if Path(bpy.data.filepath).is_relative_to(ROOT/'archive'):
+        name='portable-'+name
+else:
+    directory=ROOT/'output/parts/02_coil_reversal'
+path = directory/name
 path.write_text(json.dumps(dict(checks="passed",stages=report,scene=Path(bpy.data.filepath).name,
     scene_sha256=hashlib.sha256(Path(bpy.data.filepath).read_bytes()).hexdigest()),indent=2)+"\n",encoding="utf-8")
-print("PASS: fixed camera, two concentric rings, current circulation, three strengths, symmetric compasses, packed speech and 11-second applications.")
+print("PASS: camera path, two concentric rings, current circulation, three strengths, symmetric compasses, packed speech and 11-second applications.")

@@ -154,7 +154,7 @@ def build():
         cell.location.z = .7+.8*math.sin(math.pi*turn)
         cell.keyframe_insert("rotation_euler", frame=frame)
         cell.keyframe_insert("location", frame=frame)
-        switch.rotation_euler.y = math.radians(-43)*(1-abs(current))
+        switch.rotation_euler.y = math.radians(-43)*(1-demo.coil_switch.closure(seconds))
         switch.keyframe_insert("rotation_euler", frame=frame)
         coil_current_guides.animate(current_guides,seconds,frame,reading_board)
         for sign, obj in poles:
@@ -169,6 +169,17 @@ def build():
     print("COIL_GEOMETRY_AND_FIELDS_READY",flush=True)
     coil_experiments.build(scene,mats,camera)
     coil_fixed_view.arrange(scene)
+    from . import coil_orbit_labels
+    coil_orbit_labels.animate(scene)
+    # Per-source-frame contact gates must remain steps after narration retiming.
+    # Constant baked samples also prevent Bezier overshoot in current/field cues.
+    from .narration import curves
+    for action in bpy.data.actions:
+        for curve in curves(action):
+            for key in curve.keyframe_points:
+                key.interpolation = "CONSTANT"
+    # Camera movement uses a smooth, densely sampled path.
+    coil_camera.animate(scene)
     update_markers(scene)
     scene["audio_status"] = "Source storyboard; narrated build attaches the measured Indian-English tutor script."
     scene["physics"] = "10 then 20 turns; complete-circuit fields; ideal symmetric end-compass comparison with one common Earth field; illustrative core gain."

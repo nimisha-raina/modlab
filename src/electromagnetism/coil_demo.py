@@ -6,6 +6,7 @@ from . import current_demo as circuit
 from .wire_winding import points as winding_points, helix
 from .camera_path import BOARD, OPENING_WIDE, interpolate_pose, smoothstep
 from .config import SAMPLE_Z, ELECTRON_PATH
+from . import coil_switch
 
 SCENE_NAME = "03 - Coil and current reversal"
 FPS = 24
@@ -71,11 +72,7 @@ def field_fraction(seconds):
 
 
 def current_at(seconds):
-    # Open the circuit, reverse the cell while disconnected, then close it.
-    return (ramp(seconds, 5, 6)-ramp(seconds, 26, 27)-ramp(seconds, 31, 32)
-            +ramp(seconds, 50, 51)-ramp(seconds, 58, 59)
-            +ramp(seconds, 66, 67)-ramp(seconds, 73, 74)
-            +ramp(seconds, 99, 100)-ramp(seconds, 102, 103)+ramp(seconds, 111, 112))
+    return coil_switch.current(seconds)
 
 
 @lru_cache(maxsize=512)
@@ -158,8 +155,21 @@ def flow_phase(seconds, sign):
 
 
 def camera_pose(seconds):
-    """One slightly elevated front view retains both board and experiment."""
-    return ((.65, -19., 11.2), (0., 1.4, 3.0))
+    """A brief 60-degree nail view returns to the approved front composition."""
+    front = ((.65, -19., 11.2), (0., 1.4, 3.0))
+    amount = orbit_fraction(seconds)
+    if amount == 0:
+        return front
+    target = tuple(a+(b-a)*amount for a,b in zip(front[1],(-.5,.8,1.45)))
+    azimuth = math.atan2(.65,20.4)+(math.pi/3-math.atan2(.65,20.4))*amount
+    radius = math.hypot(.65,20.4)+(17.5-math.hypot(.65,20.4))*amount
+    height = 8.2+(7.5-8.2)*amount
+    return ((target[0]+radius*math.sin(azimuth),target[1]-radius*math.cos(azimuth),
+             target[2]+height),target)
+
+
+def orbit_fraction(seconds):
+    return ramp(seconds,66,68)*(1-ramp(seconds,77,80))
 
 
 @lru_cache(maxsize=2)

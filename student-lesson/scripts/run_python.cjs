@@ -31,7 +31,14 @@ for (const [command, prefix] of candidates) {
     cwd: lessonRoot,
     stdio: 'inherit',
   });
-  if (!result.error) process.exit(result.status ?? 1);
+  if (!result.error) {
+    if (result.status !== 0) process.exit(result.status ?? 1);
+    const coil = spawnSync(command, [...prefix, path.join(__dirname, 'build_coil_h5p.py')], {
+      cwd: lessonRoot, stdio: 'inherit',
+    });
+    if (coil.error) throw coil.error;
+    process.exit(coil.status ?? 1);
+  }
   if (!['ENOENT', 'EACCES', 'EPERM'].includes(result.error.code)) throw result.error;
 }
 

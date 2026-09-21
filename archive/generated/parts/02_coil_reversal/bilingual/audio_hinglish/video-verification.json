@@ -1,0 +1,102 @@
+{
+  "frames": 1823,
+  "duration": 303.8333333333333,
+  "sections": [
+    {
+      "section": 1,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 2,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9964
+    },
+    {
+      "section": 3,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 4,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 5,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9957
+    },
+    {
+      "section": 6,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9966
+    },
+    {
+      "section": 7,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9954
+    },
+    {
+      "section": 8,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9961
+    },
+    {
+      "section": 9,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9964
+    },
+    {
+      "section": 10,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9959
+    },
+    {
+      "section": 11,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 12,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9967
+    },
+    {
+      "section": 13,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9965
+    },
+    {
+      "section": 14,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 15,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9963
+    },
+    {
+      "section": 16,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9959
+    },
+    {
+      "section": 17,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9955
+    },
+    {
+      "section": 18,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 1.0
+    },
+    {
+      "section": 19,
+      "alignment_error_seconds": 0.0,
+      "audio_correlation": 0.9967
+    }
+  ],
+  "question_pauses": "Not checked by this invocation."
+}

@@ -67,7 +67,7 @@ def main():
         around_pause = mixed[round((pause-.05)*SAMPLE_RATE):round((pause+.05)*SAMPLE_RATE)]
         assert float(np.sqrt(np.mean(around_pause**2))) < .003, "A question interrupts audible speech."
     report = {"frames": timing["frames"], "duration": timing["duration"],
-              "sections": results, "question_pauses": "Deferred; no H5P in this chapter." if args.no_questions else "All fall in silence after narration."}
+              "sections": results, "question_pauses": "Not checked by this invocation." if args.no_questions else "All fall in silence after narration."}
     args.timing.with_name("video-verification.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))
     print("PASS: the exported video contains every narration section at the correct time.")

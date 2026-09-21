@@ -1,0 +1,123 @@
+{
+  "speaker": "hi-IN-MadhurNeural",
+  "description": "Madhur: one Indian male tutor for English and Hinglish, natural speaking rate.",
+  "language": "hinglish",
+  "audio_directory": "output/parts/02_coil_reversal/bilingual/audio_hinglish",
+  "fps": 24,
+  "segments": [
+    {
+      "start": 0,
+      "end": 5,
+      "text": "क्या copper coil एक magnet की तरह काम कर सकती है? इस laboratory circuit में battery, switch, ammeter, और दस turns वाली copper coil है।",
+      "id": "introduction"
+    },
+    {
+      "start": 5,
+      "end": 12,
+      "text": "अब switch ON कीजिए। Charged electrons की movement से electric current बहता है और magnetic field बनती है। पीले arrows conventional current दिखाते हैं, positive से negative की ओर। Electron flow इसके उलट होता है।",
+      "id": "current"
+    },
+    {
+      "start": 12,
+      "end": 16,
+      "text": "Wire के हर हिस्से के चारों ओर magnetic field होती है। Coil में इन सबका असर जुड़ जाता है। पूरी magnetic field का pattern, bar magnet जैसा बन जाता है।",
+      "id": "local_fields"
+    },
+    {
+      "start": 16,
+      "end": 26,
+      "text": "Turquoise arrows देखिए। Coil के बाहर magnetic field, north से south की ओर जाती है। अंदर, south से north की ओर। दोनों compass needles मुड़ती हैं। Angle readings से उनका deflection आसानी से दिखता है।",
+      "id": "directions"
+    },
+    {
+      "start": 26,
+      "end": 31,
+      "text": "अब switch OFF कीजिए। Battery को घुमाकर उसके connections उलटे करते हैं। Setup बदलने से पहले circuit को हमेशा disconnect करते हैं।",
+      "id": "reverse_setup"
+    },
+    {
+      "start": 31,
+      "end": 44,
+      "text": "फिर switch ON कीजिए। Current की direction उलट गई। Magnetic field भी उलटती है, north और south poles बदल जाते हैं, और दोनों compass needles दूसरी तरफ मुड़ती हैं।",
+      "id": "reverse_on"
+    },
+    {
+      "start": 44,
+      "end": 51,
+      "text": "Coil को और strong कैसे बनाएं? हम दस turns की तुलना बीस turns से करेंगे। Coil की length और diameter वही रखेंगे। पहले switch OFF कीजिए।",
+      "id": "turns_question"
+    },
+    {
+      "start": 51,
+      "end": 58,
+      "text": "ज़्यादा wire लेकर अब बीस turns बनाते हैं। Turns के बीच gap छोटा हो जाता है। Current वही रहेगा, आधा ampere। अब सोचिए, magnetic field पर क्या असर होगा?",
+      "id": "turns_setup"
+    },
+    {
+      "start": 58,
+      "end": 66,
+      "text": "Switch ON कीजिए। ज़्यादा turns से magnetic field stronger होती है। Compass needles और मुड़ती हैं। इस बढ़ोतरी को दिखाने के लिए, हम ज़्यादा field lines बनाते हैं। ये lines magnetic field को समझाने का तरीका हैं।",
+      "id": "turns_on"
+    },
+    {
+      "start": 66,
+      "end": 73,
+      "text": "Switch OFF कीजिए। Side से देखिए, soft iron की कील coil के अंदर जा रही है। बीस turns और current की setting वही रखेंगे। सोचिए, switch ON करने पर क्या होगा?",
+      "id": "core_setup"
+    },
+    {
+      "start": 73,
+      "end": 80,
+      "text": "Switch ON कीजिए। Iron core से electromagnet और strong हो गया। Coil के चारों ओर ज़्यादा field lines और दोनों compasses का बढ़ा हुआ deflection देखिए। अब वापस front view में आते हैं।",
+      "id": "core_on"
+    },
+    {
+      "id": "domains_off",
+      "start": 80,
+      "end": 85,
+      "text": "Iron से field क्यों बढ़ती है? पहले switch OFF कीजिए। Board पर कील के अंदर देखिए। Atoms के groups, छोटे magnets की तरह काम करते हैं। अभी उनकी magnetic directions अलग-अलग हैं।"
+    },
+    {
+      "id": "domains_on",
+      "start": 85,
+      "end": 90,
+      "text": "Switch ON कीजिए। पीला arrow coil में घूमते current की direction दिखाता है। इससे कील के अंदर नीले arrow वाली magnetic field बनती है। ज़्यादा magnetic regions इस field की direction में align होते हैं, और field strong हो जाती है। Current और magnetic field की directions अलग हैं।"
+    },
+    {
+      "start": 90,
+      "end": 99,
+      "text": "तीनों stages की तुलना कीजिए। दस turns, बीस turns, और बीस turns के साथ soft iron। Current वही है, लेकिन हर step पर magnetic field stronger हो रही है।",
+      "id": "comparison"
+    },
+    {
+      "start": 99,
+      "end": 103,
+      "text": "Switch OFF रखते हुए, कील के नीचे iron paper clips रखिए। अब circuit पूरा करने पर क्या होता है, ध्यान से देखिए।",
+      "id": "clips_setup"
+    },
+    {
+      "start": 103,
+      "end": 111,
+      "text": "Electromagnet paper clips को attract करता है। Electric current की मदद से, switch द्वारा इस attraction को control कर सकते हैं। Switch OFF करने पर clips का क्या होगा?",
+      "id": "clips_on"
+    },
+    {
+      "start": 111,
+      "end": 114,
+      "text": "Switch OFF कीजिए। Coil की magnetic field खत्म हो जाती है। Soft iron का ज़्यादातर magnetism चला जाता है। इसलिए paper clips वापस table पर गिरती हैं।",
+      "id": "clips_off"
+    },
+    {
+      "start": 114,
+      "end": 125,
+      "text": "आइए, जो सीखा उसका summary देखें। Coil के north और south poles होते हैं। Current reverse करने से poles बदलते हैं। ज़्यादा turns और soft iron core से electromagnet stronger होता है। Switch OFF करने पर clips गिर जाती हैं।",
+      "id": "summary"
+    },
+    {
+      "start": 125,
+      "end": 136,
+      "text": "Electromagnetism के उपयोग देखिए: scrap उठाने वाली crane, sound detect करता microphone, और M R I scanner।",
+      "id": "applications"
+    }
+  ]
+}

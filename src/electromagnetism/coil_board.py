@@ -39,10 +39,12 @@ def build(scene, mats):
         {"start": 66, "end": 80, "case": "OBSERVE THE ELECTROMAGNET",
          "heading": "The nail enters while the switch is OFF",
          "observation": "Switch ON to compare the stronger field directly."},
-        {"start": 80, "end": 90, "rows": [
+        {"start": 80, "end": 81, "case": "LOOK INSIDE THE IRON",
+         "heading": "First, open the switch", "observation": "Then close it and watch the magnetic regions."},
+        {"start": 81, "end": 90, "rows": [
             ("INSIDE THE SOFT IRON", 5.8, .35),
             ("Magnetic regions line up", 5.1, .53),
-            ("MAGNETIC FIELD INSIDE THE NAIL", 1.35, .25),
+            ("Blue: coil field. Gold: magnetic regions.", 1.05, .27),
             ("Magnified model: groups of atoms act like tiny magnets.", .55, .30)]},
         {"start": 90, "end": 99, "case": "A STRONGER ELECTROMAGNET",
          "heading": "Compare the three magnetic fields",
@@ -72,16 +74,16 @@ def build(scene, mats):
           (4.9,2.05),(6,3.1),(4.9,4.15),(-5.55,4.15),(-5.55,4.35),(-6,4.35))],
         .025,mats["ink_white"],group,cyclic=True)
     outline["nail_region_outline"] = True
-    chalkboard.show_between(outline,80,90,demo.FPS,demo.DURATION)
+    chalkboard.show_between(outline,81,90,demo.FPS,demo.DURATION)
     for name,z,a,b,ink in (("Internal field and region alignment",1.65,(-1.8,0,0),(1.8,0,0),"ink_cyan"),):
         for obj in g.arrow(name,(a[0],11.0,z),(b[0],11.0,z),.035,mats[ink],group):
-            chalkboard.show_between(obj,80,90,demo.FPS,demo.DURATION)
+            chalkboard.show_between(obj,86,90,demo.FPS,demo.DURATION)
     for i in range(10):
         x, z = (-4.5+2.25*(i % 5), 3.65-1.10*(i//5))
         boundary = g.line("Iron magnetic region boundary", [(x+a, 11.025, z+b)
                            for a, b in ((-.88,-.43),(.88,-.43),(.88,.43),(-.88,.43))],
                           .014, mats["ink_muted"], group, cyclic=True)
-        chalkboard.show_between(boundary, 80, 90, demo.FPS, demo.DURATION)
+        chalkboard.show_between(boundary, 81, 90, demo.FPS, demo.DURATION)
         region = bpy.data.objects.new(f"Iron magnetic region {i+1}", None)
         group.objects.link(region)
         region.location = (x, 11.01, z)
@@ -96,11 +98,32 @@ def build(scene, mats):
             for obj in g.arrow("Atomic magnetic direction", (-.20, 0, 0), (.20, 0, 0),
                                .025, mats["ink_gold"], group):
                 obj.parent = pivot
-                chalkboard.show_between(obj, 80, 90, demo.FPS, demo.DURATION)
-            for seconds, rotation in ((0, angle), (87, angle), (89, 0), (demo.DURATION, 0)):
+                chalkboard.show_between(obj, 81, 90, demo.FPS, demo.DURATION)
+            for frame in range(81*demo.FPS+1,90*demo.FPS+2):
+                seconds = (frame-1)/demo.FPS
+                rotation = angle*(1-demo.ramp(seconds,86,89))
                 pivot.rotation_euler.y = rotation
                 pivot.keyframe_insert("rotation_euler", frame=round(seconds*demo.FPS)+1)
+    build_current_diagram(group,mats)
     build_applications(scene, mats)
+
+
+
+def build_current_diagram(group,mats):
+    """End-view circulation is distinct from the axial magnetic-field arrow."""
+    center=(-5.3,11.0,4.68)
+    points=[(center[0]+.25*math.cos(i*math.tau/64),center[1],
+             center[2]+.25*math.sin(i*math.tau/64)) for i in range(65)]
+    ring=g.line("Board conventional current around winding",points,.018,mats["ink_gold"],group)
+    objects=[ring]
+    # Counterclockwise as seen looking at the north end; field points out of it.
+    objects += g.arrow("Board current circulation",(-5.05,11,4.55),(-5.05,11,4.8),
+                       .028,mats["ink_gold"],group)
+    objects += [g.text("Board current caption","Current around coil (viewed from N end)",
+                (.2,11,4.65),.28,mats["ink_gold"],group,rotation=(math.pi/2,0,0),align="CENTER")]
+    for obj in objects:
+        obj["board_current_cue"]=True
+        chalkboard.show_between(obj,86,90,demo.FPS,demo.DURATION)
 
 
 def picture(group, image, index, center, size):

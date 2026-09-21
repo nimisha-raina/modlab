@@ -57,7 +57,8 @@ def question_interaction(question, index, time, total):
     params["behaviour"].update({"type": "single", "randomAnswers": False,
         "enableSolutionsButton": False, "enableRetry": True, "showScorePoints": False})
     params["UI"].update({"checkAnswerButton": "Check answer", "tryAgainButton": "Try again"})
-    title = f"Question {index + 1} of {total}"
+    params["UI"].update(question.get("ui",{}))
+    title = question.get("title",f"Question {index + 1} of {total}")
     return {
         "duration": {"from": time, "to": time},
         "pause": True,

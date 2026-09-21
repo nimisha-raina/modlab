@@ -1,5 +1,12 @@
 # Maintainer handoff
 
+## Current bilingual Case 2
+
+Read [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) for the current English/Hinglish
+lesson, contact-synchronized fields, temporary 60-degree nail view, magnetic-region
+diagram and four native H5P questions. English lasts 255 seconds and Hinglish 303.83 seconds.
+The fixed-view checkpoint below remains available as the previous revision.
+
 ## Resume checkpoint and preservation
 
 Read [RESUME.md](RESUME.md) for the approved checkpoint and restoration steps.
@@ -9,14 +16,14 @@ Private local snapshots under `backups/` preserve original scenes, all working
 output and render caches. Public scene copies are packed and portable; original
 frozen masters remain unchanged locally.
 
-The current Case 2 revision uses one fixed camera with the board and whole
+The previous Case 2 revision used one fixed camera with the board and whole
 circuit visible. It compares 10 turns, 20 turns at unchanged length and diameter,
 and a soft-iron core at the same current. Yellow arrows follow conventional
 current; turquoise guides show magnetic field direction. Both fixed compasses
 have visible arcs and degree readings. Measured Indian male narration extends
 the lesson to 231.5 seconds, including an 11-second applications display.
-See [PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md) for current files, the build,
-validation and deferred H5P plan. Case 1 and older Case 2 media remain preserved.
+See [PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md) for that revision’s files, build,
+validation and then-deferred H5P plan. Case 1 and older Case 2 media remain preserved.
 The visible clip attachment points are at the exposed nail ends, beyond the
 winding, with board headings for switch OFF, attraction and release. The complete
 movie is a 720p 6-fps review; the packed editable scene retains 24-fps animation.
@@ -47,14 +54,13 @@ The approved first case is now narrated and integrated with genuine H5P:
   Importable package: `output/share/electromagnetism.h5p`. Local preview:
   `python scripts/serve_lesson.py`, then `http://127.0.0.1:8765/`.
 
-The local website uses the 86-second first case. GitHub Pages still serves the
-earlier reference at `https://nimisha-raina.github.io/modlab/`; publishing the
-revised first case requires authenticated repository write access. Updates require the publishing
-step in [PUBLISHING.md](PUBLISHING.md); pushing source alone does not deploy the
-website. The publisher uses the active Python environment and Node.js directly
-so it also runs on Windows. The saved Blender draft
-has not been repacked with this final soundtrack; audio is mixed into the movie.
-See the fixed-timeline workflow in [DEVELOPMENT.md](DEVELOPMENT.md).
+The website entry points are `/` for the frozen first case and `/coils/` for the
+bilingual coil lesson. GitHub Pages uses `https://nimisha-raina.github.io/modlab/`.
+Updates require the publishing step in [PUBLISHING.md](PUBLISHING.md); pushing
+source alone does not deploy the website. The publisher uses the active Python
+environment and Node.js directly so it also runs on Windows. The Case 1 Blender
+draft has not been repacked with its final soundtrack; audio is mixed into its
+movie. See the fixed-timeline workflow in [DEVELOPMENT.md](DEVELOPMENT.md).
 
 The tutor scene is `output/parts/01_compass_current/opening_and_compass_tutor.blend`.
 It keeps a ten-second apparatus overview, an eight-second spoken zoom, five

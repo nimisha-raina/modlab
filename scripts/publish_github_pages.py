@@ -30,11 +30,20 @@ def publish(remote):
     # Use the active Python and Node directly; Windows may map python3 to a
     # store shortcut and cannot execute pnpm.cmd through subprocess uniformly.
     run(sys.executable, "scripts/build_h5p.py", cwd=SITE)
+    run(sys.executable, "scripts/build_coil_h5p.py", cwd=SITE)
     run("node", "--test", "tests/h5p.test.cjs", cwd=SITE)
+    run("node", "--test", "tests/coil-language.test.cjs", cwd=SITE)
+    for language in ("english","hinglish"):
+        test_env=os.environ.copy()
+        test_env["COIL_LANGUAGE"]=language
+        run("node","--test","tests/h5p.test.cjs",cwd=SITE,env=test_env)
     dist = SITE / "dist"
     for name in ["index.html", "captions.js", "vendor/h5p-player/main.bundle.js",
                  "h5p/electromagnetism/content/content.json",
-                 "h5p/electromagnetism/content/videos/electromagnetism.mp4"]:
+                 "h5p/electromagnetism/content/videos/electromagnetism.mp4",
+                 "coils/index.html","coils/config.js",
+                 "h5p/coil-english/content/videos/coil.mp4",
+                 "h5p/coil-hinglish/content/videos/coil.mp4"]:
         if not (dist / name).is_file():
             raise SystemExit(f"Missing website asset: {name}")
     if any(p.is_symlink() for p in dist.rglob("*")):

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "coil-reversal",
+    "after_id": "reverse_setup",
+    "question": "What happens to the poles when current reverses?",
+    "answers": [
+      "North and south swap",
+      "The poles stay the same",
+      "Both ends become north"
+    ],
+    "correct": 0,
+    "hint": "Use the current direction to predict the field direction.",
+    "success": "Yes. Reversing current reverses the field and swaps the poles."
+  },
+  {
+    "id": "coil-turns",
+    "after_id": "turns_setup",
+    "question": "What happens when 10 turns become 20?",
+    "context": "Keep current, coil length and diameter the same.",
+    "answers": [
+      "The field weakens",
+      "The field strengthens",
+      "Nothing changes"
+    ],
+    "correct": 1,
+    "hint": "Each turn contributes to the coil’s magnetic field.",
+    "success": "Correct. More turns at the same current make a stronger field."
+  },
+  {
+    "id": "coil-core",
+    "after_id": "core_setup",
+    "question": "What will the soft-iron core do?",
+    "context": "Keep the turns and current unchanged.",
+    "answers": [
+      "Stop the current",
+      "Weaken the field",
+      "Strengthen the field"
+    ],
+    "correct": 2,
+    "hint": "Iron’s magnetic regions can align with the coil’s field.",
+    "success": "Yes. The aligned regions add to the magnetic field."
+  },
+  {
+    "id": "coil-release",
+    "after_id": "clips_on",
+    "question": "What happens to the clips when the switch opens?",
+    "answers": [
+      "They fall",
+      "They stay attached forever",
+      "They move upwards"
+    ],
+    "correct": 0,
+    "hint": "An open circuit stops current through the coil.",
+    "success": "Correct. The coil’s field stops and soft iron loses most of its induced magnetism."
+  }
+]

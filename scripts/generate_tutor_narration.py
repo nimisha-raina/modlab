@@ -31,11 +31,18 @@ async def main(script="docs/first-case-narration.json"):
         if path.exists() and provenance["clips"].get(path.name, {}).get("script_sha256") == digest:
             print(f"KEEP {path.name}", flush=True)
             continue
-        voice = edge_tts.Communicate(section["text"], lesson["speaker"], boundary="WordBoundary")
-        await voice.save(str(path), str(path.with_suffix(".words.jsonl")))
+        for attempt in range(3):
+            try:
+                voice = edge_tts.Communicate(section["text"], lesson["speaker"], boundary="WordBoundary")
+                await voice.save(str(path), str(path.with_suffix(".words.jsonl")))
+                break
+            except Exception:
+                if attempt == 2:
+                    raise
+                await asyncio.sleep(2*(attempt+1))
         provenance["clips"][path.name] = {"script_sha256": digest, "voice": lesson["speaker"]}
         provenance_path.write_text(json.dumps(provenance, indent=2) + "\n")
-        print(f"READY {path.name}: {section['text']}", flush=True)
+        print(f"READY {path.name}: {section.get('id',index)}", flush=True)
 
 
 if __name__ == "__main__":

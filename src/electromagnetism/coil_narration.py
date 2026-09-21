@@ -7,9 +7,9 @@ from .narration import curves
 from .timing import map_time
 
 
-def attach(scene):
-    folder = ROOT / "output/parts/02_coil_reversal/audio_fixed"
-    timing = json.loads((folder/"narration-timing.json").read_text())
+def attach(scene, folder=None):
+    folder = folder or ROOT / "output/parts/02_coil_reversal/audio_fixed"
+    timing = json.loads((folder/"narration-timing.json").read_text(encoding="utf-8"))
     actions = set()
     for obj in scene.objects:
         data = obj.data

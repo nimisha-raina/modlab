@@ -1,5 +1,14 @@
 # Class 8 interactive electromagnetism lesson
 
+## Case 2: coils and electromagnets
+
+Open `coils/` for the English/Hinglish narration choice and four genuine H5P
+prediction questions. Both tracks use one Indian male voice. See
+[the bilingual chapter guide](../docs/PART_02_BILINGUAL.md) for scripts, build
+commands, separate importable packages and validation. Case 1 below is retained.
+
+## Case 1
+
 This webpage runs **genuine H5P Interactive Video 1.28.37** with H5P Multiple Choice
 1.16.27. H5P supplies playback, timed questions, answer checking, hints, retries,
 and continuation. The open-source `h5p-standalone` player supplies H5P's runtime

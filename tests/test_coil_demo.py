@@ -14,10 +14,28 @@ from electromagnetism.wire_winding import length
 
 
 class CoilTests(unittest.TestCase):
-    def test_case_two_camera_does_not_move_between_experiments(self):
+    def test_camera_returns_to_front_after_approved_nail_orbit(self):
         initial = demo.camera_pose(0)
-        for seconds in range(demo.DURATION+1):
+        for seconds in list(range(67))+list(range(80,demo.DURATION+1)):
             self.assertEqual(demo.camera_pose(seconds),initial)
+        camera,target=demo.camera_pose(70)
+        self.assertAlmostEqual(math.degrees(math.atan2(camera[0]-target[0],target[1]-camera[1])),60)
+        for second in (66,68,77,80):
+            a,b=demo.camera_pose(second-.001),demo.camera_pose(second+.001)
+            self.assertLess(math.dist(a[0],b[0]),.001)
+
+    def test_no_current_until_contact_closes_and_none_after_it_opens(self):
+        for start,end,closing in demo.coil_switch.TRAVEL:
+            if closing:
+                self.assertEqual(demo.current_at(end-1/demo.FPS),0)
+                self.assertNotEqual(demo.current_at(end),0)
+            else:
+                self.assertNotEqual(demo.current_at(start),0)
+                self.assertEqual(demo.current_at(start+1/demo.FPS),0)
+        for frame in range(demo.DURATION*demo.FPS):
+            seconds=frame/demo.FPS
+            if demo.current_at(seconds):
+                self.assertAlmostEqual(demo.coil_switch.closure(seconds),1)
 
     def test_clips_attach_beyond_the_winding(self):
         for index in range(6):

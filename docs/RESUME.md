@@ -1,14 +1,21 @@
 # Project checkpoint
 
-## Fixed-view revision
+## Current bilingual Case 2
 
-The current narrated Case 2 is described in [PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md).
+Read [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) for the current English/Hinglish
+lesson, contact-synchronized fields, temporary 60-degree nail view, magnetic-region
+diagram and four native H5P questions. English lasts 255 seconds and Hinglish 303.83 seconds.
+The fixed-view checkpoint below remains available as the previous revision.
+
+## Previous fixed-view revision (retained)
+
+The previous narrated Case 2 is described in [PART_02_FIXED_VIEW.md](PART_02_FIXED_VIEW.md).
 It uses one fixed camera, unchanged coil diameter for the 10/20-turn comparison,
 yellow conventional-current arrows, turquoise field arrows and visible compass
-measurements. H5P for Case 2 is deferred. The older checkpoint below is retained
+measurements. H5P was deferred in that revision. The older checkpoint below is retained
 as history; it is not the current camera or diameter specification.
 
-- Current movie: `output/parts/02_coil_reversal/coil_fixed_view_narrated_720p.mp4`.
+- Previous movie: `output/parts/02_coil_reversal/coil_fixed_view_narrated_720p.mp4`.
 - Editable scene: `output/parts/02_coil_reversal/coil_fixed_view_narrated.blend`.
 - Duration: 231.5 seconds; 1280 x 720, 6-fps narrated review; scene remains 24 fps.
 - The clips attach at exposed nail ends, with matching board headings.
@@ -72,7 +79,7 @@ Read [HANDOFF.md](HANDOFF.md) for detailed implementation and setup.
 - Case 2 narration/H5P have not been added. This is not the final high-frame-rate
   encode. Ask what to work on next before adding content.
 
-## Scientific assumptions
+## Scientific assumptions for the historical silent draft
 
 The paired end compasses use an ideal symmetric-solenoid reading: the averaged
 axial coil contribution plus one common Earth field at equal distances. Other

@@ -12,7 +12,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT/"archive"
 GENERATED = ARCHIVE/"generated"
-CACHES = {"complete_review_frames","tutor_review_frames","extended_review_frames","fixed_view_frames"}
+CACHES = {"complete_review_frames","tutor_review_frames","extended_review_frames","fixed_view_frames","bilingual_frames"}
 EXTENSIONS = {".blend",".mp4",".mp3",".wav",".h5p",".srt",".vtt",".json",".jsonl",".png",".jpg",".svg"}
 
 
@@ -106,7 +106,7 @@ def finalize():
     result = {"schema":1,"date_utc":datetime.now(timezone.utc).isoformat(),
               "files":preparation["files"],"excluded_frame_caches":sorted(CACHES),
               "case_1":"Frozen 86-second narrated lesson with two H5P pauses.",
-              "case_2":"231.5-second fixed-view narrated revision; earlier 136-second silent review retained; applications highlighted for 11 seconds."}
+              "case_2":"English 255-second and Hinglish 303.83-second interactive lessons; previous fixed-view and silent reviews retained; applications highlighted for 11 seconds."}
     write_text_lf(ARCHIVE/"manifest.json",json.dumps(result,indent=2)+"\n")
     verify()
 

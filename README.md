@@ -1,5 +1,8 @@
 # Modlab · Electricity makes magnetism
 
+Current Case 2: [English/Hinglish interactive coil lesson](docs/PART_02_BILINGUAL.md).
+Choose narration before playback; the lesson includes four genuine H5P prediction questions.
+
 A Class 8 science lesson built with Python and Blender's `bpy` API. A copper
 circuit in a school laboratory leads into an enlarged view of vibrating copper
 ions and mobile electrons, then returns to the magnetic field around the wire.
@@ -11,21 +14,21 @@ Continue accessible while the scene remains visible behind it.
 
 ## Coil and electromagnet lesson
 
-[Case 2](docs/PART_02_FIXED_VIEW.md) keeps the laboratory board and complete
-experiment in one fixed view. It compares 10 turns, 20 turns at the same coil
-size, and a soft-iron core, with visible compass measurements, current reversal,
-paper clips and Indian male tutor narration. Its Blender scene and media use a
-separate workflow; H5P for this chapter is deferred. Case 1 remains frozen.
+[Case 2](docs/PART_02_BILINGUAL.md) compares 10 turns, 20 turns at the same coil
+size, and a soft-iron core, with visible compass measurements, current reversal
+and paper clips. Choose English or Hinglish narration in the same Indian male
+voice, then answer four native H5P prediction questions. The front laboratory
+view briefly moves right for nail insertion before returning to the board.
+The earlier fixed-view review and frozen Case 1 remain preserved.
 
 ## Public student lesson
 
-[Open the published reference lesson](https://nimisha-raina.github.io/modlab/).
-The frozen 86-second first case with apparatus highlights, compass/current
-comparison and spoken summary is available locally; its publication needs GitHub
-write access. Share the public link or the
-[printable QR image](student-lesson/dist/share/lesson-qr.png)
+[Open the student lesson](https://nimisha-raina.github.io/modlab/) or
+[the English/Hinglish coil chapter](https://nimisha-raina.github.io/modlab/coils/).
+Share the link or the [printable QR image](student-lesson/dist/share/lesson-qr.png)
 ([SVG version](student-lesson/dist/share/lesson-qr.svg)). Students can watch and
-answer questions in their browser without an account or Blender.
+answer questions in their browser without an account or Blender. Source pushes
+alone do not deploy the site; see [publishing instructions](docs/PUBLISHING.md).
 
 ## Try the interactive lesson locally
 
@@ -40,7 +43,7 @@ cd ..
 python3 scripts/serve_lesson.py
 ```
 
-Open `http://127.0.0.1:8765/`. The finished video is included, so this requires no
+Open `http://127.0.0.1:8765/` for Case 1 or `/coils/` for Case 2. The finished videos are included, so this requires no
 Blender render or voice-model account. Students need no sign-in. Answers remain
 in the open page and reset on reload; scores are not collected.
 

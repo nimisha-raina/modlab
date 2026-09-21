@@ -1,0 +1,91 @@
+{
+  "checks": "passed",
+  "stages": [
+    {
+      "source_seconds": 0,
+      "video_seconds": 0.0,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 8,
+      "video_seconds": 17.023809523809522,
+      "current_amperes": 0.5,
+      "field_lines": 0,
+      "deflection_degrees": 30
+    },
+    {
+      "source_seconds": 24,
+      "video_seconds": 52.9,
+      "current_amperes": 0.5,
+      "field_lines": 10,
+      "deflection_degrees": 30
+    },
+    {
+      "source_seconds": 29,
+      "video_seconds": 62.699999999999996,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 34,
+      "video_seconds": 70.02564102564102,
+      "current_amperes": -0.5,
+      "field_lines": 10,
+      "deflection_degrees": 30
+    },
+    {
+      "source_seconds": 53,
+      "video_seconds": 96.71428571428571,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 61,
+      "video_seconds": 110.64583333333333,
+      "current_amperes": -0.5,
+      "field_lines": 20,
+      "deflection_degrees": 51
+    },
+    {
+      "source_seconds": 70,
+      "video_seconds": 129.07142857142856,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 93,
+      "video_seconds": 189.44444444444443,
+      "current_amperes": -0.5,
+      "field_lines": 30,
+      "deflection_degrees": 79
+    },
+    {
+      "source_seconds": 100,
+      "video_seconds": 199.83333333333331,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    },
+    {
+      "source_seconds": 108,
+      "video_seconds": 212.16666666666666,
+      "current_amperes": -0.5,
+      "field_lines": 30,
+      "deflection_degrees": 79
+    },
+    {
+      "source_seconds": 114,
+      "video_seconds": 226.83333333333331,
+      "current_amperes": 0,
+      "field_lines": 0,
+      "deflection_degrees": 0
+    }
+  ],
+  "scene": "coil_english.blend",
+  "scene_sha256": "b93d6118a141e32b2e15506ffe499f5dafe5ce89a8690ebf402a2ad16894f3ed"
+}

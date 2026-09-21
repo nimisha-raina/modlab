@@ -10,5 +10,4 @@ def frames(*intervals):
     return sorted(selected)
 
 
-CURRENT = ((5,6),(26,27),(31,32),(50,51),(58,59),(66,67),
-           (73,74),(99,100),(102,103),(111,112))
+CURRENT = tuple((a,b) for a,b,_ in demo.coil_switch.TRAVEL)
