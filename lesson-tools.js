@@ -1,0 +1,29 @@
+/* Optional browser-tool access delegates scoring to H5P's visible controls. */
+window.LessonTools={install(player,update,language) {
+  const context=document.modelContext;
+  if (!context?.registerTool) return;
+  const lifecycle=new AbortController();
+  const register=tool=>{
+    try { Promise.resolve(context.registerTool(tool,{signal:lifecycle.signal})).catch(()=>{}); } catch {}
+  };
+  const visibleQuestion=()=>player.getVisibleInteractions().find(item=>item.getElement()?.[0]?.isConnected);
+  const radios=()=>[...player.$container[0].querySelectorAll('.h5p-dialog [role="radio"]')];
+  register({name:'get_lesson_progress',description:'Read the genuine H5P video progress and visible question.',
+    inputSchema:{type:'object',properties:{},additionalProperties:false},
+    annotations:{readOnlyHint:true,untrustedContentHint:false},
+    execute:()=>({language,seconds:player.video.getCurrentTime(),
+      completed:player.interactions.map((item,i)=>item.hasFullScore()?i+1:null).filter(Boolean),
+      currentQuestion:visibleQuestion()?{title:visibleQuestion().getTitle(),options:radios().map(el=>el.textContent.trim())}:null})});
+  register({name:'answer_current_question',description:'Select and check an answer through the visible native H5P question controls.',
+    inputSchema:{type:'object',properties:{choice:{type:'integer',minimum:0,maximum:2}},required:['choice'],additionalProperties:false},
+    annotations:{readOnlyHint:false,untrustedContentHint:false},
+    execute:input=>{
+      if (!input || typeof input!=='object' || Object.keys(input).some(key=>key!=='choice') || !Number.isInteger(input.choice) || input.choice<0 || input.choice>2) throw new Error('Provide one answer index between zero and two.');
+      const item=visibleQuestion(),options=radios();
+      const check=[...player.$container[0].querySelectorAll('.h5p-dialog button')].find(button=>button.textContent.trim()===(language==='hinglish'?'जवाब जाँचें':'Check answer'));
+      if (!item || !options[input.choice] || options[input.choice].getAttribute('aria-disabled')==='true' || !check) throw new Error('No unanswered H5P question is currently open.');
+      options[input.choice].click();check.click();update();
+      return {correct:item.hasFullScore(),feedback:player.$container[0].querySelector('.h5p-dialog .h5p-question-feedback')?.textContent.trim()||''};
+    }});
+  window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});
+}};

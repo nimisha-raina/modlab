@@ -15,3 +15,11 @@
 .noscript{margin:20px;padding:20px;background:#593521}
 @media(max-width:900px){.site-header,main{padding-left:20px;padding-right:20px}.site-header{height:80px}.brand-sub{display:none}.lesson-heading{padding:22px 0 18px;display:block}.lesson-length{display:block;margin-top:10px}.class-label{font-size:.75rem}.lesson-footer{align-items:start;flex-direction:column;gap:10px}}
 @media(max-width:480px){.site-header,main{padding-left:12px;padding-right:12px}h1{font-size:1.65rem}.brand{font-size:.8rem}.class-label span{padding:0 4px}.intro{font-size:.95rem}.video-stage{border-radius:10px}.lesson-tools{gap:8px}.caption-block p{font-size:1rem}}
+#language-choice{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel)}
+#language-choice>img{display:block;width:100%;height:auto;align-self:center}
+.choice-panel{padding:24px}.choice-panel h2{font-size:1.25rem;margin:0 0 18px}.language-buttons{display:flex;flex-direction:column;gap:16px}
+.language-buttons button{flex:1;min-height:90px;text-align:left;padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.language-buttons button:hover{border-color:var(--mint)}.language-buttons strong{display:block;font-size:1.2rem;color:var(--mint)}.language-buttons span{display:block;margin-top:8px;color:var(--muted);line-height:1.5}
+#change-language{border:1px solid var(--line);border-radius:8px;padding:10px 14px;background:var(--panel);color:var(--mint)}
+.lesson-caption{min-height:3em;color:var(--muted);line-height:1.7}.next-lesson{padding:24px 0 32px;text-align:center;font-size:.9rem}
+@media(max-width:760px){#language-choice{grid-template-columns:1fr}.choice-panel{padding:18px}.lesson-tools{flex-wrap:wrap}}

@@ -1,0 +1,318 @@
+{
+  "interactiveVideo": {
+    "video": {
+      "files": [
+        {
+          "path": "videos/lesson.mp4",
+          "mime": "video/mp4",
+          "copyright": {
+            "license": "U"
+          }
+        }
+      ],
+      "startScreenOptions": {
+        "title": "Electricity makes magnetism",
+        "hideStartTitle": true,
+        "shortStartDescription": "",
+        "poster": {
+          "path": "images/poster.jpg",
+          "mime": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "copyright": {
+            "license": "U"
+          }
+        }
+      }
+    },
+    "assets": {
+      "interactions": [
+        {
+          "duration": {
+            "from": 56.2,
+            "to": 56.2
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>Question 1 of 2</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "Question 1 of 2",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check answer",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Try again",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>Why does a steady magnetic field appear around the wire?</p>",
+              "answers": [
+                {
+                  "text": "<p>Electrons have a net flow, producing current</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Copper ions travel around the circuit</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>The blue colour creates magnetism</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "Electrons already move randomly with the switch OFF. Think about what changes when the circuit closes."
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "Correct! Net electron flow is an electric current, which creates a magnetic field around the wire."
+                }
+              ]
+            },
+            "subContentId": "03d5722f-a255-5e6b-90bf-9838d4e29c96",
+            "metadata": {
+              "title": "Question 1 of 2",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        },
+        {
+          "duration": {
+            "from": 129.117,
+            "to": 129.117
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>Question 2 of 2</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "Question 2 of 2",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check answer",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Try again",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>What happens to the wire&#x27;s magnetic field when current doubles?</p><p class=\"lesson-question-context\">Keep the same wire and observe at the same distance.</p>",
+              "answers": [
+                {
+                  "text": "<p>It becomes weaker</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>It becomes twice as strong</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>It stays the same</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "Compare the ammeter reading with the compass's larger deflection."
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "Correct! Twice the current gives twice the wire's field here. The compass angle need not double."
+                }
+              ]
+            },
+            "subContentId": "fbe5dfcd-782e-531c-8150-fad807816efb",
+            "metadata": {
+              "title": "Question 2 of 2",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        }
+      ],
+      "bookmarks": [],
+      "endscreens": []
+    },
+    "summary": {
+      "task": {
+        "library": "H5P.Summary 1.10",
+        "params": {
+          "summaries": []
+        }
+      },
+      "displayAt": 0
+    }
+  },
+  "override": {
+    "autoplay": false,
+    "loop": false,
+    "hasNoAutoPause": false,
+    "showBookmarksmenuOnLoad": false,
+    "showRewind10": true,
+    "preventSkippingMode": "forward",
+    "deactivateSound": false,
+    "showSolutionButton": "off",
+    "retryButton": "on"
+  },
+  "l10n": {
+    "interaction": "Interaction",
+    "play": "Play",
+    "pause": "Pause",
+    "mute": "Mute, currently unmuted",
+    "unmute": "Unmute, currently muted",
+    "quality": "Video Quality",
+    "captions": "Captions",
+    "close": "Close",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "summary": "Open summary dialog",
+    "bookmarks": "Bookmarks",
+    "endscreen": "Submit screen",
+    "defaultAdaptivitySeekLabel": "Continue video",
+    "continueWithVideo": "Continue with video",
+    "more": "More player options",
+    "playbackRate": "Playback Rate",
+    "rewind10": "Rewind 10 Seconds",
+    "navDisabled": "Navigation is disabled",
+    "navForwardDisabled": "Navigating forward is disabled",
+    "sndDisabled": "Sound is disabled",
+    "requiresCompletionWarning": "Try again before continuing.",
+    "back": "Back",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "currentTime": "Current time:",
+    "totalTime": "Total time:",
+    "singleInteractionAnnouncement": "Interaction appeared:",
+    "multipleInteractionsAnnouncement": "Multiple interactions appeared.",
+    "videoPausedAnnouncement": "Video is paused",
+    "content": "Content",
+    "answered": "@answered answered",
+    "endcardTitle": "@answered Question(s) answered",
+    "endcardInformation": "You have answered @answered questions, click below to submit your answers.",
+    "endcardInformationOnSubmitButtonDisabled": "You have answered @answered questions.",
+    "endcardInformationNoAnswers": "You have not answered any questions.",
+    "endcardInformationMustHaveAnswer": "You have to answer at least one question before you can submit your answers.",
+    "endcardSubmitButton": "Submit Answers",
+    "endcardSubmitMessage": "Your answers have been submitted!",
+    "endcardTableRowScore": "Score",
+    "endcardQuestion": "Question",
+    "endcardAnsweredScore": "answered",
+    "endCardTableRowSummaryWithScore": "You got @score out of @total points for the @question that appeared after @minutes minutes and @seconds seconds.",
+    "endCardTableRowSummaryWithoutScore": "You have answered the @question that appeared after @minutes minutes and @seconds seconds.",
+    "videoProgressBar": "Video progress",
+    "howToCreateInteractions": "Play the video to start creating interactions"
+  }
+}

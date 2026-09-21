@@ -1,0 +1,13 @@
+{
+  "source_revision": "30abaa996c52e2e510e023c0732d522cc4acd2fe",
+  "case_one": {
+    "english": {
+      "sha256": "32caa8f1c2d2e8aea8b248b1a89ef3ed948fe7266c1a60f5facef37cdf00f317",
+      "bytes": 22616221
+    },
+    "hinglish": {
+      "sha256": "1c9d98c79a84e25a14b81bf6581d1bb9d123e30f81b6aba279f0627380ff3dbf",
+      "bytes": 24904298
+    }
+  }
+}

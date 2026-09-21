@@ -1,113 +1,75 @@
-/* H5P owns the video, questions, scoring, feedback, and continuation controls.
-   This small adapter supplies the surrounding captions and replay button. */
+/* Each choice loads its own localized movie and native H5P questions. */
 (() => {
-  const container = document.querySelector('#h5p-container');
-  const message = document.querySelector('#player-message');
-  const progress = document.querySelector('#progress-text');
-  const restart = document.querySelector('#restart');
-  let player;
-  let captionIndex = -1;
-  const metadata = window.LESSON_METADATA;
-  if (metadata) document.querySelector('.lesson-length').textContent = `${Math.round(metadata.duration)}-second video · Go at your own pace`;
-  if (metadata) document.querySelector('.video-note').textContent = metadata.narrated
-    ? 'Indian-English narration · English captions · Video and voice pause together for each question.'
-    : 'English captions · The video pauses for each question.';
-
+  const choices=document.querySelector('#language-choice');
+  const lesson=document.querySelector('#lesson');
+  const container=document.querySelector('#h5p-container');
+  const message=document.querySelector('#player-message');
+  let selected=null,player=null;
   function update() {
     if (!player?.video) return;
-    const time = player.video.getCurrentTime();
-    const index = window.LESSON_CAPTIONS.findIndex(c => time >= c[0] && time < c[1]);
-    if (index >= 0 && index !== captionIndex) {
-      captionIndex = index;
-      document.querySelector('#caption-title').textContent = window.LESSON_CAPTIONS[index][2];
-      document.querySelector('#caption-detail').textContent = window.LESSON_CAPTIONS[index][3];
-    }
-    const answered = player.interactions.filter(item => item.hasFullScore()).length;
-    const total = metadata?.questions ?? player.interactions.length;
-    progress.textContent = answered ? `${answered} of ${total} explored` : `${total} questions inside the video`;
-    restart.hidden = answered < total;
+    const settings=window.CASE_ONE_LESSONS[selected];
+    const time=player.video.getCurrentTime();
+    const caption=settings.captions.find(c=>time>=c[0]&&time<c[1]);
+    document.querySelector('#caption').textContent=caption?.[2]||'';
+    document.querySelector('#restart').hidden=player.interactions.filter(q=>q.hasFullScore()).length<settings.questions;
   }
-
-  function nativePlayer() {
-    const frame = container.querySelector('iframe');
-    const contexts = [frame?.contentWindow, window];
-    for (const context of contexts) {
-      const found = context?.H5P?.instances?.find(item => typeof item.getVisibleInteractions === 'function');
-      if (found) return found;
-    }
-  }
-
-  function connect(attempt = 0) {
-    player = nativePlayer();
+  function connect(attempt=0) {
+    const frame=container.querySelector('iframe');
+    player=[frame?.contentWindow,window].flatMap(c=>c?.H5P?.instances||[])
+      .find(p=>typeof p.getVisibleInteractions==='function');
     if (!player?.video) {
-      if (attempt < 100) return setTimeout(() => connect(attempt + 1), 100);
-      message.textContent = 'The lesson could not start. Refresh the page to try again.';
+      if (attempt<100) return setTimeout(()=>connect(attempt+1),100);
+      message.textContent=selected==='english'?'The lesson could not start. Please reload.':'पाठ शुरू नहीं हुआ। कृपया पेज फिर खोलें।';
       return;
     }
-    message.hidden = true;
-    const frame = container.querySelector('iframe');
-    if (frame) frame.title = 'Interactive electromagnetism video and questions';
-    window.LessonQuestionLayout.install(frame?.contentDocument || document, player.$container[0]);
-    const video = frame?.contentDocument?.querySelector('video') || container.querySelector('video');
-    video?.addEventListener('timeupdate', update);
-    player.video.on('stateChange', update);
-    player.on('xAPI', () => setTimeout(update, 0));
-    restart.addEventListener('click', () => { player.resetTask(); player.pause(); update(); });
-    registerAgentTools();
+    message.hidden=true;
+    if (frame) frame.title=selected==='english'?'English electricity and magnetism lesson':'विद्युत और चुंबकत्व का हिंदी पाठ';
+    const doc=frame?.contentDocument||document;
+    window.LessonQuestionLayout.install(doc,player.$container[0],{
+      fallbackTitle:selected==='hinglish'?'सोचकर जवाब दें':'Quick check'
+    });
+    doc.querySelector('video')?.addEventListener('timeupdate',update);
+    player.video.on('stateChange',update);
+    player.on('xAPI',()=>setTimeout(update,0));
+    document.querySelector('#restart').onclick=()=>{player.resetTask();player.pause();update();};
+    window.LessonTools?.install(player,update,selected);
     update();
   }
-
-  function visibleQuestion() {
-    return player?.getVisibleInteractions().find(item => item.getElement()?.[0]?.isConnected);
+  async function choose(language) {
+    if (selected || !['english','hinglish'].includes(language)) return;
+    selected=language;
+    const hindi=language==='hinglish';
+    document.documentElement.lang=hindi?'hi':'en';
+    document.title=hindi?'विद्युत धारा का चुंबकीय प्रभाव · कक्षा 8':'Electricity makes magnetism · Class 8';
+    lesson.setAttribute('aria-label',hindi?'प्रयोगशाला का संवादात्मक प्रयोग':'Interactive laboratory experiment');
+    choices.hidden=true;lesson.hidden=false;message.hidden=false;
+    document.querySelector('#change-language').textContent=hindi?'भाषा बदलें':'Change language';
+    document.querySelector('#restart').textContent=hindi?'फिर देखें और कोशिश करें':'Watch and try again';
+    document.querySelector('#lesson-title').textContent=hindi?'क्या बिजली से चुंबकीय प्रभाव पैदा हो सकता है?':'Can electricity make a magnet?';
+    document.querySelector('#lesson-intro').textContent=hindi?'ताँबे के तार के अंदर देखें। जानें कि विद्युत धारा बहने पर क्या बदलता है।':'Look inside a copper wire. Discover what changes when current flows.';
+    document.querySelector('.next-lesson a').textContent=hindi?'अगला प्रयोग: कुंडली और विद्युत चुंबक →':'Next experiment: coils and electromagnets →';
+    document.querySelector('.class-label').textContent=hindi?'कक्षा 8 / विज्ञान':'CLASS 8 / SCIENCE';
+    document.querySelector('.eyebrow').textContent=hindi?'विद्युत और चुंबकत्व':'ELECTRICITY & MAGNETISM';
+    document.querySelector('.brand').textContent=hindi?'प्रयोगशाला':'FIELD NOTES';
+    document.querySelector('.skip-link').textContent=hindi?'पाठ पर जाएँ':'Skip to lesson';
+    message.textContent=hindi?'आपका पाठ खुल रहा है…':'Loading your lesson…';
+    document.querySelector('#change-language').focus();
+    try {
+      const settings=window.CASE_ONE_LESSONS[language];
+      const total=Math.round(settings.duration);
+      document.querySelector('#lesson-length').textContent=`${Math.floor(total/60)}:${String(total%60).padStart(2,'0')}`;
+      await new window.H5PStandalone.H5P(container,{
+        id:`case-one-${language}`,h5pJsonPath:settings.path,
+        frameJs:'vendor/h5p-player/frame.bundle.js',frameCss:'vendor/h5p-player/styles/h5p.css',
+        customCss:'h5p-theme.css',frame:true,icon:true,fullScreen:true,
+        export:false,embed:false,copyright:false,reportingIsEnabled:false,
+        postUserStatistics:false,saveFreq:false
+      });
+      connect();
+    } catch {
+      message.textContent=hindi?'पाठ नहीं खुला। भाषा बदलकर फिर कोशिश करें।':'The lesson could not load. Use Change language to try again.';
+    }
   }
-
-  // Keep the optional agent controls connected to the native H5P answer form.
-  function registerAgentTools() {
-    const context = document.modelContext;
-    if (!context?.registerTool) return;
-    const lifecycle = new AbortController();
-    const register = tool => {
-      try { Promise.resolve(context.registerTool(tool, { signal: lifecycle.signal })).catch(() => {}); } catch {}
-    };
-    const radios = () => [...player.$container[0].querySelectorAll('.h5p-dialog [role="radio"]')];
-    register({ name: 'get_lesson_progress', description: 'Read the genuine H5P video progress and visible question.',
-      inputSchema: { type: 'object', properties: {}, additionalProperties: false },
-      annotations: { readOnlyHint: true, untrustedContentHint: false },
-      execute: () => ({ seconds: player.video.getCurrentTime(),
-        completed: player.interactions.map((item, i) => item.hasFullScore() ? i + 1 : null).filter(Boolean),
-        currentQuestion: visibleQuestion() ? { title: visibleQuestion().getTitle(),
-          options: radios().map(el => el.textContent.trim()) } : null }) });
-    register({ name: 'answer_current_question', description: 'Select and check an answer through the visible native H5P question controls.',
-      inputSchema: { type: 'object', properties: { choice: { type: 'integer', minimum: 0, maximum: 2 } }, required: ['choice'], additionalProperties: false },
-      annotations: { readOnlyHint: false, untrustedContentHint: false },
-      execute: input => {
-        if (!input || typeof input !== 'object' || Object.keys(input).some(key => key !== 'choice') || !Number.isInteger(input.choice) || input.choice < 0 || input.choice > 2) throw new Error('Provide one answer index between zero and two.');
-        const item = visibleQuestion();
-        const options = radios();
-        const check = [...player.$container[0].querySelectorAll('.h5p-dialog button')].find(button => button.textContent.trim() === 'Check answer');
-        if (!item || !options[input.choice] || options[input.choice].getAttribute('aria-disabled') === 'true' || !check) throw new Error('No unanswered H5P question is currently open.');
-        options[input.choice].click();
-        check.click();
-        update();
-        return { correct: item.hasFullScore(), feedback: player.$container[0].querySelector('.h5p-dialog .h5p-question-feedback')?.textContent.trim() || '' };
-      } });
-    window.addEventListener('pagehide', () => lifecycle.abort(), { once: true });
-  }
-
-  try {
-    new window.H5PStandalone.H5P(container, {
-      id: 'electromagnetism-class8',
-      h5pJsonPath: './h5p/electromagnetism',
-      frameJs: './vendor/h5p-player/frame.bundle.js',
-      frameCss: './vendor/h5p-player/styles/h5p.css',
-      customCss: './h5p-theme.css',
-      frame: true, icon: true, fullScreen: true,
-      export: false, embed: false, copyright: false,
-      reportingIsEnabled: false, postUserStatistics: false, saveFreq: false,
-    }).then(() => connect()).catch(() => {
-      message.textContent = 'The lesson could not load. Check your connection, then refresh the page.';
-    });
-  } catch {
-    message.textContent = 'The lesson could not load. Check your connection, then refresh the page.';
-  }
+  choices.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>choose(button.dataset.language)));
+  document.querySelector('#change-language').addEventListener('click',()=>{player?.pause();window.location.reload();});
 })();

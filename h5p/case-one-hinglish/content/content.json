@@ -1,0 +1,318 @@
+{
+  "interactiveVideo": {
+    "video": {
+      "files": [
+        {
+          "path": "videos/lesson.mp4",
+          "mime": "video/mp4",
+          "copyright": {
+            "license": "U"
+          }
+        }
+      ],
+      "startScreenOptions": {
+        "title": "विद्युत धारा का चुंबकीय प्रभाव",
+        "hideStartTitle": true,
+        "shortStartDescription": "",
+        "poster": {
+          "path": "images/poster.jpg",
+          "mime": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "copyright": {
+            "license": "U"
+          }
+        }
+      }
+    },
+    "assets": {
+      "interactions": [
+        {
+          "duration": {
+            "from": 71.867,
+            "to": 71.867
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>सवाल 1 / 2</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "सवाल 1 / 2",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "जवाब जाँचें",
+                "submitAnswerButton": "जमा करें",
+                "showSolutionButton": "सही उत्तर देखें",
+                "tryAgainButton": "फिर कोशिश करें",
+                "tipsLabel": "संकेत देखें",
+                "scoreBarLabel": ":total में से :num अंक मिले",
+                "tipAvailable": "संकेत उपलब्ध है",
+                "feedbackAvailable": "प्रतिक्रिया उपलब्ध है",
+                "readFeedback": "प्रतिक्रिया पढ़ें",
+                "wrongAnswer": "गलत उत्तर",
+                "correctAnswer": "सही उत्तर",
+                "shouldCheck": "यह विकल्प चुनना था",
+                "shouldNotCheck": "यह विकल्प नहीं चुनना था",
+                "noInput": "सही उत्तर देखने से पहले अपना उत्तर दें",
+                "a11yCheck": "उत्तर जाँचें। सही, गलत या अनुत्तरित उत्तर दिखाए जाएँगे।",
+                "a11yShowSolution": "सही उत्तर दिखाएँ।",
+                "a11yRetry": "अपने उत्तर हटाकर फिर कोशिश करें।"
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>तार के चारों ओर स्थिर चुंबकीय क्षेत्र क्यों बनता है?</p>",
+              "answers": [
+                {
+                  "text": "<p>इलेक्ट्रॉनों के एक दिशा में कुल बहाव से विद्युत धारा बनती है</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>ताँबे के आयन पूरे परिपथ में घूमते हैं</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>नीला रंग चुंबकत्व बनाता है</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "स्विच खुला होने पर भी इलेक्ट्रॉन यादृच्छिक गति करते हैं। परिपथ पूरा होने पर क्या बदलता है?"
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "सही! इलेक्ट्रॉनों के एक दिशा में कुल बहाव से विद्युत धारा बनती है, जिससे तार के चारों ओर चुंबकीय क्षेत्र बनता है।"
+                }
+              ]
+            },
+            "subContentId": "03d5722f-a255-5e6b-90bf-9838d4e29c96",
+            "metadata": {
+              "title": "सवाल 1 / 2",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        },
+        {
+          "duration": {
+            "from": 154.95,
+            "to": 154.95
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>सवाल 2 / 2</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "सवाल 2 / 2",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "जवाब जाँचें",
+                "submitAnswerButton": "जमा करें",
+                "showSolutionButton": "सही उत्तर देखें",
+                "tryAgainButton": "फिर कोशिश करें",
+                "tipsLabel": "संकेत देखें",
+                "scoreBarLabel": ":total में से :num अंक मिले",
+                "tipAvailable": "संकेत उपलब्ध है",
+                "feedbackAvailable": "प्रतिक्रिया उपलब्ध है",
+                "readFeedback": "प्रतिक्रिया पढ़ें",
+                "wrongAnswer": "गलत उत्तर",
+                "correctAnswer": "सही उत्तर",
+                "shouldCheck": "यह विकल्प चुनना था",
+                "shouldNotCheck": "यह विकल्प नहीं चुनना था",
+                "noInput": "सही उत्तर देखने से पहले अपना उत्तर दें",
+                "a11yCheck": "उत्तर जाँचें। सही, गलत या अनुत्तरित उत्तर दिखाए जाएँगे।",
+                "a11yShowSolution": "सही उत्तर दिखाएँ।",
+                "a11yRetry": "अपने उत्तर हटाकर फिर कोशिश करें।"
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>विद्युत धारा दोगुनी करने पर तार के चुंबकीय क्षेत्र का क्या होगा?</p><p class=\"lesson-question-context\">तार और मापने की दूरी वही रखें।</p>",
+              "answers": [
+                {
+                  "text": "<p>क्षेत्र कमज़ोर होगा</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>क्षेत्र दोगुना प्रबल होगा</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>क्षेत्र वैसा ही रहेगा</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "ऐमीटर का माप बढ़ने पर कम्पास की सुई अधिक मुड़ती है।"
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "सही! यहाँ दोगुनी विद्युत धारा से तार का क्षेत्र दोगुना प्रबल होता है। कम्पास का कोण ज़रूरी नहीं कि दोगुना हो।"
+                }
+              ]
+            },
+            "subContentId": "fbe5dfcd-782e-531c-8150-fad807816efb",
+            "metadata": {
+              "title": "सवाल 2 / 2",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        }
+      ],
+      "bookmarks": [],
+      "endscreens": []
+    },
+    "summary": {
+      "task": {
+        "library": "H5P.Summary 1.10",
+        "params": {
+          "summaries": []
+        }
+      },
+      "displayAt": 0
+    }
+  },
+  "override": {
+    "autoplay": false,
+    "loop": false,
+    "hasNoAutoPause": false,
+    "showBookmarksmenuOnLoad": false,
+    "showRewind10": true,
+    "preventSkippingMode": "forward",
+    "deactivateSound": false,
+    "showSolutionButton": "off",
+    "retryButton": "on"
+  },
+  "l10n": {
+    "interaction": "प्रश्न",
+    "play": "चलाएँ",
+    "pause": "रोकें",
+    "mute": "आवाज़ बंद करें",
+    "unmute": "आवाज़ चालू करें",
+    "quality": "वीडियो की गुणवत्ता",
+    "captions": "उपशीर्षक",
+    "close": "बंद करें",
+    "fullscreen": "पूरी स्क्रीन",
+    "exitFullscreen": "पूरी स्क्रीन से बाहर आएँ",
+    "summary": "सार खोलें",
+    "bookmarks": "चिह्नित स्थान",
+    "endscreen": "अपने उत्तर देखें",
+    "defaultAdaptivitySeekLabel": "आगे बढ़ें",
+    "continueWithVideo": "वीडियो आगे चलाएँ",
+    "more": "वीडियो के विकल्प",
+    "playbackRate": "चलने की गति",
+    "rewind10": "10 सेकंड पीछे जाएँ",
+    "navDisabled": "आगे-पीछे जाना बंद है",
+    "navForwardDisabled": "पहले प्रश्न पूरा करें",
+    "sndDisabled": "आवाज़ बंद है",
+    "requiresCompletionWarning": "आगे बढ़ने से पहले फिर कोशिश कीजिए।",
+    "back": "वापस",
+    "hours": "घंटे",
+    "minutes": "मिनट",
+    "seconds": "सेकंड",
+    "currentTime": "अभी:",
+    "totalTime": "कुल समय:",
+    "singleInteractionAnnouncement": "प्रश्न आया:",
+    "multipleInteractionsAnnouncement": "प्रश्न आए हैं।",
+    "videoPausedAnnouncement": "वीडियो रुका है",
+    "content": "पाठ",
+    "answered": "@answered उत्तर दिए",
+    "endcardTitle": "@answered प्रश्नों के उत्तर दिए",
+    "endcardInformation": "आपने @answered प्रश्नों के उत्तर दिए। उत्तर जमा करने के लिए नीचे दबाएँ।",
+    "endcardInformationOnSubmitButtonDisabled": "आपने @answered प्रश्नों के उत्तर दिए।",
+    "endcardInformationNoAnswers": "अभी किसी प्रश्न का उत्तर नहीं दिया है।",
+    "endcardInformationMustHaveAnswer": "पहले कम से कम एक प्रश्न का उत्तर दें।",
+    "endcardSubmitButton": "उत्तर जमा करें",
+    "endcardSubmitMessage": "आपके उत्तर जमा हो गए!",
+    "endcardTableRowScore": "अंक",
+    "endcardQuestion": "प्रश्न",
+    "endcardAnsweredScore": "उत्तर दिया",
+    "endCardTableRowSummaryWithScore": "@minutes मिनट @seconds सेकंड पर आए @question में @total में से @score अंक मिले।",
+    "endCardTableRowSummaryWithoutScore": "आपने @minutes मिनट @seconds सेकंड पर आए @question का उत्तर दिया।",
+    "videoProgressBar": "वीडियो की प्रगति",
+    "howToCreateInteractions": "प्रश्न जोड़ने के लिए वीडियो चलाएँ"
+  }
+}

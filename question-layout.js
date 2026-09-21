@@ -1,7 +1,7 @@
 /* Keep the original H5P buttons and handlers, but give them a non-scrolling
    footer. H5P's inline height estimates must never clip the next action. */
 window.LessonQuestionLayout = {
-  install(doc, root) {
+  install(doc, root, options = {}) {
     const phases = new WeakMap();
     function arrange() {
       root.querySelectorAll('.h5p-dialog[data-lib="H5P.MultiChoice"]').forEach(dialog => {
@@ -29,7 +29,7 @@ window.LessonQuestionLayout = {
           });
         }
         const title = dialog.querySelector('.h5p-dialog-title');
-        if (title && !title.textContent.trim()) title.textContent = 'Quick check';
+        if (title && !title.textContent.trim()) title.textContent = options.fallbackTitle || 'Quick check';
       });
     }
     const observer = new doc.defaultView.MutationObserver(arrange);
