@@ -1,0 +1,532 @@
+{
+  "interactiveVideo": {
+    "video": {
+      "files": [
+        {
+          "path": "videos/coil.mp4",
+          "mime": "video/mp4",
+          "copyright": {
+            "license": "U"
+          }
+        }
+      ],
+      "startScreenOptions": {
+        "title": "Build an electromagnet",
+        "hideStartTitle": true,
+        "shortStartDescription": "",
+        "poster": {
+          "path": "images/poster.jpg",
+          "mime": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "copyright": {
+            "license": "U"
+          }
+        }
+      }
+    },
+    "assets": {
+      "interactions": [
+        {
+          "duration": {
+            "from": 66.533,
+            "to": 66.533
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>Question 1 of 4</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "Question 1 of 4",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check answer",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Try again",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>What happens to the poles when current reverses?</p>",
+              "answers": [
+                {
+                  "text": "<p>North and south swap</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>The poles stay the same</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Both ends become north</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "Use the current direction to predict the field direction."
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "Yes. Reversing current reverses the field and swaps the poles."
+                }
+              ]
+            },
+            "subContentId": "9f50de51-16cf-5b7b-90a8-32cdf6a2ee19",
+            "metadata": {
+              "title": "Question 1 of 4",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        },
+        {
+          "duration": {
+            "from": 104.033,
+            "to": 104.033
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>Question 2 of 4</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "Question 2 of 4",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check answer",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Try again",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>What happens when 10 turns become 20?</p><p class=\"lesson-question-context\">Keep current, coil length and diameter the same.</p>",
+              "answers": [
+                {
+                  "text": "<p>The field weakens</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>The field strengthens</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Nothing changes</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "Each turn contributes to the coil’s magnetic field."
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "Correct. More turns at the same current make a stronger field."
+                }
+              ]
+            },
+            "subContentId": "679c210a-ae0a-5647-9793-830dac1f30c0",
+            "metadata": {
+              "title": "Question 2 of 4",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        },
+        {
+          "duration": {
+            "from": 134.7,
+            "to": 134.7
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>Question 3 of 4</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "Question 3 of 4",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check answer",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Try again",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>What will the soft-iron core do?</p><p class=\"lesson-question-context\">Keep the turns and current unchanged.</p>",
+              "answers": [
+                {
+                  "text": "<p>Stop the current</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Weaken the field</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Strengthen the field</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "Iron’s magnetic regions can align with the coil’s field."
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "Yes. The aligned regions add to the magnetic field."
+                }
+              ]
+            },
+            "subContentId": "a8c90ede-93ba-572a-b3eb-acb03179bb40",
+            "metadata": {
+              "title": "Question 3 of 4",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        },
+        {
+          "duration": {
+            "from": 215.367,
+            "to": 215.367
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>Question 4 of 4</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "Question 4 of 4",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "Check answer",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "Try again",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>What happens to the clips when the switch opens?</p>",
+              "answers": [
+                {
+                  "text": "<p>They fall</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>They stay attached forever</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>They move upwards</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "An open circuit stops current through the coil."
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "Correct. The coil’s field stops and soft iron loses most of its induced magnetism."
+                }
+              ]
+            },
+            "subContentId": "7e0bc3ca-28d4-5079-b097-1cfc08d47bdf",
+            "metadata": {
+              "title": "Question 4 of 4",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        }
+      ],
+      "bookmarks": [],
+      "endscreens": []
+    },
+    "summary": {
+      "task": {
+        "library": "H5P.Summary 1.10",
+        "params": {
+          "summaries": []
+        }
+      },
+      "displayAt": 0
+    }
+  },
+  "override": {
+    "autoplay": false,
+    "loop": false,
+    "hasNoAutoPause": false,
+    "showBookmarksmenuOnLoad": false,
+    "showRewind10": true,
+    "preventSkippingMode": "forward",
+    "deactivateSound": false,
+    "showSolutionButton": "off",
+    "retryButton": "on"
+  },
+  "l10n": {
+    "interaction": "Interaction",
+    "play": "Play",
+    "pause": "Pause",
+    "mute": "Mute, currently unmuted",
+    "unmute": "Unmute, currently muted",
+    "quality": "Video Quality",
+    "captions": "Captions",
+    "close": "Close",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "summary": "Open summary dialog",
+    "bookmarks": "Bookmarks",
+    "endscreen": "Submit screen",
+    "defaultAdaptivitySeekLabel": "Continue video",
+    "continueWithVideo": "Continue with video",
+    "more": "More player options",
+    "playbackRate": "Playback Rate",
+    "rewind10": "Rewind 10 Seconds",
+    "navDisabled": "Navigation is disabled",
+    "navForwardDisabled": "Navigating forward is disabled",
+    "sndDisabled": "Sound is disabled",
+    "requiresCompletionWarning": "Try again before continuing.",
+    "back": "Back",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "currentTime": "Current time:",
+    "totalTime": "Total time:",
+    "singleInteractionAnnouncement": "Interaction appeared:",
+    "multipleInteractionsAnnouncement": "Multiple interactions appeared.",
+    "videoPausedAnnouncement": "Video is paused",
+    "content": "Content",
+    "answered": "@answered answered",
+    "endcardTitle": "@answered Question(s) answered",
+    "endcardInformation": "You have answered @answered questions, click below to submit your answers.",
+    "endcardInformationOnSubmitButtonDisabled": "You have answered @answered questions.",
+    "endcardInformationNoAnswers": "You have not answered any questions.",
+    "endcardInformationMustHaveAnswer": "You have to answer at least one question before you can submit your answers.",
+    "endcardSubmitButton": "Submit Answers",
+    "endcardSubmitMessage": "Your answers have been submitted!",
+    "endcardTableRowScore": "Score",
+    "endcardQuestion": "Question",
+    "endcardAnsweredScore": "answered",
+    "endCardTableRowSummaryWithScore": "You got @score out of @total points for the @question that appeared after @minutes minutes and @seconds seconds.",
+    "endCardTableRowSummaryWithoutScore": "You have answered the @question that appeared after @minutes minutes and @seconds seconds.",
+    "videoProgressBar": "Video progress",
+    "howToCreateInteractions": "Play the video to start creating interactions"
+  }
+}

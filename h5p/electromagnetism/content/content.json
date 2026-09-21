@@ -29,18 +29,18 @@
       "interactions": [
         {
           "duration": {
-            "from": 39.158,
-            "to": 39.158
+            "from": 30.7,
+            "to": 30.7
           },
           "pause": true,
           "displayType": "button",
           "buttonOnMobile": false,
-          "label": "<p>Question 1 of 3</p>",
+          "label": "<p>Question 1 of 2</p>",
           "x": 77,
           "y": 22,
           "width": 22,
           "height": 15,
-          "libraryTitle": "Question 1 of 3",
+          "libraryTitle": "Question 1 of 2",
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
@@ -92,20 +92,20 @@
                 "cancelLabel": "Cancel",
                 "confirmLabel": "Confirm"
               },
-              "question": "<p>Switch closed: which way do electrons drift?</p>",
+              "question": "<p>What creates the wire&#x27;s magnetic field?</p>",
               "answers": [
                 {
-                  "text": "<p>Negative → positive</p>",
+                  "text": "<p>Electrons drifting</p>",
                   "correct": true,
                   "tipsAndFeedback": {}
                 },
                 {
-                  "text": "<p>Positive → negative</p>",
+                  "text": "<p>The copper&#x27;s colour</p>",
                   "correct": false,
                   "tipsAndFeedback": {}
                 },
                 {
-                  "text": "<p>They stop moving</p>",
+                  "text": "<p>Opening the switch</p>",
                   "correct": false,
                   "tipsAndFeedback": {}
                 }
@@ -114,18 +114,18 @@
                 {
                   "from": 0,
                   "to": 99,
-                  "feedback": "Think of the negative terminal as the side supplying electrons to the wire. Try again."
+                  "feedback": "Think about what starts when the switch closes. Try again."
                 },
                 {
                   "from": 100,
                   "to": 100,
-                  "feedback": "Great! Electrons already in the wire drift from − to +. Their random motion continues."
+                  "feedback": "Correct! Current is the net flow of electric charge. It creates a magnetic field."
                 }
               ]
             },
-            "subContentId": "2d1d0cce-c827-5013-a9d6-717b682b5cb3",
+            "subContentId": "21093320-3918-5e1b-aac3-bd35aeddeddd",
             "metadata": {
-              "title": "Question 1 of 3",
+              "title": "Question 1 of 2",
               "license": "U",
               "contentType": "Multiple Choice"
             }
@@ -136,18 +136,18 @@
         },
         {
           "duration": {
-            "from": 48.242,
-            "to": 48.242
+            "from": 68.7,
+            "to": 68.7
           },
           "pause": true,
           "displayType": "button",
           "buttonOnMobile": false,
-          "label": "<p>Question 2 of 3</p>",
+          "label": "<p>Question 2 of 2</p>",
           "x": 77,
           "y": 22,
           "width": 22,
           "height": 15,
-          "libraryTitle": "Question 2 of 3",
+          "libraryTitle": "Question 2 of 2",
           "action": {
             "library": "H5P.MultiChoice 1.16",
             "params": {
@@ -199,21 +199,21 @@
                 "cancelLabel": "Cancel",
                 "confirmLabel": "Confirm"
               },
-              "question": "<p>Current is flowing. What surrounds the wire?</p>",
+              "question": "<p>Double current: the field...</p><p class=\"lesson-question-context\">Same wire. Same distance.</p>",
               "answers": [
                 {
-                  "text": "<p>A new copper layer</p>",
+                  "text": "<p>Becomes weaker</p>",
                   "correct": false,
                   "tipsAndFeedback": {}
                 },
                 {
-                  "text": "<p>A magnetic field</p>",
+                  "text": "<p>Stays the same</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Becomes stronger</p>",
                   "correct": true,
-                  "tipsAndFeedback": {}
-                },
-                {
-                  "text": "<p>Nothing changes</p>",
-                  "correct": false,
                   "tipsAndFeedback": {}
                 }
               ],
@@ -221,125 +221,18 @@
                 {
                   "from": 0,
                   "to": 99,
-                  "feedback": "Moving electric charge produces magnetism. Which option describes it?"
+                  "feedback": "Compare the circles and compass readings before and after. Try again."
                 },
                 {
                   "from": 100,
                   "to": 100,
-                  "feedback": "Exactly! Current produces a magnetic field. The green circles help us see its direction."
+                  "feedback": "Correct! More current makes the field stronger. The compass deflects further."
                 }
               ]
             },
-            "subContentId": "1d0aed2e-f041-5015-a553-f2d47c65ac1d",
+            "subContentId": "26152cb8-da3c-54b7-acff-e6dc3e19de71",
             "metadata": {
-              "title": "Question 2 of 3",
-              "license": "U",
-              "contentType": "Multiple Choice"
-            }
-          },
-          "adaptivity": {
-            "requireCompletion": true
-          }
-        },
-        {
-          "duration": {
-            "from": 81.783,
-            "to": 81.783
-          },
-          "pause": true,
-          "displayType": "button",
-          "buttonOnMobile": false,
-          "label": "<p>Question 3 of 3</p>",
-          "x": 77,
-          "y": 22,
-          "width": 22,
-          "height": 15,
-          "libraryTitle": "Question 3 of 3",
-          "action": {
-            "library": "H5P.MultiChoice 1.16",
-            "params": {
-              "media": {
-                "disableImageZooming": false
-              },
-              "UI": {
-                "checkAnswerButton": "Check answer",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
-                "tryAgainButton": "Try again",
-                "tipsLabel": "Show tip",
-                "scoreBarLabel": "You got :num out of :total points",
-                "tipAvailable": "Tip available",
-                "feedbackAvailable": "Feedback available",
-                "readFeedback": "Read feedback",
-                "wrongAnswer": "Wrong answer",
-                "correctAnswer": "Correct answer",
-                "shouldCheck": "Should have been checked",
-                "shouldNotCheck": "Should not have been checked",
-                "noInput": "Please answer before viewing the solution",
-                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
-                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
-                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
-              },
-              "behaviour": {
-                "enableRetry": true,
-                "enableSolutionsButton": false,
-                "enableCheckButton": true,
-                "type": "single",
-                "singlePoint": false,
-                "randomAnswers": false,
-                "showSolutionsRequiresInput": true,
-                "confirmCheckDialog": false,
-                "confirmRetryDialog": false,
-                "autoCheck": false,
-                "passPercentage": 100,
-                "showScorePoints": false
-              },
-              "confirmCheck": {
-                "header": "Finish ?",
-                "body": "Are you sure you wish to finish ?",
-                "cancelLabel": "Cancel",
-                "confirmLabel": "Finish"
-              },
-              "confirmRetry": {
-                "header": "Retry ?",
-                "body": "Are you sure you wish to retry ?",
-                "cancelLabel": "Cancel",
-                "confirmLabel": "Confirm"
-              },
-              "question": "<p>More current: how does the magnetic field change?</p><p class=\"lesson-question-context\">Same wire. Same distance from it.</p>",
-              "answers": [
-                {
-                  "text": "<p>It becomes stronger</p>",
-                  "correct": true,
-                  "tipsAndFeedback": {}
-                },
-                {
-                  "text": "<p>It becomes weaker</p>",
-                  "correct": false,
-                  "tipsAndFeedback": {}
-                },
-                {
-                  "text": "<p>It stays the same</p>",
-                  "correct": false,
-                  "tipsAndFeedback": {}
-                }
-              ],
-              "overallFeedback": [
-                {
-                  "from": 0,
-                  "to": 99,
-                  "feedback": "More current means more charge flowing each second. Think about the magnetic effect."
-                },
-                {
-                  "from": 100,
-                  "to": 100,
-                  "feedback": "Great answer! More current gives a stronger magnetic field at the same distance from the wire."
-                }
-              ]
-            },
-            "subContentId": "09530e51-9275-5114-ba6b-caab4f44264b",
-            "metadata": {
-              "title": "Question 3 of 3",
+              "title": "Question 2 of 2",
               "license": "U",
               "contentType": "Multiple Choice"
             }
@@ -350,12 +243,7 @@
         }
       ],
       "bookmarks": [],
-      "endscreens": [
-        {
-          "time": 82.08333333333333,
-          "label": "Your discoveries"
-        }
-      ]
+      "endscreens": []
     },
     "summary": {
       "task": {

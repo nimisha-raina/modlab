@@ -1,0 +1,532 @@
+{
+  "interactiveVideo": {
+    "video": {
+      "files": [
+        {
+          "path": "videos/coil.mp4",
+          "mime": "video/mp4",
+          "copyright": {
+            "license": "U"
+          }
+        }
+      ],
+      "startScreenOptions": {
+        "title": "Build an electromagnet",
+        "hideStartTitle": true,
+        "shortStartDescription": "",
+        "poster": {
+          "path": "images/poster.jpg",
+          "mime": "image/jpeg",
+          "width": 1280,
+          "height": 720,
+          "copyright": {
+            "license": "U"
+          }
+        }
+      }
+    },
+    "assets": {
+      "interactions": [
+        {
+          "duration": {
+            "from": 76.867,
+            "to": 76.867
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>सवाल 1 / 4</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "सवाल 1 / 4",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "जवाब जाँचें",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "फिर कोशिश करें",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>Current reverse करने पर poles का क्या होगा?</p>",
+              "answers": [
+                {
+                  "text": "<p>North और south बदल जाएंगे</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Poles वही रहेंगे</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>दोनों ends north होंगे</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "Current की direction बदलने से field की direction पर क्या असर होगा?"
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "सही! Current reverse होने से field उलटती है और poles बदल जाते हैं।"
+                }
+              ]
+            },
+            "subContentId": "9f50de51-16cf-5b7b-90a8-32cdf6a2ee19",
+            "metadata": {
+              "title": "सवाल 1 / 4",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        },
+        {
+          "duration": {
+            "from": 120.867,
+            "to": 120.867
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>सवाल 2 / 4</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "सवाल 2 / 4",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "जवाब जाँचें",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "फिर कोशिश करें",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>10 turns से 20 turns करने पर क्या होगा?</p><p class=\"lesson-question-context\">Current, coil की length और diameter वही हैं।</p>",
+              "answers": [
+                {
+                  "text": "<p>Field कम होगी</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Field बढ़ेगी</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>कोई बदलाव नहीं होगा</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "हर turn, coil की magnetic field में योगदान देता है।"
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "सही! उसी current पर ज़्यादा turns से field stronger होती है।"
+                }
+              ]
+            },
+            "subContentId": "679c210a-ae0a-5647-9793-830dac1f30c0",
+            "metadata": {
+              "title": "सवाल 2 / 4",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        },
+        {
+          "duration": {
+            "from": 157.2,
+            "to": 157.2
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>सवाल 3 / 4</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "सवाल 3 / 4",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "जवाब जाँचें",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "फिर कोशिश करें",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>Soft iron core डालने से क्या होगा?</p><p class=\"lesson-question-context\">Turns और current वही रखें।</p>",
+              "answers": [
+                {
+                  "text": "<p>Current रुक जाएगा</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Field कम होगी</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>Field बढ़ेगी</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "Iron के magnetic regions, coil की field में align हो सकते हैं।"
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "सही! Aligned regions अपनी field जोड़ते हैं, इसलिए field बढ़ती है।"
+                }
+              ]
+            },
+            "subContentId": "a8c90ede-93ba-572a-b3eb-acb03179bb40",
+            "metadata": {
+              "title": "सवाल 3 / 4",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        },
+        {
+          "duration": {
+            "from": 256.033,
+            "to": 256.033
+          },
+          "pause": true,
+          "displayType": "button",
+          "buttonOnMobile": false,
+          "label": "<p>सवाल 4 / 4</p>",
+          "x": 77,
+          "y": 22,
+          "width": 22,
+          "height": 15,
+          "libraryTitle": "सवाल 4 / 4",
+          "action": {
+            "library": "H5P.MultiChoice 1.16",
+            "params": {
+              "media": {
+                "disableImageZooming": false
+              },
+              "UI": {
+                "checkAnswerButton": "जवाब जाँचें",
+                "submitAnswerButton": "Submit",
+                "showSolutionButton": "Show solution",
+                "tryAgainButton": "फिर कोशिश करें",
+                "tipsLabel": "Show tip",
+                "scoreBarLabel": "You got :num out of :total points",
+                "tipAvailable": "Tip available",
+                "feedbackAvailable": "Feedback available",
+                "readFeedback": "Read feedback",
+                "wrongAnswer": "Wrong answer",
+                "correctAnswer": "Correct answer",
+                "shouldCheck": "Should have been checked",
+                "shouldNotCheck": "Should not have been checked",
+                "noInput": "Please answer before viewing the solution",
+                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
+                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
+                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+              },
+              "behaviour": {
+                "enableRetry": true,
+                "enableSolutionsButton": false,
+                "enableCheckButton": true,
+                "type": "single",
+                "singlePoint": false,
+                "randomAnswers": false,
+                "showSolutionsRequiresInput": true,
+                "confirmCheckDialog": false,
+                "confirmRetryDialog": false,
+                "autoCheck": false,
+                "passPercentage": 100,
+                "showScorePoints": false
+              },
+              "confirmCheck": {
+                "header": "Finish ?",
+                "body": "Are you sure you wish to finish ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Finish"
+              },
+              "confirmRetry": {
+                "header": "Retry ?",
+                "body": "Are you sure you wish to retry ?",
+                "cancelLabel": "Cancel",
+                "confirmLabel": "Confirm"
+              },
+              "question": "<p>Switch OFF करने पर clips का क्या होगा?</p>",
+              "answers": [
+                {
+                  "text": "<p>वे गिर जाएंगी</p>",
+                  "correct": true,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>हमेशा चिपकी रहेंगी</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                },
+                {
+                  "text": "<p>ऊपर जाएंगी</p>",
+                  "correct": false,
+                  "tipsAndFeedback": {}
+                }
+              ],
+              "overallFeedback": [
+                {
+                  "from": 0,
+                  "to": 99,
+                  "feedback": "Circuit खुलने से coil का current रुकता है।"
+                },
+                {
+                  "from": 100,
+                  "to": 100,
+                  "feedback": "सही! Coil की field खत्म होती है और soft iron का ज़्यादातर induced magnetism चला जाता है।"
+                }
+              ]
+            },
+            "subContentId": "7e0bc3ca-28d4-5079-b097-1cfc08d47bdf",
+            "metadata": {
+              "title": "सवाल 4 / 4",
+              "license": "U",
+              "contentType": "Multiple Choice"
+            }
+          },
+          "adaptivity": {
+            "requireCompletion": true
+          }
+        }
+      ],
+      "bookmarks": [],
+      "endscreens": []
+    },
+    "summary": {
+      "task": {
+        "library": "H5P.Summary 1.10",
+        "params": {
+          "summaries": []
+        }
+      },
+      "displayAt": 0
+    }
+  },
+  "override": {
+    "autoplay": false,
+    "loop": false,
+    "hasNoAutoPause": false,
+    "showBookmarksmenuOnLoad": false,
+    "showRewind10": true,
+    "preventSkippingMode": "forward",
+    "deactivateSound": false,
+    "showSolutionButton": "off",
+    "retryButton": "on"
+  },
+  "l10n": {
+    "interaction": "Interaction",
+    "play": "Play",
+    "pause": "Pause",
+    "mute": "Mute, currently unmuted",
+    "unmute": "Unmute, currently muted",
+    "quality": "Video Quality",
+    "captions": "Captions",
+    "close": "Close",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit Fullscreen",
+    "summary": "Open summary dialog",
+    "bookmarks": "Bookmarks",
+    "endscreen": "Submit screen",
+    "defaultAdaptivitySeekLabel": "आगे बढ़ें",
+    "continueWithVideo": "Continue with video",
+    "more": "More player options",
+    "playbackRate": "Playback Rate",
+    "rewind10": "Rewind 10 Seconds",
+    "navDisabled": "Navigation is disabled",
+    "navForwardDisabled": "Navigating forward is disabled",
+    "sndDisabled": "Sound is disabled",
+    "requiresCompletionWarning": "आगे बढ़ने से पहले फिर कोशिश कीजिए।",
+    "back": "Back",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "currentTime": "Current time:",
+    "totalTime": "Total time:",
+    "singleInteractionAnnouncement": "Interaction appeared:",
+    "multipleInteractionsAnnouncement": "Multiple interactions appeared.",
+    "videoPausedAnnouncement": "Video is paused",
+    "content": "Content",
+    "answered": "@answered answered",
+    "endcardTitle": "@answered Question(s) answered",
+    "endcardInformation": "You have answered @answered questions, click below to submit your answers.",
+    "endcardInformationOnSubmitButtonDisabled": "You have answered @answered questions.",
+    "endcardInformationNoAnswers": "You have not answered any questions.",
+    "endcardInformationMustHaveAnswer": "You have to answer at least one question before you can submit your answers.",
+    "endcardSubmitButton": "Submit Answers",
+    "endcardSubmitMessage": "Your answers have been submitted!",
+    "endcardTableRowScore": "Score",
+    "endcardQuestion": "Question",
+    "endcardAnsweredScore": "answered",
+    "endCardTableRowSummaryWithScore": "You got @score out of @total points for the @question that appeared after @minutes minutes and @seconds seconds.",
+    "endCardTableRowSummaryWithoutScore": "You have answered the @question that appeared after @minutes minutes and @seconds seconds.",
+    "videoProgressBar": "Video progress",
+    "howToCreateInteractions": "Play the video to start creating interactions"
+  }
+}

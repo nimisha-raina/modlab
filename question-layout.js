@@ -25,7 +25,7 @@ window.LessonQuestionLayout = {
           phases.set(dialog, phase);
           doc.defaultView.requestAnimationFrame(() => {
             const inner = dialog.querySelector('.h5p-dialog-inner');
-            if (inner) inner.scrollTop = phase === 'Check answer' ? 0 : inner.scrollHeight;
+            if (inner) inner.scrollTop = buttons.querySelector('.h5p-question-check-answer:not([style*="display: none"])') ? 0 : inner.scrollHeight;
           });
         }
         const title = dialog.querySelector('.h5p-dialog-title');
