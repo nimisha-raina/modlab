@@ -4,7 +4,7 @@ Copy this prompt into a new development session using the same project folder:
 
 > Continue development of https://github.com/nimisha-raina/modlab from this saved
 > project. Read README.md, docs/HANDOFF.md, docs/RESUME.md, docs/DEVELOPMENT.md,
-> docs/SCIENCE.md, docs/PART_01_BILINGUAL.md, docs/PART_02_BILINGUAL.md, archive/README.md and
+> docs/SCIENCE.md, docs/PART_01_BILINGUAL.md, docs/PART_02_POLISH.md, archive/README.md and
 > student-lesson/README.md. Inspect Git status and the actual validation reports.
 > Verify archive/manifest.json with scripts/archive_project.py verify. In a fresh
 > checkout, restore missing generated files with scripts/archive_project.py restore;
@@ -15,9 +15,13 @@ Copy this prompt into a new development session using the same project folder:
 > loudness matching and clean joins, moving conventional-current arrows,
 > brighter text, and synchronized before/now instrument readings,
 > a 60-degree close-up and two genuine H5P pauses. Its 86-second original remains frozen.
-> Current Case 2 has English/Hinglish selection before playback, using one Indian
-> male voice for both tracks, and four compact native H5P prediction questions.
-> English lasts 255 seconds; Hinglish lasts 303.83 seconds. Current and field cues follow
+> The approved Case 2 revision offers English (Prabhat) and हिंदी (Swara), localized
+> board text and labels, brighter lettering, moving yellow current arrows,
+> neater turquoise field arrows, previous-position compass markers and comparisons,
+> a straight resistor connection, and four compact native H5P prediction questions.
+> English lasts 239.167 seconds; हिंदी lasts 289 seconds. Check PART_02_POLISH.md
+> for render and publication completion before choosing the preview files.
+> Current and field cues follow
 > actual switch contact. The front view briefly rotates right to 60 degrees for
 > nail insertion while OFF, holds for switch-on, then returns to the front.
 > Keep the 10/20-turn comparison at the same coil length, diameter and current.

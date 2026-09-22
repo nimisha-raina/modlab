@@ -20,7 +20,9 @@ settings. Hindi uses Swara and the approved तांबे speech spelling; dis
 Hindi retains ताँबे. The student-facing language name is हिंदी. Legacy internal
 `hinglish` paths remain compatible with saved lessons and restoration scripts.
 English narration lasts 239.167 seconds; Hindi lasts 289 seconds. No speech is
-accelerated. Each language receives its own localized picture track.
+accelerated. Each language receives its own localized picture track. The video
+exports are 1280 × 720 at 12 frames per second; editable scenes use 24 frames
+per second, with animation timing mapped to each narration track.
 
 ## Build
 

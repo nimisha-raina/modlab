@@ -10,6 +10,12 @@ below remains frozen. Case 2 retains its existing bilingual media and behaviour.
 
 ## Current bilingual Case 2
 
+The approved English/हिंदी presentation revision is being rendered. Read
+[PART_02_POLISH.md](PART_02_POLISH.md) first for the current checkpoint,
+localized graphics, Prabhat English and Swara Hindi voices, and resume commands.
+Do not assume the earlier videos have been replaced until the verification
+reports match the current source scenes and narration.
+
 Read [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) for the current English/Hinglish
 lesson, contact-synchronized fields, temporary 60-degree nail view, magnetic-region
 diagram and four native H5P questions. English lasts 255 seconds and Hinglish 303.83 seconds.

@@ -1,4 +1,4 @@
-"""Check speech coverage, exported media, shared pictures and silent H5P pauses."""
+"""Check speech coverage, localized exported pictures and silent H5P pauses."""
 import argparse
 import difflib
 import hashlib

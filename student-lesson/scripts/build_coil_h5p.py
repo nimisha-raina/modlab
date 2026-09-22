@@ -1,5 +1,6 @@
 """Build two genuine H5P videos behind one opening narration choice."""
 import json
+import hashlib
 import argparse
 from pathlib import Path
 import shutil
@@ -13,15 +14,33 @@ if not (PART/'audio_english/narration-timing.json').is_file():
     PART=ROOT.parent/'archive/generated/parts/02_coil_reversal/bilingual'
 
 
-def main(questions_only=False):
+def main(questions_only=False,languages=('english','hinglish')):
     (DIST/'coils').mkdir(exist_ok=True)
     player=ROOT/'node_modules/h5p-standalone'
     shutil.copytree(player/'dist',DIST/'vendor/h5p-player',dirs_exist_ok=True)
     shutil.copy2(player/'LICENSE',DIST/'vendor/h5p-player/LICENSE')
     configuration={}
-    for language in ('english','hinglish'):
+    config_path=DIST/'coils/config.js'
+    if len(languages)==1 and config_path.is_file():
+        configuration=json.loads(config_path.read_text(encoding='utf-8').removeprefix('window.COIL_LESSONS = ').rstrip(';\n'))
+    for language in languages:
         folder=PART/f'audio_{language}'
         timing=read(folder/('narration-timing.json' if questions_only else 'video-timing.json'))
+        if not questions_only:
+            prepared=read(folder/'narration-timing.json')
+            assert timing['segments']==prepared['segments'] and timing['speaker']==prepared['speaker'], 'Render the current narration before publishing.'
+            mapping=read(folder/'picture-mapping.json')
+            source=PART/f'coil_{language}_source.blend'
+            source_hash=hashlib.sha256(source.read_bytes()).hexdigest()
+            accepted={source_hash}
+            # A restored portable scene has packed-path changes only. Its
+            # archive record retains the original picture-render identity.
+            manifest=ROOT.parent/'archive/manifest.json'
+            if manifest.is_file():
+                for entry in read(manifest)['files']:
+                    if entry['path']==f'parts/02_coil_reversal/bilingual/{source.name}' and entry['sha256']==source_hash:
+                        accepted.add(entry['original_sha256'])
+            assert mapping['master_scene_sha256'] in accepted, 'Render the current scene before publishing.'
         questions=read(ROOT/f'content/coil/{language}.json')
         segments={s['id']:s for s in timing['segments']}
         times=[round(segments[q['after_id']]['target_end']-.3,3) for q in questions]
@@ -82,4 +101,6 @@ def main(questions_only=False):
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--questions-only',action='store_true',help='Prepare native questions for scoring tests before media export')
-    main(parser.parse_args().questions_only)
+    parser.add_argument('--language',choices=('english','hinglish'),help='Build one language for local review; publication builds both')
+    args=parser.parse_args()
+    main(args.questions_only,(args.language,) if args.language else ('english','hinglish'))
