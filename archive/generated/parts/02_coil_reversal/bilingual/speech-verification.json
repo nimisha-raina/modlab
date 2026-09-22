@@ -1,11 +1,11 @@
 {
   "english": {
-    "speaker": "hi-IN-MadhurNeural",
+    "speaker": "en-IN-PrabhatNeural",
     "minimum_text_coverage": 1.0,
     "sections": 19
   },
   "hinglish": {
-    "speaker": "hi-IN-MadhurNeural",
+    "speaker": "hi-IN-SwaraNeural",
     "minimum_text_coverage": 1.0,
     "sections": 19
   }

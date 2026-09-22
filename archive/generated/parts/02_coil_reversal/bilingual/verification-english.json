@@ -10,82 +10,82 @@
     },
     {
       "source_seconds": 8,
-      "video_seconds": 17.023809523809522,
+      "video_seconds": 16.166666666666664,
       "current_amperes": 0.5,
       "field_lines": 0,
       "deflection_degrees": 30
     },
     {
       "source_seconds": 24,
-      "video_seconds": 52.9,
+      "video_seconds": 49.099999999999994,
       "current_amperes": 0.5,
       "field_lines": 10,
       "deflection_degrees": 30
     },
     {
       "source_seconds": 29,
-      "video_seconds": 62.699999999999996,
+      "video_seconds": 58.33333333333333,
       "current_amperes": 0,
       "field_lines": 0,
       "deflection_degrees": 0
     },
     {
       "source_seconds": 34,
-      "video_seconds": 70.02564102564102,
+      "video_seconds": 65.33333333333333,
       "current_amperes": -0.5,
       "field_lines": 10,
       "deflection_degrees": 30
     },
     {
       "source_seconds": 53,
-      "video_seconds": 96.71428571428571,
+      "video_seconds": 90.16666666666666,
       "current_amperes": 0,
       "field_lines": 0,
       "deflection_degrees": 0
     },
     {
       "source_seconds": 61,
-      "video_seconds": 110.64583333333333,
+      "video_seconds": 104.54166666666666,
       "current_amperes": -0.5,
       "field_lines": 20,
       "deflection_degrees": 51
     },
     {
       "source_seconds": 70,
-      "video_seconds": 129.07142857142856,
+      "video_seconds": 122.95238095238093,
       "current_amperes": 0,
       "field_lines": 0,
       "deflection_degrees": 0
     },
     {
       "source_seconds": 93,
-      "video_seconds": 189.44444444444443,
+      "video_seconds": 176.88888888888886,
       "current_amperes": -0.5,
       "field_lines": 30,
       "deflection_degrees": 79
     },
     {
       "source_seconds": 100,
-      "video_seconds": 199.83333333333331,
+      "video_seconds": 187.12499999999997,
       "current_amperes": 0,
       "field_lines": 0,
       "deflection_degrees": 0
     },
     {
       "source_seconds": 108,
-      "video_seconds": 212.16666666666666,
+      "video_seconds": 199.12499999999997,
       "current_amperes": -0.5,
       "field_lines": 30,
       "deflection_degrees": 79
     },
     {
       "source_seconds": 114,
-      "video_seconds": 226.83333333333331,
+      "video_seconds": 212.66666666666663,
       "current_amperes": 0,
       "field_lines": 0,
       "deflection_degrees": 0
     }
   ],
   "scene": "coil_english.blend",
-  "scene_sha256": "20653400ce313504fa0c22cfef73ee66b449578b6e754e3b0dcb1036ab1140a3"
+  "scene_sha256": "2f78084365ff7fb026f0c59d8a9c260cb85bc180bf5086fa4a617f34ba7dfa74"
 }

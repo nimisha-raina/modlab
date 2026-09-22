@@ -1,0 +1,1136 @@
+{
+  "(+)": {
+    "english": {
+      "text": "(+)",
+      "file": "e0942680c70dc5a3f971.png",
+      "width": 93,
+      "height": 69
+    },
+    "hinglish": {
+      "text": "(+)",
+      "file": "e0942680c70dc5a3f971.png",
+      "width": 93,
+      "height": 69
+    }
+  },
+  "(-)": {
+    "english": {
+      "text": "(-)",
+      "file": "44c479ed89a0079d7f65.png",
+      "width": 71,
+      "height": 69
+    },
+    "hinglish": {
+      "text": "(-)",
+      "file": "44c479ed89a0079d7f65.png",
+      "width": 71,
+      "height": 69
+    }
+  },
+  "+0.5": {
+    "english": {
+      "text": "+0.5",
+      "file": "5ea3f37434df4c88dfac.png",
+      "width": 144,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "+0.5",
+      "file": "5ea3f37434df4c88dfac.png",
+      "width": 144,
+      "height": 58
+    }
+  },
+  "+1.0": {
+    "english": {
+      "text": "+1.0",
+      "file": "9bf9512a2481cb4e8447.png",
+      "width": 146,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "+1.0",
+      "file": "9bf9512a2481cb4e8447.png",
+      "width": 146,
+      "height": 58
+    }
+  },
+  "-0.5": {
+    "english": {
+      "text": "-0.5",
+      "file": "1b07b0cffa0b3f596b5e.png",
+      "width": 126,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "-0.5",
+      "file": "1b07b0cffa0b3f596b5e.png",
+      "width": 126,
+      "height": 58
+    }
+  },
+  "-0.50 A": {
+    "english": {
+      "text": "-0.50 A",
+      "file": "2cd08d62def175e05141.png",
+      "width": 247,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "-0.50 A",
+      "file": "2cd08d62def175e05141.png",
+      "width": 247,
+      "height": 58
+    }
+  },
+  "-1.0": {
+    "english": {
+      "text": "-1.0",
+      "file": "f006c4915bce75dd9588.png",
+      "width": 128,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "-1.0",
+      "file": "f006c4915bce75dd9588.png",
+      "width": 128,
+      "height": 58
+    }
+  },
+  "0": {
+    "english": {
+      "text": "0",
+      "file": "5feceb66ffc86f38d952.png",
+      "width": 37,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0",
+      "file": "5feceb66ffc86f38d952.png",
+      "width": 37,
+      "height": 58
+    }
+  },
+  "0.00 A": {
+    "english": {
+      "text": "0.00 A",
+      "file": "b90b7b3e4583220a4449.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.00 A",
+      "file": "b90b7b3e4583220a4449.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "0.50 A": {
+    "english": {
+      "text": "0.50 A",
+      "file": "33babf7e1f9e8ba658c5.png",
+      "width": 217,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "0.50 A",
+      "file": "33babf7e1f9e8ba658c5.png",
+      "width": 217,
+      "height": 58
+    }
+  },
+  "10 turns < 20 turns < 20 turns + soft iron": {
+    "english": {
+      "text": "10 turns < 20 turns < 20 turns + soft iron",
+      "file": "616503a06c1fed2ed38b.png",
+      "width": 1438,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "10 \u092b\u0947\u0930\u0947 < 20 \u092b\u0947\u0930\u0947 < 20 \u092b\u0947\u0930\u0947 \u0914\u0930 \u0928\u0930\u094d\u092e \u0932\u094b\u0939\u093e",
+      "file": "7cef5a18001eba67d9d7.png",
+      "width": 1288,
+      "height": 95
+    }
+  },
+  "10 turns | Switch OFF": {
+    "english": {
+      "text": "10 turns | Switch OFF",
+      "file": "6e6a1cf746bcc8fb1d23.png",
+      "width": 727,
+      "height": 80
+    },
+    "hinglish": {
+      "text": "10 \u092b\u0947\u0930\u0947 | \u0938\u094d\u0935\u093f\u091a \u092c\u0902\u0926",
+      "file": "6424e9575f694e56564d.png",
+      "width": 553,
+      "height": 101
+    }
+  },
+  "10 turns: 30\u00b0   20 turns: 51\u00b0   With iron: 79\u00b0": {
+    "english": {
+      "text": "10 turns: 30\u00b0   20 turns: 51\u00b0   With iron: 79\u00b0",
+      "file": "9dec087c3cf81bf6a046.png",
+      "width": 1488,
+      "height": 60
+    },
+    "hinglish": {
+      "text": "10 \u092b\u0947\u0930\u0947: 30\u00b0   20 \u092b\u0947\u0930\u0947: 51\u00b0   \u0932\u094b\u0939\u0947 \u0915\u0947 \u0938\u093e\u0925: 79\u00b0",
+      "file": "3fb62da72332e4ba0f0f.png",
+      "width": 1393,
+      "height": 91
+    }
+  },
+  "A": {
+    "english": {
+      "text": "A",
+      "file": "559aead08264d5795d39.png",
+      "width": 51,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "A",
+      "file": "559aead08264d5795d39.png",
+      "width": 51,
+      "height": 56
+    }
+  },
+  "A Magnetic Field Like a Bar Magnet's": {
+    "english": {
+      "text": "A Magnetic Field Like a Bar Magnet's",
+      "file": "ba5e7e3cfd589c9525e2.png",
+      "width": 1293,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u091b\u0921\u093c \u091a\u0941\u0902\u092c\u0915 \u091c\u0948\u0938\u093e \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+      "file": "1a9da39e80c183e2d0b1.png",
+      "width": 870,
+      "height": 105
+    }
+  },
+  "A STRONGER ELECTROMAGNET": {
+    "english": {
+      "text": "A STRONGER ELECTROMAGNET",
+      "file": "aefe4767fc8739c2a8fa.png",
+      "width": 1126,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0905\u0927\u093f\u0915 \u0936\u0915\u094d\u0924\u093f\u0936\u093e\u0932\u0940 \u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u091a\u0941\u0902\u092c\u0915",
+      "file": "816fa6f74b9fae5f541c.png",
+      "width": 995,
+      "height": 102
+    }
+  },
+  "A current-carrying coil has north and south poles.": {
+    "english": {
+      "text": "A current-carrying coil has north and south poles.",
+      "file": "2587b0fc52cae4c1f3f9.png",
+      "width": 1746,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0927\u093e\u0930\u093e\u0935\u093e\u0939\u0940 \u0915\u0941\u0902\u0921\u0932\u0940 \u0915\u0947 \u0909\u0924\u094d\u0924\u0930 \u0914\u0930 \u0926\u0915\u094d\u0937\u093f\u0923 \u0927\u094d\u0930\u0941\u0935 \u0939\u094b\u0924\u0947 \u0939\u0948\u0902\u0964",
+      "file": "1dbef68850b4334350fc.png",
+      "width": 1465,
+      "height": 105
+    }
+  },
+  "ADDING A SOFT IRON CORE": {
+    "english": {
+      "text": "ADDING A SOFT IRON CORE",
+      "file": "7ea3db8d0753e469fac2.png",
+      "width": 1006,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0928\u0930\u094d\u092e \u0932\u094b\u0939\u0947 \u0915\u093e \u0915\u094d\u0930\u094b\u0921 \u0921\u093e\u0932\u093f\u090f",
+      "file": "74656ca701916d8a91ae.png",
+      "width": 758,
+      "height": 97
+    }
+  },
+  "An iron core makes the electromagnet stronger.": {
+    "english": {
+      "text": "An iron core makes the electromagnet stronger.",
+      "file": "d1aff52c43bc8872a8aa.png",
+      "width": 1672,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0932\u094b\u0939\u0947 \u0915\u093e \u0915\u094d\u0930\u094b\u0921 \u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u091a\u0941\u0902\u092c\u0915 \u0915\u094b \u0905\u0927\u093f\u0915 \u0936\u0915\u094d\u0924\u093f\u0936\u093e\u0932\u0940 \u092c\u0928\u093e\u0924\u093e \u0939\u0948\u0964",
+      "file": "342e4e0624d5a5acf027.png",
+      "width": 1846,
+      "height": 105
+    }
+  },
+  "BATTERY": {
+    "english": {
+      "text": "BATTERY",
+      "file": "eb690390d504c803f513.png",
+      "width": 301,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "\u092c\u0948\u091f\u0930\u0940",
+      "file": "4aed09527e311c8e4b74.png",
+      "width": 161,
+      "height": 86
+    }
+  },
+  "Before: 10 turns / 30\u00b0   Now: 20 turns / 51\u00b0": {
+    "english": {
+      "text": "Before: 10 turns / 30\u00b0   Now: 20 turns / 51\u00b0",
+      "file": "308a8eec7774e02983e0.png",
+      "width": 1484,
+      "height": 69
+    },
+    "hinglish": {
+      "text": "\u092a\u0939\u0932\u0947: 10 \u092b\u0947\u0930\u0947 / 30\u00b0   \u0905\u092c: 20 \u092b\u0947\u0930\u0947 / 51\u00b0",
+      "file": "65469d22c58705374fcd.png",
+      "width": 1232,
+      "height": 91
+    }
+  },
+  "Before: air core / 51\u00b0   Now: iron core / 79\u00b0": {
+    "english": {
+      "text": "Before: air core / 51\u00b0   Now: iron core / 79\u00b0",
+      "file": "5dc3bbeebf507a892283.png",
+      "width": 1484,
+      "height": 69
+    },
+    "hinglish": {
+      "text": "\u092a\u0939\u0932\u0947: \u092c\u093f\u0928\u093e \u0932\u094b\u0939\u0947 \u0915\u0947 / 51\u00b0   \u0905\u092c: \u0932\u094b\u0939\u0947 \u0915\u0947 \u0938\u093e\u0925 / 79\u00b0",
+      "file": "3d452961901d05bd0c97.png",
+      "width": 1541,
+      "height": 91
+    }
+  },
+  "Blue: coil field. Gold: magnetic regions.": {
+    "english": {
+      "text": "Blue: coil field. Gold: magnetic regions.",
+      "file": "4d44ea51eabed3325668.png",
+      "width": 1353,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u0928\u0940\u0932\u093e: \u0915\u0941\u0902\u0921\u0932\u0940 \u0915\u093e \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u0964 \u0938\u0941\u0928\u0939\u0930\u093e: \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u0915\u0964",
+      "file": "c241ba12aabe89aa3285.png",
+      "width": 1403,
+      "height": 101
+    }
+  },
+  "CLOSE THE SWITCH": {
+    "english": {
+      "text": "CLOSE THE SWITCH",
+      "file": "26df0f08ee9ca697f30b.png",
+      "width": 684,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u091a\u093e\u0932\u0942 \u0915\u0940\u091c\u093f\u090f",
+      "file": "91a7bad624f02cc12dc6.png",
+      "width": 552,
+      "height": 102
+    }
+  },
+  "CONTROL THE ELECTROMAGNET": {
+    "english": {
+      "text": "CONTROL THE ELECTROMAGNET",
+      "file": "10adc5e18c8e847410fa.png",
+      "width": 1172,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u091a\u0941\u0902\u092c\u0915 \u0915\u094b \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u093f\u0924 \u0915\u0940\u091c\u093f\u090f",
+      "file": "6c6d19332f181e8a8e17.png",
+      "width": 1022,
+      "height": 101
+    }
+  },
+  "Coils and electromagnets": {
+    "english": {
+      "text": "Coils and electromagnets",
+      "file": "423ce50f18ab311fef8a.png",
+      "width": 886,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0915\u0941\u0902\u0921\u0932\u093f\u092f\u093e\u0901 \u0914\u0930 \u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u091a\u0941\u0902\u092c\u0915",
+      "file": "544b32321709113e792e.png",
+      "width": 859,
+      "height": 106
+    }
+  },
+  "Compare the three magnetic fields": {
+    "english": {
+      "text": "Compare the three magnetic fields",
+      "file": "47cbc0473ec45a918961.png",
+      "width": 1213,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u0924\u0940\u0928\u094b\u0902 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u094b\u0902 \u0915\u0940 \u0924\u0941\u0932\u0928\u093e \u0915\u0940\u091c\u093f\u090f",
+      "file": "f4057eec7bba4becd4f3.png",
+      "width": 1102,
+      "height": 101
+    }
+  },
+  "Current around coil (viewed from N end)": {
+    "english": {
+      "text": "Current around coil (viewed from N end)",
+      "file": "4730e0e56e17f86bdfaf.png",
+      "width": 1418,
+      "height": 73
+    },
+    "hinglish": {
+      "text": "\u0915\u0941\u0902\u0921\u0932\u0940 \u092e\u0947\u0902 \u0927\u093e\u0930\u093e \u0915\u0940 \u0926\u093f\u0936\u093e (\u0909\u0924\u094d\u0924\u0930 \u0927\u094d\u0930\u0941\u0935 \u0938\u0947 \u0926\u0947\u0916\u0947\u0902)",
+      "file": "1dfdd9b46283316e0d30.png",
+      "width": 1277,
+      "height": 101
+    }
+  },
+  "Current flows through the copper wire": {
+    "english": {
+      "text": "Current flows through the copper wire",
+      "file": "0151667d3c3709beb3e1.png",
+      "width": 1342,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u0924\u093e\u0901\u092c\u0947 \u0915\u0947 \u0924\u093e\u0930 \u092e\u0947\u0902 \u0927\u093e\u0930\u093e \u092c\u0939\u0924\u0940 \u0939\u0948",
+      "file": "dcdb61a7e682cfbd9fc2.png",
+      "width": 834,
+      "height": 96
+    }
+  },
+  "DRY CELL  1.5 V": {
+    "english": {
+      "text": "DRY CELL  1.5 V",
+      "file": "bed3fb5e17ac655fe73c.png",
+      "width": 546,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0936\u0941\u0937\u094d\u0915 \u0938\u0947\u0932  1.5 V",
+      "file": "2d169eec2b1138efe4c9.png",
+      "width": 516,
+      "height": 101
+    }
+  },
+  "Deflection: 0\u00b0": {
+    "english": {
+      "text": "Deflection: 0\u00b0",
+      "file": "4594d68bf008c7aca47b.png",
+      "width": 461,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 0\u00b0",
+      "file": "c0e046f3d93d63092792.png",
+      "width": 284,
+      "height": 88
+    }
+  },
+  "Deflection: 30\u00b0": {
+    "english": {
+      "text": "Deflection: 30\u00b0",
+      "file": "d8e7b63cc97f83098576.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 30\u00b0",
+      "file": "c2805e057cd2806a55f3.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 51\u00b0": {
+    "english": {
+      "text": "Deflection: 51\u00b0",
+      "file": "565003ea1d757d860211.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 51\u00b0",
+      "file": "ef288197db200b5988db.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Deflection: 79\u00b0": {
+    "english": {
+      "text": "Deflection: 79\u00b0",
+      "file": "a5b0c5c593a24b564dcc.png",
+      "width": 505,
+      "height": 61
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0915\u094d\u0937\u0947\u092a: 79\u00b0",
+      "file": "8714a40a0eb30aff449b.png",
+      "width": 327,
+      "height": 88
+    }
+  },
+  "Dynamic microphone": {
+    "english": {
+      "text": "Dynamic microphone",
+      "file": "594cb040eef32d4159ea.png",
+      "width": 743,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0921\u093e\u092f\u0928\u0948\u092e\u093f\u0915 \u092e\u093e\u0907\u0915\u094d\u0930\u094b\u092b\u093c\u094b\u0928",
+      "file": "be41083287d602ec004b.png",
+      "width": 697,
+      "height": 97
+    }
+  },
+  "E": {
+    "english": {
+      "text": "E",
+      "file": "a9f51566bd6705f7ea6a.png",
+      "width": 30,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "\u092a\u0942",
+      "file": "5c91ff100e4792d96496.png",
+      "width": 55,
+      "height": 78
+    }
+  },
+  "Educational cutaways show the coil or magnet inside.": {
+    "english": {
+      "text": "Educational cutaways show the coil or magnet inside.",
+      "file": "6723cfe0ebe7a26ea0f4.png",
+      "width": 1864,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0915\u091f\u0947 \u0939\u0941\u090f \u092e\u0949\u0921\u0932 \u092e\u0947\u0902 \u0905\u0902\u0926\u0930 \u0915\u0940 \u0915\u0941\u0902\u0921\u0932\u0940 \u092f\u093e \u091a\u0941\u0902\u092c\u0915 \u0926\u093f\u0916\u093e\u090f \u0917\u090f \u0939\u0948\u0902\u0964",
+      "file": "e62a7c582e4bbf02a0db.png",
+      "width": 1762,
+      "height": 105
+    }
+  },
+  "First, open the switch": {
+    "english": {
+      "text": "First, open the switch",
+      "file": "b74b33446d7a1b2a464e.png",
+      "width": 733,
+      "height": 77
+    },
+    "hinglish": {
+      "text": "\u092a\u0939\u0932\u0947 \u0938\u094d\u0935\u093f\u091a \u092c\u0902\u0926 \u0915\u0940\u091c\u093f\u090f",
+      "file": "e110771673cea4884cb7.png",
+      "width": 695,
+      "height": 94
+    }
+  },
+  "INCREASING THE NUMBER OF TURNS": {
+    "english": {
+      "text": "INCREASING THE NUMBER OF TURNS",
+      "file": "61bab56104ee43fbbeb0.png",
+      "width": 1333,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u092b\u0947\u0930\u094b\u0902 \u0915\u0940 \u0938\u0902\u0916\u094d\u092f\u093e \u092c\u0922\u093c\u093e\u0907\u090f",
+      "file": "82a2516ceb5024977390.png",
+      "width": 681,
+      "height": 96
+    }
+  },
+  "INSIDE THE SOFT IRON": {
+    "english": {
+      "text": "INSIDE THE SOFT IRON",
+      "file": "90c6ed84767912ead583.png",
+      "width": 805,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0928\u0930\u094d\u092e \u0932\u094b\u0939\u0947 \u0915\u0947 \u0905\u0902\u0926\u0930",
+      "file": "9b5d53d66d589a8454f5.png",
+      "width": 522,
+      "height": 95
+    }
+  },
+  "Insert the Nail with the Switch OFF": {
+    "english": {
+      "text": "Insert the Nail with the Switch OFF",
+      "file": "40a52db21734bcbd65a7.png",
+      "width": 1204,
+      "height": 60
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u092c\u0902\u0926 \u0930\u0916\u0915\u0930 \u0915\u0940\u0932 \u0921\u093e\u0932\u093f\u090f",
+      "file": "dd031ba7940f9a204e8d.png",
+      "width": 910,
+      "height": 94
+    }
+  },
+  "LOOK INSIDE THE IRON": {
+    "english": {
+      "text": "LOOK INSIDE THE IRON",
+      "file": "5c8b5e3fcc391a16accd.png",
+      "width": 823,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0932\u094b\u0939\u0947 \u0915\u0947 \u0905\u0902\u0926\u0930 \u0926\u0947\u0916\u093f\u090f",
+      "file": "fca2f87c34f95fb05d10.png",
+      "width": 603,
+      "height": 94
+    }
+  },
+  "Lifting electromagnet": {
+    "english": {
+      "text": "Lifting electromagnet",
+      "file": "669dd36bac3dae438ffa.png",
+      "width": 747,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u0909\u0920\u093e\u0928\u0947 \u0935\u093e\u0932\u093e \u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u091a\u0941\u0902\u092c\u0915",
+      "file": "47ad5d053dfda65ac958.png",
+      "width": 785,
+      "height": 101
+    }
+  },
+  "MAGNETIC COMPASS": {
+    "english": {
+      "text": "MAGNETIC COMPASS",
+      "file": "d15c7db71e268fe67f4d.png",
+      "width": 758,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0926\u093f\u0936\u093e\u0938\u0942\u091a\u0915",
+      "file": "619efbe060b81d62455d.png",
+      "width": 604,
+      "height": 101
+    }
+  },
+  "MAGNETIC FIELD INSIDE COIL": {
+    "english": {
+      "text": "MAGNETIC FIELD INSIDE COIL",
+      "file": "f13113ee443fe3485c6a.png",
+      "width": 1052,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0915\u0941\u0902\u0921\u0932\u0940 \u0915\u0947 \u0905\u0902\u0926\u0930 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+      "file": "b38c90bfc347a346661e.png",
+      "width": 866,
+      "height": 101
+    }
+  },
+  "MAGNETIC FIELD OF A COIL": {
+    "english": {
+      "text": "MAGNETIC FIELD OF A COIL",
+      "file": "d7b462591ccb70bdf39f.png",
+      "width": 984,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0915\u0941\u0902\u0921\u0932\u0940 \u0915\u093e \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+      "file": "abfb3578404cd2638f53.png",
+      "width": 710,
+      "height": 101
+    }
+  },
+  "MAGNETIC FIELD OUTSIDE COIL": {
+    "english": {
+      "text": "MAGNETIC FIELD OUTSIDE COIL",
+      "file": "dc4510bc1fc4365c2bca.png",
+      "width": 1128,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0915\u0941\u0902\u0921\u0932\u0940 \u0915\u0947 \u092c\u093e\u0939\u0930 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+      "file": "93aec1218f5eefd1e5d0.png",
+      "width": 870,
+      "height": 101
+    }
+  },
+  "MRI machine": {
+    "english": {
+      "text": "MRI machine",
+      "file": "55bdf5e3314b2f285f69.png",
+      "width": 451,
+      "height": 60
+    },
+    "hinglish": {
+      "text": "\u090f\u092e\u0906\u0930\u0906\u0908 \u092e\u0936\u0940\u0928",
+      "file": "cb4f3d437bbd04530187.png",
+      "width": 568,
+      "height": 97
+    }
+  },
+  "Magnet coils around the bore": {
+    "english": {
+      "text": "Magnet coils around the bore",
+      "file": "df97fbbaa02d2ae3efe9.png",
+      "width": 1037,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0938\u0941\u0930\u0902\u0917 \u0915\u0947 \u091a\u093e\u0930\u094b\u0902 \u0913\u0930 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u0941\u0902\u0921\u0932\u093f\u092f\u093e\u0901",
+      "file": "3acfe5b89a9bb2ccc1af.png",
+      "width": 1110,
+      "height": 106
+    }
+  },
+  "Magnetic regions line up": {
+    "english": {
+      "text": "Magnetic regions line up",
+      "file": "450d3feac40bb829b47b.png",
+      "width": 865,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u0915 \u090f\u0915 \u0926\u093f\u0936\u093e \u092e\u0947\u0902 \u0939\u094b\u0924\u0947 \u0939\u0948\u0902",
+      "file": "141e8ff8db47f7bd774b.png",
+      "width": 1040,
+      "height": 105
+    }
+  },
+  "Magnified model: groups of atoms act like tiny magnets.": {
+    "english": {
+      "text": "Magnified model: groups of atoms act like tiny magnets.",
+      "file": "c5e551cff6c3ba9b3767.png",
+      "width": 1974,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u092c\u0921\u093c\u093e \u0915\u0930\u0915\u0947 \u0926\u093f\u0916\u093e\u092f\u093e \u092e\u0949\u0921\u0932: \u092a\u0930\u092e\u093e\u0923\u0941\u0913\u0902 \u0915\u0947 \u0938\u092e\u0942\u0939 \u091b\u094b\u091f\u0947 \u091a\u0941\u0902\u092c\u0915\u094b\u0902 \u091c\u0948\u0938\u0947 \u0939\u0948\u0902\u0964",
+      "file": "61a209a2d274e025423a.png",
+      "width": 2014,
+      "height": 105
+    }
+  },
+  "More Turns, Stronger Magnetic Field": {
+    "english": {
+      "text": "More Turns, Stronger Magnetic Field",
+      "file": "3742a8a11432e9a3d5b1.png",
+      "width": 1266,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0905\u0927\u093f\u0915 \u092b\u0947\u0930\u0947, \u0905\u0927\u093f\u0915 \u092a\u094d\u0930\u092c\u0932 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+      "file": "bd35f6d3abc84465fe1c.png",
+      "width": 1150,
+      "height": 101
+    }
+  },
+  "More turns at the same current strengthen the field.": {
+    "english": {
+      "text": "More turns at the same current strengthen the field.",
+      "file": "3e6aa550da8234143b71.png",
+      "width": 1815,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u0938\u092e\u093e\u0928 \u0927\u093e\u0930\u093e \u092a\u0930 \u0905\u0927\u093f\u0915 \u092b\u0947\u0930\u0947 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u092c\u0922\u093c\u093e\u0924\u0947 \u0939\u0948\u0902\u0964",
+      "file": "dc530db157950d3d0dc3.png",
+      "width": 1485,
+      "height": 105
+    }
+  },
+  "Moving coil + permanent magnet": {
+    "english": {
+      "text": "Moving coil + permanent magnet",
+      "file": "61dd1ba7e598f178582d.png",
+      "width": 1182,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u091a\u0932\u0924\u0940 \u0915\u0941\u0902\u0921\u0932\u0940 \u0914\u0930 \u0938\u094d\u0925\u093e\u092f\u0940 \u091a\u0941\u0902\u092c\u0915",
+      "file": "a61b6a815875404780a7.png",
+      "width": 951,
+      "height": 105
+    }
+  },
+  "N": {
+    "english": {
+      "text": "N",
+      "file": "8ce86a6ae65d3692e730.png",
+      "width": 46,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "\u0909",
+      "file": "fcce4891a82542450d0f.png",
+      "width": 60,
+      "height": 59
+    }
+  },
+  "Outside: N to S. Inside: S to N.": {
+    "english": {
+      "text": "Outside: N to S. Inside: S to N.",
+      "file": "1613f9ea508525782256.png",
+      "width": 1051,
+      "height": 60
+    },
+    "hinglish": {
+      "text": "\u092c\u093e\u0939\u0930: \u0909\u0924\u094d\u0924\u0930 \u0938\u0947 \u0926\u0915\u094d\u0937\u093f\u0923\u0964 \u0905\u0902\u0926\u0930: \u0926\u0915\u094d\u0937\u093f\u0923 \u0938\u0947 \u0909\u0924\u094d\u0924\u0930\u0964",
+      "file": "2cfac1895843fadc1dc8.png",
+      "width": 1354,
+      "height": 91
+    }
+  },
+  "Paper clips below the iron nail": {
+    "english": {
+      "text": "Paper clips below the iron nail",
+      "file": "bb34224511c2a1b156fe.png",
+      "width": 1043,
+      "height": 77
+    },
+    "hinglish": {
+      "text": "\u0932\u094b\u0939\u0947 \u0915\u0940 \u0915\u0940\u0932 \u0915\u0947 \u0928\u0940\u091a\u0947 \u092a\u0947\u092a\u0930 \u0915\u094d\u0932\u093f\u092a\u0947\u0902",
+      "file": "a7a5617ab7a974674948.png",
+      "width": 994,
+      "height": 92
+    }
+  },
+  "REVERSE THE CURRENT": {
+    "english": {
+      "text": "REVERSE THE CURRENT",
+      "file": "9bd1ce4d54f834f71e1b.png",
+      "width": 827,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0927\u093e\u0930\u093e \u0915\u0940 \u0926\u093f\u0936\u093e \u0909\u0932\u091f\u093f\u090f",
+      "file": "335823a98ed0cf947bbc.png",
+      "width": 666,
+      "height": 93
+    }
+  },
+  "Resistor": {
+    "english": {
+      "text": "Resistor",
+      "file": "37e96ce70a98582db6d9.png",
+      "width": 269,
+      "height": 59
+    },
+    "hinglish": {
+      "text": "\u092a\u094d\u0930\u0924\u093f\u0930\u094b\u0927\u0915",
+      "file": "43bf8d7eb348a9d5ddb6.png",
+      "width": 301,
+      "height": 82
+    }
+  },
+  "Reversing current swaps the poles.": {
+    "english": {
+      "text": "Reversing current swaps the poles.",
+      "file": "54c5e80622af3b1fe50a.png",
+      "width": 1203,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0927\u093e\u0930\u093e \u0909\u0932\u091f\u0928\u0947 \u0938\u0947 \u0927\u094d\u0930\u0941\u0935 \u092c\u0926\u0932 \u091c\u093e\u0924\u0947 \u0939\u0948\u0902\u0964",
+      "file": "81a1c887b95fc1a5b59d.png",
+      "width": 983,
+      "height": 105
+    }
+  },
+  "S": {
+    "english": {
+      "text": "S",
+      "file": "8de0b3c47f112c59745f.png",
+      "width": 35,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0926",
+      "file": "8581650a6ce0b5fe891b.png",
+      "width": 54,
+      "height": 64
+    }
+  },
+  "SWITCH": {
+    "english": {
+      "text": "SWITCH",
+      "file": "dc253e04c999bd7cec77.png",
+      "width": 272,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a",
+      "file": "fea2bb0cba1a895e6302.png",
+      "width": 160,
+      "height": 83
+    }
+  },
+  "SWITCH OFF": {
+    "english": {
+      "text": "SWITCH OFF",
+      "file": "f17b480f37697b5258a2.png",
+      "width": 437,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u092c\u0902\u0926",
+      "file": "658d46a8a3ab338e51f1.png",
+      "width": 281,
+      "height": 88
+    }
+  },
+  "SWITCH ON": {
+    "english": {
+      "text": "SWITCH ON",
+      "file": "b164f64c196119bcf303.png",
+      "width": 414,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u091a\u093e\u0932\u0942",
+      "file": "55cb9753f085139f6bf7.png",
+      "width": 316,
+      "height": 102
+    }
+  },
+  "Same length and diameter. Same current: 0.50 A.": {
+    "english": {
+      "text": "Same length and diameter. Same current: 0.50 A.",
+      "file": "3141ab7600e7d85a01d4.png",
+      "width": 1701,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0932\u0902\u092c\u093e\u0908 \u0914\u0930 \u0935\u094d\u092f\u093e\u0938 \u0938\u092e\u093e\u0928\u0964 \u0927\u093e\u0930\u093e \u092d\u0940 \u0938\u092e\u093e\u0928: 0.50 A\u0964",
+      "file": "32f8b8fb885d6388c0ba.png",
+      "width": 1481,
+      "height": 97
+    }
+  },
+  "Scrapyard crane": {
+    "english": {
+      "text": "Scrapyard crane",
+      "file": "dcd24159a1623dd5b46e.png",
+      "width": 556,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0915\u092c\u093e\u0921\u093c \u0909\u0920\u093e\u0928\u0947 \u0935\u093e\u0932\u0940 \u0915\u094d\u0930\u0947\u0928",
+      "file": "13e3b2cf1148a0dccdeb.png",
+      "width": 710,
+      "height": 96
+    }
+  },
+  "Soft iron loses most of its induced magnetism.": {
+    "english": {
+      "text": "Soft iron loses most of its induced magnetism.",
+      "file": "dea5a1d8f8276dcbd387.png",
+      "width": 1623,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u0928\u0930\u094d\u092e \u0932\u094b\u0939\u0947 \u0915\u093e \u0905\u0927\u093f\u0915\u093e\u0902\u0936 \u092a\u094d\u0930\u0947\u0930\u093f\u0924 \u091a\u0941\u0902\u092c\u0915\u0924\u094d\u0935 \u0938\u092e\u093e\u092a\u094d\u0924 \u0939\u094b \u091c\u093e\u0924\u093e \u0939\u0948\u0964",
+      "file": "71628adce305b510d872.png",
+      "width": 1707,
+      "height": 105
+    }
+  },
+  "Switch OFF: the clips rest on the table.": {
+    "english": {
+      "text": "Switch OFF: the clips rest on the table.",
+      "file": "b0c7c04ce584e2a41336.png",
+      "width": 1329,
+      "height": 77
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u092c\u0902\u0926: \u0915\u094d\u0932\u093f\u092a\u0947\u0902 \u092e\u0947\u091c\u093c \u092a\u0930 \u0939\u0948\u0902\u0964",
+      "file": "789b88d47a0d1890637d.png",
+      "width": 827,
+      "height": 95
+    }
+  },
+  "Switch ON to compare the stronger field directly.": {
+    "english": {
+      "text": "Switch ON to compare the stronger field directly.",
+      "file": "391fc415227ae402fc89.png",
+      "width": 1707,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u091a\u093e\u0932\u0942 \u0915\u0930\u0915\u0947 \u092c\u0922\u093c\u093e \u0939\u0941\u0906 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0926\u0947\u0916\u093f\u090f\u0964",
+      "file": "7f08c3bdac37b23796ad.png",
+      "width": 1433,
+      "height": 102
+    }
+  },
+  "Switching off releases the paper clips.": {
+    "english": {
+      "text": "Switching off releases the paper clips.",
+      "file": "cfa5e67eeb4d466bce31.png",
+      "width": 1308,
+      "height": 79
+    },
+    "hinglish": {
+      "text": "\u0938\u094d\u0935\u093f\u091a \u092c\u0902\u0926 \u0915\u0930\u0928\u0947 \u092a\u0930 \u092a\u0947\u092a\u0930 \u0915\u094d\u0932\u093f\u092a\u0947\u0902 \u0917\u093f\u0930 \u091c\u093e\u0924\u0940 \u0939\u0948\u0902\u0964",
+      "file": "e73d52da1a041356c13c.png",
+      "width": 1314,
+      "height": 95
+    }
+  },
+  "The clips cling to the nail's exposed ends.": {
+    "english": {
+      "text": "The clips cling to the nail's exposed ends.",
+      "file": "734a964c2b79028bdc9d.png",
+      "width": 1445,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0915\u094d\u0932\u093f\u092a\u0947\u0902 \u0915\u0940\u0932 \u0915\u0947 \u0916\u0941\u0932\u0947 \u0938\u093f\u0930\u094b\u0902 \u0938\u0947 \u091a\u093f\u092a\u0915\u0924\u0940 \u0939\u0948\u0902\u0964",
+      "file": "fa43afe4587d4c476dc1.png",
+      "width": 1196,
+      "height": 105
+    }
+  },
+  "The electromagnet attracts iron": {
+    "english": {
+      "text": "The electromagnet attracts iron",
+      "file": "65dc5a4dfcb58c458db5.png",
+      "width": 1100,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u091a\u0941\u0902\u092c\u0915 \u0932\u094b\u0939\u0947 \u0915\u094b \u0906\u0915\u0930\u094d\u0937\u093f\u0924 \u0915\u0930\u0924\u093e \u0939\u0948",
+      "file": "048a257440e4e5f5e94c.png",
+      "width": 1240,
+      "height": 105
+    }
+  },
+  "The magnetic poles swap": {
+    "english": {
+      "text": "The magnetic poles swap",
+      "file": "3c5aa4a59883ad59dd5a.png",
+      "width": 886,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0927\u094d\u0930\u0941\u0935 \u092c\u0926\u0932 \u091c\u093e\u0924\u0947 \u0939\u0948\u0902",
+      "file": "ef0869d513deb7f8b595.png",
+      "width": 767,
+      "height": 105
+    }
+  },
+  "The paper clips fall": {
+    "english": {
+      "text": "The paper clips fall",
+      "file": "95e07c7e5cb2ffcc9d53.png",
+      "width": 652,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u092a\u0947\u092a\u0930 \u0915\u094d\u0932\u093f\u092a\u0947\u0902 \u0917\u093f\u0930 \u091c\u093e\u0924\u0940 \u0939\u0948\u0902",
+      "file": "a7379a381cbb787869d5.png",
+      "width": 704,
+      "height": 95
+    }
+  },
+  "Then close it and watch the magnetic regions.": {
+    "english": {
+      "text": "Then close it and watch the magnetic regions.",
+      "file": "bf790c5cc222201f1128.png",
+      "width": 1608,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u092b\u093f\u0930 \u091a\u093e\u0932\u0942 \u0915\u0930\u0915\u0947 \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930\u0915\u094b\u0902 \u0915\u094b \u0926\u0947\u0916\u093f\u090f\u0964",
+      "file": "a359c160af9f2cf60072.png",
+      "width": 1310,
+      "height": 102
+    }
+  },
+  "USES OF ELECTROMAGNETISM": {
+    "english": {
+      "text": "USES OF ELECTROMAGNETISM",
+      "file": "b0c859d0c6936b7d148f.png",
+      "width": 1083,
+      "height": 58
+    },
+    "hinglish": {
+      "text": "\u0935\u093f\u0926\u094d\u092f\u0941\u0924 \u091a\u0941\u0902\u092c\u0915\u0924\u094d\u0935 \u0915\u0947 \u0909\u092a\u092f\u094b\u0917",
+      "file": "f55120ff9b8a84586475.png",
+      "width": 823,
+      "height": 101
+    }
+  },
+  "W": {
+    "english": {
+      "text": "W",
+      "file": "fcb5f40df9be6bae66c1.png",
+      "width": 73,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "\u092a",
+      "file": "dcd0dc96002b13dbf75e.png",
+      "width": 52,
+      "height": 58
+    }
+  },
+  "WHAT WE LEARNED": {
+    "english": {
+      "text": "WHAT WE LEARNED",
+      "file": "b3ff0b9ad892ee494ffc.png",
+      "width": 709,
+      "height": 56
+    },
+    "hinglish": {
+      "text": "\u0939\u092e\u0928\u0947 \u0915\u094d\u092f\u093e \u0938\u0940\u0916\u093e",
+      "file": "eab11cdaf365ef23e585.png",
+      "width": 479,
+      "height": 91
+    }
+  },
+  "Watch the arrows and both compass needles reverse.": {
+    "english": {
+      "text": "Watch the arrows and both compass needles reverse.",
+      "file": "8f009e80ddcf6e47133b.png",
+      "width": 1865,
+      "height": 77
+    },
+    "hinglish": {
+      "text": "\u0924\u0940\u0930\u094b\u0902 \u0914\u0930 \u0926\u094b\u0928\u094b\u0902 \u0926\u093f\u0936\u093e\u0938\u0942\u091a\u0915\u094b\u0902 \u0915\u0940 \u0938\u0941\u0907\u092f\u094b\u0902 \u0915\u0940 \u0926\u093f\u0936\u093e \u092c\u0926\u0932\u0924\u0947 \u0926\u0947\u0916\u093f\u090f\u0964",
+      "file": "bd6fc484d7e8b7a2b1a3.png",
+      "width": 1872,
+      "height": 105
+    }
+  },
+  "Watch the current, field and compass needles.": {
+    "english": {
+      "text": "Watch the current, field and compass needles.",
+      "file": "26445129f5d827520932.png",
+      "width": 1612,
+      "height": 78
+    },
+    "hinglish": {
+      "text": "\u0927\u093e\u0930\u093e, \u091a\u0941\u0902\u092c\u0915\u0940\u092f \u0915\u094d\u0937\u0947\u0924\u094d\u0930 \u0914\u0930 \u0926\u093f\u0936\u093e\u0938\u0942\u091a\u0915 \u0915\u0940 \u0938\u0941\u0907\u092f\u093e\u0901 \u0926\u0947\u0916\u093f\u090f\u0964",
+      "file": "d3c66143e0ba90540e4a.png",
+      "width": 1578,
+      "height": 106
+    }
+  },
+  "Yellow: conventional current, from + to -.": {
+    "english": {
+      "text": "Yellow: conventional current, from + to -.",
+      "file": "b1c44b6c72f43bf21dd2.png",
+      "width": 1434,
+      "height": 70
+    },
+    "hinglish": {
+      "text": "\u092a\u0940\u0932\u0947 \u0924\u0940\u0930: \u092a\u0930\u0902\u092a\u0930\u093e\u0917\u0924 \u0927\u093e\u0930\u093e, + \u0938\u0947 - \u0915\u0940 \u0913\u0930\u0964",
+      "file": "fe579ba134885a5a18cf.png",
+      "width": 1258,
+      "height": 91
+    }
+  }
+}

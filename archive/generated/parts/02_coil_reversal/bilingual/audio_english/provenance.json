@@ -1,85 +1,111 @@
 {
-  "speaker": "hi-IN-MadhurNeural",
+  "speaker": "en-IN-PrabhatNeural",
   "service": "Microsoft Edge speech service",
   "client": "edge-tts 7.2.8",
   "client_license": "LGPL-3.0",
   "client_source": "https://github.com/rany2/edge-tts",
   "clips": {
     "narration_00.mp3": {
-      "script_sha256": "6f9a06e48dbf7a0e5b87b0becf1b8ff1fe0fa23ec663821a50726f90676e3b6b",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "75762a357fa66a3cf7e951afe30ee8e78f2ff1bdc72411cb896bc3d883897959",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_01.mp3": {
-      "script_sha256": "63d49500d0fab7e23a42e939e28ac68f0cdedfcc3446588245cbac10529c3f6e",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "ea3ca44eb454716de58bf7fa64de6d1d80a5f25d289e9c1de1ec78e602510272",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_02.mp3": {
-      "script_sha256": "a97d88b8b34c4fbb98b42ec6c7e090b7110a90f9bc65e8ac519a60952bfd4ac0",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "a65db91cd9c53ce3d1ef47ac539cd2942be6439079a6061f5215a433ac7943a7",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_03.mp3": {
-      "script_sha256": "9efef661473e2e3dc9fcdc20220c09637adb72f96252f13a4cf83e459dc5f7e7",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "c2671b65bc235a3038a84893f891d06b83e7d07930023a2b5dd42a4f7a8e6d60",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_04.mp3": {
-      "script_sha256": "650f5061db656b63b8abb926687c4473d10fd77ab3290239174837301f6c7e8b",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "c798ee4610ad551ae2ad059f825578cba55a42779042d13f8b4b44817b70ad21",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_05.mp3": {
-      "script_sha256": "61dd83dfb6c57e1a2b1b2edcbd3b3ed5e146a24f7909b09d9f112583d20a8907",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "a02f56b4c73a1d78585b2011a23b597e886cc52b9de78acc59d5210635e4bf95",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_06.mp3": {
-      "script_sha256": "42f87922783d87a032b79fc25dae7fa0ac35772027207f21a856c8ae05d4dcde",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "27b3a8f528011a8eb877d3d8df5ba1e8ca09bb28289afb2740ed22072008d83b",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_07.mp3": {
-      "script_sha256": "4231e1861eb18c1ac16ff15abf7fd5658adbc1dd33fe824a938fc8b142c619d0",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "074700508bdecf47c64265164bcf6c3579a31edb1e568fee95f174d71101af42",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_08.mp3": {
-      "script_sha256": "18b1f2d2bcbd2d119b0fbf7d17bd2ac8d5e1ded40aa6ffaf41e1330deb855f0c",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "117d8c692181cc98ea7bedee2ded9b25dc178a4d373a3ca5feb463f865ef836e",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_09.mp3": {
-      "script_sha256": "fdafd9714c96993e13ac92ad520ed94eba00c05b4940b5160e169fcc6526eab0",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "f613a38acf609cd341d0ee132c1526526a0cda159fbc850067001eb40ab98888",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_10.mp3": {
-      "script_sha256": "e3ca046bf6636d47b209df7ae2bb354cc7c2c9dfd1e586db6ec94e8f5efc6a4c",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "8d2173acb38ee4484c08a9b67e25e884d69d6f90d26620f53257c3946cbb1148",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_11.mp3": {
-      "script_sha256": "7875dc53febd1a69ba4e82f8b179eb6cda5bccb06cfc4a34ff00f1ede6b3f875",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "ad35e4ead97010a5e09193e62b40c518fee469d79599dd69f7dc1603de500312",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_12.mp3": {
-      "script_sha256": "304bb3086cbce6aa4fb58af4d50671b3c17ea8271402027d4810a725f7867c71",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "9a78aa8e4d59168bccc3cff947aa0153ded1fe1337752a89e93504388ee7f56f",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_13.mp3": {
-      "script_sha256": "5581de5d1be7df7d7921fdb265ec551e4e081f8d603786062c2b0a61096ff295",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "300e799218a16e35c6ca332d5c43cb495a8531b1b879c07c3db52b2feede6b7e",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_14.mp3": {
-      "script_sha256": "33ec95a3608a7a432ac32ee966269d2ae22cf272fb56f1ad3d00431a427a1be3",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "3cd6d2e92725aae48bab48fad92b7854deb783332b1819aef7cb2cfeec519bb6",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_15.mp3": {
-      "script_sha256": "1cf1dfad8f06b5a1ece8c9373c5d74ecd5b32dfb10a828a43ab9e7668a56232f",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "66b8aee176390b90fe1071a767243c259cb9dd3b25907e9699156e2363f8a327",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_16.mp3": {
-      "script_sha256": "63a20f00c86fe8169ae10159deef918eba79c1c3e6679d9fef4b6665cdf0e28b",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "5f53d1fc4bcd34e707441eb900a60fd9a5674cb7d640f3ccfe2e28a10996d04e",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_17.mp3": {
-      "script_sha256": "1c8a544c68788a5245a3d0cc3673b218d7b6c32dfff2c7cda8a1785d1a85c1d5",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "9535f4fcc5b53b9a7317dd406505d3eae50da80150c9f23bb9efdf7c858a0c59",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     },
     "narration_18.mp3": {
-      "script_sha256": "867cd3fa51267d404d04ff06777fb6a5958da8a27ac07ddef2a0bfc773fa8caf",
-      "voice": "hi-IN-MadhurNeural"
+      "script_sha256": "6de3ab8fadf854e527e426c24dec8bc29b005808e5959918baa1dd4bce7a83d4",
+      "voice": "en-IN-PrabhatNeural",
+      "delivery_sha256": "635da97f9035452b86594f2177c6e321896c63e90b95ac2fe2a0849a84dc76dc"
     }
+  },
+  "delivery": {
+    "rate": "-6%",
+    "volume": "+4%",
+    "pitch": "-2Hz",
+    "sentence_leveling": true,
+    "sentence_pause_seconds": 0.2
   }
 }

@@ -1,0 +1,408 @@
+{
+  "coil": [
+    {
+      "text": "DRY CELL  1.5 V",
+      "name": "Printed cell label"
+    },
+    {
+      "text": "BATTERY",
+      "name": "BATTERY"
+    },
+    {
+      "text": "(-)",
+      "name": "(-)"
+    },
+    {
+      "text": "(+)",
+      "name": "(+)"
+    },
+    {
+      "text": "Resistor",
+      "name": "Resistor"
+    },
+    {
+      "text": "SWITCH",
+      "name": "SWITCH"
+    },
+    {
+      "text": "-1.0",
+      "name": "Ammeter printed scale | -1.0"
+    },
+    {
+      "text": "-0.5",
+      "name": "Ammeter printed scale | -0.5"
+    },
+    {
+      "text": "0",
+      "name": "Ammeter printed scale | 0"
+    },
+    {
+      "text": "+0.5",
+      "name": "Ammeter printed scale | +0.5"
+    },
+    {
+      "text": "+1.0",
+      "name": "Ammeter printed scale | +1.0"
+    },
+    {
+      "text": "A",
+      "name": "Ammeter printed unit"
+    },
+    {
+      "text": "0.00 A",
+      "name": "Ammeter reading | 0.00 A"
+    },
+    {
+      "text": "0.50 A",
+      "name": "Ammeter reading | 0.50 A"
+    },
+    {
+      "text": "-0.50 A",
+      "name": "Ammeter reading | -0.50 A"
+    },
+    {
+      "text": "N",
+      "name": "Coil pole | left | 1"
+    },
+    {
+      "text": "S",
+      "name": "Coil pole | right | 1"
+    },
+    {
+      "text": "S",
+      "name": "Coil pole | left | -1"
+    },
+    {
+      "text": "N",
+      "name": "Coil pole | right | -1"
+    },
+    {
+      "text": "(+)",
+      "name": "(-).001"
+    },
+    {
+      "text": "(-)",
+      "name": "(+).001"
+    },
+    {
+      "text": "MAGNETIC FIELD OF A COIL",
+      "name": "Case 1 | MAGNETIC FIELD OF A COIL"
+    },
+    {
+      "text": "10 turns | Switch OFF",
+      "name": "Case 1 | 10 turns | Switch OFF"
+    },
+    {
+      "text": "Watch the current, field and compass needles.",
+      "name": "Case 1 | Watch the current, field and compass needles."
+    },
+    {
+      "text": "CLOSE THE SWITCH",
+      "name": "Case 2 | CLOSE THE SWITCH"
+    },
+    {
+      "text": "Current flows through the copper wire",
+      "name": "Case 2 | Current flows through the copper wire"
+    },
+    {
+      "text": "Yellow: conventional current, from + to -.",
+      "name": "Case 2 | Yellow: conventional current, from + to -."
+    },
+    {
+      "text": "MAGNETIC FIELD OF A COIL",
+      "name": "Case 3 | MAGNETIC FIELD OF A COIL"
+    },
+    {
+      "text": "A Magnetic Field Like a Bar Magnet's",
+      "name": "Case 3 | A Magnetic Field Like a Bar Magnet's"
+    },
+    {
+      "text": "Outside: N to S. Inside: S to N.",
+      "name": "Case 3 | Outside: N to S. Inside: S to N."
+    },
+    {
+      "text": "REVERSE THE CURRENT",
+      "name": "Case 4 | REVERSE THE CURRENT"
+    },
+    {
+      "text": "The magnetic poles swap",
+      "name": "Case 4 | The magnetic poles swap"
+    },
+    {
+      "text": "Watch the arrows and both compass needles reverse.",
+      "name": "Case 4 | Watch the arrows and both compass needles reverse."
+    },
+    {
+      "text": "INCREASING THE NUMBER OF TURNS",
+      "name": "Case 5 | INCREASING THE NUMBER OF TURNS"
+    },
+    {
+      "text": "More Turns, Stronger Magnetic Field",
+      "name": "Case 5 | More Turns, Stronger Magnetic Field"
+    },
+    {
+      "text": "Same length and diameter. Same current: 0.50 A.",
+      "name": "Case 5 | Same length and diameter. Same current: 0.50 A."
+    },
+    {
+      "text": "ADDING A SOFT IRON CORE",
+      "name": "Case 6 | ADDING A SOFT IRON CORE"
+    },
+    {
+      "text": "Insert the Nail with the Switch OFF",
+      "name": "Case 6 | Insert the Nail with the Switch OFF"
+    },
+    {
+      "text": "Switch ON to compare the stronger field directly.",
+      "name": "Case 6 | Switch ON to compare the stronger field directly."
+    },
+    {
+      "text": "LOOK INSIDE THE IRON",
+      "name": "Case 7 | LOOK INSIDE THE IRON"
+    },
+    {
+      "text": "First, open the switch",
+      "name": "Case 7 | First, open the switch"
+    },
+    {
+      "text": "Then close it and watch the magnetic regions.",
+      "name": "Case 7 | Then close it and watch the magnetic regions."
+    },
+    {
+      "text": "INSIDE THE SOFT IRON",
+      "name": "Case 8 | INSIDE THE SOFT IRON"
+    },
+    {
+      "text": "Magnetic regions line up",
+      "name": "Case 8 | Magnetic regions line up"
+    },
+    {
+      "text": "Blue: coil field. Gold: magnetic regions.",
+      "name": "Case 8 | Blue: coil field. Gold: magnetic regions."
+    },
+    {
+      "text": "Magnified model: groups of atoms act like tiny magnets.",
+      "name": "Case 8 | Magnified model: groups of atoms act like tiny magnets."
+    },
+    {
+      "text": "A STRONGER ELECTROMAGNET",
+      "name": "Case 9 | A STRONGER ELECTROMAGNET"
+    },
+    {
+      "text": "Compare the three magnetic fields",
+      "name": "Case 9 | Compare the three magnetic fields"
+    },
+    {
+      "text": "10 turns < 20 turns < 20 turns + soft iron",
+      "name": "Case 9 | 10 turns < 20 turns < 20 turns + soft iron"
+    },
+    {
+      "text": "CONTROL THE ELECTROMAGNET",
+      "name": "Case 10 | CONTROL THE ELECTROMAGNET"
+    },
+    {
+      "text": "Paper clips below the iron nail",
+      "name": "Case 10 | Paper clips below the iron nail"
+    },
+    {
+      "text": "Switch OFF: the clips rest on the table.",
+      "name": "Case 10 | Switch OFF: the clips rest on the table."
+    },
+    {
+      "text": "SWITCH ON",
+      "name": "Case 11 | SWITCH ON"
+    },
+    {
+      "text": "The electromagnet attracts iron",
+      "name": "Case 11 | The electromagnet attracts iron"
+    },
+    {
+      "text": "The clips cling to the nail's exposed ends.",
+      "name": "Case 11 | The clips cling to the nail's exposed ends."
+    },
+    {
+      "text": "SWITCH OFF",
+      "name": "Case 12 | SWITCH OFF"
+    },
+    {
+      "text": "The paper clips fall",
+      "name": "Case 12 | The paper clips fall"
+    },
+    {
+      "text": "Soft iron loses most of its induced magnetism.",
+      "name": "Case 12 | Soft iron loses most of its induced magnetism."
+    },
+    {
+      "text": "WHAT WE LEARNED",
+      "name": "Case 13 | WHAT WE LEARNED"
+    },
+    {
+      "text": "Coils and electromagnets",
+      "name": "Case 13 | Coils and electromagnets"
+    },
+    {
+      "text": "A current-carrying coil has north and south poles.",
+      "name": "Case 13 | A current-carrying coil has north and south poles."
+    },
+    {
+      "text": "Reversing current swaps the poles.",
+      "name": "Case 13 | Reversing current swaps the poles."
+    },
+    {
+      "text": "More turns at the same current strengthen the field.",
+      "name": "Case 13 | More turns at the same current strengthen the field."
+    },
+    {
+      "text": "An iron core makes the electromagnet stronger.",
+      "name": "Case 13 | An iron core makes the electromagnet stronger."
+    },
+    {
+      "text": "Switching off releases the paper clips.",
+      "name": "Case 13 | Switching off releases the paper clips."
+    },
+    {
+      "text": "USES OF ELECTROMAGNETISM",
+      "name": "Case 14 | USES OF ELECTROMAGNETISM"
+    },
+    {
+      "text": "Educational cutaways show the coil or magnet inside.",
+      "name": "Case 14 | Educational cutaways show the coil or magnet inside."
+    },
+    {
+      "text": "Current around coil (viewed from N end)",
+      "name": "Board current caption"
+    },
+    {
+      "text": "Scrapyard crane",
+      "name": "Application caption | Scrapyard crane"
+    },
+    {
+      "text": "Lifting electromagnet",
+      "name": "Application caption | Scrapyard crane.001"
+    },
+    {
+      "text": "Dynamic microphone",
+      "name": "Application caption | Dynamic microphone"
+    },
+    {
+      "text": "Moving coil + permanent magnet",
+      "name": "Application caption | Dynamic microphone.001"
+    },
+    {
+      "text": "MRI machine",
+      "name": "Application caption | MRI machine"
+    },
+    {
+      "text": "Magnet coils around the bore",
+      "name": "Application caption | MRI machine.001"
+    },
+    {
+      "text": "N",
+      "name": "Compass cardinal | N"
+    },
+    {
+      "text": "E",
+      "name": "Compass cardinal | E"
+    },
+    {
+      "text": "S",
+      "name": "Compass cardinal | S"
+    },
+    {
+      "text": "W",
+      "name": "Compass cardinal | W"
+    },
+    {
+      "text": "MAGNETIC COMPASS",
+      "name": "Compass apparatus label"
+    },
+    {
+      "text": "Deflection: 0\u00b0",
+      "name": "Compass deflection reading | 0 degrees"
+    },
+    {
+      "text": "Deflection: 30\u00b0",
+      "name": "Compass deflection reading | 30 degrees"
+    },
+    {
+      "text": "Deflection: 51\u00b0",
+      "name": "Compass deflection reading | 51 degrees"
+    },
+    {
+      "text": "Deflection: 79\u00b0",
+      "name": "Compass deflection reading | 79 degrees"
+    },
+    {
+      "text": "N",
+      "name": "Compass cardinal | N.001"
+    },
+    {
+      "text": "E",
+      "name": "Compass cardinal | E.001"
+    },
+    {
+      "text": "S",
+      "name": "Compass cardinal | S.001"
+    },
+    {
+      "text": "W",
+      "name": "Compass cardinal | W.001"
+    },
+    {
+      "text": "MAGNETIC COMPASS",
+      "name": "Compass apparatus label.001"
+    },
+    {
+      "text": "Deflection: 0\u00b0",
+      "name": "Compass deflection reading | 0 degrees.001"
+    },
+    {
+      "text": "Deflection: 30\u00b0",
+      "name": "Compass deflection reading | 30 degrees.001"
+    },
+    {
+      "text": "Deflection: 51\u00b0",
+      "name": "Compass deflection reading | 51 degrees.001"
+    },
+    {
+      "text": "Deflection: 79\u00b0",
+      "name": "Compass deflection reading | 79 degrees.001"
+    },
+    {
+      "text": "MAGNETIC FIELD INSIDE COIL",
+      "name": "Coil field direction caption"
+    },
+    {
+      "text": "MAGNETIC FIELD OUTSIDE COIL",
+      "name": "Coil outside field direction caption"
+    },
+    {
+      "text": "MAGNETIC FIELD INSIDE COIL",
+      "name": "Coil field direction caption.001"
+    },
+    {
+      "text": "MAGNETIC FIELD OUTSIDE COIL",
+      "name": "Coil outside field direction caption.001"
+    },
+    {
+      "text": "SWITCH OFF",
+      "name": "Switch state | False"
+    },
+    {
+      "text": "SWITCH ON",
+      "name": "Switch state | True"
+    },
+    {
+      "text": "Before: 10 turns / 30\u00b0   Now: 20 turns / 51\u00b0",
+      "name": "Compass before and now comparison"
+    },
+    {
+      "text": "Before: air core / 51\u00b0   Now: iron core / 79\u00b0",
+      "name": "Compass before and now comparison.001"
+    },
+    {
+      "text": "10 turns: 30\u00b0   20 turns: 51\u00b0   With iron: 79\u00b0",
+      "name": "Compass before and now comparison.002"
+    }
+  ]
+}

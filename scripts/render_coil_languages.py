@@ -86,7 +86,7 @@ def batches(blender,language):
         end=min(start+192,136*FPS)
         manifest=PART/f'{language}-frames-{start:04d}-{end:04d}.json'
         saved=json.loads(manifest.read_text()) if manifest.is_file() else None
-        if not(saved and saved['source_sha256']==digest and all((PART[f['file']]).is_file() for f in saved['frames'])):
+        if not(saved and saved['source_sha256']==digest and all((PART/f['file']).is_file() for f in saved['frames'])):
             with (PART/f'render-{language}.log').open('a',encoding='utf-8') as log:
                 subprocess.run([blender,'--background',str(source),'--gpu-backend','opengl','--python-exit-code','1',
                     '--python',str(Path(__file__)),'--','--language',language,'--start',str(start),'--end',str(end)],
