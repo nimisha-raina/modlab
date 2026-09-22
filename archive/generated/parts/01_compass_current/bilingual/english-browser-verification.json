@@ -1,12 +1,12 @@
 {
   "method": "Interactive browser validation",
-  "checked_at_utc": "2026-09-21T13:52:09.962172+00:00",
+  "checked_at_utc": "2026-09-22T08:00:26.0340520Z",
   "language": "english",
-  "video_sha256": "32caa8f1c2d2e8aea8b248b1a89ef3ed948fe7266c1a60f5facef37cdf00f317",
-  "duration": 156.083333,
+  "video_sha256": "a8d49b01a04c3a8dbd728b20c80b1317c7852d2a3cc5ab4581c2b5840bcdc2c3",
+  "duration": 144.416667,
   "question_pause_seconds": [
-    56.264309,
-    129.164715
+    53.752741,
+    121.253831
   ],
   "both_questions_wrong_answer_retry_and_correct_continue": true,
   "continue_visible_at_390_by_844": true,

@@ -9,9 +9,10 @@ Copy this prompt into a new development session using the same project folder:
 > Verify archive/manifest.json with scripts/archive_project.py verify. In a fresh
 > checkout, restore missing generated files with scripts/archive_project.py restore;
 > preserve existing work and the frozen Case 1 masters.
-> Current Case 1 offers English (156.083 s) and हिंदी (187.833 s), with Hindi
+> Current Case 1 offers English (144.417 s) and हिंदी (187.833 s), with Hindi
 > board prose and labels, Swara female Hindi narration with the approved तांबे
-> speech input, Madhur male English narration, moving conventional-current arrows,
+> speech input, polished Prabhat male English narration with sentence-level
+> loudness matching and clean joins, moving conventional-current arrows,
 > brighter text, and synchronized before/now instrument readings,
 > a 60-degree close-up and two genuine H5P pauses. Its 86-second original remains frozen.
 > Current Case 2 has English/Hinglish selection before playback, using one Indian

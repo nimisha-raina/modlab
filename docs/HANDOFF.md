@@ -3,7 +3,7 @@
 ## Current bilingual Case 1
 
 Read [PART_01_BILINGUAL.md](PART_01_BILINGUAL.md) first for the revised first case.
-It offers English (156.083 s, Madhur male voice) and हिंदी (187.833 s,
+It offers English (144.417 s, polished Prabhat male voice) and हिंदी (187.833 s,
 Swara female voice), fully Hindi board text and labels, brighter lettering,
 travelling yellow current arrows, a gradual 60° rightward close-up, and two
 compact native H5P questions. The Before/Now card mirrors 0.50 A / 25° and
@@ -11,6 +11,8 @@ compact native H5P questions. The Before/Now card mirrors 0.50 A / 25° and
 Hindi speech uses the approved तांबे pronunciation input while visible text
 retains ताँबे. Optional `speech_text` is included in voice cache validation. The webpage has been simplified and starts with a
 language choice. The frozen 86-second original and Case 2 remain preserved.
+Prabhat's English delivery uses sentence-level generation, loudness matching,
+clean edge fades and one final encode. This avoids volume dips and noisy joins.
 Use the verification reports beside the generated files to check completion;
 the older first-case workflow below describes the preserved reference.
 

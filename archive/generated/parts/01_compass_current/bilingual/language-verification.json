@@ -1,14 +1,14 @@
 {
   "english": {
-    "speaker": "hi-IN-MadhurNeural",
+    "speaker": "en-IN-PrabhatNeural",
     "minimum_script_coverage": 1.0,
     "sections": 14,
-    "duration": 156.08333333333331,
-    "frames": 1873,
+    "duration": 144.41666666666666,
+    "frames": 1733,
     "fps": 12,
     "picture_samples_checked": 14,
-    "maximum_picture_mean_error": 1.7717238136574074,
-    "video_sha256": "32caa8f1c2d2e8aea8b248b1a89ef3ed948fe7266c1a60f5facef37cdf00f317"
+    "maximum_picture_mean_error": 1.8500365306712963,
+    "video_sha256": "a8d49b01a04c3a8dbd728b20c80b1317c7852d2a3cc5ab4581c2b5840bcdc2c3"
   },
   "hinglish": {
     "speaker": "hi-IN-SwaraNeural",

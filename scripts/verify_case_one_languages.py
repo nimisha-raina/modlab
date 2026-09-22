@@ -79,7 +79,7 @@ def main(speech_only=False):
         report[language].update(duration=timing['duration'],frames=count,fps=12,picture_samples_checked=len(errors),
             maximum_picture_mean_error=max(errors) if errors else None,
             video_sha256=hashlib.sha256(video.read_bytes()).hexdigest())
-    assert report['english']['speaker']=='hi-IN-MadhurNeural'
+    assert report['english']['speaker']=='en-IN-PrabhatNeural'
     assert report['hinglish']['speaker']=='hi-IN-SwaraNeural'
     (PART/('speech-verification.json' if speech_only else 'language-verification.json')).write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2))

@@ -75,7 +75,7 @@ def main(language):
     assert assembly.frame_end==timing['frames']
     sound=[s for s in assembly.sequence_editor.strips if s.type=='SOUND']
     assert len(sound)==1 and sound[0].sound.packed_file
-    assert assembly['narrator']==('hi-IN-SwaraNeural' if language=='hinglish' else 'hi-IN-MadhurNeural')
+    assert assembly['narrator']==('hi-IN-SwaraNeural' if language=='hinglish' else 'en-IN-PrabhatNeural')
     scene=bpy.data.scenes[SCENES[0]]
     assert scene['switch_on_frame']==round(map_time(23,timing)*24)+1
     position=orbit_pose()[0]

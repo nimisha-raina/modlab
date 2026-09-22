@@ -710,297 +710,199 @@
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/apparatus-cues.json",
-      "original_sha256": "aa37d1e78b44dc3efdf85f1a7755c0241db50c0e6020048a93157a7f1a5fc1f4",
-      "sha256": "842c7d7a71d7cdb008f89110ac96a2749104f3e5ed8b48795892190bd3cf1b54",
-      "bytes": 464
+      "original_sha256": "09e25cc505c9f3bea785b1ca376e4b23cb7d7187212e501128e95e7a449102d2"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/h5p-timing.json",
-      "original_sha256": "eae3abfbebf140613aeaa80f7e10c0166d0a11f3711b4914fce193524c5efab1",
-      "sha256": "c82a27aaa8a695cb4298496e86b68dac30654fb677296cdfb831fb35626e35b6",
-      "bytes": 187
+      "original_sha256": "c321b90cd7e05ea605d4d5e380a39dc416f2e9765a25a2b26211433b6fa694c4"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration-timing.json",
-      "original_sha256": "14fcd1b9e463ec76cc2de8a6d5a78a837644aef922a8aaafe1231aa35eed37bd",
-      "sha256": "079ee163ef18e68b13127d4b7aee0d695e992a4e07228aead18cd46644f6d89f",
-      "bytes": 6854
+      "original_sha256": "32042b63d7aa644318dba75e51ccb070302617199b7cc91e8dec0e9577fff62f"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration.wav",
-      "original_sha256": "99baef329794cd94fc296bedd0c2ba594b8b560bdfc51806e88bc4cac6e873e8",
-      "sha256": "99baef329794cd94fc296bedd0c2ba594b8b560bdfc51806e88bc4cac6e873e8",
-      "bytes": 13766594
+      "original_sha256": "57e6a598919e683d31b1ae662781bece0ce68bce51a45a6f8994694b89553fd0"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_00.mp3",
-      "original_sha256": "8467bb506e25a9eaebcf9488d8215065ecb13807877a2a957565fe24c468b969",
-      "sha256": "8467bb506e25a9eaebcf9488d8215065ecb13807877a2a957565fe24c468b969",
-      "bytes": 34848
+      "original_sha256": "c967435620658a5d5bb566a251d4afa4c8f614759677bbdf4569c4cf53bfc85c"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_00.wav",
-      "original_sha256": "e209a8b212d985fba2480744a9a975caf72b8867ea5a40c804cfe4f11e094129",
-      "sha256": "e209a8b212d985fba2480744a9a975caf72b8867ea5a40c804cfe4f11e094129",
-      "bytes": 420344
+      "original_sha256": "7e4895e3c9f0ad7772ce0269c1e61259f05dd3b621527cfacdf8175da4b01dd7"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_00.words.jsonl",
-      "original_sha256": "7a12f54bf7358caeb73d3af24f4f3406f345f02fcea327760ce9a478629896b3",
-      "sha256": "b5412573177e2fb1f3a4e945f2c280702d4ea2d013f2e4e3d3fd6cacbc43635f",
-      "bytes": 896
+      "original_sha256": "cfc86b9a637c2e3f3aab1c22e74da60f43118dcec42494a296f18d77d81bb7e5"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_01.mp3",
-      "original_sha256": "967879856acfe83aaac2013896728fb9f372325f00f11a30102863a54fde1090",
-      "sha256": "967879856acfe83aaac2013896728fb9f372325f00f11a30102863a54fde1090",
-      "bytes": 48384
+      "original_sha256": "aa20428cf29a1e20264709c2bd583fbc6ccbc3f103d2fabc566f5fb0cf8205f8"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_01.wav",
-      "original_sha256": "b062f13e0dbc23034d1de0c147cb5a715a91a5bc3105e30e13413010d8d1d944",
-      "sha256": "b062f13e0dbc23034d1de0c147cb5a715a91a5bc3105e30e13413010d8d1d944",
-      "bytes": 621032
+      "original_sha256": "612bd1dd7bf52a72fe7ae35db07b1a6e5b108cf39d10b83f1a443f004f0c52c9"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_01.words.jsonl",
-      "original_sha256": "3c679a09fdfd172bb78339181736105d6daea132d5fc60f85a3b7d9ec56e5920",
-      "sha256": "8296a25e5c46a5586880271c26e1b5e549735d3c256960e0314362a96a6c8b79",
-      "bytes": 1240
+      "original_sha256": "bfd8800891de2bd3986331d0526768f314ef13add617651eb09d2983f70b9cab"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_02.mp3",
-      "original_sha256": "6ec6074a4196cde656131601cd2c1fb1f3bfda44712f285fe767e4a3a1259e0c",
-      "sha256": "6ec6074a4196cde656131601cd2c1fb1f3bfda44712f285fe767e4a3a1259e0c",
-      "bytes": 54720
+      "original_sha256": "90be7a6059bf82ca67b4386ec96344ec6acf289bad1d90975e423e36a1c65118"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_02.wav",
-      "original_sha256": "76beec02c102e3e15cac486ce51e86b8bfd78058ff6c6232c438e3ac14f4044e",
-      "sha256": "76beec02c102e3e15cac486ce51e86b8bfd78058ff6c6232c438e3ac14f4044e",
-      "bytes": 717106
+      "original_sha256": "b501ec04f2f7fa374211b2c80d39982ff2a0bb1c6ec3ca4c1151e55ab36f2109"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_02.words.jsonl",
-      "original_sha256": "89ae3514acd8557ea700e1789792b87f80939d96c0829def562ce21c509a74fd",
-      "sha256": "743b5e87e6d47d9fe66334d2a995b58919dca9e5ab4462a4784abcb81501bb0f",
-      "bytes": 1717
+      "original_sha256": "6e7ff788c5d8c5e219113bb2387ee7bbc5e7fc14852838c86c44fb89a887cb2b"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_03.mp3",
-      "original_sha256": "310c48adf72e942a478e1761940936b427e706f74b98b621908c052e85a6b233",
-      "sha256": "310c48adf72e942a478e1761940936b427e706f74b98b621908c052e85a6b233",
-      "bytes": 77040
+      "original_sha256": "b2a61b9c003036f4270ef705883e18b338856196326ae8b8b9776480ba91d2dd"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_03.wav",
-      "original_sha256": "68921353c736da6f8722f22bb370a09ab804ee982f1291f7f8bdf19be7d11c91",
-      "sha256": "68921353c736da6f8722f22bb370a09ab804ee982f1291f7f8bdf19be7d11c91",
-      "bytes": 1037420
+      "original_sha256": "034ae23348a4b6b149db1a1257744ea4c8dd20b4c5de1ab7b1b7d81b7a7ce735"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_03.words.jsonl",
-      "original_sha256": "634ac64ac0b620a609d142e714e70873a1936a5c3a1e0ccc97bf2e12b87ecc06",
-      "sha256": "c48a5b24cefcfab7076d4ce03cffad3bcdb5d4b065e076e275acbf6c9a7e92cd",
-      "bytes": 1920
+      "original_sha256": "7d82133fc4447dce68841cdbf8b290804fed032ea31e79c5efa8d1b0901c79b9"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_04.mp3",
-      "original_sha256": "e38add69ec4ba3f2ece1c75d11d3337b551354ab42866dc6e94a5ca0191f6e47",
-      "sha256": "e38add69ec4ba3f2ece1c75d11d3337b551354ab42866dc6e94a5ca0191f6e47",
-      "bytes": 69264
+      "original_sha256": "ad2e5da92a5aa4b81fd0e204e31eace57a0482956197f40cbfb83d12e76faadf"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_04.wav",
-      "original_sha256": "932631e160575cb55a32cd6c2066e23963f59ac831489a98c47b2f2f26c8151e",
-      "sha256": "932631e160575cb55a32cd6c2066e23963f59ac831489a98c47b2f2f26c8151e",
-      "bytes": 925766
+      "original_sha256": "f4efe968b8eeb9b8f989d0c4ebe770e10fbc0ecad4a02fbabb07f913aae6cde3"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_04.words.jsonl",
-      "original_sha256": "6e4a66596aa013a066babbcd01fbd34566efcc78e72064e0b4b372779165fb4a",
-      "sha256": "092ccd588755914d1a6cd99f2891d05dee12b61a85f087d6d8504ee4ca5d4c7c",
-      "bytes": 2055
+      "original_sha256": "3aef4a4bfce311051f2e5ea2f46c8fba612cf71c22ffab43276d01543983f462"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_05.mp3",
-      "original_sha256": "c2355f9f1fb8d61468ac8b15a5e65c06d690b18d323e1016eee08cdae5491228",
-      "sha256": "c2355f9f1fb8d61468ac8b15a5e65c06d690b18d323e1016eee08cdae5491228",
-      "bytes": 61920
+      "original_sha256": "893e12bcf19f5530ca4f43810caef8d0d0e1678c468704dcf291ab2b7bf3c906"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_05.wav",
-      "original_sha256": "c8359dcbf013c794604597dea85bba81c3183e99687ddf0f48f353c37d695afc",
-      "sha256": "c8359dcbf013c794604597dea85bba81c3183e99687ddf0f48f353c37d695afc",
-      "bytes": 813168
+      "original_sha256": "157d061bc03a6a24f5ed00fe145273327502d784d9b0937ce9a89cfa450890b4"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_05.words.jsonl",
-      "original_sha256": "d2884120598c8887b14ecbcb4b998ae89d272fd2162996dca4ab1323ea30fa54",
-      "sha256": "176ebcf86d3f0a252c187101045eaf700a24db1e1c5bba2452340ab4e10811a2",
-      "bytes": 1647
+      "original_sha256": "2f48cec5bf87cac0d6a90d52e0dc831e5b0b9c9ac5a63131a0ac29bf53925aaf"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_06.mp3",
-      "original_sha256": "331c0935ff274c6b5e0e19aaee46d99db810cdba175e0f11cb921e393aa0eb70",
-      "sha256": "331c0935ff274c6b5e0e19aaee46d99db810cdba175e0f11cb921e393aa0eb70",
-      "bytes": 60912
+      "original_sha256": "f8eb94589ec31f2311ae593c0dddbcdba35217c4b662227a42b6ea4689872521"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_06.wav",
-      "original_sha256": "c3c1562c25c94869f42313cba28801dc73c9a9990411ece1f7836913ed2bd040",
-      "sha256": "c3c1562c25c94869f42313cba28801dc73c9a9990411ece1f7836913ed2bd040",
-      "bytes": 802298
+      "original_sha256": "76e9d51a0e5cc47f0dfb0fc02a053ca85adcd53249096b13d8e627c33e2fed51"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_06.words.jsonl",
-      "original_sha256": "94e5271efbae11aef13f52b4d5ae796f7ef33b00ca342de2594ff6fbe0ee71fd",
-      "sha256": "cc2bea980a45be56d42b87af53d520d87329abd99840ba400c18f59eafa8b5e8",
-      "bytes": 1597
+      "original_sha256": "f5270ef206f59ddec2384a64a9df24fafb1c78c9d62cda2499c5db8609d48d1e"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_07.mp3",
-      "original_sha256": "3ff2536c6d7909ec39893e85b26fa1592dc65dd70f00fad41cd31f928042a87f",
-      "sha256": "3ff2536c6d7909ec39893e85b26fa1592dc65dd70f00fad41cd31f928042a87f",
-      "bytes": 69984
+      "original_sha256": "27db41ff8464b9304a68b75d2d6269419f961fda56ccf502626d48c8cbefa956"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_07.wav",
-      "original_sha256": "b0ebb5341e43cd5c065f2e26a5c774bd693df2216d9b14f7dbd418bf7aebd8d4",
-      "sha256": "b0ebb5341e43cd5c065f2e26a5c774bd693df2216d9b14f7dbd418bf7aebd8d4",
-      "bytes": 942744
+      "original_sha256": "efbedafaa4b688470be3387b351a4bc2313fecaed7e84837508323a6b5eb5efd"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_07.words.jsonl",
-      "original_sha256": "ad15538936ddab97e8b425df0b033e282380b8fd53f809ff0f4f2386308a3f6f",
-      "sha256": "34531ee71f513c8142270b95473c63f3da4786054a912bcc6ae7bb34d0cdeda4",
-      "bytes": 1826
+      "original_sha256": "997c72bfd397b7ad0628f100ec2c93e00b71a0df9a5a8efb322fc180cfaca22c"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_08.mp3",
-      "original_sha256": "ebf34edeb05a7ff166f059aa62a6db0c2d672901df00166d38c13b7caaea6d24",
-      "sha256": "ebf34edeb05a7ff166f059aa62a6db0c2d672901df00166d38c13b7caaea6d24",
-      "bytes": 62496
+      "original_sha256": "10ea495ad5108b8a45e0532f7f9b80d2c8d1e65040c9ca5be16eb5ee94efe8fc"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_08.wav",
-      "original_sha256": "46a12e4a0a9c0eda39958a39367c30018fab1c1575626573f682eebba97bfb07",
-      "sha256": "46a12e4a0a9c0eda39958a39367c30018fab1c1575626573f682eebba97bfb07",
-      "bytes": 829888
+      "original_sha256": "d4c7b4048c521142f69d499967ace6782389279c7d2a3222e4c8f763c31641c2"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_08.words.jsonl",
-      "original_sha256": "654e8fdc152fb72bd63ada3b3001379674143de2e2952b27a24f4a888f6c150f",
-      "sha256": "3c6982e32d6129119ec699a49f3f264014cf1293b504a24f3d1f6efdebeae67a",
-      "bytes": 1490
+      "original_sha256": "a06cf8bfe4ee5bc6e753bf4e08fc66d7ad55542f6e1c08f2c562d516f4b67290"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_09.mp3",
-      "original_sha256": "bdc70b38a16ae4c6864f20d5e965753cc5180d07fda8ab97c9654c70bef0b7fa",
-      "sha256": "bdc70b38a16ae4c6864f20d5e965753cc5180d07fda8ab97c9654c70bef0b7fa",
-      "bytes": 67536
+      "original_sha256": "c6389490a4798f3bc72f3e5f9ee8a4d3c3b77a8433eb8746f9b14f5e19539a1f"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_09.wav",
-      "original_sha256": "e9654bcb3a11fdf0963ca503560e7aea7ba8d1d95044734c27c58338a71f9b77",
-      "sha256": "e9654bcb3a11fdf0963ca503560e7aea7ba8d1d95044734c27c58338a71f9b77",
-      "bytes": 904090
+      "original_sha256": "9e5f6fa6fe356e117f1ddaa0d75a68706674092fb5e4aa3a1f4b5b0c782e10da"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_09.words.jsonl",
-      "original_sha256": "5cb7a06d28a5ee59a405809e6f369b65803eeb2a80fe36c54d66a915060286b7",
-      "sha256": "96e5c7427c2b11df395b2fb2139d8b13b3f27d99d57763994affd294f5feebac",
-      "bytes": 1506
+      "original_sha256": "e7eca148bc5974c9a7bd8dee3cc011053c31bbcc5cfde361418e173f7f4bdae8"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_10.mp3",
-      "original_sha256": "efcc5e1a667b9e4b6cb34f0fc6ac3007c168f5b5e1f69ea77c07f7ddccc84a35",
-      "sha256": "efcc5e1a667b9e4b6cb34f0fc6ac3007c168f5b5e1f69ea77c07f7ddccc84a35",
-      "bytes": 68544
+      "original_sha256": "2e9f32545e58de7f47e0a415aefe1353c3006bcf8e9a38a062dd6633a9122471"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_10.wav",
-      "original_sha256": "cda01b38fbb379d8a5abe3b2281bb6992ec97abbdef937815690ecca0edbe5e9",
-      "sha256": "cda01b38fbb379d8a5abe3b2281bb6992ec97abbdef937815690ecca0edbe5e9",
-      "bytes": 917318
+      "original_sha256": "616748317e4dae92443642429e5b8a013561eb336c3d6912191d4d6e0ad06d8a"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_10.words.jsonl",
-      "original_sha256": "a89bb21079aa34ef8f2fa29f360e78aafa3c0febfe59ebb15443b84de7f4ecba",
-      "sha256": "5af6e78b03b4b2fb5283a16c0201a40bd44978a8702f337b6a8abdf78b22be29",
-      "bytes": 1898
+      "original_sha256": "8c48e833b7b1120c9f6bef8862f38247aad33ee4822a5bb53e5c26bf1fb31683"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_11.mp3",
-      "original_sha256": "af39f272a64a994ebb379490c0cb6501cef8c823b2041ceb0e1a235cc75fb5a6",
-      "sha256": "af39f272a64a994ebb379490c0cb6501cef8c823b2041ceb0e1a235cc75fb5a6",
-      "bytes": 114768
+      "original_sha256": "dce55eb1cd80299ed80ee553f94e0ab0991ebf30ece61bec498c98834133750b"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_11.wav",
-      "original_sha256": "c8d32b0af0fd82374758b74aed725770c5e6bf6b80415d71aafb204d8a3df77c",
-      "sha256": "c8d32b0af0fd82374758b74aed725770c5e6bf6b80415d71aafb204d8a3df77c",
-      "bytes": 1596116
+      "original_sha256": "3a043b40f084e15d01d0bed29f631b7a8e69aaa09cae8d12a35deff6e71db3ec"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_11.words.jsonl",
-      "original_sha256": "ffbdf698d835848e235dba1b525d12409da7006b2777c4500a16f6966aad6053",
-      "sha256": "cfc3c82a9e7e42460fc5379f4370639c4e7cd36b7a9130f9aa5b04a558dfc0f2",
-      "bytes": 3098
+      "original_sha256": "15f7ceffd3cf8c68dc230839d982f30fdcf155dc8a81901dd6e689903ecda59a"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_12.mp3",
-      "original_sha256": "727d4c49b80f8df14b89574beb6eb62e0b6fc7972c6d14d118168f282ac0dbba",
-      "sha256": "727d4c49b80f8df14b89574beb6eb62e0b6fc7972c6d14d118168f282ac0dbba",
-      "bytes": 42048
+      "original_sha256": "bd05fa361b434641b3cccab44e9e250cb7c6538ca463339ffb0b54bba45657d6"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_12.wav",
-      "original_sha256": "16e75a28c34aa16a53cb53aae6c0d15bec858fda098b48b76bda8813af5246e9",
-      "sha256": "16e75a28c34aa16a53cb53aae6c0d15bec858fda098b48b76bda8813af5246e9",
-      "bytes": 513582
+      "original_sha256": "69ecbe8c246fae55360bb2ab534b29a31c72f9910ebc17ccaab0deb05361406d"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_12.words.jsonl",
-      "original_sha256": "d8d0db4e2500b8af5142f5e1749d1d0df57b48e5d7831a7f0d4f0e508b73580b",
-      "sha256": "2a716e4131b163279ab9767bed81f557c6fd96ec2eab06cefa81e36051beacdc",
-      "bytes": 1075
+      "original_sha256": "0a5afc2e748470b780207d424a7f051dc697d1a55ed02c29c17419da949ed63f"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_13.mp3",
-      "original_sha256": "fcfa792be91323b59c6aeb4f0a29f822c9b121c57a78e3bcc7cfa342108ffbd4",
-      "sha256": "fcfa792be91323b59c6aeb4f0a29f822c9b121c57a78e3bcc7cfa342108ffbd4",
-      "bytes": 121536
+      "original_sha256": "cfe7bbe4487096436da70699febd9ed6ec152b3e0de13ea9bb26e7a06e591bc4"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_13.wav",
-      "original_sha256": "07d327de647e565b1e4dc2df382f1cf1370e42b020b1ac0bd17c71c235ff74fb",
-      "sha256": "07d327de647e565b1e4dc2df382f1cf1370e42b020b1ac0bd17c71c235ff74fb",
-      "bytes": 1692662
+      "original_sha256": "30a3a6791d43e98688d173ba0c4045792e80440c691e916dee7535f408022f65"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/narration_13.words.jsonl",
-      "original_sha256": "d11a04be9842df34519538016b0c7bd3edeff8e7b53e6101ed7f889a5f8cf008",
-      "sha256": "f40246d752d4c40cb67899adc03c6dcf2eb0efe54ab2f0c98e157a70f5af9a6f",
-      "bytes": 3021
+      "original_sha256": "af30d112b7290fa6a153549f6f1f77123550ca6654c1a2b65586ffdc7a81f9c7"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/provenance.json",
-      "original_sha256": "636c83799c3abdb446178ca67cbffce18e3a6aa7fbe9025fb9a8b370958c40f2",
-      "sha256": "efd25351cbb323d153c675299fbe07cfc724281496bcaa9f5b0116fba45fbedc",
-      "bytes": 2459
+      "original_sha256": "06e4a3a55eb5ac6317bd4504fc1b43a16d130e2f1ab71f80edd61e35cbfabf4e"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/video-timing.json",
-      "original_sha256": "f68b04dfae9c2bb00fa3d2cd8bf14df3e7824a693cf0ba859ecf797e827f5af8",
-      "sha256": "bb751993746cd789e660a4743870bac2be705289cf463572b47f80547bb4242a",
-      "bytes": 6942
+      "original_sha256": "ae1ffc4fb832035425ad682c2130d14a25225058e3e09ae3f792dd3f468c91eb"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_english/video-verification.json",
-      "original_sha256": "6add2446b4d5d2f0136fb17d02f38be8b2b19ac71cd58f0b713715ab24c16f31",
-      "sha256": "f5a540d959aea536da555e4d365961ba3b00cb12824dc1982b71904054c81b06",
-      "bytes": 1592
+      "original_sha256": "aa16d5b2eff83bf7466030f5bfbae9851507f331bc526d96a3fa33124840c231"
     },
     {
       "path": "parts/01_compass_current/bilingual/audio_hinglish/apparatus-cues.json",
@@ -1304,15 +1206,11 @@
     },
     {
       "path": "parts/01_compass_current/bilingual/case_one_english.blend",
-      "original_sha256": "8227f955b8d931dca3cd94ff3b8ec91a5fdbd82384e92d9917316d118fd7a201",
-      "sha256": "bd651e046c13e6b4004a233f1f7c8ad5bd4365c4fc9a8a69e007b58f29d5ed97",
-      "bytes": 12859377
+      "original_sha256": "de2f45a72ae8648fffd83e851df9bc814d7ce56180e9297135556d7ffddeef05"
     },
     {
       "path": "parts/01_compass_current/bilingual/case_one_english_720p.mp4",
-      "original_sha256": "32caa8f1c2d2e8aea8b248b1a89ef3ed948fe7266c1a60f5facef37cdf00f317",
-      "sha256": "32caa8f1c2d2e8aea8b248b1a89ef3ed948fe7266c1a60f5facef37cdf00f317",
-      "bytes": 22616221
+      "original_sha256": "a8d49b01a04c3a8dbd728b20c80b1317c7852d2a3cc5ab4581c2b5840bcdc2c3"
     },
     {
       "path": "parts/01_compass_current/bilingual/case_one_english_source.blend",
@@ -1352,9 +1250,7 @@
     },
     {
       "path": "parts/01_compass_current/bilingual/english-browser-verification.json",
-      "original_sha256": "d626a274f4106846782ef96553f221d39facd9eed9469010196cd9d53dfcbbc2",
-      "sha256": "72a29dea681d320af9e846880a56878075718a83e2533ea5d4f1fc7f17c309f5",
-      "bytes": 543
+      "original_sha256": "355d30589223361ab47bfead3f179c851081e70dbf185eceeab9c7c51d474a5d"
     },
     {
       "path": "parts/01_compass_current/bilingual/english-frames-0000-0192.json",
@@ -1400,9 +1296,7 @@
     },
     {
       "path": "parts/01_compass_current/bilingual/english-scene-verification.json",
-      "original_sha256": "f0a44176b0df116595b5e0553905f42327a097895b62e41f24dc67e601519996",
-      "sha256": "3ce4a8b55fe8469aca64729f3ef2fd7ba87c5e64f1324396d160bdeff40ffc51",
-      "bytes": 327
+      "original_sha256": "8ac5816a37f9f2a577d36d0978941de5a3339be0fb6384b09ba48f77f610e650"
     },
     {
       "path": "parts/01_compass_current/bilingual/english-stills.json",
@@ -1424,7 +1318,9 @@
     },
     {
       "path": "parts/01_compass_current/bilingual/hinglish-browser-verification.json",
-      "original_sha256": "cb8771a6041ec648f1644b6c42d5e3a35749ca572fe386c8edd6b069d80a1f7a"
+      "original_sha256": "cb8771a6041ec648f1644b6c42d5e3a35749ca572fe386c8edd6b069d80a1f7a",
+      "sha256": "51a5b1648bbd24950321c55a7a43ef837dd39574304f3dcb4ae5f63d6cfe136f",
+      "bytes": 544
     },
     {
       "path": "parts/01_compass_current/bilingual/hinglish-contact.png",
@@ -1488,9 +1384,7 @@
     },
     {
       "path": "parts/01_compass_current/bilingual/language-verification.json",
-      "original_sha256": "b5c01c4bdfd39100d2723097a286e730f7f0de49cff0d8432ca6227649689b08",
-      "sha256": "30332a25b109a60ece106a0bda2ec9896d0d819d0d02bfeb9c07a9323792a1bd",
-      "bytes": 723
+      "original_sha256": "5ab5ab405cd266318ab67f57312b54ecc6dd913c2b8cc65741836a62ee35da91"
     },
     {
       "path": "parts/01_compass_current/bilingual/original-text.json",
@@ -1512,9 +1406,7 @@
     },
     {
       "path": "parts/01_compass_current/bilingual/speech-verification.json",
-      "original_sha256": "71fa7ff86c19708fa2804e368f252739542696395c39c87c0f6d1c97ee88c7b0",
-      "sha256": "8fe2bfc94b570b22a4000d578468ebeb4690241f6fea5762a675e40ec0a97e49",
-      "bytes": 227
+      "original_sha256": "9404ddb04c9878cc61d5833638cc84a37f1b28157fde5786589dba355e5188e1"
     },
     {
       "path": "parts/01_compass_current/bilingual/text-inventory.json",
@@ -5664,9 +5556,7 @@
     },
     {
       "path": "share/case-one-english.h5p",
-      "original_sha256": "f0cc8a3167b366f1715188f952c17d0c71be3a46862feb5acd953a8ba1033b26",
-      "sha256": "f0cc8a3167b366f1715188f952c17d0c71be3a46862feb5acd953a8ba1033b26",
-      "bytes": 24139936
+      "original_sha256": "ae563f76051ee3838053fe66bba92c5f1bdb0487ed0803e9c0ddfe47f68086c6"
     },
     {
       "path": "share/case-one-hinglish.h5p",
@@ -5747,5 +5637,10 @@
       "bytes": 1704
     }
   ],
-  "blender_jobs": []
+  "blender_jobs": [
+    {
+      "path": "parts/01_compass_current/bilingual/case_one_english.blend",
+      "original_sha256": "de2f45a72ae8648fffd83e851df9bc814d7ce56180e9297135556d7ffddeef05"
+    }
+  ]
 }

@@ -2,9 +2,10 @@
 
 ## Current Case 1: choose English or हिंदी
 
-The root page now opens with a language choice. English lasts 156.083 seconds and
+The root page now opens with a language choice. English lasts 144.417 seconds and
 हिंदी 187.833 seconds. The Hindi movie has fully Hindi board prose and labels
-and Swara female narration. English retains the Madhur male narrator. Moving
+and Swara female narration. English uses the polished Prabhat male narrator,
+with sentence-level loudness matching and clean joins. Moving
 current arrows, brighter labels and live before/now measurements clarify the changes. Both versions have two genuine H5P questions. See
 [PART_01_BILINGUAL.md](../docs/PART_01_BILINGUAL.md) for current files and validation.
 The original 86-second package and the reference workflow below remain preserved.

@@ -3,7 +3,7 @@
 ## Current bilingual Case 1
 
 [PART_01_BILINGUAL.md](PART_01_BILINGUAL.md) describes the revised first case:
-English 156.083 seconds (Madhur) and हिंदी 187.833 seconds (Swara), fully Hindi
+English 144.417 seconds (polished Prabhat) and हिंदी 187.833 seconds (Swara), fully Hindi
 labels, board prose and captions, travelling current arrows, before/now readings, a 60° close-up, richer particle narration and two native H5P pauses.
 The root webpage starts with language selection. Its original 86-second version
 below remains frozen. Case 2 retains its existing bilingual media and behaviour.

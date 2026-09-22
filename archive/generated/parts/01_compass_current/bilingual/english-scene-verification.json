@@ -1,7 +1,7 @@
 {
   "language": "english",
   "probes": 19,
-  "maximum_pose_error": 1.3425946235656738e-05,
+  "maximum_pose_error": 1.2814998626708984e-05,
   "camera_azimuth_degrees": 59.99999999999999,
   "packed_narration": true,
   "packed_localized_labels": true,

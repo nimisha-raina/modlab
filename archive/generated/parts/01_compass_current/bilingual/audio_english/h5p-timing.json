@@ -2,12 +2,12 @@
   "questions": [
     {
       "id": "case-one-flow",
-      "time": 56.2
+      "time": 53.7
     },
     {
       "id": "case-one-strength",
-      "time": 129.117
+      "time": 121.117
     }
   ],
-  "duration": 156.08333333333331
+  "duration": 144.41666666666666
 }

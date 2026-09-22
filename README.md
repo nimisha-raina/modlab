@@ -2,7 +2,7 @@
 
 Current Case 1: [English/हिंदी wire and compass lesson](docs/PART_01_BILINGUAL.md),
 with localized Hindi labels and board text, conventional-current arrows and two
-native H5P pauses. English lasts 156.083 seconds; हिंदी lasts 187.833 seconds.
+native H5P pauses. English lasts 144.417 seconds; हिंदी lasts 187.833 seconds.
 The original 86-second version is preserved.
 
 Current Case 2: [English/Hinglish interactive coil lesson](docs/PART_02_BILINGUAL.md).

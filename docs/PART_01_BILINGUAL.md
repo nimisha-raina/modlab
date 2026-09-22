@@ -7,9 +7,12 @@ explanations, and a language choice before playback. The original remains under
 
 ## Student experience
 
-- English: 156.083 seconds. Hindi: 187.833 seconds. Speech runs at its natural
+- English: 144.417 seconds. Hindi: 187.833 seconds. Speech runs at its measured
   rate; each language has an independently measured timeline.
-- English uses the Indian male voice `hi-IN-MadhurNeural`. Hindi uses the
+- English uses the Indian-English male voice `en-IN-PrabhatNeural`, slowed by
+  6% with a small pitch adjustment. Each sentence is generated separately,
+  level-matched, edge-cleaned and joined once to keep volume and transitions
+  consistent. Hindi uses the
   Indian female voice `hi-IN-SwaraNeural`.
 - Hindi uses Devanagari board prose, apparatus labels, narration, captions,
   questions and player controls. The selector reads **हिंदी**. SI units remain
@@ -28,13 +31,13 @@ explanations, and a language choice before playback. The original remains under
 
 | Event | English | हिंदी |
 | --- | ---: | ---: |
-| Approach the atomic model | 13.500 s | 19.083 s |
-| Switch ON / net electron flow | 46.417 s | 59.167 s |
-| First H5P pause | 56.200 s | 71.867 s |
-| Introduce the compass | 77.917 s | 100.917 s |
-| Increased current comparison begins | 110.500 s | 135.000 s |
-| Second H5P pause | 129.117 s | 154.950 s |
-| Return to the summary | 136.083 s | 163.667 s |
+| Approach the atomic model | 13.000 s | 19.083 s |
+| Switch ON / net electron flow | 44.750 s | 59.167 s |
+| First H5P pause | 53.700 s | 71.867 s |
+| Introduce the compass | 74.250 s | 100.917 s |
+| Increased current comparison begins | 93.500 s | 135.000 s |
+| Second H5P pause | 121.117 s | 154.950 s |
+| Return to the summary | 127.583 s | 163.667 s |
 
 ## Teaching details
 

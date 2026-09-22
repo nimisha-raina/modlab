@@ -1,6 +1,11 @@
 {
-  "speaker": "hi-IN-MadhurNeural",
-  "description": "Madhur: Indian male English tutor, natural speaking rate.",
+  "speaker": "en-IN-PrabhatNeural",
+  "description": "Prabhat: polished Indian-English male science tutor, clear measured delivery with stable sentence loudness.",
+  "rate": "-6%",
+  "volume": "+4%",
+  "pitch": "-2Hz",
+  "sentence_leveling": true,
+  "sentence_pause_seconds": 0.2,
   "language": "english",
   "audio_directory": "output/parts/01_compass_current/bilingual/audio_english",
   "segments": [
@@ -86,7 +91,7 @@
       "id": "summary",
       "start": 72,
       "end": 86,
-      "text": "To summarize what we learned: moving charge produces current and a magnetic field. A compass detects it. More current means a stronger field. If current stops, the wireâ€™s field disappears; Earthâ€™s magnetic field remains."
+      "text": "To summarize what we learned: moving charge produces current and a magnetic field. A compass detects it. More current means a stronger field. If current stops, the wire's field disappears; Earth's magnetic field remains."
     }
   ]
 }
