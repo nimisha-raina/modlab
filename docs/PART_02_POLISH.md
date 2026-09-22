@@ -65,7 +65,8 @@ verification confirms every narration section, the exact scene-picture mapping,
 12-fps frame counts and silence at all eight question pauses. Browser checks
 confirm language selection, the final movie durations, retry and Continue, and
 a visible Continue footer at 390 × 844. The source and media are saved on the
-main branch; publish the verified build to `gh-pages` for the public lesson.
+main branch. GitHub Pages serves release `6765bc7`, whose public video hashes
+match the verified English and Hindi exports.
 
 Working assets are in `output/parts/02_coil_reversal/bilingual/`. A local copy
 of the previous delivery is preserved under

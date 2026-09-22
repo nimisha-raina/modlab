@@ -30,7 +30,8 @@ board text, moving yellow conventional-current arrows, neater turquoise field
 arrows, clearer meter and compass comparisons, and four native H5P questions.
 Both exported movies passed narration, frame and silent-pause verification.
 [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) documents the previous shared-picture
-release, which remains preserved with the older fixed-view checkpoint.
+release, which remains preserved with the older fixed-view checkpoint. The
+current public lesson is available at `https://nimisha-raina.github.io/modlab/coils/`.
 
 ## Resume checkpoint and preservation
 
