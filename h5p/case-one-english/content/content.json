@@ -29,8 +29,8 @@
       "interactions": [
         {
           "duration": {
-            "from": 56.2,
-            "to": 56.2
+            "from": 53.7,
+            "to": 53.7
           },
           "pause": true,
           "displayType": "button",
@@ -136,8 +136,8 @@
         },
         {
           "duration": {
-            "from": 129.117,
-            "to": 129.117
+            "from": 121.117,
+            "to": 121.117
           },
           "pause": true,
           "displayType": "button",
