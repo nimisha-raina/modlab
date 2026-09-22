@@ -1,5 +1,5 @@
 {
-  "source_revision": "43d667a94a4aa788eae8ccc51971aba55c65e853",
+  "source_revision": "6765bc71e74788c7c9b1e69cd96cfdaababde888",
   "case_one": {
     "english": {
       "sha256": "a8d49b01a04c3a8dbd728b20c80b1317c7852d2a3cc5ab4581c2b5840bcdc2c3",
@@ -8,6 +8,16 @@
     "hinglish": {
       "sha256": "1c9d98c79a84e25a14b81bf6581d1bb9d123e30f81b6aba279f0627380ff3dbf",
       "bytes": 24904298
+    }
+  },
+  "case_two": {
+    "english": {
+      "sha256": "d34c13b09a18bd7f9bfb3f83893d28fd99439fc279e7a32fdea534efa405b9c0",
+      "bytes": 16190411
+    },
+    "hinglish": {
+      "sha256": "2e4913e393f07d1e8b01cf89b0d26b6c044ed463d1454a8f6d4b195bbc564832",
+      "bytes": 17578420
     }
   }
 }

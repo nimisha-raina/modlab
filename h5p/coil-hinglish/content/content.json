@@ -11,7 +11,7 @@
         }
       ],
       "startScreenOptions": {
-        "title": "Build an electromagnet",
+        "title": "आइए, विद्युत चुंबक बनाएँ",
         "hideStartTitle": true,
         "shortStartDescription": "",
         "poster": {
@@ -29,8 +29,8 @@
       "interactions": [
         {
           "duration": {
-            "from": 76.867,
-            "to": 76.867
+            "from": 72.7,
+            "to": 72.7
           },
           "pause": true,
           "displayType": "button",
@@ -49,22 +49,22 @@
               },
               "UI": {
                 "checkAnswerButton": "जवाब जाँचें",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
+                "submitAnswerButton": "जमा करें",
+                "showSolutionButton": "सही उत्तर देखें",
                 "tryAgainButton": "फिर कोशिश करें",
-                "tipsLabel": "Show tip",
-                "scoreBarLabel": "You got :num out of :total points",
-                "tipAvailable": "Tip available",
-                "feedbackAvailable": "Feedback available",
-                "readFeedback": "Read feedback",
-                "wrongAnswer": "Wrong answer",
-                "correctAnswer": "Correct answer",
-                "shouldCheck": "Should have been checked",
-                "shouldNotCheck": "Should not have been checked",
-                "noInput": "Please answer before viewing the solution",
-                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
-                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
-                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                "tipsLabel": "संकेत देखें",
+                "scoreBarLabel": ":total में से :num अंक मिले",
+                "tipAvailable": "संकेत उपलब्ध है",
+                "feedbackAvailable": "प्रतिक्रिया उपलब्ध है",
+                "readFeedback": "प्रतिक्रिया पढ़ें",
+                "wrongAnswer": "गलत उत्तर",
+                "correctAnswer": "सही उत्तर",
+                "shouldCheck": "यह विकल्प चुनना था",
+                "shouldNotCheck": "यह विकल्प नहीं चुनना था",
+                "noInput": "सही उत्तर देखने से पहले अपना उत्तर दें",
+                "a11yCheck": "उत्तर जाँचें। सही, गलत या अनुत्तरित उत्तर दिखाए जाएँगे।",
+                "a11yShowSolution": "सही उत्तर दिखाएँ।",
+                "a11yRetry": "अपने उत्तर हटाकर फिर कोशिश करें।"
               },
               "behaviour": {
                 "enableRetry": true,
@@ -92,20 +92,20 @@
                 "cancelLabel": "Cancel",
                 "confirmLabel": "Confirm"
               },
-              "question": "<p>Current reverse करने पर poles का क्या होगा?</p>",
+              "question": "<p>धारा की दिशा उलटने पर चुंबकीय ध्रुवों का क्या होगा?</p>",
               "answers": [
                 {
-                  "text": "<p>North और south बदल जाएंगे</p>",
+                  "text": "<p>उत्तर और दक्षिण ध्रुव बदल जाएँगे</p>",
                   "correct": true,
                   "tipsAndFeedback": {}
                 },
                 {
-                  "text": "<p>Poles वही रहेंगे</p>",
+                  "text": "<p>ध्रुव वही रहेंगे</p>",
                   "correct": false,
                   "tipsAndFeedback": {}
                 },
                 {
-                  "text": "<p>दोनों ends north होंगे</p>",
+                  "text": "<p>दोनों सिरे उत्तर ध्रुव बनेंगे</p>",
                   "correct": false,
                   "tipsAndFeedback": {}
                 }
@@ -114,12 +114,12 @@
                 {
                   "from": 0,
                   "to": 99,
-                  "feedback": "Current की direction बदलने से field की direction पर क्या असर होगा?"
+                  "feedback": "धारा की दिशा बदलने से चुंबकीय क्षेत्र की दिशा पर क्या असर होगा?"
                 },
                 {
                   "from": 100,
                   "to": 100,
-                  "feedback": "सही! Current reverse होने से field उलटती है और poles बदल जाते हैं।"
+                  "feedback": "सही! धारा उलटने से चुंबकीय क्षेत्र उलटता है और ध्रुव बदल जाते हैं।"
                 }
               ]
             },
@@ -136,8 +136,8 @@
         },
         {
           "duration": {
-            "from": 120.867,
-            "to": 120.867
+            "from": 115.367,
+            "to": 115.367
           },
           "pause": true,
           "displayType": "button",
@@ -156,22 +156,22 @@
               },
               "UI": {
                 "checkAnswerButton": "जवाब जाँचें",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
+                "submitAnswerButton": "जमा करें",
+                "showSolutionButton": "सही उत्तर देखें",
                 "tryAgainButton": "फिर कोशिश करें",
-                "tipsLabel": "Show tip",
-                "scoreBarLabel": "You got :num out of :total points",
-                "tipAvailable": "Tip available",
-                "feedbackAvailable": "Feedback available",
-                "readFeedback": "Read feedback",
-                "wrongAnswer": "Wrong answer",
-                "correctAnswer": "Correct answer",
-                "shouldCheck": "Should have been checked",
-                "shouldNotCheck": "Should not have been checked",
-                "noInput": "Please answer before viewing the solution",
-                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
-                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
-                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                "tipsLabel": "संकेत देखें",
+                "scoreBarLabel": ":total में से :num अंक मिले",
+                "tipAvailable": "संकेत उपलब्ध है",
+                "feedbackAvailable": "प्रतिक्रिया उपलब्ध है",
+                "readFeedback": "प्रतिक्रिया पढ़ें",
+                "wrongAnswer": "गलत उत्तर",
+                "correctAnswer": "सही उत्तर",
+                "shouldCheck": "यह विकल्प चुनना था",
+                "shouldNotCheck": "यह विकल्प नहीं चुनना था",
+                "noInput": "सही उत्तर देखने से पहले अपना उत्तर दें",
+                "a11yCheck": "उत्तर जाँचें। सही, गलत या अनुत्तरित उत्तर दिखाए जाएँगे।",
+                "a11yShowSolution": "सही उत्तर दिखाएँ।",
+                "a11yRetry": "अपने उत्तर हटाकर फिर कोशिश करें।"
               },
               "behaviour": {
                 "enableRetry": true,
@@ -199,15 +199,15 @@
                 "cancelLabel": "Cancel",
                 "confirmLabel": "Confirm"
               },
-              "question": "<p>10 turns से 20 turns करने पर क्या होगा?</p><p class=\"lesson-question-context\">Current, coil की length और diameter वही हैं।</p>",
+              "question": "<p>10 फेरों से 20 फेरे करने पर क्या होगा?</p><p class=\"lesson-question-context\">धारा, कुंडली की लंबाई और व्यास समान हैं।</p>",
               "answers": [
                 {
-                  "text": "<p>Field कम होगी</p>",
+                  "text": "<p>चुंबकीय क्षेत्र कम होगा</p>",
                   "correct": false,
                   "tipsAndFeedback": {}
                 },
                 {
-                  "text": "<p>Field बढ़ेगी</p>",
+                  "text": "<p>चुंबकीय क्षेत्र बढ़ेगा</p>",
                   "correct": true,
                   "tipsAndFeedback": {}
                 },
@@ -221,12 +221,12 @@
                 {
                   "from": 0,
                   "to": 99,
-                  "feedback": "हर turn, coil की magnetic field में योगदान देता है।"
+                  "feedback": "हर फेरा कुंडली के चुंबकीय क्षेत्र में योगदान देता है।"
                 },
                 {
                   "from": 100,
                   "to": 100,
-                  "feedback": "सही! उसी current पर ज़्यादा turns से field stronger होती है।"
+                  "feedback": "सही! समान धारा पर अधिक फेरों से चुंबकीय क्षेत्र बढ़ता है।"
                 }
               ]
             },
@@ -243,8 +243,8 @@
         },
         {
           "duration": {
-            "from": 157.2,
-            "to": 157.2
+            "from": 149.533,
+            "to": 149.533
           },
           "pause": true,
           "displayType": "button",
@@ -263,22 +263,22 @@
               },
               "UI": {
                 "checkAnswerButton": "जवाब जाँचें",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
+                "submitAnswerButton": "जमा करें",
+                "showSolutionButton": "सही उत्तर देखें",
                 "tryAgainButton": "फिर कोशिश करें",
-                "tipsLabel": "Show tip",
-                "scoreBarLabel": "You got :num out of :total points",
-                "tipAvailable": "Tip available",
-                "feedbackAvailable": "Feedback available",
-                "readFeedback": "Read feedback",
-                "wrongAnswer": "Wrong answer",
-                "correctAnswer": "Correct answer",
-                "shouldCheck": "Should have been checked",
-                "shouldNotCheck": "Should not have been checked",
-                "noInput": "Please answer before viewing the solution",
-                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
-                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
-                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                "tipsLabel": "संकेत देखें",
+                "scoreBarLabel": ":total में से :num अंक मिले",
+                "tipAvailable": "संकेत उपलब्ध है",
+                "feedbackAvailable": "प्रतिक्रिया उपलब्ध है",
+                "readFeedback": "प्रतिक्रिया पढ़ें",
+                "wrongAnswer": "गलत उत्तर",
+                "correctAnswer": "सही उत्तर",
+                "shouldCheck": "यह विकल्प चुनना था",
+                "shouldNotCheck": "यह विकल्प नहीं चुनना था",
+                "noInput": "सही उत्तर देखने से पहले अपना उत्तर दें",
+                "a11yCheck": "उत्तर जाँचें। सही, गलत या अनुत्तरित उत्तर दिखाए जाएँगे।",
+                "a11yShowSolution": "सही उत्तर दिखाएँ।",
+                "a11yRetry": "अपने उत्तर हटाकर फिर कोशिश करें।"
               },
               "behaviour": {
                 "enableRetry": true,
@@ -306,20 +306,20 @@
                 "cancelLabel": "Cancel",
                 "confirmLabel": "Confirm"
               },
-              "question": "<p>Soft iron core डालने से क्या होगा?</p><p class=\"lesson-question-context\">Turns और current वही रखें।</p>",
+              "question": "<p>नर्म लोहे की कील डालने से क्या होगा?</p><p class=\"lesson-question-context\">फेरों की संख्या और धारा समान रखें।</p>",
               "answers": [
                 {
-                  "text": "<p>Current रुक जाएगा</p>",
+                  "text": "<p>धारा रुक जाएगी</p>",
                   "correct": false,
                   "tipsAndFeedback": {}
                 },
                 {
-                  "text": "<p>Field कम होगी</p>",
+                  "text": "<p>चुंबकीय क्षेत्र कम होगा</p>",
                   "correct": false,
                   "tipsAndFeedback": {}
                 },
                 {
-                  "text": "<p>Field बढ़ेगी</p>",
+                  "text": "<p>चुंबकीय क्षेत्र बढ़ेगा</p>",
                   "correct": true,
                   "tipsAndFeedback": {}
                 }
@@ -328,12 +328,12 @@
                 {
                   "from": 0,
                   "to": 99,
-                  "feedback": "Iron के magnetic regions, coil की field में align हो सकते हैं।"
+                  "feedback": "लोहे के चुंबकीय क्षेत्रक कुंडली के क्षेत्र की दिशा में व्यवस्थित हो सकते हैं।"
                 },
                 {
                   "from": 100,
                   "to": 100,
-                  "feedback": "सही! Aligned regions अपनी field जोड़ते हैं, इसलिए field बढ़ती है।"
+                  "feedback": "सही! व्यवस्थित क्षेत्रकों का चुंबकीय असर जुड़ता है, इसलिए क्षेत्र बढ़ता है।"
                 }
               ]
             },
@@ -350,8 +350,8 @@
         },
         {
           "duration": {
-            "from": 256.033,
-            "to": 256.033
+            "from": 243.867,
+            "to": 243.867
           },
           "pause": true,
           "displayType": "button",
@@ -370,22 +370,22 @@
               },
               "UI": {
                 "checkAnswerButton": "जवाब जाँचें",
-                "submitAnswerButton": "Submit",
-                "showSolutionButton": "Show solution",
+                "submitAnswerButton": "जमा करें",
+                "showSolutionButton": "सही उत्तर देखें",
                 "tryAgainButton": "फिर कोशिश करें",
-                "tipsLabel": "Show tip",
-                "scoreBarLabel": "You got :num out of :total points",
-                "tipAvailable": "Tip available",
-                "feedbackAvailable": "Feedback available",
-                "readFeedback": "Read feedback",
-                "wrongAnswer": "Wrong answer",
-                "correctAnswer": "Correct answer",
-                "shouldCheck": "Should have been checked",
-                "shouldNotCheck": "Should not have been checked",
-                "noInput": "Please answer before viewing the solution",
-                "a11yCheck": "Check the answers. The responses will be marked as correct, incorrect, or unanswered.",
-                "a11yShowSolution": "Show the solution. The task will be marked with its correct solution.",
-                "a11yRetry": "Retry the task. Reset all responses and start the task over again."
+                "tipsLabel": "संकेत देखें",
+                "scoreBarLabel": ":total में से :num अंक मिले",
+                "tipAvailable": "संकेत उपलब्ध है",
+                "feedbackAvailable": "प्रतिक्रिया उपलब्ध है",
+                "readFeedback": "प्रतिक्रिया पढ़ें",
+                "wrongAnswer": "गलत उत्तर",
+                "correctAnswer": "सही उत्तर",
+                "shouldCheck": "यह विकल्प चुनना था",
+                "shouldNotCheck": "यह विकल्प नहीं चुनना था",
+                "noInput": "सही उत्तर देखने से पहले अपना उत्तर दें",
+                "a11yCheck": "उत्तर जाँचें। सही, गलत या अनुत्तरित उत्तर दिखाए जाएँगे।",
+                "a11yShowSolution": "सही उत्तर दिखाएँ।",
+                "a11yRetry": "अपने उत्तर हटाकर फिर कोशिश करें।"
               },
               "behaviour": {
                 "enableRetry": true,
@@ -413,7 +413,7 @@
                 "cancelLabel": "Cancel",
                 "confirmLabel": "Confirm"
               },
-              "question": "<p>Switch OFF करने पर clips का क्या होगा?</p>",
+              "question": "<p>स्विच बंद (OFF) करने पर क्लिपों का क्या होगा?</p>",
               "answers": [
                 {
                   "text": "<p>वे गिर जाएंगी</p>",
@@ -435,12 +435,12 @@
                 {
                   "from": 0,
                   "to": 99,
-                  "feedback": "Circuit खुलने से coil का current रुकता है।"
+                  "feedback": "परिपथ खुलने से कुंडली में धारा रुकती है।"
                 },
                 {
                   "from": 100,
                   "to": 100,
-                  "feedback": "सही! Coil की field खत्म होती है और soft iron का ज़्यादातर induced magnetism चला जाता है।"
+                  "feedback": "सही! कुंडली का क्षेत्र हटता है और नर्म लोहे का अधिकांश प्रेरित चुंबकत्व समाप्त हो जाता है।"
                 }
               ]
             },
@@ -481,52 +481,52 @@
     "retryButton": "on"
   },
   "l10n": {
-    "interaction": "Interaction",
-    "play": "Play",
-    "pause": "Pause",
-    "mute": "Mute, currently unmuted",
-    "unmute": "Unmute, currently muted",
-    "quality": "Video Quality",
-    "captions": "Captions",
-    "close": "Close",
-    "fullscreen": "Fullscreen",
-    "exitFullscreen": "Exit Fullscreen",
-    "summary": "Open summary dialog",
-    "bookmarks": "Bookmarks",
-    "endscreen": "Submit screen",
+    "interaction": "प्रश्न",
+    "play": "चलाएँ",
+    "pause": "रोकें",
+    "mute": "आवाज़ बंद करें",
+    "unmute": "आवाज़ चालू करें",
+    "quality": "वीडियो की गुणवत्ता",
+    "captions": "उपशीर्षक",
+    "close": "बंद करें",
+    "fullscreen": "पूरी स्क्रीन",
+    "exitFullscreen": "पूरी स्क्रीन से बाहर आएँ",
+    "summary": "सार खोलें",
+    "bookmarks": "चिह्नित स्थान",
+    "endscreen": "अपने उत्तर देखें",
     "defaultAdaptivitySeekLabel": "आगे बढ़ें",
-    "continueWithVideo": "Continue with video",
-    "more": "More player options",
-    "playbackRate": "Playback Rate",
-    "rewind10": "Rewind 10 Seconds",
-    "navDisabled": "Navigation is disabled",
-    "navForwardDisabled": "Navigating forward is disabled",
-    "sndDisabled": "Sound is disabled",
+    "continueWithVideo": "वीडियो आगे चलाएँ",
+    "more": "वीडियो के विकल्प",
+    "playbackRate": "चलने की गति",
+    "rewind10": "10 सेकंड पीछे जाएँ",
+    "navDisabled": "आगे-पीछे जाना बंद है",
+    "navForwardDisabled": "पहले प्रश्न पूरा करें",
+    "sndDisabled": "आवाज़ बंद है",
     "requiresCompletionWarning": "आगे बढ़ने से पहले फिर कोशिश कीजिए।",
-    "back": "Back",
-    "hours": "Hours",
-    "minutes": "Minutes",
-    "seconds": "Seconds",
-    "currentTime": "Current time:",
-    "totalTime": "Total time:",
-    "singleInteractionAnnouncement": "Interaction appeared:",
-    "multipleInteractionsAnnouncement": "Multiple interactions appeared.",
-    "videoPausedAnnouncement": "Video is paused",
-    "content": "Content",
-    "answered": "@answered answered",
-    "endcardTitle": "@answered Question(s) answered",
-    "endcardInformation": "You have answered @answered questions, click below to submit your answers.",
-    "endcardInformationOnSubmitButtonDisabled": "You have answered @answered questions.",
-    "endcardInformationNoAnswers": "You have not answered any questions.",
-    "endcardInformationMustHaveAnswer": "You have to answer at least one question before you can submit your answers.",
-    "endcardSubmitButton": "Submit Answers",
-    "endcardSubmitMessage": "Your answers have been submitted!",
-    "endcardTableRowScore": "Score",
-    "endcardQuestion": "Question",
-    "endcardAnsweredScore": "answered",
-    "endCardTableRowSummaryWithScore": "You got @score out of @total points for the @question that appeared after @minutes minutes and @seconds seconds.",
-    "endCardTableRowSummaryWithoutScore": "You have answered the @question that appeared after @minutes minutes and @seconds seconds.",
-    "videoProgressBar": "Video progress",
-    "howToCreateInteractions": "Play the video to start creating interactions"
+    "back": "वापस",
+    "hours": "घंटे",
+    "minutes": "मिनट",
+    "seconds": "सेकंड",
+    "currentTime": "अभी:",
+    "totalTime": "कुल समय:",
+    "singleInteractionAnnouncement": "प्रश्न आया:",
+    "multipleInteractionsAnnouncement": "प्रश्न आए हैं।",
+    "videoPausedAnnouncement": "वीडियो रुका है",
+    "content": "पाठ",
+    "answered": "@answered उत्तर दिए",
+    "endcardTitle": "@answered प्रश्नों के उत्तर दिए",
+    "endcardInformation": "आपने @answered प्रश्नों के उत्तर दिए। उत्तर जमा करने के लिए नीचे दबाएँ।",
+    "endcardInformationOnSubmitButtonDisabled": "आपने @answered प्रश्नों के उत्तर दिए।",
+    "endcardInformationNoAnswers": "अभी किसी प्रश्न का उत्तर नहीं दिया है।",
+    "endcardInformationMustHaveAnswer": "पहले कम से कम एक प्रश्न का उत्तर दें।",
+    "endcardSubmitButton": "उत्तर जमा करें",
+    "endcardSubmitMessage": "आपके उत्तर जमा हो गए!",
+    "endcardTableRowScore": "अंक",
+    "endcardQuestion": "प्रश्न",
+    "endcardAnsweredScore": "उत्तर दिया",
+    "endCardTableRowSummaryWithScore": "@minutes मिनट @seconds सेकंड पर आए @question में @total में से @score अंक मिले।",
+    "endCardTableRowSummaryWithoutScore": "आपने @minutes मिनट @seconds सेकंड पर आए @question का उत्तर दिया।",
+    "videoProgressBar": "वीडियो की प्रगति",
+    "howToCreateInteractions": "प्रश्न जोड़ने के लिए वीडियो चलाएँ"
   }
 }

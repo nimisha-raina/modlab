@@ -29,8 +29,8 @@
       "interactions": [
         {
           "duration": {
-            "from": 66.533,
-            "to": 66.533
+            "from": 62.033,
+            "to": 62.033
           },
           "pause": true,
           "displayType": "button",
@@ -136,8 +136,8 @@
         },
         {
           "duration": {
-            "from": 104.033,
-            "to": 104.033
+            "from": 97.367,
+            "to": 97.367
           },
           "pause": true,
           "displayType": "button",
@@ -243,8 +243,8 @@
         },
         {
           "duration": {
-            "from": 134.7,
-            "to": 134.7
+            "from": 127.867,
+            "to": 127.867
           },
           "pause": true,
           "displayType": "button",
@@ -350,8 +350,8 @@
         },
         {
           "duration": {
-            "from": 215.367,
-            "to": 215.367
+            "from": 202.2,
+            "to": 202.2
           },
           "pause": true,
           "displayType": "button",
