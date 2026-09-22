@@ -2,6 +2,7 @@
 import json
 import hashlib
 import argparse
+import re
 from pathlib import Path
 import shutil
 import zipfile
@@ -96,6 +97,14 @@ def main(questions_only=False,languages=('english','hinglish')):
         print(f'COIL_H5P={language}: {len(questions)} native questions')
     if not questions_only:
         (DIST/'coils/config.js').write_text('window.COIL_LESSONS = '+json.dumps(configuration,ensure_ascii=False)+';\n',encoding='utf-8')
+        # A revisited lesson must load the captions and UI from this build.
+        page=DIST/'coils/index.html'
+        html=page.read_text(encoding='utf-8')
+        for name in ('config.js','coil.js','coil.css'):
+            version=hashlib.sha256((DIST/'coils'/name).read_bytes()).hexdigest()[:12]
+            html=re.sub(r'((?:src|href)="'+re.escape(name)+r')(?:\?v=[a-f0-9]+)?"',
+                        lambda m:m[1]+'?v='+version+'"',html)
+        page.write_text(html,encoding='utf-8')
 
 
 if __name__=='__main__':
