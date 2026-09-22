@@ -21,14 +21,13 @@ def normalize(text):
 
 def main(speech_only=False):
     report={}
-    master=json.loads((PART/'render.json').read_text(encoding='utf-8')) if not speech_only else None
     for language in ('english','hinglish'):
         script=json.loads((ROOT/f'docs/coil-narration-{language}.json').read_text(encoding='utf-8'))
         folder=PART/f'audio_{language}'
         coverage=[]
         for i,section in enumerate(script['segments']):
             words=[json.loads(line)['text'] for line in (folder/f'narration_{i:02}.words.jsonl').read_text(encoding='utf-8').splitlines()]
-            ratio=difflib.SequenceMatcher(None,normalize(section['text']),normalize(' '.join(words)),autojunk=False).ratio()
+            ratio=difflib.SequenceMatcher(None,normalize(section.get('speech_text',section['text'])),normalize(' '.join(words)),autojunk=False).ratio()
             assert ratio>.95,(language,i,'Speech service omitted script words',ratio)
             coverage.append(ratio)
         report[language]=dict(speaker=script['speaker'],minimum_text_coverage=min(coverage),sections=len(coverage))
@@ -38,7 +37,9 @@ def main(speech_only=False):
         subprocess.run([sys.executable,str(ROOT/'scripts/verify_narrated_video.py'),'--timing',str(folder/'video-timing.json'),
             '--video',str(video),'--no-questions'],check=True,stdout=subprocess.DEVNULL)
         mapping=json.loads((folder/'picture-mapping.json').read_text(encoding='utf-8'))
+        master=json.loads((PART/mapping['localized_manifest']).read_text())
         assert mapping['master_scene_sha256']==master['source_sha256']
+        assert hashlib.sha256((PART/f'coil_{language}_source.blend').read_bytes()).hexdigest()==master['source_sha256']
         assert len(mapping['indices'])==timing['frames']
         samples={round((s['target_start']+s['target_end'])/2*timing['fps']) for s in timing['segments']}
         picture_errors=[]
@@ -52,8 +53,8 @@ def main(speech_only=False):
                 previous=frame.pts
                 if count-1 in samples:
                     from PIL import Image
-                    name=master['sequence'][mapping['indices'][count-1]]
-                    with Image.open(PART/'bilingual_frames'/name) as picture:
+                    name=master['frames'][mapping['indices'][count-1]]['file']
+                    with Image.open(PART/name) as picture:
                         expected=np.asarray(picture.convert('RGB'),dtype=float)
                     error=float(np.mean(np.abs(frame.to_ndarray(format='rgb24').astype(float)-expected)))
                     assert error<6,(language,count,'Encoded picture differs from mapped master',error)
@@ -73,9 +74,8 @@ def main(speech_only=False):
         report[language].update(frames=count,duration=timing['duration'],fps=timing['fps'],pauses=pauses,
             maximum_picture_mean_error=max(picture_errors),
             video_sha256=hashlib.sha256(video.read_bytes()).hexdigest())
-    assert len({entry['speaker'] for entry in report.values()})==1
-    if not speech_only:
-        assert hashlib.sha256((PART/'coil_visual_master.blend').read_bytes()).hexdigest()==master['source_sha256']
+    assert report['english']['speaker']=='en-IN-PrabhatNeural'
+    assert report['hinglish']['speaker']=='hi-IN-SwaraNeural'
     (PART/('speech-verification.json' if speech_only else 'media-verification.json')).write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,indent=2))
 

@@ -57,7 +57,7 @@ def build(scene, mats, group):
                 obj["resultant_stage"] = stage
                 obj["field_plane"] = plane
                 objects.append(obj)
-                if index != count-1 or plane_index not in (1,3):
+                if index != count-1:
                     continue
                 # Tangent arrows on the broad outer return, clear of copper.
                 for coordinate in (max(range(len(trace)), key=lambda k: trace[k][1]),):
@@ -66,8 +66,8 @@ def build(scene, mats, group):
                     for sign in (1,-1):
                         # Ring tracing uses +X current; this circuit starts -X.
                         direction = tangent*-sign
-                        parts = g.arrow("Magnetic field tangent",center-.17*direction,center+.17*direction,
-                                        .036,material,group)
+                        parts = g.arrow("Magnetic field tangent",center-.23*direction,center+.23*direction,
+                                        .040,material,group)
                         for part in parts:
                             part["magnetic_field_arrow"] = True
                         arrows.append((sign,parts))

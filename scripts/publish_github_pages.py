@@ -48,12 +48,13 @@ def publish(remote):
             raise SystemExit(f"Missing website asset: {name}")
     if any(p.is_symlink() for p in dist.rglob("*")):
         raise SystemExit("Publish regular files, not links to local dependencies.")
-    release={"source_revision":source_revision,"case_one":{}}
-    for language in ('english','hinglish'):
-        media=dist/f'h5p/case-one-{language}/content/videos/lesson.mp4'
-        with media.open('rb') as stream:
-            checksum=hashlib.file_digest(stream,'sha256').hexdigest()
-        release['case_one'][language]={"sha256":checksum,"bytes":media.stat().st_size}
+    release={"source_revision":source_revision,"case_one":{},"case_two":{}}
+    for case,prefix,filename in (('case_one','case-one','lesson.mp4'),('case_two','coil','coil.mp4')):
+        for language in ('english','hinglish'):
+            media=dist/f'h5p/{prefix}-{language}/content/videos/{filename}'
+            with media.open('rb') as stream:
+                checksum=hashlib.file_digest(stream,'sha256').hexdigest()
+            release[case][language]={"sha256":checksum,"bytes":media.stat().st_size}
     (dist/'release.json').write_text(json.dumps(release,indent=2)+'\n',encoding='utf-8')
 
     existing = run("git", "ls-remote", "--heads", remote, "gh-pages", capture=True)

@@ -46,14 +46,15 @@ def main(keep_master=False):
         provenance=json.loads((folder/'provenance.json').read_text(encoding='utf-8'))
         for i,section in enumerate(lesson['segments']):
             source=folder/f'narration_{i:02}.mp3'
-            digest=hashlib.sha256((section['text']+lesson['description']).encode()).hexdigest()
+            digest=hashlib.sha256((section.get('speech_text',section['text'])+lesson['description']).encode()).hexdigest()
             assert provenance['clips'][source.name]['script_sha256']==digest
             assert provenance['clips'][source.name]['voice']==lesson['speaker']
             target=source.with_suffix('.wav')
             data=normalize(source,target)
             samples[language].append(data)
             section.update(audio=target.relative_to(ROOT).as_posix(),speech_seconds=len(data)/rate)
-    assert len({lesson['speaker'] for lesson in lessons.values()})==1
+    assert lessons['english']['speaker']=='en-IN-PrabhatNeural'
+    assert lessons['hinglish']['speaker']=='hi-IN-SwaraNeural'
     cursor=0.
     for i,source in enumerate(lessons['english']['segments']):
         window=math.ceil(max(source['end']-source['start'],

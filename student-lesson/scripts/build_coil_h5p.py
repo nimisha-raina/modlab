@@ -38,7 +38,7 @@ def main(questions_only=False):
         params=defaults(read(LIBRARIES/'H5P.InteractiveVideo-1.28/semantics.json'))
         params['interactiveVideo']={
             'video':{'files':[{'path':'videos/coil.mp4','mime':'video/mp4','copyright':{'license':'U'}}],
-                'startScreenOptions':{'title':'Build an electromagnet','hideStartTitle':True,'shortStartDescription':'',
+                'startScreenOptions':{'title':'Build an electromagnet' if language=='english' else 'आइए, विद्युत चुंबक बनाएँ','hideStartTitle':True,'shortStartDescription':'',
                 'poster':{'path':'images/poster.jpg','mime':'image/jpeg','width':1280,'height':720,'copyright':{'license':'U'}}}},
             'assets':{'interactions':[question_interaction(q,i,times[i],len(questions)) for i,q in enumerate(questions)],
                 'bookmarks':[],'endscreens':[]},
@@ -47,8 +47,13 @@ def main(questions_only=False):
             retryButton='on',showRewind10=True,preventSkippingMode='forward',deactivateSound=False)
         params['l10n'].update(defaultAdaptivitySeekLabel='Continue video' if language=='english' else 'आगे बढ़ें',
             requiresCompletionWarning='Try again before continuing.' if language=='english' else 'आगे बढ़ने से पहले फिर कोशिश कीजिए।')
+        if language=='hinglish':
+            ui=read(ROOT/'content/case-one/ui-hi.json')
+            params['l10n'].update(ui['video'])
+            for item in params['interactiveVideo']['assets']['interactions']:
+                item['action']['params']['UI'].update(ui['question'])
         write(package/'content/content.json',params)
-        write(package/'h5p.json',dict(title=f'Build an electromagnet — {language.title()}',language='en' if language=='english' else 'hi',
+        write(package/'h5p.json',dict(title='Build an electromagnet — English' if language=='english' else 'आइए, विद्युत चुंबक बनाएँ — हिंदी',language='en' if language=='english' else 'hi',
             mainLibrary='H5P.InteractiveVideo',embedTypes=['iframe'],license='U',preloadedDependencies=dependencies))
         if questions_only:
             print(f'QUESTION_CONTENT_READY={language}')
@@ -57,7 +62,7 @@ def main(questions_only=False):
         (package/'content/videos').mkdir(parents=True,exist_ok=True)
         (package/'content/images').mkdir(parents=True,exist_ok=True)
         shutil.copy2(video,package/'content/videos/coil.mp4')
-        shutil.copy2(PART/'poster.jpg',package/'content/images/poster.jpg')
+        shutil.copy2(PART/f'poster-{language}.jpg',package/'content/images/poster.jpg')
         if language=='english':
             shutil.copy2(PART/'poster.jpg',DIST/'coils/poster.jpg')
         destination=ROOT.parent/f'output/share/coil-{language}.h5p'

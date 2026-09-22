@@ -1,5 +1,10 @@
 # Case 2: English and Hinglish interactive lesson
 
+This describes the previous shared-picture release. For the approved Prabhat
+English / Swara हिंदी revision with localized pictures and clearer comparison
+cues, use [PART_02_POLISH.md](PART_02_POLISH.md). Its checkpoint states whether
+the revised delivery has finished verification and publication.
+
 The current revision adds an opening narration choice, contact-synchronized
 magnetic fields, the approved 60-degree right-hand nail view and four genuine
 H5P prediction questions. The earlier fixed-camera English review and frozen

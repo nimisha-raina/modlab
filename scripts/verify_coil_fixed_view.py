@@ -98,9 +98,30 @@ for source in (125,130,135.9):
     assert all(not o.hide_render for o in highlights)
 assert abs(map_time(136,timing)-map_time(125,timing)-11)<1e-6
 assert all(image.packed_file for image in bpy.data.images if image.source=="FILE")
+if scene.get('presentation_revision'):
+    arrows=[o for o in scene.objects if o.get('conventional_current_arrow')]
+    branches=[o for o in arrows if o.get('circuit_site') and 'arrowhead' in o.name]
+    # Sample away from the wrap of a repeating travelling-arrow cue. Rounding
+    # narration time can place an exact wrap boundary one source frame early.
+    for source in (8.25,34.25,61.25,93.25,108.25):
+        scene.frame_set(round(map_time(source,timing)*24)+1)
+        bpy.context.view_layer.update()
+        moving=[o for o in branches if not o.hide_render]
+        before={o.name:o.matrix_world.translation.copy() for o in moving}
+        scene.frame_set(round(map_time(source+.25,timing)*24)+1)
+        bpy.context.view_layer.update()
+        for obj in moving:
+            travel=obj.matrix_world.translation-before[obj.name]
+            direction=obj.matrix_world.to_3x3()@Vector((0,0,1))
+            assert travel.length>.01 and travel.dot(direction)>0,(source,obj.name,'Current cue not travelling forward')
+    for source in (0,29,53,70,100,114,130):
+        scene.frame_set(round(map_time(source,timing)*24)+1)
+        assert all(o.hide_render for o in arrows),(source,'Current arrow visible with switch open')
+    assert len([o for o in scene.objects if 'previous_compass_reference_seconds' in o])==18
+    assert all(max(p.co.y for p in o.data.splines[0].points)<10.95 for o in highlights)
 if timing:
     assert scene.sequence_editor.strips[0].sound.packed_file
-    assert scene["narrator"] in ("en-IN-PrabhatNeural","hi-IN-MadhurNeural")
+    assert scene["narrator"] in ("en-IN-PrabhatNeural","hi-IN-MadhurNeural","hi-IN-SwaraNeural")
 name = "portable-fixed-view-verification.json" if Path(bpy.data.filepath).is_relative_to(ROOT/"archive") else "fixed-view-verification.json"
 if 'revision' in scene:
     field_objects=[o for o in scene.objects if 'branch_field_pair' in o or 'local_winding_pair' in o or 'resultant_stage' in o]

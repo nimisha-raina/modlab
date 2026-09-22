@@ -12,7 +12,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 ARCHIVE = ROOT/"archive"
 GENERATED = ARCHIVE/"generated"
-CACHES = {"complete_review_frames","tutor_review_frames","extended_review_frames","fixed_view_frames","bilingual_frames","case_one_frames",".sentence-cache"}
+CACHES = {"complete_review_frames","tutor_review_frames","extended_review_frames","fixed_view_frames","bilingual_frames","case_one_frames","localized_frames",".sentence-cache"}
 EXTENSIONS = {".blend",".mp4",".mp3",".wav",".h5p",".srt",".vtt",".json",".jsonl",".png",".jpg",".svg"}
 
 

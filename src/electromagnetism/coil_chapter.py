@@ -7,6 +7,7 @@ from . import geometry as g, stage, circuit, ammeter
 from . import coil_demo as demo, current_demo, morph_geometry as morph
 from . import coil_board, coil_experiments, coil_camera, coil_annotations, coil_current_guides
 from . import coil_resultant_field, coil_fixed_view, coil_compasses
+from . import coil_presentation
 from .coil_keyframes import frames
 from .build import clean_previous_lesson
 from .config import OUTPUT, SAMPLE_Z
@@ -69,6 +70,7 @@ def build():
     scene = bpy.data.scenes.new(demo.SCENE_NAME)
     bpy.context.window.scene = scene
     mats = make_materials()
+    coil_presentation.brighten(mats)
     camera = stage.setup(scene, mats, "preview")
     switch = circuit.build(scene, mats, camera)
     scene.frame_end = demo.DURATION*demo.FPS
@@ -156,7 +158,6 @@ def build():
         cell.keyframe_insert("location", frame=frame)
         switch.rotation_euler.y = math.radians(-43)*(1-demo.coil_switch.closure(seconds))
         switch.keyframe_insert("rotation_euler", frame=frame)
-        coil_current_guides.animate(current_guides,seconds,frame,reading_board)
         for sign, obj in poles:
             obj.hide_render = obj.hide_viewport = seconds < demo.POLE_START or combined < .999 or current*sign <= .001 or reading_board
             obj.keyframe_insert("hide_render", frame=frame)
@@ -168,9 +169,14 @@ def build():
     coil_camera.animate(scene)
     print("COIL_GEOMETRY_AND_FIELDS_READY",flush=True)
     coil_experiments.build(scene,mats,camera)
+    coil_presentation.finish(scene,mats,camera)
+    # Current arrows travel throughout every ON interval, including board holds.
+    for frame in range(1,demo.DURATION*demo.FPS+1):
+        coil_current_guides.animate(current_guides,(frame-1)/demo.FPS,frame,False)
     coil_fixed_view.arrange(scene)
-    from . import coil_orbit_labels
+    from . import coil_orbit_labels, coil_arrow_motion
     coil_orbit_labels.animate(scene)
+    coil_arrow_motion.bake(scene)
     # Per-source-frame contact gates must remain steps after narration retiming.
     # Constant baked samples also prevent Bezier overshoot in current/field cues.
     from .narration import curves

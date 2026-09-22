@@ -16,6 +16,9 @@ def build(mats, field_group, coil_group):
             x = -4.25 if name == "Far left" else 4.25
             center = (x, demo.CENTER[1]+demo.RADIUS*(5-abs(x))/(5-demo.LENGTH/2), demo.CENTER[2])
             electron_direction = (1, demo.RADIUS/(5-demo.LENGTH/2)*(1 if x<0 else -1), 0)
+        if name == "Right side":
+            center = (5, 1.35, .7+(demo.CENTER[2]-.7)*(1.35+2.2)/4.4)
+            electron_direction = (0, -4.4, .7-demo.CENTER[2])
         site = bpy.data.objects.new("Coil case field site | " + name, None)
         field_group.objects.link(site)
         site.location = center
@@ -43,13 +46,14 @@ def build(mats, field_group, coil_group):
             for obj in arrow_objects:
                 obj["conventional_current_arrow"] = True
                 obj["circuit_site"] = name
-            circuit_arrows.append((sign, arrow_objects))
+            circuit_arrows.append((sign, arrow_objects, conventional,
+                                   [obj.location.copy() for obj in arrow_objects]))
 
     coil_arrows = []
     initial = demo.wire_points(1)
     dense = demo.dense_wire_points(1)
     # Equal arc-length samples lie on the copper helix rather than its axis.
-    for slot, index in enumerate((135, 245, 355, 465, 575), 1):
+    for slot, index in enumerate((135, 235, 335, 435, 535), 1):
         for sign in (1, -1):
             root = bpy.data.objects.new(
                 f"Conventional current on winding {slot} | {sign}", None)
@@ -79,13 +83,18 @@ def animate(data, seconds, frame, reading_board):
             obj.hide_render = obj.hide_viewport = abs(current) < .001 or reading_board
             obj.keyframe_insert("hide_render", frame=frame)
             obj.keyframe_insert("hide_viewport", frame=frame)
-    for sign, objects in circuit_arrows:
-        for obj in objects:
+    for sign, objects, direction, origins in circuit_arrows:
+        # A short repeating journey stays on each conductor, clear of devices.
+        travel = ((frame-1) % 48/48-.5)*.65
+        for obj, origin in zip(objects, origins):
+            obj.location = origin+direction*travel
+            obj.keyframe_insert("location", frame=frame)
             obj.hide_render = obj.hide_viewport = current*sign <= .001 or reading_board
             obj.keyframe_insert("hide_render", frame=frame)
             obj.keyframe_insert("hide_viewport", frame=frame)
     dense_fraction = demo.dense_fraction(seconds)
     for sign, objects, root, index, initial, dense in coil_arrows:
+        index = 110+round((index-110-sign*100*((frame-1) % 48/48)) % 500)
         def point(i):
             return Vector(initial[i]).lerp(Vector(dense[i]), dense_fraction)
         root.location = point(index)

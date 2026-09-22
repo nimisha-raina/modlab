@@ -9,6 +9,10 @@ The 86-second workflow below is the preserved original, not the current root pag
 
 ## Current Case 2 workflow
 
+Use [PART_02_POLISH.md](PART_02_POLISH.md) for the current presentation revision,
+including separate English/Hindi graphics, approved voices and resumable renders.
+The shared-picture workflow below is retained as a previous-release reference.
+
 See [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) for the English/Hinglish coil
 lesson with contact-synchronized fields, nail orbit and H5P questions. It has
 separate scripts, packed scenes, a shared picture track and two soundtracks.

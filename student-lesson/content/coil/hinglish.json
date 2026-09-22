@@ -2,15 +2,15 @@
   {
     "id": "coil-reversal",
     "after_id": "reverse_setup",
-    "question": "Current reverse करने पर poles का क्या होगा?",
+    "question": "धारा की दिशा उलटने पर चुंबकीय ध्रुवों का क्या होगा?",
     "answers": [
-      "North और south बदल जाएंगे",
-      "Poles वही रहेंगे",
-      "दोनों ends north होंगे"
+      "उत्तर और दक्षिण ध्रुव बदल जाएँगे",
+      "ध्रुव वही रहेंगे",
+      "दोनों सिरे उत्तर ध्रुव बनेंगे"
     ],
     "correct": 0,
-    "hint": "Current की direction बदलने से field की direction पर क्या असर होगा?",
-    "success": "सही! Current reverse होने से field उलटती है और poles बदल जाते हैं।",
+    "hint": "धारा की दिशा बदलने से चुंबकीय क्षेत्र की दिशा पर क्या असर होगा?",
+    "success": "सही! धारा उलटने से चुंबकीय क्षेत्र उलटता है और ध्रुव बदल जाते हैं।",
     "title": "सवाल 1 / 4",
     "ui": {
       "checkAnswerButton": "जवाब जाँचें",
@@ -20,16 +20,16 @@
   {
     "id": "coil-turns",
     "after_id": "turns_setup",
-    "question": "10 turns से 20 turns करने पर क्या होगा?",
-    "context": "Current, coil की length और diameter वही हैं।",
+    "question": "10 फेरों से 20 फेरे करने पर क्या होगा?",
+    "context": "धारा, कुंडली की लंबाई और व्यास समान हैं।",
     "answers": [
-      "Field कम होगी",
-      "Field बढ़ेगी",
+      "चुंबकीय क्षेत्र कम होगा",
+      "चुंबकीय क्षेत्र बढ़ेगा",
       "कोई बदलाव नहीं होगा"
     ],
     "correct": 1,
-    "hint": "हर turn, coil की magnetic field में योगदान देता है।",
-    "success": "सही! उसी current पर ज़्यादा turns से field stronger होती है।",
+    "hint": "हर फेरा कुंडली के चुंबकीय क्षेत्र में योगदान देता है।",
+    "success": "सही! समान धारा पर अधिक फेरों से चुंबकीय क्षेत्र बढ़ता है।",
     "title": "सवाल 2 / 4",
     "ui": {
       "checkAnswerButton": "जवाब जाँचें",
@@ -39,16 +39,16 @@
   {
     "id": "coil-core",
     "after_id": "core_setup",
-    "question": "Soft iron core डालने से क्या होगा?",
-    "context": "Turns और current वही रखें।",
+    "question": "नर्म लोहे की कील डालने से क्या होगा?",
+    "context": "फेरों की संख्या और धारा समान रखें।",
     "answers": [
-      "Current रुक जाएगा",
-      "Field कम होगी",
-      "Field बढ़ेगी"
+      "धारा रुक जाएगी",
+      "चुंबकीय क्षेत्र कम होगा",
+      "चुंबकीय क्षेत्र बढ़ेगा"
     ],
     "correct": 2,
-    "hint": "Iron के magnetic regions, coil की field में align हो सकते हैं।",
-    "success": "सही! Aligned regions अपनी field जोड़ते हैं, इसलिए field बढ़ती है।",
+    "hint": "लोहे के चुंबकीय क्षेत्रक कुंडली के क्षेत्र की दिशा में व्यवस्थित हो सकते हैं।",
+    "success": "सही! व्यवस्थित क्षेत्रकों का चुंबकीय असर जुड़ता है, इसलिए क्षेत्र बढ़ता है।",
     "title": "सवाल 3 / 4",
     "ui": {
       "checkAnswerButton": "जवाब जाँचें",
@@ -58,15 +58,15 @@
   {
     "id": "coil-release",
     "after_id": "clips_on",
-    "question": "Switch OFF करने पर clips का क्या होगा?",
+    "question": "स्विच बंद (OFF) करने पर क्लिपों का क्या होगा?",
     "answers": [
       "वे गिर जाएंगी",
       "हमेशा चिपकी रहेंगी",
       "ऊपर जाएंगी"
     ],
     "correct": 0,
-    "hint": "Circuit खुलने से coil का current रुकता है।",
-    "success": "सही! Coil की field खत्म होती है और soft iron का ज़्यादातर induced magnetism चला जाता है।",
+    "hint": "परिपथ खुलने से कुंडली में धारा रुकती है।",
+    "success": "सही! कुंडली का क्षेत्र हटता है और नर्म लोहे का अधिकांश प्रेरित चुंबकत्व समाप्त हो जाता है।",
     "title": "सवाल 4 / 4",
     "ui": {
       "checkAnswerButton": "जवाब जाँचें",

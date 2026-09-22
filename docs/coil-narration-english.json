@@ -1,6 +1,11 @@
 {
-  "speaker": "hi-IN-MadhurNeural",
-  "description": "Madhur: one Indian male tutor for English and Hinglish, natural speaking rate.",
+  "speaker": "en-IN-PrabhatNeural",
+  "description": "Prabhat: polished Indian-English male science tutor, clear measured delivery with stable sentence loudness.",
+  "rate": "-6%",
+  "volume": "+4%",
+  "pitch": "-2Hz",
+  "sentence_leveling": true,
+  "sentence_pause_seconds": 0.2,
   "language": "english",
   "audio_directory": "output/parts/02_coil_reversal/bilingual/audio_english",
   "fps": 24,
@@ -26,7 +31,7 @@
     {
       "start": 16,
       "end": 26,
-      "text": "Follow the turquoise arrows. Outside the coil, the field goes from north to south. Inside, it returns from south to north. Both compass needles deflect. The angle readings help us see how far they turn.",
+      "text": "Follow the blue-green arrows. Outside the coil, the magnetic field goes from north to south. Inside, it returns from south to north. Both compass needles deflect. The angle readings show how far they turn.",
       "id": "directions"
     },
     {
@@ -56,7 +61,7 @@
     {
       "start": 58,
       "end": 66,
-      "text": "Switch on. More turns give a stronger magnetic field, and the compasses deflect further. We draw more evenly spaced lines to show this increase. These lines are a way of representing the field.",
+      "text": "Switch on. More turns give a stronger magnetic field, and the compasses deflect further. Compare the needle with its faint previous position. More evenly spaced lines represent a stronger field. They are drawing guides, not physical wires.",
       "id": "turns_on"
     },
     {

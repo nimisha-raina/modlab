@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "date_utc": "2026-09-22T08:01:29.322183+00:00",
+  "date_utc": "2026-09-22T10:54:22.798471+00:00",
   "files": [
     {
       "path": "audio/narration-timing.json",
@@ -4720,9 +4720,9 @@
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_english.blend",
-      "original_sha256": "20653400ce313504fa0c22cfef73ee66b449578b6e754e3b0dcb1036ab1140a3",
-      "sha256": "f9949f44858bed9d979eb28352c2989a2c99c64bd0759fb2891fdb84b0f2e0cd",
-      "bytes": 22050286
+      "original_sha256": "2f78084365ff7fb026f0c59d8a9c260cb85bc180bf5086fa4a617f34ba7dfa74",
+      "sha256": "9a83a431a1f86580f05a0866401a3731771d824c746062e41dc6b00d7f04a0ea",
+      "bytes": 25206528
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_english_720p.mp4",
@@ -4731,16 +4731,28 @@
       "bytes": 14407689
     },
     {
+      "path": "parts/02_coil_reversal/bilingual/coil_english_source.blend",
+      "original_sha256": "fa46f04bc4c278c62098e23d4c506e440dbf0f751d4efb35f8f67b1b4f7124cb",
+      "sha256": "9344a3f09989b15a4eb5156abf3a0f4fb6bd4728d24575c3826b559daba3a5a5",
+      "bytes": 7395476
+    },
+    {
       "path": "parts/02_coil_reversal/bilingual/coil_hinglish.blend",
-      "original_sha256": "19a862d733713d7171a015d910d44f8f56a51300dfcb522ec6488d4f3e1cbcd2",
-      "sha256": "15e78555e46e1eee309bf8cde2a7d9eea9e52b35dd4c50c8a2614a8943d68b16",
-      "bytes": 24416803
+      "original_sha256": "e3dee3424c3e6bf5eb94582ff658bad1d7d4f98c63ae0703a114842eeb19665a",
+      "sha256": "a9cd0771c9afd836fc5d88424e400f8e067e6e2e849ee6a8bb1bc2b15d28a1f7",
+      "bytes": 27155367
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_hinglish_720p.mp4",
       "original_sha256": "7a2dd61dcf767b1264f99e744b474d6bfdbd0779b6a4affc4b38e127f1c19ee5",
       "sha256": "7a2dd61dcf767b1264f99e744b474d6bfdbd0779b6a4affc4b38e127f1c19ee5",
       "bytes": 16062914
+    },
+    {
+      "path": "parts/02_coil_reversal/bilingual/coil_hinglish_source.blend",
+      "original_sha256": "00b8c0708c1fd094a8b9f557cef1212a435c504d0efb0a4f6598b6155b11d40f",
+      "sha256": "997ca4a8329e507648544ff9eeb191fdd667daf5073d5054af6042a50d25031c",
+      "bytes": 8329765
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_visual_master.blend",
@@ -5758,6 +5770,7 @@
     "complete_review_frames",
     "extended_review_frames",
     "fixed_view_frames",
+    "localized_frames",
     "tutor_review_frames"
   ],
   "case_1": "English and Hindi Case 1 with moving current arrows, before/now readings, polished Prabhat English and Swara Hindi narration, localized labels and two H5P pauses; frozen 86-second original retained.",

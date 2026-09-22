@@ -1,6 +1,6 @@
 {
-  "speaker": "hi-IN-MadhurNeural",
-  "description": "Madhur: one Indian male tutor for English and Hinglish, natural speaking rate.",
+  "speaker": "hi-IN-SwaraNeural",
+  "description": "Swara: Indian female Hindi tutor, natural speaking rate.",
   "language": "hinglish",
   "audio_directory": "output/parts/02_coil_reversal/bilingual/audio_hinglish",
   "fps": 24,
@@ -8,7 +8,8 @@
     {
       "start": 0,
       "end": 5,
-      "text": "क्या copper coil एक magnet की तरह काम कर सकती है? इस laboratory circuit में battery, switch, ammeter, और दस turns वाली copper coil है।",
+      "text": "क्या ताँबे की कुंडली एक चुंबक की तरह काम कर सकती है? इस परिपथ में बैटरी, स्विच, ऐमीटर और दस फेरों वाली कुंडली है।",
+      "speech_text": "क्या तांबे की कुंडली एक चुंबक की तरह काम कर सकती है? इस परिपथ में बैटरी, स्विच, ऐमीटर और दस फेरों वाली कुंडली है।",
       "id": "introduction"
     },
     {
@@ -26,7 +27,7 @@
     {
       "start": 16,
       "end": 26,
-      "text": "Turquoise arrows देखिए। Coil के बाहर magnetic field, north से south की ओर जाती है। अंदर, south से north की ओर। दोनों compass needles मुड़ती हैं। Angle readings से उनका deflection आसानी से दिखता है।",
+      "text": "नीले-हरे तीर देखिए। कुंडली के बाहर चुंबकीय क्षेत्र उत्तर से दक्षिण की ओर जाता है। अंदर, दक्षिण से उत्तर की ओर। दोनों दिशासूचकों की सुइयाँ मुड़ती हैं। कोण की रीडिंग से उनका विक्षेप साफ़ दिखाई देता है।",
       "id": "directions"
     },
     {

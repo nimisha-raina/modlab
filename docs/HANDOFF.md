@@ -24,6 +24,11 @@ media archive; final playback ends on the localized summary board.
 
 ## Current bilingual Case 2
 
+An approved presentation and voice revision is in progress. Read
+[PART_02_POLISH.md](PART_02_POLISH.md) for its scope, commands and verification
+checkpoint before resuming. The release described below remains the previous
+completed delivery until the revised media have been checked and published.
+
 Read [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) for the current English/Hinglish
 lesson, contact-synchronized fields, temporary 60-degree nail view, magnetic-region
 diagram and four native H5P questions. English lasts 255 seconds and Hinglish 303.83 seconds.

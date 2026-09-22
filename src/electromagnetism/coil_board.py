@@ -28,16 +28,16 @@ def build(scene, mats):
          "heading": "Current flows through the copper wire",
          "observation": "Yellow: conventional current, from + to -."},
         {"start": 12, "end": 26, "case": "MAGNETIC FIELD OF A COIL",
-         "heading": "A field like a bar magnet's",
+         "heading": "A Magnetic Field Like a Bar Magnet's",
          "observation": "Outside: N to S. Inside: S to N."},
         {"start": 26, "end": 44, "case": "REVERSE THE CURRENT",
          "heading": "The magnetic poles swap",
          "observation": "Watch the arrows and both compass needles reverse."},
-        {"start": 44, "end": 66, "case": "MORE TURNS, SAME COIL SIZE",
-         "heading": "10 turns become 20 turns",
+        {"start": 44, "end": 66, "case": "INCREASING THE NUMBER OF TURNS",
+         "heading": "More Turns, Stronger Magnetic Field",
          "observation": "Same length and diameter. Same current: 0.50 A."},
-        {"start": 66, "end": 80, "case": "OBSERVE THE ELECTROMAGNET",
-         "heading": "The nail enters while the switch is OFF",
+        {"start": 66, "end": 80, "case": "ADDING A SOFT IRON CORE",
+         "heading": "Insert the Nail with the Switch OFF",
          "observation": "Switch ON to compare the stronger field directly."},
         {"start": 80, "end": 81, "case": "LOOK INSIDE THE IRON",
          "heading": "First, open the switch", "observation": "Then close it and watch the magnetic regions."},
@@ -171,9 +171,14 @@ def build_applications(scene, mats):
         border = g.line("Application focus | "+title, [(x+a,11.0,z+b)
                        for a,b in ((-2,-2),(2,-2),(2,2),(-2,2))], .028, mats["ink_gold"], group, cyclic=True)
         chalkboard.show_between(border,start,end,demo.FPS,demo.DURATION)
-        ring = g.line("Magnetic component highlight | "+title,
-                      [(x+cue[0]+.65*math.cos(j*math.tau/96),11.005,
+        halo = g.line("Magnetic component contrast halo | "+title,
+                      [(x+cue[0]+.65*math.cos(j*math.tau/96),11.002,
                         z+cue[1]+.53*math.sin(j*math.tau/96)) for j in range(96)],
-                      .022,mats["ink_gold"],group,cyclic=True)
+                      .063,mats["ink_navy"],group,cyclic=True)
+        chalkboard.show_between(halo,start,end,demo.FPS,demo.DURATION)
+        ring = g.line("Magnetic component highlight | "+title,
+                      [(x+cue[0]+.65*math.cos(j*math.tau/96),10.90,
+                        z+cue[1]+.53*math.sin(j*math.tau/96)) for j in range(96)],
+                      .035,mats["ink_gold"],group,cyclic=True)
         ring["application_highlight"] = title
         chalkboard.show_between(ring,start,end,demo.FPS,demo.DURATION)

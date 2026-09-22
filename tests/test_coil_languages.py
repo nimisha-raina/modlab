@@ -23,9 +23,10 @@ class CoilLanguageTests(unittest.TestCase):
         self.assertTrue(all(24<=i<48 for i in mapping[12:]))
         self.assertEqual(frame_indices(master,master,6),list(range(48)))
 
-    def test_one_speaker_and_matching_story_sections(self):
+    def test_approved_speakers_and_matching_story_sections(self):
         scripts=[json.loads((ROOT/f'docs/coil-narration-{lang}.json').read_text(encoding='utf-8')) for lang in ('english','hinglish')]
-        self.assertEqual(scripts[0]['speaker'],scripts[1]['speaker'])
+        self.assertEqual(scripts[0]['speaker'],'en-IN-PrabhatNeural')
+        self.assertEqual(scripts[1]['speaker'],'hi-IN-SwaraNeural')
         for a,b in zip(scripts[0]['segments'],scripts[1]['segments'],strict=True):
             self.assertEqual((a['id'],a['start'],a['end']),(b['id'],b['start'],b['end']))
             self.assertTrue(a['text'] and b['text'])

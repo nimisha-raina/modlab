@@ -21,7 +21,7 @@ def build(scene, mats, camera):
         g.line("Compass zero reference", [(x,y+.30,z+.025),(x,y+.69,z+.025)],
                .012, mats["ink_muted"], group)
         template = g.face_camera(g.text("Coil compass deflection", "0°",
-            (x,y-.6,.9), .28,mats["ink_gold"],group,align="CENTER"),camera)
+            (x,y-.6,.9), .36,mats["ink_white"],group,align="CENTER"),camera)
         compass.animate_deflection_readings((None,template),demo.FPS,demo.DURATION,
             lambda t,c=center: abs(demo.needle_angle_at(t,c)-demo.NORTH_ANGLE))
         instruments.append((needle, center, arcs))

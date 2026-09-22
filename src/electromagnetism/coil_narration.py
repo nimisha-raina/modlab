@@ -30,11 +30,11 @@ def attach(scene, folder=None):
     scene.frame_end = timing["frames"]
     editor = scene.sequence_editor_create()
     strips = editor.strips
-    voice = strips.new_sound("Indian-English tutor", str(folder/"narration.wav"),channel=1,frame_start=1)
+    voice = strips.new_sound("Hindi tutor" if timing.get('language')=='hinglish' else "Indian-English tutor", str(folder/"narration.wav"),channel=1,frame_start=1)
     voice.sound.pack()
     scene.render.use_sequencer = False
     scene["narrator"] = timing["speaker"]
     scene["narration_timing"] = json.dumps(timing)
     scene["source_duration"] = demo.DURATION
-    scene["audio_status"] = "Packed Indian male tutor narration, measured and synchronized."
+    scene["audio_status"] = "Packed tutor narration, measured and synchronized: "+timing["speaker"]
     return timing
