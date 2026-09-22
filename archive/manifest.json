@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "date_utc": "2026-09-22T12:58:15.324624+00:00",
+  "date_utc": "2026-09-22T13:04:25.297227+00:00",
   "files": [
     {
       "path": "audio/narration-timing.json",
@@ -4312,9 +4312,9 @@
     },
     {
       "path": "parts/02_coil_reversal/bilingual/audio_hinglish/h5p-timing.json",
-      "original_sha256": "c46abf6b39c3f9c71bc59356f7fc1f87c2cd2948c170ffd60fd6759b4d075038",
-      "sha256": "2e883332069b7d0596b91f1b6f5bbc3bd81f31cc7b5a71fcad13647bc01647da",
-      "bytes": 337
+      "original_sha256": "70f6ed52c2d4ec662734ba3b100c4160f4b3fad2d1e3dedc61d088618d24bf41",
+      "sha256": "aadd73525a4571455f383feb3453db798b02eb52a6472dd5b5603a4c2b116c70",
+      "bytes": 324
     },
     {
       "path": "parts/02_coil_reversal/bilingual/audio_hinglish/narration-timing.json",
@@ -4672,9 +4672,9 @@
     },
     {
       "path": "parts/02_coil_reversal/bilingual/audio_hinglish/picture-mapping.json",
-      "original_sha256": "0b4850dcc4077fe2db60b63241c76de4fc4affc8cd637682ccbafd9855ba3c8e",
-      "sha256": "09821085ea52264a203bcecdfb13f944e10a46e8a6f20d11db64176aee0a59cf",
-      "bytes": 17310
+      "original_sha256": "4f1056b98274d659a27455a37ba1f9ff7bf85d155368a40b8d92f1f608c2e5b1",
+      "sha256": "a505bd88ea72bf26ccd8943051c641143f0efdfbb067eea7f8268a43dfecd0f8",
+      "bytes": 32490
     },
     {
       "path": "parts/02_coil_reversal/bilingual/audio_hinglish/provenance.json",
@@ -4684,15 +4684,15 @@
     },
     {
       "path": "parts/02_coil_reversal/bilingual/audio_hinglish/video-timing.json",
-      "original_sha256": "5a68f3099343c540ef437dd47a56d439c14d96b6bf45e62418db973eae2f0fb7",
-      "sha256": "7423033da869a8fcdd87b4b660493b4d4b94fb1fc8da9420a859e59bb6ffe440",
-      "bytes": 16230
+      "original_sha256": "e88e9f5fe139068e644f88703dd5ca4b0b39e4c346861e13ab5d62acdf69e4b7",
+      "sha256": "6acd4959146304d54f3311654e395b04c1aa33b123869dde6cdc0017368488f4",
+      "bytes": 17277
     },
     {
       "path": "parts/02_coil_reversal/bilingual/audio_hinglish/video-verification.json",
-      "original_sha256": "d0bfe8a1960ca339fbf753b03df460b59a659c33878da61ca8d050b430496f99",
-      "sha256": "81445ec9b8cf53721c66629c0b7c4b8d06add2f41ca7408a124a7d809922aa1f",
-      "bytes": 2117
+      "original_sha256": "ad895c284f3e20ff55b000b12f5caf97e0a1a2a10335af752a7a3d41f2662453",
+      "sha256": "03649507e020b9050ac566f3ea0b32ceaf6498bee4d60b174df9ee68a799228d",
+      "bytes": 2099
     },
     {
       "path": "parts/02_coil_reversal/bilingual/audio_visual/narration-timing.json",
@@ -4708,9 +4708,9 @@
     },
     {
       "path": "parts/02_coil_reversal/bilingual/browser-verification.json",
-      "original_sha256": "58e529f539796dca19152a902de8ae7cf57e8b8282083292844ff9ebafb10847",
-      "sha256": "2d12ce8be414aad7c3b8bdf8ab84ae177a58c75c2ee2c21c13777316586973eb",
-      "bytes": 752
+      "original_sha256": "d3f40f297632a94864e6b40bc4e386e1a124981cbe79856409cc51882d9c5b19",
+      "sha256": "67eedb83f4236ab4476b749fa118d56b7adea73e107af0b4039ae2792d76b69e",
+      "bytes": 912
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_bilingual_source.blend",
@@ -4744,9 +4744,9 @@
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_hinglish_720p.mp4",
-      "original_sha256": "7a2dd61dcf767b1264f99e744b474d6bfdbd0779b6a4affc4b38e127f1c19ee5",
-      "sha256": "7a2dd61dcf767b1264f99e744b474d6bfdbd0779b6a4affc4b38e127f1c19ee5",
-      "bytes": 16062914
+      "original_sha256": "2e4913e393f07d1e8b01cf89b0d26b6c044ed463d1454a8f6d4b195bbc564832",
+      "sha256": "2e4913e393f07d1e8b01cf89b0d26b6c044ed463d1454a8f6d4b195bbc564832",
+      "bytes": 17578420
     },
     {
       "path": "parts/02_coil_reversal/bilingual/coil_hinglish_source.blend",
@@ -4797,10 +4797,16 @@
       "bytes": 1398487
     },
     {
+      "path": "parts/02_coil_reversal/bilingual/hinglish-frames.json",
+      "original_sha256": "a696b69c6011c61090f9253a33bbe4c4bc50d54d1f2ab278b11a4ce5af578645",
+      "sha256": "d58a8684edf68a133c0b10f0da55bc86f48d4725d48af395bd2afdb3807005e1",
+      "bytes": 250403
+    },
+    {
       "path": "parts/02_coil_reversal/bilingual/media-verification.json",
-      "original_sha256": "e0da7cee1d3c4fa1ac6726261ed4301a76cdaa51c5cbe6d792962ce1dd52217c",
-      "sha256": "224cf7437f2cbbc5d43b11beba6d9b1fa7650cf0507e50a8dff2ba987dee5850",
-      "bytes": 803
+      "original_sha256": "250c2fb26a56ace899bc78d655dae09d9315eb592b9f22be03d49a1315d9ad30",
+      "sha256": "1be33f8029dd9865fa7670e9b41aa70032cc0c7f0dc1bb4e48de3615f2954fe3",
+      "bytes": 788
     },
     {
       "path": "parts/02_coil_reversal/bilingual/portable-verification-english.json",
@@ -4819,6 +4825,12 @@
       "original_sha256": "007c6089150e27e3f88d27558aeb4c36907c81ab3473abd1a990500612c2fa32",
       "sha256": "007c6089150e27e3f88d27558aeb4c36907c81ab3473abd1a990500612c2fa32",
       "bytes": 149767
+    },
+    {
+      "path": "parts/02_coil_reversal/bilingual/poster-hinglish.jpg",
+      "original_sha256": "a98008c58d67f61feaec6385353617ed006a815fda57b29de805f6e2f961de24",
+      "sha256": "a98008c58d67f61feaec6385353617ed006a815fda57b29de805f6e2f961de24",
+      "bytes": 145756
     },
     {
       "path": "parts/02_coil_reversal/bilingual/poster.jpg",
@@ -6628,15 +6640,15 @@
     },
     {
       "path": "share/coil-english.h5p",
-      "original_sha256": "9fdc82972f0e8288478de0422518f6cd041c58a88735011525db49a6acaff862",
-      "sha256": "9fdc82972f0e8288478de0422518f6cd041c58a88735011525db49a6acaff862",
+      "original_sha256": "24ee346ac4b20a1151cb0e0ecdb4550ea900feb997f070ecf90b4063e44ff388",
+      "sha256": "24ee346ac4b20a1151cb0e0ecdb4550ea900feb997f070ecf90b4063e44ff388",
       "bytes": 17617177
     },
     {
       "path": "share/coil-hinglish.h5p",
-      "original_sha256": "ca9c8446c3b70cbaf3377a47150676677d2592cbec5ee337462a87823374be27",
-      "sha256": "ca9c8446c3b70cbaf3377a47150676677d2592cbec5ee337462a87823374be27",
-      "bytes": 17539211
+      "original_sha256": "b26aaf1fe5f38453044b554005dcdcdae6f65e62fe2e17a4b119e62038f6dcd4",
+      "sha256": "b26aaf1fe5f38453044b554005dcdcdae6f65e62fe2e17a4b119e62038f6dcd4",
+      "bytes": 18944475
     },
     {
       "path": "share/electromagnetism.h5p",
@@ -6710,5 +6722,5 @@
     "tutor_review_frames"
   ],
   "case_1": "English and Hindi Case 1 with moving current arrows, before/now readings, polished Prabhat English and Swara Hindi narration, localized labels and two H5P pauses; frozen 86-second original retained.",
-  "case_2": "English and Hindi coil lessons, packed scenes, narration and documented revision checkpoints; previous fixed-view and silent reviews retained; applications highlighted for 11 seconds. See PART_02_POLISH.md for delivery status."
+  "case_2": "Complete English and Hindi coil lessons with localized pictures, Prabhat and Swara narration, four H5P pauses per language, moving current arrows, clearer field arrows and instrument comparisons; applications highlighted for 11 seconds. Previous releases are retained."
 }

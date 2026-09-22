@@ -108,7 +108,7 @@ def finalize():
     result = {"schema":1,"date_utc":datetime.now(timezone.utc).isoformat(),
               "files":preparation["files"],"excluded_frame_caches":sorted(CACHES),
               "case_1":"English and Hindi Case 1 with moving current arrows, before/now readings, polished Prabhat English and Swara Hindi narration, localized labels and two H5P pauses; frozen 86-second original retained.",
-              "case_2":"English and Hindi coil lessons, packed scenes, narration and documented revision checkpoints; previous fixed-view and silent reviews retained; applications highlighted for 11 seconds. See PART_02_POLISH.md for delivery status."}
+              "case_2":"Complete English and Hindi coil lessons with localized pictures, Prabhat and Swara narration, four H5P pauses per language, moving current arrows, clearer field arrows and instrument comparisons; applications highlighted for 11 seconds. Previous releases are retained."}
     write_text_lf(ARCHIVE/"manifest.json",json.dumps(result,indent=2)+"\n")
     verify()
 

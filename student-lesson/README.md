@@ -12,9 +12,10 @@ The original 86-second package and the reference workflow below remain preserved
 
 ## Case 2: coils and electromagnets
 
-Open `coils/` for the English/Hinglish narration choice and four genuine H5P
-prediction questions. Both tracks use one Indian male voice. See
-[the bilingual chapter guide](../docs/PART_02_BILINGUAL.md) for scripts, build
+Open `coils/` for the English/हिंदी narration choice and four genuine H5P
+prediction questions. English uses polished Prabhat narration; हिंदी uses Swara
+with localized board text, labels, captions and question controls. See
+[the current chapter guide](../docs/PART_02_POLISH.md) for scripts, build
 commands, separate importable packages and validation. Case 1 below is retained.
 
 ## Preserved 86-second Case 1 reference

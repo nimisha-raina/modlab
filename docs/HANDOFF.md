@@ -24,15 +24,13 @@ media archive; final playback ends on the localized summary board.
 
 ## Current bilingual Case 2
 
-An approved presentation and voice revision is in progress. Read
-[PART_02_POLISH.md](PART_02_POLISH.md) for its scope, commands and verification
-checkpoint before resuming. The release described below remains the previous
-completed delivery until the revised media have been checked and published.
-
-Read [PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) for the current English/Hinglish
-lesson, contact-synchronized fields, temporary 60-degree nail view, magnetic-region
-diagram and four native H5P questions. English lasts 255 seconds and Hinglish 303.83 seconds.
-The fixed-view checkpoint below remains available as the previous revision.
+Read [PART_02_POLISH.md](PART_02_POLISH.md) first. The current localized movies
+use polished Prabhat English (239.167 s) and Swara हिंदी (289 s), with brighter
+board text, moving yellow conventional-current arrows, neater turquoise field
+arrows, clearer meter and compass comparisons, and four native H5P questions.
+Both exported movies passed narration, frame and silent-pause verification.
+[PART_02_BILINGUAL.md](PART_02_BILINGUAL.md) documents the previous shared-picture
+release, which remains preserved with the older fixed-view checkpoint.
 
 ## Resume checkpoint and preservation
 

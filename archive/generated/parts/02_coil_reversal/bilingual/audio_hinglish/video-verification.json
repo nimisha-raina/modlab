@@ -1,6 +1,6 @@
 {
-  "frames": 1823,
-  "duration": 303.8333333333333,
+  "frames": 3468,
+  "duration": 289.0,
   "sections": [
     {
       "section": 1,
@@ -10,7 +10,7 @@
     {
       "section": 2,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9964
+      "audio_correlation": 1.0
     },
     {
       "section": 3,
@@ -20,52 +20,52 @@
     {
       "section": 4,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 1.0
+      "audio_correlation": 0.9911
     },
     {
       "section": 5,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9957
+      "audio_correlation": 0.9912
     },
     {
       "section": 6,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9966
+      "audio_correlation": 1.0
     },
     {
       "section": 7,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9954
+      "audio_correlation": 0.9918
     },
     {
       "section": 8,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9961
+      "audio_correlation": 0.9912
     },
     {
       "section": 9,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9964
+      "audio_correlation": 0.9921
     },
     {
       "section": 10,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9959
+      "audio_correlation": 0.9905
     },
     {
       "section": 11,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 1.0
+      "audio_correlation": 0.9906
     },
     {
       "section": 12,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9967
+      "audio_correlation": 0.9915
     },
     {
       "section": 13,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9965
+      "audio_correlation": 1.0
     },
     {
       "section": 14,
@@ -75,27 +75,27 @@
     {
       "section": 15,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9963
+      "audio_correlation": 1.0
     },
     {
       "section": 16,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9959
+      "audio_correlation": 0.9911
     },
     {
       "section": 17,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9955
+      "audio_correlation": 0.9904
     },
     {
       "section": 18,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 1.0
+      "audio_correlation": 0.9921
     },
     {
       "section": 19,
       "alignment_error_seconds": 0.0,
-      "audio_correlation": 0.9967
+      "audio_correlation": 1.0
     }
   ],
   "question_pauses": "Not checked by this invocation."

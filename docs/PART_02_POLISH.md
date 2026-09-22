@@ -56,15 +56,16 @@ question retry and Continue in the browser before publishing.
 
 ## Checkpoint
 
-The revision is in progress. Both narration tracks have been generated and
-passed word-coverage checks for all 19 sections per language. The source and
-both packed narration scenes pass physics, contact-timing and framing checks.
-English and Hindi keyframes have been visually inspected; the application
-highlight layering was corrected. The 31 Python tests, two language-choice
-tests and four native H5P checks pass. Full localized video rendering is in
-progress in resumable batches. Final encoded-media and browser playback checks
-are still required. The deployed website continues to serve the previous
-completed lesson until a verified replacement is published.
+The localized videos and H5P packages are complete. Both narration tracks pass
+word-coverage checks for all 19 sections. The source and packed narration scenes
+pass physics, contact-timing and framing checks. English and Hindi keyframes were
+visually inspected, including the corrected application-highlight layering.
+The 31 Python checks and the complete 14-test lesson suite pass. Encoded-media
+verification confirms every narration section, the exact scene-picture mapping,
+12-fps frame counts and silence at all eight question pauses. Browser checks
+confirm language selection, the final movie durations, retry and Continue, and
+a visible Continue footer at 390 × 844. The source and media are saved on the
+main branch; publish the verified build to `gh-pages` for the public lesson.
 
 Working assets are in `output/parts/02_coil_reversal/bilingual/`. A local copy
 of the previous delivery is preserved under

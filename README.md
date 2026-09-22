@@ -5,8 +5,9 @@ with localized Hindi labels and board text, conventional-current arrows and two
 native H5P pauses. English lasts 144.417 seconds; हिंदी lasts 187.833 seconds.
 The original 86-second version is preserved.
 
-Current Case 2: [English/Hinglish interactive coil lesson](docs/PART_02_BILINGUAL.md).
-Choose narration before playback; the lesson includes four genuine H5P prediction questions.
+Current Case 2: [English/हिंदी interactive coil lesson](docs/PART_02_POLISH.md).
+Choose Prabhat English or Swara हिंदी before playback; each version includes
+four genuine H5P prediction questions.
 
 A Class 8 science lesson built with Python and Blender's `bpy` API. A copper
 circuit in a school laboratory leads into an enlarged view of vibrating copper
@@ -19,17 +20,17 @@ Continue accessible while the scene remains visible behind it.
 
 ## Coil and electromagnet lesson
 
-[Case 2](docs/PART_02_BILINGUAL.md) compares 10 turns, 20 turns at the same coil
+[Case 2](docs/PART_02_POLISH.md) compares 10 turns, 20 turns at the same coil
 size, and a soft-iron core, with visible compass measurements, current reversal
-and paper clips. Choose English or Hinglish narration in the same Indian male
-voice, then answer four native H5P prediction questions. The front laboratory
+and paper clips. Choose polished Prabhat English or Swara हिंदी narration,
+then answer four native H5P prediction questions. The front laboratory
 view briefly moves right for nail insertion before returning to the board.
 The earlier fixed-view review and frozen Case 1 remain preserved.
 
 ## Public student lesson
 
 [Open the student lesson](https://nimisha-raina.github.io/modlab/) or
-[the English/Hinglish coil chapter](https://nimisha-raina.github.io/modlab/coils/).
+[the English/हिंदी coil chapter](https://nimisha-raina.github.io/modlab/coils/).
 Share the link or the [printable QR image](student-lesson/dist/share/lesson-qr.png)
 ([SVG version](student-lesson/dist/share/lesson-qr.svg)). Students can watch and
 answer questions in their browser without an account or Blender. Source pushes

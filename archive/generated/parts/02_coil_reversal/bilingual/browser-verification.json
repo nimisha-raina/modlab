@@ -1,5 +1,6 @@
 {
   "checks": "passed",
+  "revision": "Prabhat English / Swara Hindi localized presentation",
   "desktop": "default browser viewport",
   "mobile": {
     "width": 390,
@@ -7,20 +8,21 @@
   },
   "languages": {
     "english": {
-      "all_four_pauses_and_continue": true,
-      "first_question_wrong_answer_and_retry": true,
-      "completed_count": 4,
-      "mobile_footer_visible": true
+      "duration_seconds": 239.166667,
+      "native_four_question_suite": true,
+      "wrong_answer_retry_and_correct_continue": true,
+      "phone_continue_visible": true
     },
     "hinglish": {
-      "all_four_pauses_and_continue": true,
-      "first_question_wrong_answer_and_retry": true,
-      "completed_count": 4,
-      "mobile_footer_visible": true
+      "student_facing_name": "\u0939\u093f\u0902\u0926\u0940",
+      "duration_seconds": 289.0,
+      "native_four_question_suite": true,
+      "wrong_answer_retry_and_correct_continue": true,
+      "phone_continue_visible": true,
+      "localized_player_controls": true
     }
   },
   "language_restart": true,
-  "case_1_regression": "First native pause, wrong answer, retry and Continue verified; original media hashes unchanged.",
-  "browser_errors": [],
-  "listening_review": "Not assessed by automated audio checks."
+  "case_1_regression": "The complete 14-test lesson suite passed; frozen Case 1 files were unchanged.",
+  "listening_review": "Not assessed by automated media or browser checks."
 }
